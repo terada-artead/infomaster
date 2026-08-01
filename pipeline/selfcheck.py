@@ -105,4 +105,66 @@ assert cluster.primary is low_primary, "一次情報が代表になるはず"
 assert cluster.score == 95, "クラスタのスコアは最高値"
 print("cluster primary/score OK")
 
+
+def scored_item(kind: str, tier: str, score: int, url: str) -> ScoredItem:
+    return ScoredItem(
+        item=Item(
+            source=kind, source_kind=kind, tier=tier, title=f"t{score}", url=url
+        ),
+        score=score,
+        category="new_model",
+    )
+
+
+# 裏付けが community だけのクラスタは high にしない
+from src.write import _assign_importance as assign
+
+rumor = Cluster(
+    items=[scored_item("reddit", "community", 95, "http://example.com/r")],
+    category="new_model",
+)
+confirmed = Cluster(
+    items=[scored_item("rss", "primary", 95, "http://example.com/o")],
+    category="new_model",
+)
+assert assign([confirmed, rumor]) == ["high", "medium"], assign([confirmed, rumor])
+mixed = Cluster(
+    items=[
+        scored_item("reddit", "community", 95, "http://example.com/r2"),
+        scored_item("rss", "secondary", 80, "http://example.com/t2"),
+    ],
+    category="new_model",
+)
+assert assign([mixed]) == ["high"], "報道の裏付けがあれば high になるはず"
+print("community-only importance cap OK")
+
+# Hugging Face だけに由来するクラスタの件数制限
+from src.cluster import limit_source_dominance
+
+hf_only = [
+    Cluster(
+        items=[scored_item("huggingface", "primary", s, f"http://hf/{s}")],
+        category="new_model",
+    )
+    for s in (90, 85, 80, 75, 70)
+]
+corroborated = Cluster(
+    items=[
+        scored_item("huggingface", "primary", 60, "http://hf/corr"),
+        scored_item("hackernews", "community", 60, "http://hn/corr"),
+    ],
+    category="new_model",
+)
+limited = limit_source_dominance(hf_only + [corroborated], "huggingface", keep=3)
+hf_kept = [c for c in limited if all(s.item.source_kind == "huggingface" for s in c.items)]
+assert len(hf_kept) == 3, f"HF単独は3件に絞られるはず: {len(hf_kept)}"
+assert sorted(c.score for c in hf_kept) == [80, 85, 90], "スコア上位が残るはず"
+assert corroborated in limited, "裏付けありは制限を受けないはず"
+print("huggingface dominance limit OK")
+
+# 制限件数以下なら何も起きない
+untouched = limit_source_dominance(hf_only[:2], "huggingface", keep=3)
+assert len(untouched) == 2
+print("dominance limit no-op OK")
+
 print("\nすべて通過しました。")

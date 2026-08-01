@@ -1,20 +1,36 @@
 """Hugging Face の trending モデルからの収集。
 
 新モデルの登場はここに一番早く出る。認証不要。
+
+API のメタデータ（いいね数・DL数・タグ）だけでは執筆段に書く材料が無く、
+「XがモデルYを公開した」以上のことが書けない要約になってしまうため、
+上位モデルについてはモデルカード（README）の冒頭も取得している。
 """
 
 from __future__ import annotations
 
 import logging
+import re
 from datetime import datetime
 from typing import Any
 
 from ..models import Item
-from ._http import cutoff, get_json
+from ._http import client, clip, cutoff, get_json
 
 log = logging.getLogger(__name__)
 
 API = "https://huggingface.co/api/models"
+
+# モデルカードを取りに行く上位件数。全件取ると無駄が多いので trending 上位だけ。
+CARD_FETCH_LIMIT = 15
+
+# README 先頭の YAML フロントマター（ライセンスやタグの機械可読メタデータ）
+_FRONTMATTER = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
+# 画像・バッジ・見出し記号など、要約の材料にならない記法
+_IMAGE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+_LINK = re.compile(r"\[([^\]]+)\]\([^)]*\)")
+_HEADING = re.compile(r"^#{1,6}\s*", re.MULTILINE)
+_HTML = re.compile(r"<[^>]+>")
 
 
 def collect(config: dict[str, Any], lookback_hours: int) -> list[Item]:
@@ -32,7 +48,7 @@ def collect(config: dict[str, Any], lookback_hours: int) -> list[Item]:
     )
 
     items: list[Item] = []
-    for model in data:
+    for rank, model in enumerate(data):
         model_id = model.get("modelId") or model.get("id")
         if not model_id:
             continue
@@ -46,8 +62,16 @@ def collect(config: dict[str, Any], lookback_hours: int) -> list[Item]:
         if likes < min_likes:
             continue
 
-        pipeline_tag = model.get("pipeline_tag", "")
-        downloads = model.get("downloads", 0)
+        summary = (
+            f"task={model.get('pipeline_tag') or 'n/a'}, likes={likes}, "
+            f"downloads={model.get('downloads', 0)}, "
+            f"tags={','.join(model.get('tags', [])[:8])}"
+        )
+        # 上位モデルだけモデルカードを読みに行く（下位は要約されるまでもなく落ちる）
+        card = _model_card(model_id) if rank < CARD_FETCH_LIMIT else ""
+        if card:
+            summary = f"{summary}\n{card}"
+
         items.append(
             Item(
                 source="Hugging Face",
@@ -56,15 +80,33 @@ def collect(config: dict[str, Any], lookback_hours: int) -> list[Item]:
                 title=f"New model on Hugging Face: {model_id}",
                 url=f"https://huggingface.co/{model_id}",
                 published_at=created,
-                excerpt=(
-                    f"task={pipeline_tag or 'n/a'}, likes={likes}, "
-                    f"downloads={downloads}, tags={','.join(model.get('tags', [])[:8])}"
-                ),
+                excerpt=summary,
                 engagement=likes,
             )
         )
 
     return items
+
+
+def _model_card(model_id: str) -> str:
+    """README.md の説明部分を取り出す。取得できなければ空文字を返す。"""
+    url = f"https://huggingface.co/{model_id}/raw/main/README.md"
+    try:
+        with client() as http:
+            resp = http.get(url)
+            if resp.status_code != 200:
+                return ""
+            raw = resp.text
+    except Exception as exc:
+        log.debug("model card %s failed: %s", model_id, exc)
+        return ""
+
+    body = _FRONTMATTER.sub("", raw)
+    body = _IMAGE.sub("", body)
+    body = _LINK.sub(r"\1", body)
+    body = _HTML.sub(" ", body)
+    body = _HEADING.sub("", body)
+    return clip(body, 900)
 
 
 def _created_at(model: dict[str, Any]) -> datetime | None:

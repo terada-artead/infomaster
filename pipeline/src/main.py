@@ -52,6 +52,12 @@ def main(argv: list[str] | None = None) -> int:
         default=20,
         help="ダイジェストに載せる最大件数",
     )
+    parser.add_argument(
+        "--max-huggingface",
+        type=int,
+        default=3,
+        help="他ソースの裏付けが無い Hugging Face 由来の項目の上限",
+    )
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args(argv)
 
@@ -77,7 +83,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     # LLM を使う段はここで初めて読み込む（--collect-only を APIキー無しで通すため）
-    from .cluster import cluster_items
+    from .cluster import cluster_items, limit_source_dominance
     from .output import write_digest
     from .score import score_items
     from .write import write_digest_items
@@ -87,6 +93,13 @@ def main(argv: list[str] | None = None) -> int:
 
     clusters = cluster_items(scored)
     log.info("名寄せ完了: %d クラスタ", len(clusters))
+
+    # Hugging Face のトレンドは件数が多く、放っておくとダイジェストが
+    # 「本日公開されたモデル一覧」になってしまう。他ソースの裏付けが無いものは
+    # 上位のみ残す（裏付けのあるリリースはこの制限を受けない）。
+    clusters = limit_source_dominance(
+        clusters, source_kind="huggingface", keep=args.max_huggingface
+    )
 
     clusters = sorted(clusters, key=lambda c: -c.score)[: args.max_items]
 

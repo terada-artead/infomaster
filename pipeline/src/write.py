@@ -118,12 +118,26 @@ def _assign_importance(ordered: list[Cluster]) -> list[Literal["high", "medium"]
     result: list[Literal["high", "medium"]] = []
     high_count = 0
     for cluster in ordered:
-        if cluster.score >= HIGH_SCORE and high_count < MAX_HIGH:
+        if (
+            cluster.score >= HIGH_SCORE
+            and high_count < MAX_HIGH
+            and not _community_only(cluster)
+        ):
             result.append("high")
             high_count += 1
         else:
             result.append("medium")
     return result
+
+
+def _community_only(cluster: Cluster) -> bool:
+    """裏付けがコミュニティ投稿だけかどうか。
+
+    Reddit や Hacker News の投稿1件だけを根拠にした未確認情報を最上位に置くと、
+    噂と確定情報が同じ見た目で並んでしまう。公式発表や報道の裏付けが無いものは
+    medium 止まりにする。
+    """
+    return all(s.item.tier == "community" for s in cluster.items)
 
 
 def _sources(cluster: Cluster) -> list[dict[str, str]]:
