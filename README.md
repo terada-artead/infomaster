@@ -50,6 +50,28 @@ python -m src.main --collect-only
 python -m src.main
 ```
 
+GitHub Actions を手元から起動する（push に使っている資格情報を流用する）:
+
+```bash
+python dispatch.py
+```
+
+実行状況の確認:
+
+```bash
+python checkrun.py --wait
+```
+
+## コスト
+
+実測で **1回あたり約 $0.12**（選別・名寄せに Haiku 4.5、執筆に Sonnet 5）。
+1日1回の定時実行なら月 $3〜4 程度。
+
+Anthropic には残高照会の API が無いため、残高はアプリ側で管理する:
+Console で確認した額をアプリの「残高」から入力すると、パイプラインが
+`digests/usage.json` に積み上げる消費額の増分が自動で引かれていく。
+残り回数がしきい値を切ると、アプリの上部と朝の通知に警告が出る。
+
 ## Android アプリ
 
 `compileSdk 37 / targetSdk 36 / minSdk 26`。Kotlin + Jetpack Compose。
