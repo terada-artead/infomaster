@@ -106,6 +106,9 @@ private fun DigestList(digest: Digest) {
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item { Header(digest) }
+        digest.alert?.let { alert ->
+            item { AlertBanner(alert) }
+        }
         if (digest.highlights.isNotEmpty()) {
             item { Highlights(digest.highlights) }
         }
@@ -133,6 +136,37 @@ private fun Header(digest: Digest) {
             fontSize = 12.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
+    }
+}
+
+/**
+ * クレジット残高などの運用警告。
+ * 見落とすと「ある朝いきなり届かなくなる」ので、3行サマリより上に出す。
+ */
+@Composable
+private fun AlertBanner(message: String) {
+    Card(
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.errorContainer
+        ),
+        shape = RoundedCornerShape(12.dp),
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Row(Modifier.padding(14.dp), verticalAlignment = Alignment.Top) {
+            Text(
+                "!",
+                fontSize = 15.sp,
+                fontWeight = FontWeight.Medium,
+                color = MaterialTheme.colorScheme.onErrorContainer,
+                modifier = Modifier.padding(end = 10.dp),
+            )
+            Text(
+                message,
+                fontSize = 13.sp,
+                lineHeight = 21.sp,
+                color = MaterialTheme.colorScheme.onErrorContainer,
+            )
+        }
     }
 }
 

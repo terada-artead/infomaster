@@ -1,0 +1,17 @@
+# APIクレジットの残高管理。
+#
+# Anthropic には残高照会の API が無いため、購入額をここに書いておき、
+# パイプラインが自分の消費を積み上げて残りを見積もる。
+#
+# クレジットを買い足したら credit_usd を「購入した累計額」に更新すること。
+# （残額ではなく累計購入額。消費側は digests/usage.json が持っている）
+#
+# Console で手動実行した分などはここに反映されないので、
+# 実残高とずれてきたら https://console.anthropic.com/settings/usage を見て
+# credit_usd を調整する。
+
+# これまでに購入したクレジットの累計（USD）
+credit_usd: 10.00
+
+# 残り何回分を切ったら警告するか
+warn_when_runs_below: 10

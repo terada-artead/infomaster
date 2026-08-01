@@ -92,12 +92,21 @@ class Digest:
     stats: dict[str, int]
     highlights: list[str]
     items: list[DigestItem]
+    # APIクレジット残高などの運用警告。平常時は None。
+    alert: str | None = None
+    budget: dict[str, Any] | None = None
 
     def to_dict(self) -> dict[str, Any]:
-        return {
+        payload: dict[str, Any] = {
             "date": self.date,
             "generated_at": self.generated_at,
             "stats": self.stats,
             "highlights": self.highlights,
             "items": [asdict(i) for i in self.items],
         }
+        # 平常時にキーを増やさない（アプリ側の分岐を単純に保つ）
+        if self.alert:
+            payload["alert"] = self.alert
+        if self.budget:
+            payload["budget"] = self.budget
+        return payload

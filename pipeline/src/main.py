@@ -22,6 +22,7 @@ JST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 REPO_ROOT = ROOT.parent
 DEFAULT_CONFIG = ROOT / "config" / "sources.yaml"
+DEFAULT_BUDGET = ROOT / "config" / "budget.yaml"
 DEFAULT_OUT = REPO_ROOT / "digests"
 
 log = logging.getLogger("infomaster")
@@ -36,6 +37,9 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "--config", type=Path, default=DEFAULT_CONFIG, help="ソース定義 YAML"
+    )
+    parser.add_argument(
+        "--budget", type=Path, default=DEFAULT_BUDGET, help="クレジット残高の設定 YAML"
     )
     parser.add_argument(
         "--out", type=Path, default=DEFAULT_OUT, help="ダイジェスト JSON の出力先"
@@ -84,6 +88,8 @@ def main(argv: list[str] | None = None) -> int:
 
     # LLM を使う段はここで初めて読み込む（--collect-only を APIキー無しで通すため）
     from .cluster import cluster_items, limit_source_dominance
+    from .cost import alert_message, update_ledger
+    from .llm import LEDGER
     from .output import write_digest
     from .score import score_items
     from .write import write_digest_items
@@ -108,6 +114,14 @@ def main(argv: list[str] | None = None) -> int:
         date=datetime.now(JST),
         stats={"collected": len(report.items), "selected": len(scored)},
     )
+
+    # 消費額を積み上げ、残高が細ってきたらダイジェストに警告を載せる。
+    # 生成が全部終わってから計算するので、ここまでの全呼び出しが対象になる。
+    budget = yaml.safe_load(args.budget.read_text(encoding="utf-8"))
+    status = update_ledger(LEDGER, budget, args.out / "usage.json")
+    digest.alert = alert_message(status)
+    digest.budget = status.to_dict()
+
     path = write_digest(digest, args.out)
     log.info("出力しました: %s (%d 件)", path, len(digest.items))
     return 0

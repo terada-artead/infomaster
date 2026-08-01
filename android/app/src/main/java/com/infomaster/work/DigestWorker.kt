@@ -65,9 +65,12 @@ class DigestWorker(
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
         )
 
-        val body = digest.highlights.joinToString("\n").ifBlank {
+        val highlights = digest.highlights.joinToString("\n").ifBlank {
             digest.items.firstOrNull()?.titleJa.orEmpty()
         }
+        // 運用警告は本文の先頭に置く。畳んだ状態でも見えるよう contentText にも出す。
+        val body = digest.alert?.let { "$it\n\n$highlights" } ?: highlights
+        val summary = digest.alert ?: digest.highlights.firstOrNull().orEmpty()
 
         val notification = NotificationCompat.Builder(
             applicationContext,
@@ -75,7 +78,7 @@ class DigestWorker(
         )
             .setSmallIcon(R.drawable.ic_notification)
             .setContentTitle("今朝のAIダイジェスト（${digest.items.size}件）")
-            .setContentText(digest.highlights.firstOrNull().orEmpty())
+            .setContentText(summary)
             .setStyle(NotificationCompat.BigTextStyle().bigText(body))
             .setContentIntent(intent)
             .setAutoCancel(true)

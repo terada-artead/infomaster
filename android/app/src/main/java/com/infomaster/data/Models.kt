@@ -19,6 +19,16 @@ data class Digest(
     val stats: Stats = Stats(),
     val highlights: List<String> = emptyList(),
     val items: List<DigestItem> = emptyList(),
+    /** APIクレジット残高などの運用警告。平常時はキー自体が無い。 */
+    val alert: String? = null,
+    val budget: Budget? = null,
+)
+
+@Serializable
+data class Budget(
+    @SerialName("remaining_usd") val remainingUsd: Double = 0.0,
+    @SerialName("runs_remaining") val runsRemaining: Int = 0,
+    val low: Boolean = false,
 )
 
 @Serializable

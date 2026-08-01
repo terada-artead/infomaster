@@ -15,7 +15,13 @@ from typing import Any, TypeVar
 import anthropic
 from pydantic import BaseModel
 
+from .cost import Ledger, Usage
+
 log = logging.getLogger(__name__)
+
+# 実行中の消費を集める台帳。main が実行の最後に読み出す。
+# 呼び出し側が毎回引き回さなくて済むよう、モジュール単位で持っている。
+LEDGER = Ledger()
 
 # 選別・名寄せ用。安価で件数を捌ける。
 FAST_MODEL = "claude-haiku-4-5"
@@ -77,6 +83,7 @@ def parse(
                 raise
             last_error = exc
         else:
+            _record_usage(model, response)
             if response.stop_reason == "refusal":
                 raise RuntimeError(
                     f"モデルが応答を拒否しました: {response.stop_details}"
@@ -101,3 +108,26 @@ def parse(
             time.sleep(wait)
 
     raise RuntimeError(f"{max_attempts} 回試行しても成功しませんでした: {last_error}")
+
+
+def _record_usage(model: str, response: Any) -> None:
+    """応答のトークン使用量を台帳に積む。
+
+    失敗した試行も課金されるので、成否に関わらず応答が返ってきた時点で数える。
+    """
+    usage = getattr(response, "usage", None)
+    if usage is None:
+        return
+    LEDGER.record(
+        Usage(
+            model=model,
+            input_tokens=getattr(usage, "input_tokens", 0) or 0,
+            output_tokens=getattr(usage, "output_tokens", 0) or 0,
+            cache_creation_input_tokens=(
+                getattr(usage, "cache_creation_input_tokens", 0) or 0
+            ),
+            cache_read_input_tokens=(
+                getattr(usage, "cache_read_input_tokens", 0) or 0
+            ),
+        )
+    )

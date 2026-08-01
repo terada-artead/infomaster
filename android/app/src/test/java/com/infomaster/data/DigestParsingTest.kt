@@ -82,6 +82,29 @@ class DigestParsingTest {
     }
 
     @Test
+    fun `平常時は警告が無い`() {
+        // パイプラインは残高に余裕があるとき alert キー自体を出さない
+        val digest = json.decodeFromString<Digest>(fixture())
+        assertEquals(null, digest.alert)
+    }
+
+    @Test
+    fun `クレジット残高の警告を読める`() {
+        val withAlert = fixture().replaceFirst(
+            "{",
+            """{"alert": "APIクレジット残高が少なくなっています。残り約8回分（＄1.20）です。",
+               "budget": {"remaining_usd": 1.2, "runs_remaining": 8, "low": true},""",
+        )
+        val digest = json.decodeFromString<Digest>(withAlert)
+
+        assertTrue("警告文が読めていない", digest.alert?.contains("残り約8回分") == true)
+        assertEquals(8, digest.budget?.runsRemaining)
+        assertTrue(digest.budget?.low == true)
+        // 警告が出ていても本体は通常どおり読める
+        assertEquals(20, digest.items.size)
+    }
+
+    @Test
     fun `カテゴリは未知の値でもそのまま表示する`() {
         assertEquals("新モデル", categoryLabel("new_model"))
         assertEquals("資金調達", categoryLabel("funding"))

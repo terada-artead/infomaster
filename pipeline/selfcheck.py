@@ -167,4 +167,73 @@ untouched = limit_source_dominance(hf_only[:2], "huggingface", keep=3)
 assert len(untouched) == 2
 print("dominance limit no-op OK")
 
+
+# 消費額の計算と残高警告
+import tempfile
+from pathlib import Path
+
+from src.cost import Ledger, Usage, alert_message, update_ledger
+
+# Haiku 4.5 は入力 $1 / 出力 $5 per MTok
+h = Usage(model="claude-haiku-4-5", input_tokens=1_000_000, output_tokens=1_000_000)
+assert abs(h.cost_usd() - 6.00) < 1e-9, h.cost_usd()
+# Sonnet 5 は入力 $3 / 出力 $15
+s = Usage(model="claude-sonnet-5", input_tokens=1_000_000, output_tokens=1_000_000)
+assert abs(s.cost_usd() - 18.00) < 1e-9, s.cost_usd()
+# キャッシュ読み出しは入力の 0.1 倍
+c = Usage(model="claude-haiku-4-5", cache_read_input_tokens=1_000_000)
+assert abs(c.cost_usd() - 0.10) < 1e-9, c.cost_usd()
+# 未知のモデルは最高価格で見積もる（警告を早める方向に倒す）
+u = Usage(model="claude-unknown-9", input_tokens=1_000_000)
+assert u.cost_usd() >= s.cost_usd() / 6, u.cost_usd()
+print("cost calculation OK")
+
+with tempfile.TemporaryDirectory() as tmp:
+    state = Path(tmp) / "usage.json"
+    budget = {"credit_usd": 10.00, "warn_when_runs_below": 10}
+
+    # 1回 $0.15 相当の消費を積む
+    def run_once() -> object:
+        ledger = Ledger()
+        ledger.record(Usage(model="claude-sonnet-5", input_tokens=50_000))  # $0.15
+        return update_ledger(ledger, budget, state)
+
+    first = run_once()
+    assert abs(first.run_cost_usd - 0.15) < 1e-9, first.run_cost_usd
+    assert abs(first.spent_usd - 0.15) < 1e-9
+    assert first.runs_remaining == int(9.85 / 0.15), first.runs_remaining
+    assert not first.low, "初回で警告が出てはいけない"
+
+    second = run_once()
+    assert abs(second.spent_usd - 0.30) < 1e-9, second.spent_usd
+    assert alert_message(second) is None
+    print("ledger accumulation OK")
+
+    # 残高が細ってきたら警告する
+    low_budget = {"credit_usd": 1.00, "warn_when_runs_below": 10}
+    ledger = Ledger()
+    ledger.record(Usage(model="claude-sonnet-5", input_tokens=50_000))
+    low = update_ledger(ledger, low_budget, state)
+    assert low.low, f"残り {low.runs_remaining} 回なら警告が出るはず"
+    message = alert_message(low)
+    assert message is not None and "残り" in message, message
+    print("low balance alert OK:", message)
+
+    # 使い切ったら別の文面にする
+    ledger = Ledger()
+    ledger.record(Usage(model="claude-sonnet-5", input_tokens=10_000_000))  # $30
+    empty = update_ledger(ledger, low_budget, state)
+    assert empty.runs_remaining == 0
+    assert "尽きました" in alert_message(empty)
+    print("exhausted alert OK")
+
+# 予算未設定なら警告しない（使い始めの邪魔をしない）
+with tempfile.TemporaryDirectory() as tmp:
+    ledger = Ledger()
+    ledger.record(Usage(model="claude-sonnet-5", input_tokens=50_000))
+    nostatus = update_ledger(ledger, {}, Path(tmp) / "usage.json")
+    assert not nostatus.low
+    assert alert_message(nostatus) is None
+    print("no-budget no-alert OK")
+
 print("\nすべて通過しました。")
