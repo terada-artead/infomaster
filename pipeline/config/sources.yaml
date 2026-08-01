@@ -1,0 +1,128 @@
+# 収集ソース定義。
+# 各ソースは取得に失敗しても他をブロックしない（失敗はログに出して継続）。
+# tier は選別段のヒントに使う: primary = 一次情報、secondary = 報道、community = 議論。
+
+rss:
+  # --- 一次情報: 各社公式ブログ / リリースノート ---
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+    tier: primary
+  # Anthropic 公式ブログは RSS を提供していない（2026-08 時点で確認済み）。
+  # 発表は Hacker News / TechCrunch / Simon Willison 経由で確実に拾えるので、
+  # 専用ソースは置かない。
+  - name: Google DeepMind Blog
+    url: https://deepmind.google/blog/rss.xml
+    tier: primary
+  - name: Google Research Blog
+    url: https://research.google/blog/rss/
+    tier: primary
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    tier: primary
+  # ai.meta.com/blog には RSS が無いため、Meta ニュースルーム全体を購読して
+  # AI 以外の記事は選別段で落とす。
+  - name: Meta Newsroom
+    url: https://about.fb.com/news/feed/
+    tier: primary
+  - name: Mistral AI
+    url: https://mistral.ai/rss.xml
+    tier: primary
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    tier: primary
+  - name: Microsoft Source AI
+    url: https://news.microsoft.com/source/topics/ai/feed/
+    tier: primary
+  - name: AWS Machine Learning Blog
+    url: https://aws.amazon.com/blogs/machine-learning/feed/
+    tier: primary
+  - name: NVIDIA Blog
+    url: https://blogs.nvidia.com/feed/
+    tier: primary
+
+  # --- 報道: ビジネス・業界動向 ---
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    tier: secondary
+  # VentureBeat の AI フィードは 2026-08 時点で 2ヶ月以上更新が止まっているため外した。
+  # ビジネス面は TechCrunch / The Verge / Ars Technica / MIT TR でカバーする。
+  - name: The Verge AI
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    tier: secondary
+  - name: Ars Technica AI
+    url: https://arstechnica.com/ai/feed/
+    tier: secondary
+  - name: MIT Technology Review AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    tier: secondary
+
+  # --- ニュースレター / 個人ブログ ---
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    tier: community
+  - name: Import AI
+    url: https://importai.substack.com/feed
+    tier: community
+  # The Batch (deeplearning.ai) は RSS が壊れているため外している。
+
+hacker_news:
+  # Algolia API。過去 lookback_hours 内で min_points 以上のストーリーを、
+  # keywords のいずれかにマッチするものだけ拾う。
+  min_points: 80
+  keywords:
+    - AI
+    - LLM
+    - GPT
+    - Claude
+    - Gemini
+    - Anthropic
+    - OpenAI
+    - "machine learning"
+    - transformer
+    - inference
+    - agent
+
+reddit:
+  # .json エンドポイントは 403 で塞がれているため Atom フィード (.rss) を使う。
+  # フィードにはスコアが載らないので、top/day の並び順を人気の代理指標にする。
+  # take で各サブレディットから上位何件を採るかを決める。
+  subreddits:
+    - name: LocalLLaMA
+      take: 12
+    - name: OpenAI
+      take: 6
+    - name: ClaudeAI
+      take: 6
+    - name: singularity
+      take: 4
+
+bluesky:
+  # searchPosts は認証必須になったため、getAuthorFeed（認証不要）で
+  # 指定アカウントのタイムラインを読む方式にしている。
+  # ここに挙げているのは実在・活発を確認済みのアカウントのみ。
+  # 大手メディア（TechCrunch 等）は RSS と重複するので入れていない。
+  # 追加したい場合は https://bsky.app/profile/<handle> で確認してから足すこと。
+  accounts:
+    - emollick.bsky.social       # Ethan Mollick — AI の実務・ビジネス応用
+    - swyx.io                    # swyx — AI エンジニアリング動向
+    - hardmaru.bsky.social       # David Ha
+    - danielvanstrien.bsky.social  # Hugging Face
+  min_likes: 30
+  per_account: 20
+
+huggingface:
+  # trending の新着モデル。プロダクト層の動きが一番早く出る。
+  limit: 30
+  min_likes: 20
+
+github_releases:
+  # 主要なAIツールのリリース。バージョンが上がったものだけ拾う。
+  repos:
+    - ggml-org/llama.cpp
+    - vllm-project/vllm
+    - ollama/ollama
+    - huggingface/transformers
+    - langchain-ai/langchain
+    - openai/openai-python
+    - anthropics/anthropic-sdk-python
+    - comfyanonymous/ComfyUI

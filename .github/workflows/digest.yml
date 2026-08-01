@@ -1,0 +1,64 @@
+name: daily digest
+
+on:
+  schedule:
+    # 20:30 UTC = 翌 05:30 JST。アプリ側は 06:00 に取りに来る想定。
+    - cron: "30 20 * * *"
+  # 手動実行。初回の動作確認と、失敗した日のやり直しに使う。
+  workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "何時間前まで遡って収集するか"
+        required: false
+        default: "26"
+
+# digests/ に commit するため書き込み権限が要る。
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install dependencies
+        working-directory: pipeline
+        run: pip install -r requirements.txt
+
+      - name: Generate digest
+        working-directory: pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # GitHub Releases 収集のレート制限を緩めるため
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m src.main \
+            --lookback-hours "${{ inputs.lookback_hours || '26' }}" \
+            --verbose
+
+      - name: Commit digest
+        run: |
+          git config user.name  "infomaster-bot"
+          git config user.email "infomaster-bot@users.noreply.github.com"
+          git add digests/
+          if git diff --staged --quiet; then
+            echo "変更なし。commit をスキップします。"
+            exit 0
+          fi
+          git commit -m "digest: $(date -u -d '+9 hours' +%Y-%m-%d)"
+          # 手動実行と定時実行がぶつかったときのために rebase してから push
+          git pull --rebase --autostash
+          git push
