@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">infomaster</string>
+    <string name="notification_channel_name">日次ダイジェスト</string>
+    <string name="notification_channel_description">毎朝のAIダイジェストが届いたときに通知します</string>
+</resources>

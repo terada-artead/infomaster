@@ -49,3 +49,29 @@ python -m src.main --collect-only
 ```bash
 python -m src.main
 ```
+
+## Android アプリ
+
+`compileSdk 37 / targetSdk 36 / minSdk 26`。Kotlin + Jetpack Compose。
+ダイジェストは端末内のファイルにキャッシュするのでオフラインでも読める。
+
+ビルド（`JAVA_HOME` に Android Studio 同梱の JBR を指定する）:
+
+```bash
+cd android && ./gradlew assembleDebug
+```
+
+JSON のパースは実データを素材にしたユニットテストで検証している:
+
+```bash
+cd android && ./gradlew testDebugUnitTest
+```
+
+実機へのインストール（USBデバッグを有効にして接続した状態で）:
+
+```bash
+adb install -r android/app/build/outputs/apk/debug/app-debug.apk
+```
+
+取得先は `app/build.gradle.kts` の `DIGEST_BASE_URL` で定義している。
+リポジトリを変えたらそこだけ直せばよい。
