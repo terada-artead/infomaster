@@ -1,12 +1,14 @@
-"""API 消費額の記録と残高の見積もり。
+"""API 消費額の記録。
 
 Anthropic には残高を照会する API が無い（Admin API のコストレポートは
 「使った額」であって残高ではなく、個人アカウントでは使えない）。
 そこで、自分が呼んだ分は自分で数える。全ての API 呼び出しがこのパイプライン
 経由である限り、これで正確に追える。
 
-Console から手動で使った分（Workbench での試行など）は反映されないので、
-残高がずれたら config/budget.yaml の credit_usd を実残高に合わせ直す。
+購入額をここで持たないのは、クレジットを買い足したときに
+リポジトリを編集しないと更新できなくなるため。購入額はアプリ側が保持し、
+このモジュールは「これまでにいくら使ったか」だけを公開する。
+残高と残り回数の計算はアプリが行う。
 """
 
 from __future__ import annotations
@@ -23,7 +25,7 @@ log = logging.getLogger(__name__)
 # 100万トークンあたりの価格（USD）。
 # Sonnet 5 には 2026-08-31 までの導入価格（$2/$10）があるが、
 # ここは残高警告のための見積もりなので、高い側の通常価格で計算する。
-# 実際の請求より多めに見積もる方向に倒しておくほうが安全。
+# 実際の請求より多めに見積もる方向に倒しておくほうが、警告が遅れなくて安全。
 PRICES: dict[str, dict[str, float]] = {
     "claude-haiku-4-5": {"input": 1.00, "output": 5.00},
     "claude-sonnet-5": {"input": 3.00, "output": 15.00},
@@ -33,6 +35,10 @@ PRICES: dict[str, dict[str, float]] = {
 # キャッシュ書き込みは入力の 1.25 倍、読み出しは 0.1 倍。
 CACHE_WRITE_MULTIPLIER = 1.25
 CACHE_READ_MULTIPLIER = 0.10
+
+# 1回あたりの平均を取る対象。プロンプトを変えると単価が変わるので、
+# 古い実行をいつまでも引きずらないように直近だけ見る。
+AVERAGE_WINDOW = 20
 
 
 @dataclass
@@ -82,60 +88,40 @@ class Ledger:
 
 
 @dataclass
-class BudgetStatus:
-    credit_usd: float
+class SpendSummary:
+    """アプリに渡す消費の要約。残高計算に必要なのはこれだけ。"""
+
     spent_usd: float
     run_cost_usd: float
     average_run_usd: float
-    runs_remaining: int
-    low: bool
-    threshold_runs: int
-
-    @property
-    def remaining_usd(self) -> float:
-        return max(0.0, self.credit_usd - self.spent_usd)
+    runs_recorded: int
 
     def to_dict(self) -> dict[str, Any]:
         return {
-            "credit_usd": round(self.credit_usd, 2),
             "spent_usd": round(self.spent_usd, 4),
-            "remaining_usd": round(self.remaining_usd, 2),
             "run_cost_usd": round(self.run_cost_usd, 4),
             "average_run_usd": round(self.average_run_usd, 4),
-            "runs_remaining": self.runs_remaining,
-            "low": self.low,
-            "threshold_runs": self.threshold_runs,
+            "runs_recorded": self.runs_recorded,
         }
 
 
-def update_ledger(
-    ledger: Ledger, budget: dict[str, Any], state_path: Path
-) -> BudgetStatus:
-    """今回の消費を状態ファイルに積み上げ、残高を見積もる。
-
-    state_path には累計消費と過去の1回あたり消費を保存しておく。
-    平均は直近 20 回分から取る（プロンプトを変えると単価が変わるため、
-    古い実行を引きずらないようにする）。
-    """
+def update_ledger(ledger: Ledger, state_path: Path) -> SpendSummary:
+    """今回の消費を状態ファイルに積み上げ、要約を返す。"""
     state = _load_state(state_path)
 
     run_cost = ledger.total_usd
     history: list[float] = state.get("run_costs", [])
     history.append(run_cost)
-    history = history[-20:]
+    history = history[-AVERAGE_WINDOW:]
 
     spent = state.get("spent_usd", 0.0) + run_cost
-    credit = float(budget.get("credit_usd", 0.0))
-    threshold_runs = int(budget.get("warn_when_runs_below", 10))
-
-    average = sum(history) / len(history)
-    remaining = max(0.0, credit - spent)
-    runs_remaining = int(remaining / average) if average > 0 else 0
+    average = sum(history) / len(history) if history else 0.0
 
     state.update(
         {
             "spent_usd": spent,
             "run_costs": history,
+            "runs_recorded": state.get("runs_recorded", 0) + 1,
             "last_run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "last_run_usd": run_cost,
             "by_model": ledger.by_model(),
@@ -143,44 +129,17 @@ def update_ledger(
     )
     _save_state(state_path, state)
 
-    status = BudgetStatus(
-        credit_usd=credit,
+    log.info(
+        "今回の消費 $%.4f / 累計 $%.4f / 1回あたり平均 $%.4f",
+        run_cost,
+        spent,
+        average,
+    )
+    return SpendSummary(
         spent_usd=spent,
         run_cost_usd=run_cost,
         average_run_usd=average,
-        runs_remaining=runs_remaining,
-        low=credit > 0 and runs_remaining <= threshold_runs,
-        threshold_runs=threshold_runs,
-    )
-
-    log.info(
-        "今回の消費 $%.4f / 累計 $%.4f / 残高 $%.2f / 残り約 %d 回",
-        run_cost,
-        spent,
-        status.remaining_usd,
-        runs_remaining,
-    )
-    if status.low:
-        log.warning(
-            "残高が少なくなっています。残り約 %d 回分（$%.2f）です。",
-            runs_remaining,
-            status.remaining_usd,
-        )
-    return status
-
-
-def alert_message(status: BudgetStatus) -> str | None:
-    """アプリに出す警告文。残高に余裕があれば None。"""
-    if not status.low:
-        return None
-    if status.runs_remaining <= 0:
-        return (
-            f"APIクレジットが尽きました（残高 ${status.remaining_usd:.2f}）。"
-            "補充しないと明日以降のダイジェストは生成されません。"
-        )
-    return (
-        f"APIクレジット残高が少なくなっています。"
-        f"残り約{status.runs_remaining}回分（${status.remaining_usd:.2f}）です。"
+        runs_recorded=state["runs_recorded"],
     )
 
 

@@ -12,6 +12,7 @@ import androidx.work.WorkerParameters
 import com.infomaster.InfomasterApp
 import com.infomaster.MainActivity
 import com.infomaster.R
+import com.infomaster.data.BudgetSettings
 import com.infomaster.data.Digest
 import com.infomaster.data.DigestRepository
 import java.util.Calendar
@@ -68,9 +69,10 @@ class DigestWorker(
         val highlights = digest.highlights.joinToString("\n").ifBlank {
             digest.items.firstOrNull()?.titleJa.orEmpty()
         }
-        // 運用警告は本文の先頭に置く。畳んだ状態でも見えるよう contentText にも出す。
-        val body = digest.alert?.let { "$it\n\n$highlights" } ?: highlights
-        val summary = digest.alert ?: digest.highlights.firstOrNull().orEmpty()
+        // 残高の警告は本文の先頭に置く。畳んだ状態でも見えるよう contentText にも出す。
+        val alert = BudgetSettings(applicationContext).state(digest.budget).alertMessage()
+        val body = alert?.let { "$it\n\n$highlights" } ?: highlights
+        val summary = alert ?: digest.highlights.firstOrNull().orEmpty()
 
         val notification = NotificationCompat.Builder(
             applicationContext,

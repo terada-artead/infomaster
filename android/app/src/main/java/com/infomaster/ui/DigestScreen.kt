@@ -15,6 +15,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
@@ -22,19 +24,25 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.infomaster.data.BudgetState
 import com.infomaster.data.Digest
 import com.infomaster.data.DigestItem
 import com.infomaster.data.categoryLabel
@@ -43,12 +51,14 @@ import com.infomaster.data.categoryLabel
 @Composable
 fun DigestScreen(viewModel: DigestViewModel) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val editing by viewModel.editingBudget.collectAsStateWithLifecycle()
 
     Scaffold(
         topBar = {
             TopAppBar(
                 title = { Text("今朝のAIダイジェスト", fontSize = 18.sp) },
                 actions = {
+                    TextButton(onClick = viewModel::openBudgetEditor) { Text("残高") }
                     TextButton(onClick = viewModel::refresh) { Text("更新") }
                 },
             )
@@ -66,12 +76,106 @@ fun DigestScreen(viewModel: DigestViewModel) {
                     if (current.refreshing) {
                         LinearProgressIndicator(Modifier.fillMaxWidth())
                     }
-                    DigestList(current.digest)
+                    DigestList(
+                        digest = current.digest,
+                        budget = current.budget,
+                        onEditBudget = viewModel::openBudgetEditor,
+                    )
                 }
             }
         }
     }
+
+    if (editing) {
+        val (credit, warnBelow) = remember { viewModel.currentSettings() }
+        BudgetDialog(
+            initialCredit = credit,
+            initialWarnBelow = warnBelow,
+            spentUsd = (state as? DigestUiState.Ready)?.budget?.spentUsd ?: 0.0,
+            onDismiss = viewModel::dismissBudgetEditor,
+            onSave = viewModel::saveBudget,
+        )
+    }
 }
+
+/**
+ * 購入したクレジット額の入力。
+ *
+ * Anthropic には残高照会の API が無いため、購入額は人が入れるしかない。
+ * 消費額はパイプラインが積み上げているので、入力が要るのはここだけ。
+ */
+@Composable
+private fun BudgetDialog(
+    initialCredit: Double,
+    initialWarnBelow: Int,
+    spentUsd: Double,
+    onDismiss: () -> Unit,
+    onSave: (Double, Int) -> Unit,
+) {
+    var credit by remember {
+        mutableStateOf(if (initialCredit > 0) trimZeros(initialCredit) else "")
+    }
+    var warnBelow by remember { mutableStateOf(initialWarnBelow.toString()) }
+
+    val creditValue = credit.toDoubleOrNull()
+    val warnValue = warnBelow.toIntOrNull()
+    val valid = creditValue != null && creditValue > 0 && warnValue != null && warnValue >= 0
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("APIクレジット", fontSize = 18.sp) },
+        text = {
+            Column {
+                Text(
+                    "Console で購入したクレジットの累計額を入力してください。" +
+                        "買い足したときは、今回の額ではなく累計額に更新します。",
+                    fontSize = 13.sp,
+                    lineHeight = 20.sp,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                OutlinedTextField(
+                    value = credit,
+                    onValueChange = { credit = it },
+                    label = { Text("購入した累計額（USD）") },
+                    placeholder = { Text("10.00") },
+                    singleLine = true,
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal),
+                    modifier = Modifier.fillMaxWidth().padding(top = 16.dp),
+                )
+                OutlinedTextField(
+                    value = warnBelow,
+                    onValueChange = { warnBelow = it },
+                    label = { Text("残り何回分で警告するか") },
+                    singleLine = true,
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+                    modifier = Modifier.fillMaxWidth().padding(top = 12.dp),
+                )
+                Text(
+                    "これまでの消費額: $${String.format("%.2f", spentUsd)}" +
+                        if (creditValue != null && creditValue > 0) {
+                            "  →  残高 $${String.format("%.2f", (creditValue - spentUsd).coerceAtLeast(0.0))}"
+                        } else "",
+                    fontSize = 12.sp,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(top = 14.dp),
+                )
+            }
+        },
+        confirmButton = {
+            TextButton(
+                enabled = valid,
+                onClick = { onSave(creditValue ?: 0.0, warnValue ?: 10) },
+            ) { Text("保存") }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) { Text("キャンセル") }
+        },
+    )
+}
+
+private fun trimZeros(value: Double): String =
+    if (value == value.toLong().toDouble()) value.toLong().toString()
+    else String.format("%.2f", value)
 
 @Composable
 private fun ErrorView(message: String, onRetry: () -> Unit) {
@@ -94,7 +198,11 @@ private fun ErrorView(message: String, onRetry: () -> Unit) {
 }
 
 @Composable
-private fun DigestList(digest: Digest) {
+private fun DigestList(
+    digest: Digest,
+    budget: BudgetState,
+    onEditBudget: () -> Unit,
+) {
     val high = digest.items.filter { it.isHigh }
     val medium = digest.items.filterNot { it.isHigh }
 
@@ -106,8 +214,8 @@ private fun DigestList(digest: Digest) {
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item { Header(digest) }
-        digest.alert?.let { alert ->
-            item { AlertBanner(alert) }
+        budget.alertMessage()?.let { alert ->
+            item { AlertBanner(alert, onEditBudget) }
         }
         if (digest.highlights.isNotEmpty()) {
             item { Highlights(digest.highlights) }
@@ -144,13 +252,14 @@ private fun Header(digest: Digest) {
  * 見落とすと「ある朝いきなり届かなくなる」ので、3行サマリより上に出す。
  */
 @Composable
-private fun AlertBanner(message: String) {
+private fun AlertBanner(message: String, onClick: () -> Unit) {
     Card(
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.errorContainer
         ),
         shape = RoundedCornerShape(12.dp),
-        modifier = Modifier.fillMaxWidth(),
+        // タップで残高の入力に飛べるようにする（補充したら即座に直せる）
+        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
     ) {
         Row(Modifier.padding(14.dp), verticalAlignment = Alignment.Top) {
             Text(

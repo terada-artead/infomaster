@@ -92,8 +92,8 @@ class Digest:
     stats: dict[str, int]
     highlights: list[str]
     items: list[DigestItem]
-    # APIクレジット残高などの運用警告。平常時は None。
-    alert: str | None = None
+    # これまでの API 消費額。残高と残り回数の計算はアプリ側が行う
+    # （購入額はアプリが保持しており、ここでは分からないため）。
     budget: dict[str, Any] | None = None
 
     def to_dict(self) -> dict[str, Any]:
@@ -104,9 +104,6 @@ class Digest:
             "highlights": self.highlights,
             "items": [asdict(i) for i in self.items],
         }
-        # 平常時にキーを増やさない（アプリ側の分岐を単純に保つ）
-        if self.alert:
-            payload["alert"] = self.alert
         if self.budget:
             payload["budget"] = self.budget
         return payload

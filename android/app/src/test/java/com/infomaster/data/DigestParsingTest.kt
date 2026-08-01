@@ -82,26 +82,26 @@ class DigestParsingTest {
     }
 
     @Test
-    fun `平常時は警告が無い`() {
-        // パイプラインは残高に余裕があるとき alert キー自体を出さない
-        val digest = json.decodeFromString<Digest>(fixture())
-        assertEquals(null, digest.alert)
+    fun `消費額を読める`() {
+        val withSpend = fixture().replaceFirst(
+            "{",
+            """{"budget": {"spent_usd": 1.23, "run_cost_usd": 0.15,
+               "average_run_usd": 0.14, "runs_recorded": 9},""",
+        )
+        val digest = json.decodeFromString<Digest>(withSpend)
+
+        assertEquals(1.23, digest.budget?.spentUsd ?: 0.0, 1e-9)
+        assertEquals(0.14, digest.budget?.averageRunUsd ?: 0.0, 1e-9)
+        assertEquals(9, digest.budget?.runsRecorded)
+        // 消費額が付いていても本体は通常どおり読める
+        assertEquals(20, digest.items.size)
     }
 
     @Test
-    fun `クレジット残高の警告を読める`() {
-        val withAlert = fixture().replaceFirst(
-            "{",
-            """{"alert": "APIクレジット残高が少なくなっています。残り約8回分（＄1.20）です。",
-               "budget": {"remaining_usd": 1.2, "runs_remaining": 8, "low": true},""",
-        )
-        val digest = json.decodeFromString<Digest>(withAlert)
-
-        assertTrue("警告文が読めていない", digest.alert?.contains("残り約8回分") == true)
-        assertEquals(8, digest.budget?.runsRemaining)
-        assertTrue(digest.budget?.low == true)
-        // 警告が出ていても本体は通常どおり読める
-        assertEquals(20, digest.items.size)
+    fun `消費額が無くても壊れない`() {
+        // 消費記録の実装前に生成されたダイジェストを開いた場合
+        val digest = json.decodeFromString<Digest>(fixture())
+        assertEquals(null, digest.budget)
     }
 
     @Test
