@@ -87,57 +87,62 @@ fun DigestScreen(viewModel: DigestViewModel) {
     }
 
     if (editing) {
-        val (credit, warnBelow) = remember { viewModel.currentSettings() }
-        BudgetDialog(
-            initialCredit = credit,
+        val (balance, warnBelow) = remember { viewModel.currentSettings() }
+        BalanceDialog(
+            initialBalance = balance,
             initialWarnBelow = warnBelow,
-            spentUsd = (state as? DigestUiState.Ready)?.budget?.spentUsd ?: 0.0,
+            current = (state as? DigestUiState.Ready)?.budget,
             onDismiss = viewModel::dismissBudgetEditor,
-            onSave = viewModel::saveBudget,
+            onSave = viewModel::saveBalance,
         )
     }
 }
 
 /**
- * 購入したクレジット額の入力。
+ * 残高の入力。
  *
- * Anthropic には残高照会の API が無いため、購入額は人が入れるしかない。
- * 消費額はパイプラインが積み上げているので、入力が要るのはここだけ。
+ * Anthropic には残高照会の API が無いため、Console で見た額を人が入れる。
+ * 入れた後はパイプラインの消費記録から自動で減っていくので、
+ * 触るのは補充したときだけでよい。
  */
 @Composable
-private fun BudgetDialog(
-    initialCredit: Double,
+private fun BalanceDialog(
+    initialBalance: Double,
     initialWarnBelow: Int,
-    spentUsd: Double,
+    current: BudgetState?,
     onDismiss: () -> Unit,
     onSave: (Double, Int) -> Unit,
 ) {
-    var credit by remember {
-        mutableStateOf(if (initialCredit > 0) trimZeros(initialCredit) else "")
+    // 補充後に入れ直す場面が主なので、既存値ではなく現在の残高を初期表示にする。
+    var balance by remember {
+        val suggested = current?.takeIf { it.configured }?.remainingUsd ?: initialBalance
+        mutableStateOf(if (suggested > 0) trimZeros(suggested) else "")
     }
     var warnBelow by remember { mutableStateOf(initialWarnBelow.toString()) }
 
-    val creditValue = credit.toDoubleOrNull()
+    val balanceValue = balance.toDoubleOrNull()
     val warnValue = warnBelow.toIntOrNull()
-    val valid = creditValue != null && creditValue > 0 && warnValue != null && warnValue >= 0
+    val valid =
+        balanceValue != null && balanceValue > 0 && warnValue != null && warnValue >= 0
 
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("APIクレジット", fontSize = 18.sp) },
+        title = { Text("クレジット残高", fontSize = 18.sp) },
         text = {
             Column {
                 Text(
-                    "Console で購入したクレジットの累計額を入力してください。" +
-                        "買い足したときは、今回の額ではなく累計額に更新します。",
+                    "Console で確認した残高を入力してください。" +
+                        "以降は使うたびに自動で減っていくので、" +
+                        "触るのは補充したときだけで大丈夫です。",
                     fontSize = 13.sp,
                     lineHeight = 20.sp,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
                 OutlinedTextField(
-                    value = credit,
-                    onValueChange = { credit = it },
-                    label = { Text("購入した累計額（USD）") },
-                    placeholder = { Text("10.00") },
+                    value = balance,
+                    onValueChange = { balance = it },
+                    label = { Text("現在の残高（USD）") },
+                    placeholder = { Text("9.92") },
                     singleLine = true,
                     keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal),
                     modifier = Modifier.fillMaxWidth().padding(top = 16.dp),
@@ -150,21 +155,23 @@ private fun BudgetDialog(
                     keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
                     modifier = Modifier.fillMaxWidth().padding(top = 12.dp),
                 )
-                Text(
-                    "これまでの消費額: $${String.format("%.2f", spentUsd)}" +
-                        if (creditValue != null && creditValue > 0) {
-                            "  →  残高 $${String.format("%.2f", (creditValue - spentUsd).coerceAtLeast(0.0))}"
-                        } else "",
-                    fontSize = 12.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(top = 14.dp),
-                )
+                if (current != null && current.averageRunUsd > 0) {
+                    val perRun = String.format("%.2f", current.averageRunUsd)
+                    val runs = balanceValue?.let { (it / current.averageRunUsd).toInt() }
+                    Text(
+                        "1回あたり約\$$perRun" +
+                            if (runs != null) "  →  約${runs}回分" else "",
+                        fontSize = 12.sp,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.padding(top = 14.dp),
+                    )
+                }
             }
         },
         confirmButton = {
             TextButton(
                 enabled = valid,
-                onClick = { onSave(creditValue ?: 0.0, warnValue ?: 10) },
+                onClick = { onSave(balanceValue ?: 0.0, warnValue ?: 10) },
             ) { Text("保存") }
         },
         dismissButton = {
@@ -213,7 +220,7 @@ private fun DigestList(
         ),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        item { Header(digest) }
+        item { Header(digest, budget, onEditBudget) }
         budget.alertMessage()?.let { alert ->
             item { AlertBanner(alert, onEditBudget) }
         }
@@ -232,7 +239,7 @@ private fun DigestList(
 }
 
 @Composable
-private fun Header(digest: Digest) {
+private fun Header(digest: Digest, budget: BudgetState, onEditBudget: () -> Unit) {
     Column {
         Text(
             digest.date,
@@ -243,6 +250,16 @@ private fun Header(digest: Digest) {
             "${digest.stats.collected}件を収集 → ${digest.items.size}件に絞り込み",
             fontSize = 12.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        // 残高は常時見えるようにしておく。警告が出てから気づくのでは遅い。
+        Text(
+            budget.summary() ?: "残高を設定する",
+            fontSize = 12.sp,
+            color = if (budget.low) MaterialTheme.colorScheme.error
+            else MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier
+                .padding(top = 4.dp)
+                .clickable(onClick = onEditBudget),
         )
     }
 }

@@ -50,22 +50,28 @@ class DigestViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     /**
-     * 購入したクレジットの累計額を保存する。
-     * 買い足したときは「今回の額」ではなく「累計」を入れてもらう。
+     * Console で確認した残高を保存する。
+     *
+     * 保存時点のパイプライン累計消費額を基準として一緒に覚えるので、
+     * 以降はそこからの増分だけが残高から引かれていく。
      */
-    fun saveBudget(creditUsd: Double, warnBelowRuns: Int) {
-        settings.creditUsd = creditUsd
+    fun saveBalance(balanceUsd: Double, warnBelowRuns: Int) {
+        val current = _state.value
+        val spentNow =
+            (current as? DigestUiState.Ready)?.digest?.budget?.spentUsd ?: 0.0
+
+        settings.setBalance(balanceUsd, spentNow)
         settings.warnBelowRuns = warnBelowRuns
         _editingBudget.value = false
+
         // 保存した値をすぐ画面に反映する
-        val current = _state.value
         if (current is DigestUiState.Ready) {
             _state.value = current.copy(budget = settings.state(current.digest.budget))
         }
     }
 
     fun currentSettings(): Pair<Double, Int> =
-        settings.creditUsd to settings.warnBelowRuns
+        settings.enteredBalanceUsd to settings.warnBelowRuns
 
     private fun load(forceRefresh: Boolean) {
         viewModelScope.launch {
