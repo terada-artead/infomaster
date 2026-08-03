@@ -49,8 +49,11 @@ object DeliveryReadiness {
 
     /** その問題を直せる設定画面を開く。 */
     fun settingsIntent(context: Context, issue: DeliveryIssue): Intent = when (issue) {
+        // 一覧から自分で探す画面ではなく、このアプリだけを対象にした
+        // 確認ダイアログを出す。一覧だと設定し損ねやすい。
         DeliveryIssue.BATTERY_OPTIMIZED ->
-            Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
+            Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS)
+                .setData(Uri.fromParts("package", context.packageName, null))
 
         DeliveryIssue.INEXACT_ALARM ->
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {

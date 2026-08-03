@@ -9,6 +9,13 @@
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <!-- 再起動でアラームが消えるので仕掛け直す -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--
+      省電力の除外をアプリから直接お願いするため。
+      これが無いと一覧画面を開くことしかできず、設定し損ねやすい。
+      （Play ストアでは用途が制限される権限だが、このアプリは自分用で
+       ストア配布しないため問題ない）
+    -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
 
     <application
         android:name=".InfomasterApp"

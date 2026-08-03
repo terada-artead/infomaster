@@ -26,12 +26,12 @@ import java.time.ZonedDateTime
 object DigestScheduler {
 
     /** ダイジェストを取りに行く時刻。 */
-    private val WAKE_TIME: LocalTime = LocalTime.of(6, 0)
+    private val WAKE_TIME: LocalTime = LocalTime.of(8, 0)
 
     /** 当日分がまだ無かったときの再試行間隔。 */
     const val RETRY_MINUTES = 20L
 
-    /** 再試行の上限。6:00 開始で 20 分間隔なら 10:00 頃まで粘る。 */
+    /** 再試行の上限。8:00 開始で 20 分間隔なら 12:00 頃まで粘る。 */
     const val MAX_RETRIES = 12
 
     private const val TAG = "DigestScheduler"
