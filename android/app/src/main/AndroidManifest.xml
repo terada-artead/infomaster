@@ -5,6 +5,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- Android 13 以降、通知には実行時の許可が要る -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- 朝の決まった時刻に起こすため。取れなければ不正確版に落とす -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <!-- 再起動でアラームが消えるので仕掛け直す -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:name=".InfomasterApp"
@@ -24,5 +28,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- 朝のアラームの受け口。アプリが起動していなくても呼ばれる -->
+        <receiver
+            android:name=".work.DigestAlarmReceiver"
+            android:exported="false" />
+
+        <receiver
+            android:name=".work.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>

@@ -8,6 +8,7 @@ import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
+import com.infomaster.work.DigestScheduler
 import com.infomaster.work.DigestWorker
 import java.util.concurrent.TimeUnit
 
@@ -16,7 +17,8 @@ class InfomasterApp : Application() {
     override fun onCreate() {
         super.onCreate()
         createNotificationChannel()
-        scheduleDailyFetch()
+        DigestScheduler.scheduleNextMorning(this)
+        scheduleFallback()
     }
 
     private fun createNotificationChannel() {
@@ -31,9 +33,17 @@ class InfomasterApp : Application() {
             .createNotificationChannel(channel)
     }
 
-    private fun scheduleDailyFetch() {
+    /**
+     * アラームが取りこぼされたときの保険。
+     *
+     * 通常の起動は [DigestScheduler] のアラームが担当する。こちらは
+     * 「アラームが端末側の都合で消えていた」場合に、遅れてでも取得を
+     * 走らせるためのもの。時刻は守れないが、通知の重複は
+     * 通知済み日付の記録で防いでいる。
+     */
+    private fun scheduleFallback() {
         val request = PeriodicWorkRequestBuilder<DigestWorker>(1, TimeUnit.DAYS)
-            .setInitialDelay(DigestWorker.initialDelayMinutes(), TimeUnit.MINUTES)
+            .setInitialDelay(DigestScheduler.minutesUntilNextMorning(), TimeUnit.MINUTES)
             .setConstraints(
                 Constraints.Builder()
                     .setRequiredNetworkType(NetworkType.CONNECTED)
@@ -41,10 +51,9 @@ class InfomasterApp : Application() {
             )
             .build()
 
-        // KEEP なので、アプリを開くたびにスケジュールが作り直されることはない。
         WorkManager.getInstance(this).enqueueUniquePeriodicWork(
             DigestWorker.UNIQUE_NAME,
-            ExistingPeriodicWorkPolicy.KEEP,
+            ExistingPeriodicWorkPolicy.UPDATE,
             request,
         )
     }

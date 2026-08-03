@@ -4,6 +4,7 @@ import android.Manifest
 import android.app.PendingIntent
 import android.content.Context
 import android.content.pm.PackageManager
+import android.util.Log
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
@@ -15,15 +16,16 @@ import com.infomaster.R
 import com.infomaster.data.BudgetSettings
 import com.infomaster.data.Digest
 import com.infomaster.data.DigestRepository
-import java.util.Calendar
-import java.util.concurrent.TimeUnit
 
 /**
- * 毎朝ダイジェストを取得してローカル通知を出す。
+ * ダイジェストを取得してローカル通知を出す。
  *
  * サーバから push するのではなく端末側から取りに行く形にしているのは、
- * FCM のためにサーバを1つ増やさずに済ませるため。個人用途では
- * 「起きる頃に取りに行く」で十分に間に合う。
+ * FCM のためにサーバを1つ増やさずに済ませるため。
+ *
+ * 起動は [DigestScheduler] のアラーム。取りに行った時点でまだ当日分が
+ * 公開されていないことがある（パイプラインは GitHub Actions の混雑で
+ * 数十分遅れることがある）ので、その場合は少し待って再試行する。
  */
 class DigestWorker(
     context: Context,
@@ -31,25 +33,64 @@ class DigestWorker(
 ) : CoroutineWorker(context, params) {
 
     override suspend fun doWork(): Result {
-        val repository = DigestRepository(applicationContext)
-        val result = repository.load(forceRefresh = true)
+        val today = DigestScheduler.today()
+        val digest = DigestRepository(applicationContext)
+            .load(forceRefresh = true)
+            .getOrElse {
+                Log.w(TAG, "取得に失敗しました", it)
+                retryOrGiveUp("取得に失敗")
+                return Result.success()
+            }
 
-        val digest = result.getOrElse {
-            // 生成が遅れているだけの可能性があるので、次回の実行に賭ける。
-            return if (runAttemptCount < 3) Result.retry() else Result.success()
-        }
+        when {
+            digest.date == lastNotifiedDate() -> {
+                // 今日の分はもう通知済み。次の朝に備える。
+                Log.i(TAG, "${digest.date} は通知済みです")
+                finish()
+            }
 
-        if (digest.items.isEmpty()) {
-            return Result.success()
-        }
-        if (digest.date == lastNotifiedDate()) {
-            // 同じ日のダイジェストで二度通知しない
-            return Result.success()
-        }
+            digest.date != today -> {
+                // パイプラインがまだ当日分を出していない。
+                // ここで黙って諦めると「通知が来ない朝」になる。
+                Log.i(TAG, "当日分がまだありません（最新は ${digest.date}）")
+                retryOrGiveUp("当日分がまだ無い")
+            }
 
-        notify(digest)
-        rememberNotified(digest.date)
+            digest.items.isEmpty() -> {
+                Log.i(TAG, "${digest.date} は項目が空でした")
+                finish()
+            }
+
+            else -> {
+                notify(digest)
+                rememberNotified(digest.date)
+                finish()
+            }
+        }
         return Result.success()
+    }
+
+    /** 再試行を積むか、上限に達していれば翌朝に回す。 */
+    private fun retryOrGiveUp(reason: String) {
+        val attempts = retryCount() + 1
+        if (attempts <= DigestScheduler.MAX_RETRIES) {
+            setRetryCount(attempts)
+            Log.i(
+                TAG,
+                "$reason ため ${DigestScheduler.RETRY_MINUTES} 分後に再試行します" +
+                    "（$attempts / ${DigestScheduler.MAX_RETRIES}）",
+            )
+            DigestScheduler.scheduleRetry(applicationContext)
+        } else {
+            Log.w(TAG, "$reason 状態が続いたため、今日は諦めて翌朝に回します")
+            finish()
+        }
+    }
+
+    /** 今日の分は片付いた。再試行の記録を消して次の朝を仕掛ける。 */
+    private fun finish() {
+        setRetryCount(0)
+        DigestScheduler.scheduleNextMorning(applicationContext)
     }
 
     private fun notify(digest: Digest) {
@@ -90,37 +131,27 @@ class DigestWorker(
             .notify(NOTIFICATION_ID, notification)
     }
 
-    private fun lastNotifiedDate(): String? =
-        applicationContext
-            .getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-            .getString(KEY_LAST_DATE, null)
+    private fun prefs() =
+        applicationContext.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+
+    private fun lastNotifiedDate(): String? = prefs().getString(KEY_LAST_DATE, null)
 
     private fun rememberNotified(date: String) {
-        applicationContext
-            .getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-            .edit()
-            .putString(KEY_LAST_DATE, date)
-            .apply()
+        prefs().edit().putString(KEY_LAST_DATE, date).apply()
+    }
+
+    private fun retryCount(): Int = prefs().getInt(KEY_RETRIES, 0)
+
+    private fun setRetryCount(value: Int) {
+        prefs().edit().putInt(KEY_RETRIES, value).apply()
     }
 
     companion object {
         const val UNIQUE_NAME = "daily-digest-fetch"
+        private const val TAG = "DigestWorker"
         private const val NOTIFICATION_ID = 1001
         private const val PREFS = "infomaster"
         private const val KEY_LAST_DATE = "last_notified_date"
-
-        /** 次の朝6時までの待ち時間。すでに6時を過ぎていれば翌朝。 */
-        fun initialDelayMinutes(now: Calendar = Calendar.getInstance()): Long {
-            val target = (now.clone() as Calendar).apply {
-                set(Calendar.HOUR_OF_DAY, 6)
-                set(Calendar.MINUTE, 0)
-                set(Calendar.SECOND, 0)
-                set(Calendar.MILLISECOND, 0)
-            }
-            if (!target.after(now)) {
-                target.add(Calendar.DAY_OF_YEAR, 1)
-            }
-            return TimeUnit.MILLISECONDS.toMinutes(target.timeInMillis - now.timeInMillis)
-        }
+        private const val KEY_RETRIES = "retry_count"
     }
 }

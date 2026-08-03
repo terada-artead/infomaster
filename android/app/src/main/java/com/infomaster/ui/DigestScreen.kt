@@ -43,6 +43,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.infomaster.data.BudgetState
+import com.infomaster.data.DeliveryIssue
+import com.infomaster.data.DeliveryReadiness
 import com.infomaster.data.Digest
 import com.infomaster.data.DigestItem
 import com.infomaster.data.categoryLabel
@@ -210,6 +212,7 @@ private fun DigestList(
     budget: BudgetState,
     onEditBudget: () -> Unit,
 ) {
+    val context = LocalContext.current
     val high = digest.items.filter { it.isHigh }
     val medium = digest.items.filterNot { it.isHigh }
 
@@ -221,6 +224,16 @@ private fun DigestList(
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item { Header(digest, budget, onEditBudget) }
+        // 通知が届かない設定になっていたら、まずそれを知らせる
+        items(DeliveryReadiness.check(context), key = { it.name }) { issue ->
+            ReadinessBanner(issue) {
+                runCatching {
+                    context.startActivity(
+                        DeliveryReadiness.settingsIntent(context, issue)
+                    )
+                }
+            }
+        }
         budget.alertMessage()?.let { alert ->
             item { AlertBanner(alert, onEditBudget) }
         }
@@ -291,6 +304,41 @@ private fun AlertBanner(message: String, onClick: () -> Unit) {
                 fontSize = 13.sp,
                 lineHeight = 21.sp,
                 color = MaterialTheme.colorScheme.onErrorContainer,
+            )
+        }
+    }
+}
+
+/** 通知が届かない設定になっているときの案内。タップで設定画面へ。 */
+@Composable
+private fun ReadinessBanner(issue: DeliveryIssue, onClick: () -> Unit) {
+    Card(
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.tertiaryContainer
+        ),
+        shape = RoundedCornerShape(12.dp),
+        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+    ) {
+        Column(Modifier.padding(14.dp)) {
+            Text(
+                issue.label,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Medium,
+                color = MaterialTheme.colorScheme.onTertiaryContainer,
+            )
+            Text(
+                issue.description,
+                fontSize = 12.sp,
+                lineHeight = 19.sp,
+                color = MaterialTheme.colorScheme.onTertiaryContainer,
+                modifier = Modifier.padding(top = 4.dp),
+            )
+            Text(
+                "タップして設定を開く",
+                fontSize = 12.sp,
+                fontWeight = FontWeight.Medium,
+                color = MaterialTheme.colorScheme.onTertiaryContainer,
+                modifier = Modifier.padding(top = 8.dp),
             )
         }
     }
