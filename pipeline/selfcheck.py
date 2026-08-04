@@ -222,4 +222,82 @@ with tempfile.TemporaryDirectory() as tmp:
     assert abs(recovered.spent_usd - 0.15) < 1e-9, "壊れていたら0から数え直す"
     print("corrupt state recovery OK")
 
+
+# 配信履歴による重複排除
+from src import history as history_module
+from src.models import Digest, DigestItem
+
+def published(date_: str, title: str, url: str) -> history_module.PublishedItem:
+    return history_module.PublishedItem(
+        date=date_, id=url[-4:], title_ja=title, urls=[url]
+    )
+
+
+hist = history_module.History(
+    items=[
+        published("2026-08-03", "Kimi K3 が公開", "http://example.com/kimi"),
+        published("2026-08-02", "GLM-5.2 が公開", "http://example.com/glm"),
+    ]
+)
+
+def item_at(url: str) -> Item:
+    return Item(source="s", source_kind="rss", tier="primary", title="t", url=url)
+
+
+kept = history_module.drop_published(
+    [item_at("http://example.com/kimi"), item_at("http://example.com/new")], hist
+)
+assert len(kept) == 1 and kept[0].url == "http://example.com/new", kept
+print("history url filtering OK")
+
+# 履歴が空なら何も落とさない
+assert len(history_module.drop_published([item_at("http://x/1")], history_module.History())) == 1
+print("history empty no-op OK")
+
+# 直近の見出しだけが選別段に渡る
+titles = hist.recent_titles(days=30)
+assert "Kimi K3 が公開" in titles and "GLM-5.2 が公開" in titles, titles
+print("history recent titles OK")
+
+# 保持期間を過ぎた分は捨てられ、同じ日の再実行は置き換わる
+with tempfile.TemporaryDirectory() as tmp:
+    path = Path(tmp) / "published.json"
+    old = history_module.History(
+        items=[
+            published("2026-07-01", "ずっと前の話題", "http://example.com/old"),
+            published("2026-08-04", "同じ日の古い結果", "http://example.com/stale"),
+        ]
+    )
+    digest = Digest(
+        date="2026-08-04",
+        generated_at="2026-08-04T08:00:00+09:00",
+        stats={},
+        highlights=[],
+        items=[
+            DigestItem(
+                id="abc",
+                importance="high",
+                category="new_model",
+                title_ja="今日の話題",
+                summary_ja="...",
+                sources=[{"name": "s", "url": "http://example.com/today"}],
+            )
+        ],
+    )
+    history_module.save(path, old, digest)
+
+    reloaded = history_module.load(path)
+    urls = reloaded.urls()
+    assert "http://example.com/today" in urls, urls
+    assert "http://example.com/old" not in urls, "保持期間を過ぎた分は捨てるはず"
+    assert "http://example.com/stale" not in urls, "同じ日の記録は置き換わるはず"
+    print("history retention and same-day replace OK")
+
+# 壊れていても実行は止めない
+with tempfile.TemporaryDirectory() as tmp:
+    broken = Path(tmp) / "published.json"
+    broken.write_text("{ broken", encoding="utf-8")
+    assert history_module.load(broken).items == []
+    print("history corrupt recovery OK")
+
 print("\nすべて通過しました。")

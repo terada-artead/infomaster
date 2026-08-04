@@ -47,6 +47,7 @@ import com.infomaster.data.DeliveryIssue
 import com.infomaster.data.DeliveryReadiness
 import com.infomaster.data.Digest
 import com.infomaster.data.DigestItem
+import com.infomaster.data.SavedItem
 import com.infomaster.data.categoryLabel
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -54,35 +55,56 @@ import com.infomaster.data.categoryLabel
 fun DigestScreen(viewModel: DigestViewModel) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val editing by viewModel.editingBudget.collectAsStateWithLifecycle()
+    val savedItems by viewModel.savedItems.collectAsStateWithLifecycle()
+    val showingSaved by viewModel.showingSaved.collectAsStateWithLifecycle()
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("今朝のAIダイジェスト", fontSize = 18.sp) },
+                title = {
+                    Text(
+                        if (showingSaved) "保存した項目" else "今朝のAIダイジェスト",
+                        fontSize = 18.sp,
+                    )
+                },
                 actions = {
-                    TextButton(onClick = viewModel::openBudgetEditor) { Text("残高") }
-                    TextButton(onClick = viewModel::refresh) { Text("更新") }
+                    if (showingSaved) {
+                        TextButton(onClick = viewModel::showDigest) { Text("戻る") }
+                    } else {
+                        TextButton(onClick = viewModel::showSaved) {
+                            Text("保存(${savedItems.size})")
+                        }
+                        TextButton(onClick = viewModel::openBudgetEditor) { Text("残高") }
+                        TextButton(onClick = viewModel::refresh) { Text("更新") }
+                    }
                 },
             )
         }
     ) { padding ->
         Box(Modifier.padding(padding).fillMaxSize()) {
-            when (val current = state) {
-                is DigestUiState.Loading -> CircularProgressIndicator(
-                    Modifier.align(Alignment.Center)
-                )
+            when {
+                showingSaved -> SavedList(savedItems, viewModel::removeSaved)
 
-                is DigestUiState.Error -> ErrorView(current.message, viewModel::refresh)
-
-                is DigestUiState.Ready -> {
-                    if (current.refreshing) {
-                        LinearProgressIndicator(Modifier.fillMaxWidth())
-                    }
-                    DigestList(
-                        digest = current.digest,
-                        budget = current.budget,
-                        onEditBudget = viewModel::openBudgetEditor,
+                else -> when (val current = state) {
+                    is DigestUiState.Loading -> CircularProgressIndicator(
+                        Modifier.align(Alignment.Center)
                     )
+
+                    is DigestUiState.Error ->
+                        ErrorView(current.message, viewModel::refresh)
+
+                    is DigestUiState.Ready -> {
+                        if (current.refreshing) {
+                            LinearProgressIndicator(Modifier.fillMaxWidth())
+                        }
+                        DigestList(
+                            digest = current.digest,
+                            budget = current.budget,
+                            savedIds = savedItems.map { it.item.id }.toSet(),
+                            onEditBudget = viewModel::openBudgetEditor,
+                            onToggleSave = viewModel::toggleSaved,
+                        )
+                    }
                 }
             }
         }
@@ -210,7 +232,9 @@ private fun ErrorView(message: String, onRetry: () -> Unit) {
 private fun DigestList(
     digest: Digest,
     budget: BudgetState,
+    savedIds: Set<String>,
     onEditBudget: () -> Unit,
+    onToggleSave: (DigestItem) -> Unit,
 ) {
     val context = LocalContext.current
     val high = digest.items.filter { it.isHigh }
@@ -242,11 +266,59 @@ private fun DigestList(
         }
         if (high.isNotEmpty()) {
             item { SectionLabel("重要") }
-            items(high, key = { it.id }) { ItemCard(it) }
+            items(high, key = { it.id }) {
+                ItemCard(it, it.id in savedIds) { onToggleSave(it) }
+            }
         }
         if (medium.isNotEmpty()) {
             item { SectionLabel("その他") }
-            items(medium, key = { it.id }) { ItemCard(it) }
+            items(medium, key = { it.id }) {
+                ItemCard(it, it.id in savedIds) { onToggleSave(it) }
+            }
+        }
+    }
+}
+
+/**
+ * 保存した項目の一覧。
+ *
+ * ダイジェストは毎日入れ替わり、配信済みの話題は翌日以降出てこないので、
+ * ここが「後から見返す」唯一の場所になる。出典もそのまま持っている。
+ */
+@Composable
+private fun SavedList(items: List<SavedItem>, onRemove: (String) -> Unit) {
+    if (items.isEmpty()) {
+        Column(
+            Modifier.fillMaxSize().padding(32.dp),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            Text("保存した項目はまだありません", fontWeight = FontWeight.Medium)
+            Text(
+                "ダイジェストの各項目にある「保存」を押すと、ここに残ります。",
+                fontSize = 13.sp,
+                lineHeight = 20.sp,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.padding(top = 8.dp),
+            )
+        }
+        return
+    }
+
+    LazyColumn(
+        Modifier.fillMaxSize(),
+        contentPadding = androidx.compose.foundation.layout.PaddingValues(
+            start = 16.dp, end = 16.dp, top = 12.dp, bottom = 32.dp
+        ),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        items(items, key = { it.item.id }) { saved ->
+            ItemCard(
+                item = saved.item,
+                isSaved = true,
+                savedFrom = saved.digestDate,
+                onToggleSave = { onRemove(saved.item.id) },
+            )
         }
     }
 }
@@ -384,7 +456,12 @@ private fun SectionLabel(text: String) {
 }
 
 @Composable
-private fun ItemCard(item: DigestItem) {
+private fun ItemCard(
+    item: DigestItem,
+    isSaved: Boolean,
+    savedFrom: String? = null,
+    onToggleSave: () -> Unit,
+) {
     val context = LocalContext.current
     val primaryUrl = item.sources.firstOrNull()?.url
 
@@ -407,6 +484,14 @@ private fun ItemCard(item: DigestItem) {
                         modifier = Modifier.padding(start = 8.dp),
                     )
                 }
+                if (savedFrom != null) {
+                    Text(
+                        savedFrom,
+                        fontSize = 11.sp,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.padding(start = 8.dp),
+                    )
+                }
             }
             Text(
                 item.titleJa,
@@ -422,13 +507,27 @@ private fun ItemCard(item: DigestItem) {
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(top = 6.dp),
             )
-            if (item.sources.isNotEmpty()) {
-                HorizontalDivider(Modifier.padding(vertical = 10.dp))
+            HorizontalDivider(Modifier.padding(vertical = 10.dp))
+            Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     item.sources.joinToString("、") { it.name },
                     fontSize = 11.sp,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.weight(1f),
                 )
+                TextButton(
+                    onClick = onToggleSave,
+                    contentPadding = androidx.compose.foundation.layout.PaddingValues(
+                        horizontal = 10.dp, vertical = 4.dp
+                    ),
+                ) {
+                    Text(
+                        if (isSaved) "保存済み" else "保存",
+                        fontSize = 12.sp,
+                        color = if (isSaved) MaterialTheme.colorScheme.primary
+                        else MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
             }
         }
     }

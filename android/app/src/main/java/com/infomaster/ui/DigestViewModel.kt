@@ -6,7 +6,10 @@ import androidx.lifecycle.viewModelScope
 import com.infomaster.data.BudgetSettings
 import com.infomaster.data.BudgetState
 import com.infomaster.data.Digest
+import com.infomaster.data.DigestItem
 import com.infomaster.data.DigestRepository
+import com.infomaster.data.SavedItem
+import com.infomaster.data.SavedItemsStore
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -27,6 +30,7 @@ class DigestViewModel(application: Application) : AndroidViewModel(application) 
 
     private val repository = DigestRepository(application)
     private val settings = BudgetSettings(application)
+    private val saved = SavedItemsStore(application)
 
     private val _state = MutableStateFlow<DigestUiState>(DigestUiState.Loading)
     val state: StateFlow<DigestUiState> = _state.asStateFlow()
@@ -35,9 +39,37 @@ class DigestViewModel(application: Application) : AndroidViewModel(application) 
     private val _editingBudget = MutableStateFlow(false)
     val editingBudget: StateFlow<Boolean> = _editingBudget.asStateFlow()
 
+    /** 保存した項目。ダイジェストが入れ替わっても残る。 */
+    private val _savedItems = MutableStateFlow(saved.load())
+    val savedItems: StateFlow<List<SavedItem>> = _savedItems.asStateFlow()
+
+    /** 保存一覧を表示しているか。 */
+    private val _showingSaved = MutableStateFlow(false)
+    val showingSaved: StateFlow<Boolean> = _showingSaved.asStateFlow()
+
     init {
         load(forceRefresh = false)
     }
+
+    fun showSaved() {
+        _showingSaved.value = true
+    }
+
+    fun showDigest() {
+        _showingSaved.value = false
+    }
+
+    /** 保存済みなら外し、未保存なら保存する。 */
+    fun toggleSaved(item: DigestItem) {
+        val digestDate = (_state.value as? DigestUiState.Ready)?.digest?.date.orEmpty()
+        _savedItems.value = saved.toggle(item, digestDate)
+    }
+
+    fun removeSaved(id: String) {
+        _savedItems.value = saved.remove(id)
+    }
+
+    fun isSaved(id: String): Boolean = _savedItems.value.any { it.item.id == id }
 
     fun refresh() = load(forceRefresh = true)
 

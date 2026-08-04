@@ -77,16 +77,26 @@ class Judgements(BaseModel):
     judgements: list[Judgement]
 
 
-def score_items(items: list[Item], threshold: int = THRESHOLD) -> list[ScoredItem]:
-    """全アイテムを判定し、閾値を超えたものだけ返す。"""
+def score_items(
+    items: list[Item],
+    threshold: int = THRESHOLD,
+    published_titles: list[str] | None = None,
+) -> list[ScoredItem]:
+    """全アイテムを判定し、閾値を超えたものだけ返す。
+
+    published_titles には直近で配信済みの見出しを渡す。同じ話題の続報で
+    新しい事実が無いものを落とすため。URL が一致するものは呼び出し側で
+    すでに除外されているので、ここで見るのは「別記事だが同じ出来事」。
+    """
     scored: list[ScoredItem] = []
+    system = SYSTEM + _published_context(published_titles)
 
     for start in range(0, len(items), BATCH_SIZE):
         batch = items[start : start + BATCH_SIZE]
         try:
             result = parse(
                 model=FAST_MODEL,
-                system=SYSTEM,
+                system=system,
                 user=_render(batch),
                 output_format=Judgements,
                 max_tokens=4000,
@@ -116,6 +126,29 @@ def score_items(items: list[Item], threshold: int = THRESHOLD) -> list[ScoredIte
         "選別: %d 件中 %d 件が閾値 %d を超えました", len(items), len(scored), threshold
     )
     return scored
+
+
+def _published_context(titles: list[str] | None) -> str:
+    """配信済みの見出しを判定基準に足す。"""
+    if not titles:
+        return ""
+    listed = "\n".join(f"- {t}" for t in titles)
+    return f"""
+
+# 直近で配信済みの話題
+以下は読み手がすでに読んだ見出しです。
+
+{listed}
+
+これらと**同じ出来事**を扱っているアイテムは、原則としてスコア20以下にしてください。
+毎朝同じ話題が並ぶのを防ぐためです。
+
+ただし次の場合は例外として通常どおり評価してください。
+- 続報に新しい事実がある（正式リリース、価格発表、撤回、新しいベンチマーク結果など）
+- 前回とは別の側面を扱っている（モデルの公開 → その企業の資金調達 など）
+
+「同じモデルの話題がまた出てきた」だけならスコア20以下です。
+"""
 
 
 def _render(batch: list[Item]) -> str:

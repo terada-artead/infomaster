@@ -83,6 +83,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     # LLM を使う段はここで初めて読み込む（--collect-only を APIキー無しで通すため）
+    from . import history as history_module
     from .cluster import cluster_items, limit_source_dominance
     from .cost import update_ledger
     from .llm import LEDGER
@@ -90,7 +91,12 @@ def main(argv: list[str] | None = None) -> int:
     from .score import score_items
     from .write import write_digest_items
 
-    scored = score_items(report.items)
+    # 昨日までに配信した分を除く。同じ話題が何日も並ぶのを防ぐ。
+    history_path = args.out / "published.json"
+    history = history_module.load(history_path)
+    fresh = history_module.drop_published(report.items, history)
+
+    scored = score_items(fresh, published_titles=history.recent_titles())
     log.info("選別完了: %d 件が通過", len(scored))
 
     clusters = cluster_items(scored)
@@ -108,8 +114,13 @@ def main(argv: list[str] | None = None) -> int:
     digest = write_digest_items(
         clusters,
         date=datetime.now(JST),
-        stats={"collected": len(report.items), "selected": len(scored)},
+        stats={
+            "collected": len(report.items),
+            "fresh": len(fresh),
+            "selected": len(scored),
+        },
     )
+    history_module.save(history_path, history, digest)
 
     # 消費額を積み上げて公開する。残高と残り回数の計算はアプリ側が行う
     # （購入額をアプリが持つため。リポジトリを編集せずに更新できる）。
