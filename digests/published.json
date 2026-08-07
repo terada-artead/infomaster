@@ -1016,6 +1016,137 @@
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1vh7lzy/nvidianvidianemotronparse20_hugging_face/"
       ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "e66cc71d0943",
+      "title_ja": "OpenAI、セキュリティ懸念で新モデルAstraを一時停止",
+      "urls": [
+        "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+        "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "0a754c7cb165",
+      "title_ja": "ByteDance、10兆パラメータのAIモデルを訓練",
+      "urls": [
+        "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "66165609f5f2",
+      "title_ja": "Cloudflare、AIエージェント専用ブラウザKitesurfを公開",
+      "urls": [
+        "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+        "https://blog.cloudflare.com/kitesurf/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "99876de038b5",
+      "title_ja": "Georgia State大、Amazon Bedrockで根本原因分析を自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "f27caea91678",
+      "title_ja": "xAIとSpaceX、AIインフラ整備競争について議論",
+      "urls": [
+        "https://illegal.solutions/posts/xai_pollution"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "746110f50474",
+      "title_ja": "Cohere Health、Bedrock AgentCoreでマルチテナント基盤構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "30258af1da93",
+      "title_ja": "llama.cpp、x86向けQ2_0量子化を最大3.6倍高速化",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vhz989/a_llamacpp_pr_makes_q2_0_3036x_faster_on_x86_cpus/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "9f6966188897",
+      "title_ja": "Bedrock AgentCore、時間的ポリシーでエージェントを保護",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "d29510e9be6c",
+      "title_ja": "OpenAI、可動部を持つスマートスピーカーを開発中と報道",
+      "urls": [
+        "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
+        "https://www.reddit.com/r/OpenAI/comments/1vhfcnb/openais_new_device_will_be_hockey_pucksized_and/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "5c970cc4af2c",
+      "title_ja": "Oracle、OpenJDKへのAI生成コード提出を禁止",
+      "urls": [
+        "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "19bbb638962e",
+      "title_ja": "Anthropic、Python SDK v0.121.0をリリース",
+      "urls": [
+        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.121.0"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "507d9a774b79",
+      "title_ja": "Mistral、ポリシー適応型安全分類モデルShieldstralを公開",
+      "urls": [
+        "https://huggingface.co/mistralai/Shieldstral-1.0-3B"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "6b58e467eab5",
+      "title_ja": "企業、AIトークンコスト増大を受け支出抑制へ",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "4adfece45166",
+      "title_ja": "Microsoft、視覚言語モデルMage-VLを公開",
+      "urls": [
+        "https://huggingface.co/microsoft/Mage-VL"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "32445d4c1e9b",
+      "title_ja": "Airbnb、AI活用の新検索機能をテスト中",
+      "urls": [
+        "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": "4e7a544a5f79",
+      "title_ja": "DeepGrove、20Bの三値重み推論モデルMaple-Previewを公開",
+      "urls": [
+        "https://huggingface.co/deepgrove/maple-preview"
+      ]
     }
   ]
 }
