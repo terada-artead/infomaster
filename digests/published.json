@@ -1,172 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-01",
-      "id": "912947e504e3",
-      "title_ja": "DeepSeek-V4-Flash-0731公開、低コストで上位モデルに匹敵",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
-        "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vc4041/deepseek_v4_flash_is_now_2_open_weight_model_to/",
-        "https://www.reddit.com/r/singularity/comments/1vbphpz/weights_of_deepseek_v4_flash_0731_have_been/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "e7129e9021b6",
-      "title_ja": "Moonshot AI、2.8兆パラメータのKimi-K3を公開",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "9ec90332da9e",
-      "title_ja": "Zhipu AI、100万トークン対応のGLM-5.2を公開",
-      "urls": [
-        "https://huggingface.co/zai-org/GLM-5.2"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "958fb2c086fd",
-      "title_ja": "Claudeが意図せず実在3社をハッキング、テスト中に判明",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
-        "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
-        "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "54a99b8d75a8",
-      "title_ja": "Poolside、エージェント型コーディング向けLaguna-S-2.1公開",
-      "urls": [
-        "https://huggingface.co/poolside/Laguna-S-2.1"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "ebcdc683ed79",
-      "title_ja": "AWS、Amazon Quickにエージェント型カタログ機能を追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "3d7423ec8d9c",
-      "title_ja": "Smallest.ai、超高速音声AIで13億円規模を調達",
-      "urls": [
-        "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "d6cfb2eda47e",
-      "title_ja": "Kimi K3をわずか29GBのRAMで動作させる手法が話題に",
-      "urls": [
-        "https://github.com/sqliteai/waste"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "966cd163f869",
-      "title_ja": "OpenAI、「豊富な知能」実現に向けた全体戦略を発表",
-      "urls": [
-        "https://openai.com/index/building-abundant-intelligence"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "872178780cb4",
-      "title_ja": "複数エージェント協調のためのハーネス「qm」登場",
-      "urls": [
-        "https://github.com/yc-software/qm"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "ef85056b0e33",
-      "title_ja": "ハーバード・UIUC、新たな事前学習軸を発見と報告",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1vby7fp/harvard_uiuc_talent_discover_a_3rd_pretraining/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "6663cb7fa838",
-      "title_ja": "MCP 2.0仕様公開、ステートレス化で注目集める",
-      "urls": [
-        "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "4bf2cf9dd313",
-      "title_ja": "AWS、AgentCore Observabilityで本番エージェント最適化を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "87c9761d7571",
-      "title_ja": "Apple、Siri AIの有料課金化を検討",
-      "urls": [
-        "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "76189339663d",
-      "title_ja": "AI関連銘柄「Situational Awareness」7月に67%下落",
-      "urls": [
-        "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "ef0c8e1335df",
-      "title_ja": "Meituan、軽量MoEモデルLongCat-Flash-Lite-Sparseを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vbsztw/meituan_just_dropped_longcatflashlitesparse/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "025855eb9f0e",
-      "title_ja": "Google Earthのディープフェイク生成機能、公開翌日に停止",
-      "urls": [
-        "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-        "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "3f8b6e255cb3",
-      "title_ja": "AI詐欺ボット、人間より信頼構築に長けると研究で判明",
-      "urls": [
-        "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "17abcf73bfe9",
-      "title_ja": "LLMルーター開発チームが自社製品を廃止した理由を説明",
-      "urls": [
-        "https://manifest.build/blog/why-we-deprecated-our-llm-router/"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "id": "8efae5cbb5f0",
-      "title_ja": "AIが組織内の職務境界を曖昧にするとの調査結果",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mry35wfy522w"
-      ]
-    },
-    {
       "date": "2026-08-02",
       "id": "e7129e9021b6",
       "title_ja": "月之暗面がKimi-K3を公開、2.8T規模のオープン重みモデル",
@@ -1146,6 +980,118 @@
       "title_ja": "DeepGrove、20Bの三値重み推論モデルMaple-Previewを公開",
       "urls": [
         "https://huggingface.co/deepgrove/maple-preview"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "4d5e92d19781",
+      "title_ja": "画像生成モデルFLUX.1-devがHugging Faceで人気拡大",
+      "urls": [
+        "https://huggingface.co/black-forest-labs/FLUX.1-dev"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "ce28763b69d5",
+      "title_ja": "元OpenAI・Anthropic社員37人が2026年に新興AI企業を設立",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1viizyv/37_people_have_left_openai_or_anthropic_to_start/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "a5873364160a",
+      "title_ja": "DeepMindのハリケーン予測モデルが気象学者を驚かせる",
+      "urls": [
+        "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "72e9277fb5b7",
+      "title_ja": "米エネルギー省が科学研究向けオープンモデルGenesis-Science-1を発表",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vijp8y/us_department_of_energy_launches_the_genesis_open/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "d31b6f14f372",
+      "title_ja": "FirebirdがアルメニアにCIS地域最大のAIファクトリーを開設",
+      "urls": [
+        "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "d30bef288e2b",
+      "title_ja": "大規模運用時のAIコーディングコスト管理",
+      "urls": [
+        "https://www.databricks.com/blog/managing-ai-coding-costs-scale"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "dcd66064b6a8",
+      "title_ja": "GPT-6のリリース、サイバーセキュリティ機能強化のため延期と報道",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1vik0tm/gpt6_release_delayed_due_to_critical/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "2db594a045a4",
+      "title_ja": "新モデルLing-3.0-flashがHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/inclusionAI/Ling-3.0-flash"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "be14a2322dfb",
+      "title_ja": "RipplingがAI利用コスト可視化ツールAI Spend Consoleを発表",
+      "urls": [
+        "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "3639511f1a57",
+      "title_ja": "2027年分のメモリ供給が完売と報道",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1viqtgm/2027_memory_capacity_is_reportedly_sold_out/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "a2515949dde5",
+      "title_ja": "MiniMax-H3向け高速動画生成LoRA「Turbo」公開",
+      "urls": [
+        "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "9e86fd32e232",
+      "title_ja": "Qwen35B-A3B MoEモデル、27B密モデルよりコーディングで約4倍高速",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vinr66/qwen_35ba3b_moe_vs_27b_dense_in_local_coding/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "2bcc50a484a2",
+      "title_ja": "llama.cppのRPCモデル読み込み高速化PRが登場",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vilcil/i_got_tired_of_my_300gb_model_loads_taking_5min/"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": "454723a32775",
+      "title_ja": "OpenAIのAIハッキング動画がSNSで話題に",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mskcojrtrk2r"
       ]
     }
   ]
