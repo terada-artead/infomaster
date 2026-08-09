@@ -1,122 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-02",
-      "id": "e7129e9021b6",
-      "title_ja": "月之暗面がKimi-K3を公開、2.8T規模のオープン重みモデル",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "912947e504e3",
-      "title_ja": "DeepSeekがV4-Flash-0731を公開、低コストで上位モデルに匹敵",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/",
-        "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "9ec90332da9e",
-      "title_ja": "Zhipu AIがGLM-5.2を公開、1Mコンテキストを安定運用",
-      "urls": [
-        "https://huggingface.co/zai-org/GLM-5.2"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "54a99b8d75a8",
-      "title_ja": "PoolsideがLaguna-S-2.1を公開、118BのMoEでエージェント型コーディング向け",
-      "urls": [
-        "https://huggingface.co/poolside/Laguna-S-2.1",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vcn9uw/new_official_weights_for_laguna_s_21_fp8_nvfp4/"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "6c03d00c6071",
-      "title_ja": "ClaudeがAIエージェントとして実企業3社に攻撃コードを配布",
-      "urls": [
-        "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "b7884da985bf",
-      "title_ja": "BaiduがUnlimited-OCRを公開、DeepSeek-OCRを拡張",
-      "urls": [
-        "https://huggingface.co/baidu/Unlimited-OCR"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "ebcdc683ed79",
-      "title_ja": "AWSがAmazon Quickにエージェント型カタログ機能を追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "9d8006301e29",
-      "title_ja": "OpenAIが次期モデルの発見事例10件を公表",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mrzokg6u6k22"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "025855eb9f0e",
-      "title_ja": "Google、Earth AI機能を発表翌日に撤回",
-      "urls": [
-        "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-        "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "317cdc3de195",
-      "title_ja": "OpenAI、エージェント誤動作の追加事例を確認と報道",
-      "urls": [
-        "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "a0cfd36364fd",
-      "title_ja": "Simon WillisonがオープンウェイトモデルについてPodcast出演",
-      "urls": [
-        "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "8367504ded7b",
-      "title_ja": "audio.cpp 0.5がリリース、新規TTSモデルを多数追加",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vc8lpl/audiocpp_release_05_dramabox_expressive_tts/"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "6663cb7fa838",
-      "title_ja": "MCP 2.0仕様が公開、ステートレスMCPが再注目",
-      "urls": [
-        "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-02",
-      "id": "59c692b9d0cc",
-      "title_ja": "小規模eval suite「smevals」が公開",
-      "urls": [
-        "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything"
-      ]
-    },
-    {
       "date": "2026-08-03",
       "id": "a1a747f4e122",
       "title_ja": "DeepSeek-V4-Flash-0731が正式版として公開",
@@ -1092,6 +976,72 @@
       "title_ja": "OpenAIのAIハッキング動画がSNSで話題に",
       "urls": [
         "https://bsky.app/profile/emollick.bsky.social/post/3mskcojrtrk2r"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "aeb176124cfb",
+      "title_ja": "OpenAI、プレゼン作成スタートアップNextSlideを買収",
+      "urls": [
+        "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "256796e8828b",
+      "title_ja": "AIエージェントがセキュリティテスト環境から実環境へ脱出",
+      "urls": [
+        "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "0b7120825e06",
+      "title_ja": "SAP、AIコスト増加を理由に出張・採用を削減",
+      "urls": [
+        "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "79a8b9128fba",
+      "title_ja": "Claude Codeの自動実行モードが標準設定に変更",
+      "urls": [
+        "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+        "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "c83ae65a5f0e",
+      "title_ja": "DeepSeek V4 Flashの量子化版と独立検証結果が公開",
+      "urls": [
+        "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "8a1afbdbd789",
+      "title_ja": "QwenとGemmaのトークナイザー効率の違いが判明",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vjb15v/no_wonder_qwen_and_gemma_are_so_different/"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "c5b6b84a1441",
+      "title_ja": "画像から動画生成のMinimax-h3-Turboモデルが公開",
+      "urls": [
+        "https://huggingface.co/lightx2v/Minimax-h3-Turbo"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": "d6f97be97dd2",
+      "title_ja": "Tencent、3D生成ツール「WorldClaw」を発表",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vjnqmh/tencent_announce_worldclaw/"
       ]
     }
   ]
