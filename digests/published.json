@@ -1,89 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-03",
-      "id": "a1a747f4e122",
-      "title_ja": "DeepSeek-V4-Flash-0731が正式版として公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vdbix4/deepseekv4flash_284b_on_53gb_of_memory/"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "e7129e9021b6",
-      "title_ja": "Moonshot、2.8兆パラメータのKimi K3を公開",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3",
-        "https://www.wafer.ai/blog/kimi-k3-mi355x",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vd874t/i_pushed_kimi_k3_onto_one_cpu_with_8_gb_of_ram/"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "9ec90332da9e",
-      "title_ja": "Zhipu、100万トークン文脈のGLM-5.2を公開",
-      "urls": [
-        "https://huggingface.co/zai-org/GLM-5.2"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "54a99b8d75a8",
-      "title_ja": "poolside、118BパラメータのLaguna-S-2.1を公開",
-      "urls": [
-        "https://huggingface.co/poolside/Laguna-S-2.1"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "f16dbde15779",
-      "title_ja": "Upstage、250BパラメータのSolar-Open2を公開",
-      "urls": [
-        "https://huggingface.co/upstage/Solar-Open2-250B"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "518c46c13754",
-      "title_ja": "OpenAIも数学・理論計算機科学の進展を発表",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "dffca355ebbd",
-      "title_ja": "16台のDGX Sparkでフロンティアモデル用クラスタを構築",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vdcgpm/setting_up_of_a_16xgb10_dgx_spark_cluster/"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "d9ea596f6fd1",
-      "title_ja": "Claude Opus 5の冗長な挙動を抑える設定ファイル公開",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1vd57c0/claudemd_for_opus_5_based_on_anthropics_official/"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "fe470f21b264",
-      "title_ja": "AI開発をめぐる公開書簡が相次ぐ",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "id": "eb2b47d50db4",
-      "title_ja": "Simon Willisonの7月ニュースレター公開",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything"
-      ]
-    },
-    {
       "date": "2026-08-04",
       "id": "e7129e9021b6",
       "title_ja": "Moonshot AI、2.8兆パラメータのKimi-K3を公開",
@@ -1042,6 +959,171 @@
       "title_ja": "Tencent、3D生成ツール「WorldClaw」を発表",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1vjnqmh/tencent_announce_worldclaw/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "1b4f9a603eeb",
+      "title_ja": "Meta、ローカルエージェント向け30Bモデル「Muse Glimmer」公開",
+      "urls": [
+        "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+        "https://github.com/ollama/ollama/releases/tag/v0.32.7",
+        "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+        "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vkgsum/introducing_muse_glimmer_an_openweight_model/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "07cabe2e8d9a",
+      "title_ja": "nOps、Bedrock AgentCoreでFinOpsエージェント開発を75%短縮",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-nops-shipped-finops-agents-75-faster-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "081601c279be",
+      "title_ja": "OpenAI、サイバー特化モデル「GPT-5.6-Cyber」を提供開始",
+      "urls": [
+        "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "f3abaa63391d",
+      "title_ja": "KPMG調査、経営層の半数近くがAIエージェント投資を縮小",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vk60uz/kpmg_says_nearly_half_of_executives_pulled_back/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "b7884da985bf",
+      "title_ja": "百度、OCRモデル「Unlimited-OCR」を公開",
+      "urls": [
+        "https://huggingface.co/baidu/Unlimited-OCR"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "95f74aeac90a",
+      "title_ja": "Model ML、財務業務にGPT-5.6 Solを活用",
+      "urls": [
+        "https://openai.com/index/model-ml"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "328ec720754b",
+      "title_ja": "Claudeエージェント、ジム予約APIの認可不備を突く",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+        "https://www.reddit.com/r/ClaudeAI/comments/1vkn2b5/claude_hacked_a_gym_booking_system/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "180e19758ad5",
+      "title_ja": "Docker、AIエージェント向け使い捨てサンドボックス機能",
+      "urls": [
+        "https://www.docker.com/products/docker-sandboxes/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "5890b1cfd4cc",
+      "title_ja": "NVIDIA、多言語対応の低遅延音声合成「Magpie TTS」",
+      "urls": [
+        "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "c3267e56ad96",
+      "title_ja": "Discovered Materials、省電力チップ材料研究に900万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "b4c0bfda42fc",
+      "title_ja": "Meta、オープンモデル路線への回帰を表明",
+      "urls": [
+        "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "ffba219f0a05",
+      "title_ja": "ヘッジファンドSituational Awareness、Source Foundryに4億ドル出資",
+      "urls": [
+        "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "4ebe2b50e1eb",
+      "title_ja": "単一バイナリで動くオフラインコーディングエージェント「Ante」",
+      "urls": [
+        "https://github.com/AntigmaLabs/ante"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "edd26473d463",
+      "title_ja": "ByteDance、蒸留に頼らない独自モデル開発を表明",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vk7o93/bytedance_vows_to_avoid_ai_distillation_develop/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "815edfe63832",
+      "title_ja": "知識蒸留を大規模かつ低コストで行う手法をHugging Faceが解説",
+      "urls": [
+        "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "7bb0c3b80dd8",
+      "title_ja": "Ford、燃料・タイヤ空気圧を確認できるAIアシスタント導入",
+      "urls": [
+        "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "84b7601c35c3",
+      "title_ja": "inclusionAI、小型MoEモデル「Ling-3.0-tiny」を公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vkqwso/inclusionailing30tiny_8b_a13b_moe_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "9e46d458613f",
+      "title_ja": "MiniMax-H3、ComfyUI向けに再パッケージ配布",
+      "urls": [
+        "https://huggingface.co/Comfy-Org/MiniMax-H3"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "d7a625779f9b",
+      "title_ja": "AWS、Amazon EKS上でSageMaker AI IDE環境を提供",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/run-interactive-ides-on-amazon-eks-with-sagemaker-ai-to-power-up-your-ai-workflows/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": "e837a003bec5",
+      "title_ja": "Kinney Drugs、苦情多発でAI電話応対を撤回",
+      "urls": [
+        "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/"
       ]
     }
   ]
