@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-04",
-      "id": "e7129e9021b6",
-      "title_ja": "Moonshot AI、2.8兆パラメータのKimi-K3を公開",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "912947e504e3",
-      "title_ja": "DeepSeek、投機的デコード搭載のV4-Flash-0731を公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "9ec90332da9e",
-      "title_ja": "Zhipu、1Mコンテキスト対応のGLM-5.2を公開",
-      "urls": [
-        "https://huggingface.co/zai-org/GLM-5.2"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "1f0e60fded5c",
-      "title_ja": "MiniMax、オムニモーダル生成システムH3を公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "29578a85932d",
-      "title_ja": "Alibaba、Qwen3.8-Maxと27Bモデルを発表",
-      "urls": [
-        "https://qwen.ai/blog?id=qwen3.8",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "deec56a13e2b",
-      "title_ja": "OpenAI、リアルタイム音声AI「GPT-Live」の構築過程を公開",
-      "urls": [
-        "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "4f7ba0173228",
-      "title_ja": "Alibaba、最大規模のAIモデルを発表",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "be3cef484527",
-      "title_ja": "F1、AWSのエージェント型AIでデータ運用を高速化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "f952f7469153",
-      "title_ja": "OpenAI関連スーパーPAC、AI生成ニュースサイトに資金提供",
-      "urls": [
-        "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "09cf17eb199a",
-      "title_ja": "AI導入支援のJune、2000万ドルのプレシード調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "48d481f903a7",
-      "title_ja": "DesignArena、AI評価サービスで790万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "938e3dc5a5c4",
-      "title_ja": "Kimi K3をNVMeストリーミングで動かす推論エンジン公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vdy1nd/github_sqliteaiwaste_run_the_full/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "759119abe3ff",
-      "title_ja": "AirLLM、4GB GPUで70Bモデル推論を実現",
-      "urls": [
-        "https://github.com/lyogavin/airllm"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "c6d88a384f71",
-      "title_ja": "AWS、vibeコーディングのSuperblocksと連携強化",
-      "urls": [
-        "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "c67090cb79f6",
-      "title_ja": "AI監督の遠隔試験で5.8万人が再試験に",
-      "urls": [
-        "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "ab91fca5f867",
-      "title_ja": "中国製チップDFSX、GB200の2倍のメモリ帯域を主張",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vduej3/chinas_dfsx_offers_2x_the_memory_bandwidth_of/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "7aca742b5f22",
-      "title_ja": "「箱に入ったデータセンター」AIサーバーの半年運用レポート",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1veg9uq/data_center_in_a_box_on_wheels_256gb_vram512gb/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "3f08d262e7dd",
-      "title_ja": "Apple、SiriのAI刷新を発表",
-      "urls": [
-        "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "9a655ac31101",
-      "title_ja": "AIによるCOBOLからJavaへの移行、バグも移行",
-      "urls": [
-        "https://arxiv.org/abs/2607.28271"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "id": "fd8b661daa3a",
-      "title_ja": "中国AI各社の戦略の違いを内部関係者が解説",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1veipya/the_chinese_labs_everyone_lumps_together_are/"
-      ]
-    },
-    {
       "date": "2026-08-05",
       "id": "887d924577fd",
       "title_ja": "Anthropic、AIクラウドのVoltaと100億ドル契約",
@@ -1124,6 +962,170 @@
       "title_ja": "Kinney Drugs、苦情多発でAI電話応対を撤回",
       "urls": [
         "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "b19ec562c455",
+      "title_ja": "OpenAIがChatGPTで広告表示のテストを開始",
+      "urls": [
+        "https://openai.com/index/testing-ads-in-chatgpt"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "4a3a16344e7f",
+      "title_ja": "xAI共同創業者のRiver AIが創業2カ月で11億ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "a1a747f4e122",
+      "title_ja": "DeepSeek-V4-Flash-0731公開、視覚能力の追加実験も",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vl6ior/i_gave_deepseek_v4_flash_basic_vision_by_training/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "f71b6d2281e7",
+      "title_ja": "Unsloth、ローカル実行・学習対応のデスクトップアプリを公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vlj87v/introducing_unsloth_desktop_app/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "c1e2b11cbf48",
+      "title_ja": "Mistral AI、欧州向け主権AI基盤とインフラを整備",
+      "urls": [
+        "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "a8ba0b0ace91",
+      "title_ja": "NVIDIA、エージェント向け軽量モデルNemotron 3.5 Lightning公開",
+      "urls": [
+        "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+        "https://github.com/ollama/ollama/releases/tag/v0.32.9"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "1154a9fd6d8a",
+      "title_ja": "OpenAI COOのBrad Lightcap氏が退任",
+      "urls": [
+        "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "6d1c60f6173d",
+      "title_ja": "Google Gemini、月間利用者数が10億人に到達",
+      "urls": [
+        "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+        "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+        "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "b82f6b5fcb60",
+      "title_ja": "Meta、新たなオープンAIモデル群を公開",
+      "urls": [
+        "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "06fb781815c2",
+      "title_ja": "Qwen 3.8-27bモデルが今週登場予定",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vl8bpt/qwen_3827b_coming_this_week/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "b566c1759ca6",
+      "title_ja": "写真共有サービスPixieset、Bedrock活用でAI機能採用率35%達成",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "5639e45f22b6",
+      "title_ja": "商用LLM APIから推論トレースを抜き出す手法が議論に",
+      "urls": [
+        "https://stolen-thoughts.com/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "ed21fd7f7154",
+      "title_ja": "NVIDIA、Rubin Ultraの低メモリ構成をテスト中と報道",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vl88t0/nvidia_reportedly_testing_lower_memory_configs_of/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "3e0620feedda",
+      "title_ja": "建設業向け基盤モデルIshigaki-IDSをAWS支援で構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "41ddd199683a",
+      "title_ja": "Anthropic、AI生成テキストへの電子透かし導入を発表",
+      "urls": [
+        "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "4c16bc788e0d",
+      "title_ja": "数学分野でもAI活用が急速に進展",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "3641f6219d1a",
+      "title_ja": "OpenAIの倫理責任者Chloé Bakalar氏が就任1年未満で退任",
+      "urls": [
+        "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "14e871653a72",
+      "title_ja": "GitHub CopilotをMitMプロキシ経由で検証した分析報告",
+      "urls": [
+        "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "8602ac1426f1",
+      "title_ja": "新モデルFuse-1-LiteがHugging Faceに公開",
+      "urls": [
+        "https://huggingface.co/Akahsizrr/fuse-1-Lite"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": "c002b743c6fb",
+      "title_ja": "First Orion、Amazon Nova ActでQA自動化を加速",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/"
       ]
     }
   ]
