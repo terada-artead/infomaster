@@ -1,169 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-05",
-      "id": "887d924577fd",
-      "title_ja": "Anthropic、AIクラウドのVoltaと100億ドル契約",
-      "urls": [
-        "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "e6110ab1e8ca",
-      "title_ja": "OpenAI Python SDK v2.53.0公開、gpt-5.5に対応",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v2.53.0"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "f815e2390a18",
-      "title_ja": "米企業のAI、ウクライナの安価な特攻ドローンを自律誘導",
-      "urls": [
-        "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "9dca5c9f8260",
-      "title_ja": "Amazon Bedrock、Web Search機能を一般提供開始",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "ea96d04953fc",
-      "title_ja": "SK hynixとSanDisk、新規格High Bandwidth Flashを発表",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vfa3tq/sk_hynix_in_collaboration_with_sandisk_unveils/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "fc888d2900da",
-      "title_ja": "Kwaipilot、コーディング特化MoEモデルKAT-Coder-V2.5-Devを公開",
-      "urls": [
-        "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "725981d5736a",
-      "title_ja": "LGAI-EXAONE、750BパラメータのMoEモデルを公開",
-      "urls": [
-        "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "1ef3c04752a8",
-      "title_ja": "NVIDIA、自動運転向けAlpamayo 2 Superを商用提供開始",
-      "urls": [
-        "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "bb7cbbefafed",
-      "title_ja": "テキサス州、データセンターの電力接続を監査導入で停止",
-      "urls": [
-        "https://www.theverge.com/policy/975071/texas-data-center-audit",
-        "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
-        "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "173a1eab0c53",
-      "title_ja": "NVIDIA、全二重対応の音声チャットモデルを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1verzxx/nvidianvidianemotronlabsvoicechat11b_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "568a9197a9ae",
-      "title_ja": "Nanbeige、軽量言語モデルNanbeige4.2-3Bを公開",
-      "urls": [
-        "https://huggingface.co/Nanbeige/Nanbeige4.2-3B"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "d06e668fc700",
-      "title_ja": "Mistral、軽量安全性分類器Shieldstralを発表",
-      "urls": [
-        "https://mistral.ai/news/shieldstral/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "69d121453b36",
-      "title_ja": "EON、海底ケーブルに代わる宇宙レーザー通信網を計画",
-      "urls": [
-        "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "a4a497b13559",
-      "title_ja": "Bending Spoons、Airtableを13億ドルで買収",
-      "urls": [
-        "https://live.euronext.com/en/financial-news/bending-spoons-makes-first-post-ipo-acquisition-13-billion-airtable-deal"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "82f6447f8516",
-      "title_ja": "4GBノートPC用GPUで8Bモデルのファインチューニングに成功",
-      "urls": [
-        "https://github.com/MakazhanAlpamys/Soup"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "8fc022b1bcbc",
-      "title_ja": "軽量モデルMach-1 Additive、Qwen3.6の性能を10分の1サイズで再現との報告",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vfirld/has_anyone_tried_mach1_additive_95_of_performance/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "557b4db933fa",
-      "title_ja": "Amazon Bedrock AgentCoreでWebインサイト抽出を自動化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/automated-web-insight-extraction-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "48933e819525",
-      "title_ja": "NVIDIA主導のOpen Secure AI Alliance、設立1週間でガイドライン提案",
-      "urls": [
-        "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-        "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "296f0ef22a12",
-      "title_ja": "Runware、可搬型モジュール式データセンターを発表",
-      "urls": [
-        "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "id": "1c015336aa68",
-      "title_ja": "npmパッケージKeyvがShai-Hulud型サプライチェーン攻撃で侵害",
-      "urls": [
-        "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack"
-      ]
-    },
-    {
       "date": "2026-08-06",
       "id": "543b898b1d1b",
       "title_ja": "Hassabis氏がDeepMind会長に、Jeff Dean氏は退社",
@@ -1126,6 +963,166 @@
       "title_ja": "First Orion、Amazon Nova ActでQA自動化を加速",
       "urls": [
         "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "e7129e9021b6",
+      "title_ja": "Moonshot AIが2.8Tパラメータの「Kimi-K3」を公開",
+      "urls": [
+        "https://huggingface.co/moonshotai/Kimi-K3"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "90efa435138f",
+      "title_ja": "NVIDIA、AIインフラ投資に5000億ドル超の資金調達枠を構築",
+      "urls": [
+        "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "7408c6cd79dc",
+      "title_ja": "DeepSeek V4 Pro 0813がリリース",
+      "urls": [
+        "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "e063daae6225",
+      "title_ja": "OpenAI、企業のエージェント型AI導入実態を調査",
+      "urls": [
+        "https://openai.com/index/how-enterprises-put-ai-to-work"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "0afb458e7b08",
+      "title_ja": "Thrive Holdings、20億ドルを調達し企業向けAI展開を加速",
+      "urls": [
+        "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "9b6b43ebfa89",
+      "title_ja": "Solv Labs、Bedrock上で検証可能なAIエージェント決済を構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/pay-with-confidence-how-solv-labs-built-verifiable-auditable-agent-payments-on-amazon-bedrock-agentcore-payments/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "478abdc997f5",
+      "title_ja": "Cognition、企業価値400億ドルでの新規調達を協議中と報道",
+      "urls": [
+        "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "238db4ffd1f5",
+      "title_ja": "Lovable、企業価値133億ドルで4億ドルを追加調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "1357a9ae7911",
+      "title_ja": "Google DeepMind、手話AIモデルSL2Tを発表",
+      "urls": [
+        "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "937e54c9e405",
+      "title_ja": "xAI、業務を割り当てられる常時稼働のAIエージェント「Grok Bot」を投入",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "b6a7028ad208",
+      "title_ja": "Claude・GPTの隠れた推論トークンが復元可能と報告",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vmawd2/hidden_reasoning_from_claude_and_gpt_are_decoded/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "9a46276925df",
+      "title_ja": "OneAdvanced、AWS上に英国主権対応のAIエージェント50件超を展開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "6b4666838bd7",
+      "title_ja": "AIコードテスト企業Blacksmith、1年未満で企業価値約10倍に",
+      "urls": [
+        "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "d0dd0b27717d",
+      "title_ja": "「Qwen3.8-2.4T-A95B」がリリース",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vmgozv/qwen3824ta95b_released/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "9ce3e58d4735",
+      "title_ja": "AthenaとCUDOSでBedrockのコスト帰属を分析する手法を紹介",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/part-2-amazon-bedrock-cost-attribution-with-amazon-athena-and-cudos/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "27043926e137",
+      "title_ja": "SageMaker HyperPod向けの階層型KVキャッシュ「Curvine」を紹介",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "ba210dcd32a4",
+      "title_ja": "エージェント型AIのスケール化には信頼できるデータ基盤が必要",
+      "urls": [
+        "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "d10ea54f06e0",
+      "title_ja": "AIがソフトウェアエンジニアの「中間層」を消失させているとの指摘",
+      "urls": [
+        "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "2d47469252ec",
+      "title_ja": "DeepSeek V4 0731を量子化し8×RTX 5090でベンチマーク",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vlurlv/we_quantized_deepseek_v4_0731_and_benchmarked_it/"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": "92c1824269f4",
+      "title_ja": "Lightricksが動画生成モデル「LTX-2.5」を公開",
+      "urls": [
+        "https://huggingface.co/Lightricks/LTX-2.5"
       ]
     }
   ]
