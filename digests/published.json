@@ -1,171 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-06",
-      "id": "543b898b1d1b",
-      "title_ja": "Hassabis氏がDeepMind会長に、Jeff Dean氏は退社",
-      "urls": [
-        "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-        "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
-        "https://www.reddit.com/r/singularity/comments/1vgbkq5/breaking_google_deepmind_ceo_demis_hassabis_is/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "30d8d6544d2f",
-      "title_ja": "SpaceXのAI事業収益が宇宙事業を上回る",
-      "urls": [
-        "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "9ac329a0b016",
-      "title_ja": "Jeff Dean氏らGoogle研究者が新興企業設立へ離職",
-      "urls": [
-        "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-        "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "be95e4c0c1fd",
-      "title_ja": "Liquid AI、オンデバイス推論向けLFM2.5-2.6Bを公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vfn9vc/a_26b_model_with_tool_calling_and_128k_context/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "24607276201d",
-      "title_ja": "AI「Mythos 5」がサイバー評価で悪意あるコード挿入を試行",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1vfnhoj/aisi_caught_mythos_5_trying_to_insert_malicious/",
-        "https://bsky.app/profile/emollick.bsky.social/post/3msccwrilr224"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "d5514a287675",
-      "title_ja": "オープンウェイトGLM-5.2、フロンティア級能力に接近",
-      "urls": [
-        "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "7cfb78412b33",
-      "title_ja": "Amazon Bedrock AgentCoreの企業導入事例が相次ぐ",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "0538e16fdfd7",
-      "title_ja": "Anthropic、自社AIチップ設計チームを組成",
-      "urls": [
-        "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "13401473620c",
-      "title_ja": "Qwen3-TTSの音声クローンがllama.cpp本体に統合",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vg0q6r/qwen3tts_voice_cloning_is_now_in_mainline/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "38e7ffcfe967",
-      "title_ja": "XYZ-Aquilaシリーズ、Deep Search特化モデルを公開",
-      "urls": [
-        "https://huggingface.co/XYZAILab/XYZ-Aquila-mini"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "21b696ebcda5",
-      "title_ja": "三値量子化20B MoEモデル、iPhone上で動作",
-      "urls": [
-        "https://deepgrove.ai/maple-preview"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "eb39e1b5923c",
-      "title_ja": "Cloudflare、エージェント向け新プラットフォーム発表",
-      "urls": [
-        "https://blog.cloudflare.com/cloudflare-os/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "1d982a204d31",
-      "title_ja": "軽量TTSモデルAudio8-TTS-Preview-0.6bが公開",
-      "urls": [
-        "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "d5aa678ab3a1",
-      "title_ja": "ShopifyがAI検索によるトラフィック増加を報告",
-      "urls": [
-        "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "098d24c2d1a5",
-      "title_ja": "WindBorne Systems、AI気象予測で3700万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "54b6b9addf48",
-      "title_ja": "Klaviyo、Elias Torres氏の新会社Agencyを買収",
-      "urls": [
-        "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "0c557d74dd5d",
-      "title_ja": "CLIツール「LLM」v0.32で推論トレース対応など強化",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "5ea09ca60044",
-      "title_ja": "Thinking Machines、マルチモーダルモデルInkling-Smallを公開",
-      "urls": [
-        "https://huggingface.co/thinkingmachines/Inkling-Small"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "e2752bd8ade9",
-      "title_ja": "MacPaw、Liquid AIのオンデバイス推論モデルを採用",
-      "urls": [
-        "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/"
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "id": "9be0fafa6f21",
-      "title_ja": "AMDのデータセンター事業、AI需要で収益倍増",
-      "urls": [
-        "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
-      ]
-    },
-    {
       "date": "2026-08-07",
       "id": "7c0d4eb2283c",
       "title_ja": "AMD、推論最適化企業Taalasを買収",
@@ -1123,6 +958,168 @@
       "title_ja": "Lightricksが動画生成モデル「LTX-2.5」を公開",
       "urls": [
         "https://huggingface.co/Lightricks/LTX-2.5"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "94e90d6af916",
+      "title_ja": "DeepSeek、APIの価格改定を発表",
+      "urls": [
+        "https://twitter.com/deepseek_ai/status/2087864589895798968"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "c0986f6628d1",
+      "title_ja": "OpenAI、最大14倍速のUltrafastモードを試験提供",
+      "urls": [
+        "https://openai.com/index/previewing-ultrafast"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "0c6231ad2f2a",
+      "title_ja": "Amazon Quick、Microsoft 365に統合",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-microsoft-365-agentic-ai-where-you-work/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "6aabf85ccea2",
+      "title_ja": "Anthropic、上場時2兆ドル評価との見方",
+      "urls": [
+        "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "b96a45c2e083",
+      "title_ja": "DeepSeek-V4-Pro-0813、正式版を公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "6b576d082532",
+      "title_ja": "Microsoft、Copilotアプリを統合し一部機能を廃止",
+      "urls": [
+        "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
+        "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "cf91a2161fad",
+      "title_ja": "DeepSeek、エージェントハーネス「dsh」を開発者向け公開",
+      "urls": [
+        "https://deepseek.com/harness/en/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vnb66j/deepseek_harness_is_up/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "43643a3dd841",
+      "title_ja": "Google、Gemini 3.7 Flashを発表",
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "8f7b1fab6428",
+      "title_ja": "AWS、レガシーWebアプリ自動化ツールを公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "127828fdab3f",
+      "title_ja": "IBM、OpenAIとエンタープライズAIで提携",
+      "urls": [
+        "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "6d3a5f69bc5b",
+      "title_ja": "Claude、透かし技術「Scarlet Letter」を導入",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "8604957f27c2",
+      "title_ja": "AWS、マルチクラウド向けAgentCore Observabilityを提供",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "243ae33756cd",
+      "title_ja": "AWS、M&Aデューデリジェンス向けAgentCore活用例を公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "a7bd9dab3d2a",
+      "title_ja": "Google、AI戦略への疑問を報道で分析",
+      "urls": [
+        "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "1f0e60fded5c",
+      "title_ja": "MiniMax、マルチモーダル生成モデル「H3」を公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "353217afc4f7",
+      "title_ja": "Hugging Face、Strands AgentsとLeRobotの統合を紹介",
+      "urls": [
+        "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "5907436efdfd",
+      "title_ja": "Suno、DAW機能を強化したStudio 2.0を公開",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "2bc2cf30ffd5",
+      "title_ja": "Qwen3.8シリーズの新モデルを公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "be4ad08c372b",
+      "title_ja": "AIエージェントの不正行動、利用離れの一因に",
+      "urls": [
+        "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": "6eaab463a55d",
+      "title_ja": "OpenAI、新CROにDali Rajic氏を任命",
+      "urls": [
+        "https://openai.com/index/dali-rajic-chief-revenue-officer"
       ]
     }
   ]
