@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-07",
-      "id": "7c0d4eb2283c",
-      "title_ja": "AMD、推論最適化企業Taalasを買収",
-      "urls": [
-        "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "b1c9322e571f",
-      "title_ja": "OpenAI、GPT-5.6 Solを改善しLunaを無料開放",
-      "urls": [
-        "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-        "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "acad3225b307",
-      "title_ja": "Anthropic、Claude向け独自ハードウェア設計へ",
-      "urls": [
-        "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "20f43dae1ff7",
-      "title_ja": "OpenAI、Jony Ive設計のスマートスピーカー型端末を開発",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
-        "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "7c9c73c9cdff",
-      "title_ja": "Mirendil、Google Cloudと1億ドル超の提携締結",
-      "urls": [
-        "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "ca2a95942f42",
-      "title_ja": "Google Maps、飲食注文・ホテル予約のエージェント機能追加",
-      "urls": [
-        "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "2e264d5c0ad4",
-      "title_ja": "Qwen3.8 Max、エージェント指標で最高評価に",
-      "urls": [
-        "https://artificialanalysis.ai/?intelligence=agentic-index"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "96c46be48cfe",
-      "title_ja": "AWS Bedrock AgentCoreに時間ポリシーとレート制限機能追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "c0e5996a7f6c",
-      "title_ja": "PDI Technologies、AWSでエージェント型アプリ生成基盤構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-app-deployer-with-amazon-bedrock-and-aws-lambda/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "d328724fdcb5",
-      "title_ja": "元Spotify社員、AI活用EC向けに1000万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "1a56a31fa1ea",
-      "title_ja": "Omilia、カスタマーサポート基盤でシリーズB67百万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "fb9b276785f9",
-      "title_ja": "vLLMのサービング基盤をC++20に移植",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vh9lx4/i_ported_vllms_serving_stack_to_c20_66_mib_binary/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "4fcbb326d053",
-      "title_ja": "Naïve、業務自動化で28.5百万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "46fcc09b2b72",
-      "title_ja": "Meta、コーディングエージェントMuse CodeとSpark 1.2発表",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "c4281af03270",
-      "title_ja": "Channels SDK、SlackやTeamsへのエージェント統合を可能に",
-      "urls": [
-        "https://github.com/CopilotKit/channels-sdk"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "ef0e615b7f49",
-      "title_ja": "NVIDIA、音声処理スタックをローカル動作対応に",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vhjeqy/nvidias_whole_speech_stack_just_went_local_asr/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "a707422e6352",
-      "title_ja": "NVIDIA、フルデュプレックス音声対話モデルVoiceChat 11B公開",
-      "urls": [
-        "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "1986eab2e2ed",
-      "title_ja": "Google DeepMind、サイクロン予測でWeatherNextが進展",
-      "urls": [
-        "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "2b5e1e8c9f04",
-      "title_ja": "Cloudflare、社内向けvibe-codingプラットフォームを公開",
-      "urls": [
-        "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "id": "adb378dee72c",
-      "title_ja": "NVIDIA、文書解析モデルNemotron Parse 2.0公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vh7lzy/nvidianvidianemotronparse20_hugging_face/"
-      ]
-    },
-    {
       "date": "2026-08-08",
       "id": "e66cc71d0943",
       "title_ja": "OpenAI、セキュリティ懸念で新モデルAstraを一時停止",
@@ -1120,6 +958,161 @@
       "title_ja": "OpenAI、新CROにDali Rajic氏を任命",
       "urls": [
         "https://openai.com/index/dali-rajic-chief-revenue-officer"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "198876146610",
+      "title_ja": "Writer、Z.aiのGLM-5.2を基にした新モデルGLM-5.3を発表",
+      "urls": [
+        "https://z.ai/blog/glm-5.3",
+        "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "aa9a8a026452",
+      "title_ja": "Anthropic、複数Claudeエージェントに矛盾目標を与え縄張り争いを観察",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1voaqvq/anthropic_gave_3_claude_agents_the_same_task_but/",
+        "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "0d7bf7f86bc1",
+      "title_ja": "Databricks、当初計画の5倍となる50億ドルを調達、評価額1900億ドル",
+      "urls": [
+        "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "0778f93b3ef2",
+      "title_ja": "OpenAIとAnthropic、中国勢台頭で価格競争に",
+      "urls": [
+        "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "7f4a080681f7",
+      "title_ja": "MiniMax、最長5分の楽曲生成モデル「Music 3」を公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-Music3"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B公開、アーキテクチャはQwen3.6と同一",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "18d80cb6c90a",
+      "title_ja": "AWS、Nova Forgeでのマルチターン強化学習向け報酬関数設計を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "0356ba6ae093",
+      "title_ja": "Google、準同型暗号によるプライベートAI実用化を推進",
+      "urls": [
+        "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "bc290ba394fd",
+      "title_ja": "Hugging Face、オープンモデル動向レポート2026年夏版公開",
+      "urls": [
+        "https://huggingface.co/blog/state-of-open-models-summer-2026"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "9d7bfbd4e75c",
+      "title_ja": "Apple、Alibabaと協力し中国向け独自AIモデルを開発と報道",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "51164b112edf",
+      "title_ja": "ChatGPT利用データに基づく組織のAI活用実態調査を公開",
+      "urls": [
+        "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "be95e4c0c1fd",
+      "title_ja": "LiquidAI、エッジ向け軽量モデル「LFM2.5-2.6B」を公開",
+      "urls": [
+        "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "bc1930fb4e64",
+      "title_ja": "OpenAIデータ、AI早期導入の好業績企業がさらに差を広げる兆候",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3msyrtnhhrc2z"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "fcf79e9860f4",
+      "title_ja": "AWS、SageMaker AIとBedrock AgentCoreによるエージェント構築法を紹介",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "bc3411669855",
+      "title_ja": "仏Kog、エージェント向けGPU推論の最適化に取り組む",
+      "urls": [
+        "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "6dafd775ccca",
+      "title_ja": "llama.cpp、reasoning_effortのテンプレート対応を追加",
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b10434"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "2024bc366264",
+      "title_ja": "llm-geminiプラグイン0.33、Gemini 3.7 Flash対応",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/13/llm-gemini/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "e8cc042f4750",
+      "title_ja": "Qwen3.8のJinjaチャットテンプレート不具合を有志が修正",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": "e0c1e728fa5f",
+      "title_ja": "Claude Codeをラップするローカル動作のマルチエージェントデスクトップアプリ公開",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1vo3sj9/you_can_now_build_yourself_a_clone_to_control/"
       ]
     }
   ]
