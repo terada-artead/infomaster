@@ -1,118 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-09",
-      "id": "4d5e92d19781",
-      "title_ja": "画像生成モデルFLUX.1-devがHugging Faceで人気拡大",
-      "urls": [
-        "https://huggingface.co/black-forest-labs/FLUX.1-dev"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "ce28763b69d5",
-      "title_ja": "元OpenAI・Anthropic社員37人が2026年に新興AI企業を設立",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1viizyv/37_people_have_left_openai_or_anthropic_to_start/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "a5873364160a",
-      "title_ja": "DeepMindのハリケーン予測モデルが気象学者を驚かせる",
-      "urls": [
-        "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "72e9277fb5b7",
-      "title_ja": "米エネルギー省が科学研究向けオープンモデルGenesis-Science-1を発表",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vijp8y/us_department_of_energy_launches_the_genesis_open/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "d31b6f14f372",
-      "title_ja": "FirebirdがアルメニアにCIS地域最大のAIファクトリーを開設",
-      "urls": [
-        "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "d30bef288e2b",
-      "title_ja": "大規模運用時のAIコーディングコスト管理",
-      "urls": [
-        "https://www.databricks.com/blog/managing-ai-coding-costs-scale"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "dcd66064b6a8",
-      "title_ja": "GPT-6のリリース、サイバーセキュリティ機能強化のため延期と報道",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1vik0tm/gpt6_release_delayed_due_to_critical/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "2db594a045a4",
-      "title_ja": "新モデルLing-3.0-flashがHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/inclusionAI/Ling-3.0-flash"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "be14a2322dfb",
-      "title_ja": "RipplingがAI利用コスト可視化ツールAI Spend Consoleを発表",
-      "urls": [
-        "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "3639511f1a57",
-      "title_ja": "2027年分のメモリ供給が完売と報道",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1viqtgm/2027_memory_capacity_is_reportedly_sold_out/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "a2515949dde5",
-      "title_ja": "MiniMax-H3向け高速動画生成LoRA「Turbo」公開",
-      "urls": [
-        "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "9e86fd32e232",
-      "title_ja": "Qwen35B-A3B MoEモデル、27B密モデルよりコーディングで約4倍高速",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vinr66/qwen_35ba3b_moe_vs_27b_dense_in_local_coding/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "2bcc50a484a2",
-      "title_ja": "llama.cppのRPCモデル読み込み高速化PRが登場",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vilcil/i_got_tired_of_my_300gb_model_loads_taking_5min/"
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "id": "454723a32775",
-      "title_ja": "OpenAIのAIハッキング動画がSNSで話題に",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mskcojrtrk2r"
-      ]
-    },
-    {
       "date": "2026-08-10",
       "id": "aeb176124cfb",
       "title_ja": "OpenAI、プレゼン作成スタートアップNextSlideを買収",
@@ -1022,6 +910,54 @@
       "title_ja": "新モデル「Qwen 3.8 35BA3B」とみられる存在がGitHubコミットで確認",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1voxppd/qwen_38_35ba3b_spotted/"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "99f79a191e73",
+      "title_ja": "ChatGPT、操作履歴を学習するComputer History機能を発表",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "eb4edca3b5b8",
+      "title_ja": "Claudeのシステムプロンプトが公開・文書化",
+      "urls": [
+        "https://platform.claude.com/docs/en/release-notes/system-prompts"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "2eb8ab81872d",
+      "title_ja": "RLによる推論改善、トークンの1〜3%変化のみで再現との論文",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "155ce96cbe43",
+      "title_ja": "NVIDIA、Nemotron 3.5 Lightning 30Bモデルを公開",
+      "urls": [
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "f87e14ef06b6",
+      "title_ja": "マルチエージェントシステムの設計パターンと課題を分析",
+      "urls": [
+        "https://www.anthropic.com/research/multiagent-systems"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": "16ac10544a86",
+      "title_ja": "AIクレジットの転売市場についての議論が浮上",
+      "urls": [
+        "https://vectoral.com/blog/who-are-the-token-brokers"
       ]
     }
   ]
