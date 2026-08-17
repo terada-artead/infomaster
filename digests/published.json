@@ -1,72 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-10",
-      "id": "aeb176124cfb",
-      "title_ja": "OpenAI、プレゼン作成スタートアップNextSlideを買収",
-      "urls": [
-        "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "id": "256796e8828b",
-      "title_ja": "AIエージェントがセキュリティテスト環境から実環境へ脱出",
-      "urls": [
-        "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "id": "0b7120825e06",
-      "title_ja": "SAP、AIコスト増加を理由に出張・採用を削減",
-      "urls": [
-        "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/"
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "id": "79a8b9128fba",
-      "title_ja": "Claude Codeの自動実行モードが標準設定に変更",
-      "urls": [
-        "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-        "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "id": "c83ae65a5f0e",
-      "title_ja": "DeepSeek V4 Flashの量子化版と独立検証結果が公開",
-      "urls": [
-        "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench/"
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "id": "8a1afbdbd789",
-      "title_ja": "QwenとGemmaのトークナイザー効率の違いが判明",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vjb15v/no_wonder_qwen_and_gemma_are_so_different/"
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "id": "c5b6b84a1441",
-      "title_ja": "画像から動画生成のMinimax-h3-Turboモデルが公開",
-      "urls": [
-        "https://huggingface.co/lightx2v/Minimax-h3-Turbo"
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "id": "d6f97be97dd2",
-      "title_ja": "Tencent、3D生成ツール「WorldClaw」を発表",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vjnqmh/tencent_announce_worldclaw/"
-      ]
-    },
-    {
       "date": "2026-08-11",
       "id": "1b4f9a603eeb",
       "title_ja": "Meta、ローカルエージェント向け30Bモデル「Muse Glimmer」公開",
@@ -958,6 +892,129 @@
       "title_ja": "AIクレジットの転売市場についての議論が浮上",
       "urls": [
         "https://vectoral.com/blog/who-are-the-token-brokers"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "38aef9b52f3f",
+      "title_ja": "StripeがOpenRouterを70億ドル超で買収へ",
+      "urls": [
+        "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+        "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "f7751a62e0c6",
+      "title_ja": "Groqが350億円調達、ネオクラウド事業へ転換",
+      "urls": [
+        "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "93e6c840a68b",
+      "title_ja": "OpenAI「GPT 5.6 Sol」が高評価の視覚モデルに",
+      "urls": [
+        "https://blog.roboflow.com/openai-gpt-5-6/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "248c74532a44",
+      "title_ja": "Amazon、AI学習用に希少な古書を破棄と報道",
+      "urls": [
+        "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+        "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+        "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "9dc5caf38ae1",
+      "title_ja": "NvidiaがSoftBank系データセンターに15億ドル出資",
+      "urls": [
+        "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "683619ac514b",
+      "title_ja": "NvidiaがOpenAIインフラ融資保証を大幅縮小",
+      "urls": [
+        "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "76963b852e28",
+      "title_ja": "Copilot Autofixのバグ修正がSnowflake侵害を招く",
+      "urls": [
+        "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "cf6ec781d9fa",
+      "title_ja": "「モデルはわざと劣化させられている」との指摘",
+      "urls": [
+        "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "c526ed123976",
+      "title_ja": "Nemotron 3.5 LightningがSageMakerで利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "0851ba680ea4",
+      "title_ja": "数学特化のコーディングエージェント「MathCode」公開",
+      "urls": [
+        "https://math-ai-org.github.io/mathcode/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "96c37b6c7bb6",
+      "title_ja": "Bedrock AgentCoreでOpenClawエージェントが自動決済",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "79efbb054d4a",
+      "title_ja": "Alibaba「Qwen 3.8 27B」公開、思考が過剰との指摘も",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "d5d055cd5d3c",
+      "title_ja": "Qwen 3.8 27Bの16GB VRAM向けllama.cpp設定公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vqrt86/after_pushing_1m_tokens_through_qwen_38_27b_here/"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "d1b7ed52e00e",
+      "title_ja": "OpenAI、リスク評価担当の「準備チーム」を解散と報道",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": "ce3eefd69303",
+      "title_ja": "openai-python v3.2.0リリース、Bedrock対応など追加",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.2.0"
       ]
     }
   ]
