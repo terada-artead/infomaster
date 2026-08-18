@@ -1,171 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-11",
-      "id": "1b4f9a603eeb",
-      "title_ja": "Meta、ローカルエージェント向け30Bモデル「Muse Glimmer」公開",
-      "urls": [
-        "https://huggingface.co/meta-models/Muse-Glimmer-30B",
-        "https://github.com/ollama/ollama/releases/tag/v0.32.7",
-        "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-        "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vkgsum/introducing_muse_glimmer_an_openweight_model/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "07cabe2e8d9a",
-      "title_ja": "nOps、Bedrock AgentCoreでFinOpsエージェント開発を75%短縮",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-nops-shipped-finops-agents-75-faster-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "081601c279be",
-      "title_ja": "OpenAI、サイバー特化モデル「GPT-5.6-Cyber」を提供開始",
-      "urls": [
-        "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "f3abaa63391d",
-      "title_ja": "KPMG調査、経営層の半数近くがAIエージェント投資を縮小",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vk60uz/kpmg_says_nearly_half_of_executives_pulled_back/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "b7884da985bf",
-      "title_ja": "百度、OCRモデル「Unlimited-OCR」を公開",
-      "urls": [
-        "https://huggingface.co/baidu/Unlimited-OCR"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "95f74aeac90a",
-      "title_ja": "Model ML、財務業務にGPT-5.6 Solを活用",
-      "urls": [
-        "https://openai.com/index/model-ml"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "328ec720754b",
-      "title_ja": "Claudeエージェント、ジム予約APIの認可不備を突く",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
-        "https://www.reddit.com/r/ClaudeAI/comments/1vkn2b5/claude_hacked_a_gym_booking_system/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "180e19758ad5",
-      "title_ja": "Docker、AIエージェント向け使い捨てサンドボックス機能",
-      "urls": [
-        "https://www.docker.com/products/docker-sandboxes/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "5890b1cfd4cc",
-      "title_ja": "NVIDIA、多言語対応の低遅延音声合成「Magpie TTS」",
-      "urls": [
-        "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "c3267e56ad96",
-      "title_ja": "Discovered Materials、省電力チップ材料研究に900万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "b4c0bfda42fc",
-      "title_ja": "Meta、オープンモデル路線への回帰を表明",
-      "urls": [
-        "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "ffba219f0a05",
-      "title_ja": "ヘッジファンドSituational Awareness、Source Foundryに4億ドル出資",
-      "urls": [
-        "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "4ebe2b50e1eb",
-      "title_ja": "単一バイナリで動くオフラインコーディングエージェント「Ante」",
-      "urls": [
-        "https://github.com/AntigmaLabs/ante"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "edd26473d463",
-      "title_ja": "ByteDance、蒸留に頼らない独自モデル開発を表明",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vk7o93/bytedance_vows_to_avoid_ai_distillation_develop/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "815edfe63832",
-      "title_ja": "知識蒸留を大規模かつ低コストで行う手法をHugging Faceが解説",
-      "urls": [
-        "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "7bb0c3b80dd8",
-      "title_ja": "Ford、燃料・タイヤ空気圧を確認できるAIアシスタント導入",
-      "urls": [
-        "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "84b7601c35c3",
-      "title_ja": "inclusionAI、小型MoEモデル「Ling-3.0-tiny」を公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vkqwso/inclusionailing30tiny_8b_a13b_moe_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "9e46d458613f",
-      "title_ja": "MiniMax-H3、ComfyUI向けに再パッケージ配布",
-      "urls": [
-        "https://huggingface.co/Comfy-Org/MiniMax-H3"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "d7a625779f9b",
-      "title_ja": "AWS、Amazon EKS上でSageMaker AI IDE環境を提供",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/run-interactive-ides-on-amazon-eks-with-sagemaker-ai-to-power-up-your-ai-workflows/"
-      ]
-    },
-    {
-      "date": "2026-08-11",
-      "id": "e837a003bec5",
-      "title_ja": "Kinney Drugs、苦情多発でAI電話応対を撤回",
-      "urls": [
-        "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/"
-      ]
-    },
-    {
       "date": "2026-08-12",
       "id": "b19ec562c455",
       "title_ja": "OpenAIがChatGPTで広告表示のテストを開始",
@@ -1015,6 +850,158 @@
       "title_ja": "openai-python v3.2.0リリース、Bedrock対応など追加",
       "urls": [
         "https://github.com/openai/openai-python/releases/tag/v3.2.0"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "e7e318e87e3c",
+      "title_ja": "Anthropicの年換算売上、2カ月で650億ドルに急増",
+      "urls": [
+        "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "9f1fb4617b32",
+      "title_ja": "Etchedの評価額、1カ月で210億ドルに倍増",
+      "urls": [
+        "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "5abe05a3699c",
+      "title_ja": "Bedrock AgentCore決済機能が一般提供開始",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "6023038a8912",
+      "title_ja": "Asana、OpenAI Codexで5年分の開発を2週間に短縮",
+      "urls": [
+        "https://openai.com/index/asana"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "e31db42fd1ba",
+      "title_ja": "27BパラメータのQwen 3.8、大型モデル並みのベンチマークスコア",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "f6d3c3da0538",
+      "title_ja": "Warp、AI開発向けインフラ「Warp Factories」を発表",
+      "urls": [
+        "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "f8a2ad7a615b",
+      "title_ja": "GPT-5.6 Sol、OpenRouterで価格を50%引き下げ",
+      "urls": [
+        "https://openrouter.ai/openai/gpt-5.6-sol"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "1f8785e20f6e",
+      "title_ja": "Amazon Bedrockでベクトル・プロンプト併用の文書分類手法",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "d8f0510d4053",
+      "title_ja": "Axonius、Bedrock AgentCoreでマルチテナントAIエージェントを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "3a15a6a18265",
+      "title_ja": "AI企業の利用実態レポート、透明性に限界との指摘",
+      "urls": [
+        "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "53f6354fa047",
+      "title_ja": "LiquidAI、軽量マルチモーダルモデル「LFM2.5-VL-3B」を公開",
+      "urls": [
+        "https://huggingface.co/LiquidAI/LFM2.5-VL-3B"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "756140ae88a6",
+      "title_ja": "Amazon Quick、埋め込みチャットのカスタマイズ手法を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "8c429a71cdd1",
+      "title_ja": "Amazon Bedrockで契約書検索の精度を自動フィルタ生成で向上",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "c9c7f84c9c0c",
+      "title_ja": "Firefox「Smart Window」、Exa連携でウェブ情報参照を強化",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "48aefa073ed1",
+      "title_ja": "Tencent、GUIエージェント基盤モデル「UI-Mate-27B」を公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vrhg08/tencentuimate27b_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "5ba78b757300",
+      "title_ja": "AIエージェントに必要なメモリ量を分析",
+      "urls": [
+        "https://huggingface.co/blog/ibm-research/altk-evolve-hmm"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "5289bec9799a",
+      "title_ja": "Jumio、AWS上でリアルタイム特徴量ストアを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "95524b9f1235",
+      "title_ja": "Microsoft Copilotに脆弱性、パスワード窃取が可能に",
+      "urls": [
+        "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": "4e7c800af4c9",
+      "title_ja": "AIによる科学的発見の加速、初期的証拠が示される",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mteol7gac22j"
       ]
     }
   ]
