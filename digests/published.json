@@ -1,166 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-13",
-      "id": "e7129e9021b6",
-      "title_ja": "Moonshot AIが2.8Tパラメータの「Kimi-K3」を公開",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "90efa435138f",
-      "title_ja": "NVIDIA、AIインフラ投資に5000億ドル超の資金調達枠を構築",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "7408c6cd79dc",
-      "title_ja": "DeepSeek V4 Pro 0813がリリース",
-      "urls": [
-        "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "e063daae6225",
-      "title_ja": "OpenAI、企業のエージェント型AI導入実態を調査",
-      "urls": [
-        "https://openai.com/index/how-enterprises-put-ai-to-work"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "0afb458e7b08",
-      "title_ja": "Thrive Holdings、20億ドルを調達し企業向けAI展開を加速",
-      "urls": [
-        "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "9b6b43ebfa89",
-      "title_ja": "Solv Labs、Bedrock上で検証可能なAIエージェント決済を構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/pay-with-confidence-how-solv-labs-built-verifiable-auditable-agent-payments-on-amazon-bedrock-agentcore-payments/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "478abdc997f5",
-      "title_ja": "Cognition、企業価値400億ドルでの新規調達を協議中と報道",
-      "urls": [
-        "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "238db4ffd1f5",
-      "title_ja": "Lovable、企業価値133億ドルで4億ドルを追加調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "1357a9ae7911",
-      "title_ja": "Google DeepMind、手話AIモデルSL2Tを発表",
-      "urls": [
-        "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "937e54c9e405",
-      "title_ja": "xAI、業務を割り当てられる常時稼働のAIエージェント「Grok Bot」を投入",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "b6a7028ad208",
-      "title_ja": "Claude・GPTの隠れた推論トークンが復元可能と報告",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vmawd2/hidden_reasoning_from_claude_and_gpt_are_decoded/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "9a46276925df",
-      "title_ja": "OneAdvanced、AWS上に英国主権対応のAIエージェント50件超を展開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "6b4666838bd7",
-      "title_ja": "AIコードテスト企業Blacksmith、1年未満で企業価値約10倍に",
-      "urls": [
-        "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "d0dd0b27717d",
-      "title_ja": "「Qwen3.8-2.4T-A95B」がリリース",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vmgozv/qwen3824ta95b_released/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "9ce3e58d4735",
-      "title_ja": "AthenaとCUDOSでBedrockのコスト帰属を分析する手法を紹介",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/part-2-amazon-bedrock-cost-attribution-with-amazon-athena-and-cudos/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "27043926e137",
-      "title_ja": "SageMaker HyperPod向けの階層型KVキャッシュ「Curvine」を紹介",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "ba210dcd32a4",
-      "title_ja": "エージェント型AIのスケール化には信頼できるデータ基盤が必要",
-      "urls": [
-        "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "d10ea54f06e0",
-      "title_ja": "AIがソフトウェアエンジニアの「中間層」を消失させているとの指摘",
-      "urls": [
-        "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "2d47469252ec",
-      "title_ja": "DeepSeek V4 0731を量子化し8×RTX 5090でベンチマーク",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vlurlv/we_quantized_deepseek_v4_0731_and_benchmarked_it/"
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricksが動画生成モデル「LTX-2.5」を公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
       "date": "2026-08-14",
       "id": "94e90d6af916",
       "title_ja": "DeepSeek、APIの価格改定を発表",
@@ -999,6 +839,150 @@
       "title_ja": "GLM-5.3のArtificial Analysisベンチマーク結果公開",
       "urls": [
         "https://artificialanalysis.ai/models/glm-5-3"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "f726cd00afef",
+      "title_ja": "RampがAIモデルルーター「Router」を発表",
+      "urls": [
+        "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "08dde364f7c2",
+      "title_ja": "OpenAI、Greg Brockman主導の体制に移行",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "a9b696153570",
+      "title_ja": "Mistral AI、検索精度向上の「Agentic Search」提供",
+      "urls": [
+        "https://mistral.ai/news/agentic-search/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "2e19f7d259b7",
+      "title_ja": "AWS、Bedrock AgentCoreで企業向けエージェントAI基盤を拡充",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "8941231cf4d7",
+      "title_ja": "Tencent、新フラッグシップモデル「Hunyuan Hy4」をテスト開始",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vth4lo/tencent_begins_testing_its_new_flagship_model/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "a1a747f4e122",
+      "title_ja": "DeepSeek、「DeepSeek-V4-Flash」をHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "eab5285cfdeb",
+      "title_ja": "LFM2.5-DSpark、推論速度を最大3.2倍に高速化",
+      "urls": [
+        "https://huggingface.co/blog/LiquidAI/lfm25-dspark"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "410b8288a173",
+      "title_ja": "AWS、IDP Acceleratorで文書処理を自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-quick-automate-and-the-idp-accelerator/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "bb7f10ed90dc",
+      "title_ja": "Grokに暗号化指示によるデータ漏洩の脆弱性",
+      "urls": [
+        "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "ad89fb510e3c",
+      "title_ja": "StampliがChatGPT Workで製品発表を短縮",
+      "urls": [
+        "https://openai.com/index/stampli"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "bb72d97feb83",
+      "title_ja": "Binance、AIエージェント取引の「Agent OS」を開始",
+      "urls": [
+        "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "a9f0044edd6f",
+      "title_ja": "Slack、AIエージェントと共同編集する「vibe-coding」チャンネル導入",
+      "urls": [
+        "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "de7397e164d6",
+      "title_ja": "Anthropic Python SDK v0.125.0リリース",
+      "urls": [
+        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.125.0"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "9c6c713126af",
+      "title_ja": "OpenAI、Anthropicに対抗し顧客データ保護策を強化",
+      "urls": [
+        "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "4e1b63a2e790",
+      "title_ja": "数学界に広がるAI活用への危機感",
+      "urls": [
+        "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "cba58727ea88",
+      "title_ja": "1.25億パラメータのピアノ自動補完モデルが登場",
+      "urls": [
+        "https://simedw.com/2026/08/20/midi-autocomplete/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "22c6af58e68a",
+      "title_ja": "Qwen3.8-27bがローカルモデルとして高いエージェント能力を発揮",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": "d12db132426d",
+      "title_ja": "llama.cpp、Vulkanバックエンドの最適化をリリース",
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b10517"
       ]
     }
   ]
