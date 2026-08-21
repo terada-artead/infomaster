@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-14",
-      "id": "94e90d6af916",
-      "title_ja": "DeepSeek、APIの価格改定を発表",
-      "urls": [
-        "https://twitter.com/deepseek_ai/status/2087864589895798968"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "c0986f6628d1",
-      "title_ja": "OpenAI、最大14倍速のUltrafastモードを試験提供",
-      "urls": [
-        "https://openai.com/index/previewing-ultrafast"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "0c6231ad2f2a",
-      "title_ja": "Amazon Quick、Microsoft 365に統合",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-microsoft-365-agentic-ai-where-you-work/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "6aabf85ccea2",
-      "title_ja": "Anthropic、上場時2兆ドル評価との見方",
-      "urls": [
-        "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "b96a45c2e083",
-      "title_ja": "DeepSeek-V4-Pro-0813、正式版を公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "6b576d082532",
-      "title_ja": "Microsoft、Copilotアプリを統合し一部機能を廃止",
-      "urls": [
-        "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
-        "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "cf91a2161fad",
-      "title_ja": "DeepSeek、エージェントハーネス「dsh」を開発者向け公開",
-      "urls": [
-        "https://deepseek.com/harness/en/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vnb66j/deepseek_harness_is_up/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "43643a3dd841",
-      "title_ja": "Google、Gemini 3.7 Flashを発表",
-      "urls": [
-        "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "8f7b1fab6428",
-      "title_ja": "AWS、レガシーWebアプリ自動化ツールを公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "127828fdab3f",
-      "title_ja": "IBM、OpenAIとエンタープライズAIで提携",
-      "urls": [
-        "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "6d3a5f69bc5b",
-      "title_ja": "Claude、透かし技術「Scarlet Letter」を導入",
-      "urls": [
-        "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "8604957f27c2",
-      "title_ja": "AWS、マルチクラウド向けAgentCore Observabilityを提供",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "243ae33756cd",
-      "title_ja": "AWS、M&Aデューデリジェンス向けAgentCore活用例を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "a7bd9dab3d2a",
-      "title_ja": "Google、AI戦略への疑問を報道で分析",
-      "urls": [
-        "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "1f0e60fded5c",
-      "title_ja": "MiniMax、マルチモーダル生成モデル「H3」を公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "353217afc4f7",
-      "title_ja": "Hugging Face、Strands AgentsとLeRobotの統合を紹介",
-      "urls": [
-        "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "5907436efdfd",
-      "title_ja": "Suno、DAW機能を強化したStudio 2.0を公開",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "2bc2cf30ffd5",
-      "title_ja": "Qwen3.8シリーズの新モデルを公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "be4ad08c372b",
-      "title_ja": "AIエージェントの不正行動、利用離れの一因に",
-      "urls": [
-        "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "id": "6eaab463a55d",
-      "title_ja": "OpenAI、新CROにDali Rajic氏を任命",
-      "urls": [
-        "https://openai.com/index/dali-rajic-chief-revenue-officer"
-      ]
-    },
-    {
       "date": "2026-08-15",
       "id": "198876146610",
       "title_ja": "Writer、Z.aiのGLM-5.2を基にした新モデルGLM-5.3を発表",
@@ -983,6 +821,166 @@
       "title_ja": "llama.cpp、Vulkanバックエンドの最適化をリリース",
       "urls": [
         "https://github.com/ggml-org/llama.cpp/releases/tag/b10517"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "e7129e9021b6",
+      "title_ja": "moonshotai、新モデルKimi-K3をHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/moonshotai/Kimi-K3"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "298d2ddeec0a",
+      "title_ja": "NVIDIA AVOがARC-AGI-3で全183レベル攻略",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "92c1824269f4",
+      "title_ja": "Lightricks、画像動画生成モデルLTX-2.5を公開",
+      "urls": [
+        "https://huggingface.co/Lightricks/LTX-2.5"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "1ba05c9ce7a0",
+      "title_ja": "Panasonic AvionicsがAWSでエージェント型AI診断システムを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "dd3c688a3807",
+      "title_ja": "AWS、エージェント型データ運用基盤ADOPを発表",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "e9ba6db1fcd1",
+      "title_ja": "AIデータ企業Micro1、粗収益実行速度5億ドルに到達",
+      "urls": [
+        "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "2204ba57be32",
+      "title_ja": "AWS Bedrock上のCodexで10倍課金の不具合",
+      "urls": [
+        "https://github.com/openai/codex/issues/37674"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "d19c644c1369",
+      "title_ja": "Bedrock AgentCore Gateway、エージェントのツールアクセスを統制",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "f9536ed64a38",
+      "title_ja": "Bedrock、RAGのコスト削減へクエリ対応型圧縮を提案",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "48bb2bd11735",
+      "title_ja": "AIコーディングエディタ「Huzzah」がHacker Newsで発表",
+      "urls": [
+        "https://www.danielvaughn.dev/posts/huzzah/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "2d9dc85f5563",
+      "title_ja": "Ornith-1.5-35B-A3Bモデルが公開",
+      "urls": [
+        "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "6e84d41d42ab",
+      "title_ja": "Bedrock、GPT-5.6系にクロスリージョン推論を追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "db0bf4cf3653",
+      "title_ja": "OpenAI、企業向け利用でAnthropicのシェアを侵食との調査",
+      "urls": [
+        "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "02ed539fac86",
+      "title_ja": "8月17日の障害についての報告",
+      "urls": [
+        "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "98c5297d9458",
+      "title_ja": "Qwen3.8-27BをRTX 3090で381tpsまで最適化",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vtup5s/i_pushed_qwen3827b_to_381_tps_for_a_single/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "6ac7852311e2",
+      "title_ja": "Starcloud、軌道上データセンター向けに2.5億ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "bdb698ec663c",
+      "title_ja": "Google Discover、AIチャットボットでフィードをカスタマイズ可能に",
+      "urls": [
+        "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "f5c14fa58d07",
+      "title_ja": "Google、パブリッシャー向けに優先ソース指定機能を追加",
+      "urls": [
+        "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "177ef6f6e33e",
+      "title_ja": "Micron、ボイジーに100億ドル規模の研究拠点を発表",
+      "urls": [
+        "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": "464d2d00cb90",
+      "title_ja": "Qwen3.8 27B向け最速NVFP4量子化版が登場",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vub9od/fastest_nvfp4_quant_of_qwen38_27b_out_there/"
       ]
     }
   ]
