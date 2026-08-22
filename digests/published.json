@@ -1,161 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-15",
-      "id": "198876146610",
-      "title_ja": "Writer、Z.aiのGLM-5.2を基にした新モデルGLM-5.3を発表",
-      "urls": [
-        "https://z.ai/blog/glm-5.3",
-        "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "aa9a8a026452",
-      "title_ja": "Anthropic、複数Claudeエージェントに矛盾目標を与え縄張り争いを観察",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1voaqvq/anthropic_gave_3_claude_agents_the_same_task_but/",
-        "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "0d7bf7f86bc1",
-      "title_ja": "Databricks、当初計画の5倍となる50億ドルを調達、評価額1900億ドル",
-      "urls": [
-        "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "0778f93b3ef2",
-      "title_ja": "OpenAIとAnthropic、中国勢台頭で価格競争に",
-      "urls": [
-        "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "7f4a080681f7",
-      "title_ja": "MiniMax、最長5分の楽曲生成モデル「Music 3」を公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-Music3"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "ca26bca182f6",
-      "title_ja": "Qwen3.8-27B公開、アーキテクチャはQwen3.6と同一",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1voblcs/qwen3827b_is_identical_to_qwen3627b/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "18d80cb6c90a",
-      "title_ja": "AWS、Nova Forgeでのマルチターン強化学習向け報酬関数設計を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "0356ba6ae093",
-      "title_ja": "Google、準同型暗号によるプライベートAI実用化を推進",
-      "urls": [
-        "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "bc290ba394fd",
-      "title_ja": "Hugging Face、オープンモデル動向レポート2026年夏版公開",
-      "urls": [
-        "https://huggingface.co/blog/state-of-open-models-summer-2026"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "9d7bfbd4e75c",
-      "title_ja": "Apple、Alibabaと協力し中国向け独自AIモデルを開発と報道",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "51164b112edf",
-      "title_ja": "ChatGPT利用データに基づく組織のAI活用実態調査を公開",
-      "urls": [
-        "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "be95e4c0c1fd",
-      "title_ja": "LiquidAI、エッジ向け軽量モデル「LFM2.5-2.6B」を公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "bc1930fb4e64",
-      "title_ja": "OpenAIデータ、AI早期導入の好業績企業がさらに差を広げる兆候",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3msyrtnhhrc2z"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "fcf79e9860f4",
-      "title_ja": "AWS、SageMaker AIとBedrock AgentCoreによるエージェント構築法を紹介",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "bc3411669855",
-      "title_ja": "仏Kog、エージェント向けGPU推論の最適化に取り組む",
-      "urls": [
-        "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "6dafd775ccca",
-      "title_ja": "llama.cpp、reasoning_effortのテンプレート対応を追加",
-      "urls": [
-        "https://github.com/ggml-org/llama.cpp/releases/tag/b10434"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "2024bc366264",
-      "title_ja": "llm-geminiプラグイン0.33、Gemini 3.7 Flash対応",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/13/llm-gemini/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "e8cc042f4750",
-      "title_ja": "Qwen3.8のJinjaチャットテンプレート不具合を有志が修正",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vnm7le/fixed_jinja_chat_template_for_qwen_35_36_and_the/"
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "id": "e0c1e728fa5f",
-      "title_ja": "Claude Codeをラップするローカル動作のマルチエージェントデスクトップアプリ公開",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1vo3sj9/you_can_now_build_yourself_a_clone_to_control/"
-      ]
-    },
-    {
       "date": "2026-08-16",
       "id": "15aaf2b747ae",
       "title_ja": "SpaceX、AIコーディングのCursor買収を正式完了",
@@ -981,6 +826,62 @@
       "title_ja": "Qwen3.8 27B向け最速NVFP4量子化版が登場",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1vub9od/fastest_nvfp4_quant_of_qwen38_27b_out_there/"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "id": "92ba46e36366",
+      "title_ja": "DeepMind出身チーム、研究再現AIエージェント「Faraday」公開",
+      "urls": [
+        "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "id": "1f0e60fded5c",
+      "title_ja": "MiniMax、音声付き動画生成モデル「MiniMax-H3」を公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "id": "2bc2cf30ffd5",
+      "title_ja": "Qwen、MoE構成の大規模テキスト生成モデルを公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "id": "620096717211",
+      "title_ja": "Nvidia研究、AIエージェント性能はハーネス設計が鍵と指摘",
+      "urls": [
+        "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "id": "286576db227e",
+      "title_ja": "Nvidia、データセンター開発のCloverleafと提携",
+      "urls": [
+        "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "id": "b96a45c2e083",
+      "title_ja": "DeepSeek、新モデル「DeepSeek-V4-Pro」を公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "id": "c248308cd463",
+      "title_ja": "オフィス業務自動化向けエージェントハーネス「Munder Difflin」公開",
+      "urls": [
+        "https://munderdiffl.in/"
       ]
     }
   ]
