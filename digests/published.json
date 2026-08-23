@@ -1,46 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-16",
-      "id": "15aaf2b747ae",
-      "title_ja": "SpaceX、AIコーディングのCursor買収を正式完了",
-      "urls": [
-        "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "id": "1e75796cf10b",
-      "title_ja": "1.5億パラメータのリカレントモデル、ARC-AGI-1で29.5%達成",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1voh6tx/a_150m_param_recurrent_model_scores_295_on/"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "id": "84b5f6af5ad8",
-      "title_ja": "Meta製30BモデルMuse-GlimmerのGGUF版がHugging Faceに公開",
-      "urls": [
-        "https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "id": "5a94dd163bfb",
-      "title_ja": "ターミナル向けリサーチエージェント「Mole」がHacker Newsに公開",
-      "urls": [
-        "https://github.com/lajosdeme/mole"
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "id": "50bf5caacd5c",
-      "title_ja": "新モデル「Qwen 3.8 35BA3B」とみられる存在がGitHubコミットで確認",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1voxppd/qwen_38_35ba3b_spotted/"
-      ]
-    },
-    {
       "date": "2026-08-17",
       "id": "99f79a191e73",
       "title_ja": "ChatGPT、操作履歴を学習するComputer History機能を発表",
@@ -882,6 +842,46 @@
       "title_ja": "オフィス業務自動化向けエージェントハーネス「Munder Difflin」公開",
       "urls": [
         "https://munderdiffl.in/"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "id": "2a0dd24fa0d1",
+      "title_ja": "NvidiaがPoolsideに60億ドル投資、技術ライセンスと人材獲得",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vw0mcd/nvidia_poolside_deal_to_compete_with_chinese_open/"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "id": "7f4a080681f7",
+      "title_ja": "MiniMax、最大5分の楽曲生成モデル「Music3」を公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-Music3"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "id": "8e6abcd786ce",
+      "title_ja": "Liquid AI、次期100Bパラメータモデルを予告",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vvmxls/new_100b_liquid_ai_model_coming_soon/"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "id": "6c12be2e07a8",
+      "title_ja": "投機的デコード手法DFlash2、Qwenで最大8倍の高速化を検証",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "id": "4fb50ea0a322",
+      "title_ja": "Kimi K3をB300×8で稼働、92tok/s・百万トークン190ドルを実測",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vw1j2p/i_hosted_kimi_k3_28t_parameters_using_8_b300s_92/"
       ]
     }
   ]
