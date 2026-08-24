@@ -1,54 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-17",
-      "id": "99f79a191e73",
-      "title_ja": "ChatGPT、操作履歴を学習するComputer History機能を発表",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "id": "eb4edca3b5b8",
-      "title_ja": "Claudeのシステムプロンプトが公開・文書化",
-      "urls": [
-        "https://platform.claude.com/docs/en/release-notes/system-prompts"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "id": "2eb8ab81872d",
-      "title_ja": "RLによる推論改善、トークンの1〜3%変化のみで再現との論文",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "id": "155ce96cbe43",
-      "title_ja": "NVIDIA、Nemotron 3.5 Lightning 30Bモデルを公開",
-      "urls": [
-        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "id": "f87e14ef06b6",
-      "title_ja": "マルチエージェントシステムの設計パターンと課題を分析",
-      "urls": [
-        "https://www.anthropic.com/research/multiagent-systems"
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "id": "16ac10544a86",
-      "title_ja": "AIクレジットの転売市場についての議論が浮上",
-      "urls": [
-        "https://vectoral.com/blog/who-are-the-token-brokers"
-      ]
-    },
-    {
       "date": "2026-08-18",
       "id": "38aef9b52f3f",
       "title_ja": "StripeがOpenRouterを70億ドル超で買収へ",
@@ -882,6 +834,112 @@
       "title_ja": "Kimi K3をB300×8で稼働、92tok/s・百万トークン190ドルを実測",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1vw1j2p/i_hosted_kimi_k3_28t_parameters_using_8_b300s_92/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "4d38648c033d",
+      "title_ja": "Hugging Face、評価額130億ドルで買収交渉と報道",
+      "urls": [
+        "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vx15zb/who_would_buy_huggingface/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "6fa02c4f9ef7",
+      "title_ja": "General Intuition、評価額60億ドルで資金調達交渉",
+      "urls": [
+        "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "b4d239e1cc10",
+      "title_ja": "NVIDIA、AIエージェント向けVera Rubin NVL72を発表",
+      "urls": [
+        "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "99acd7325486",
+      "title_ja": "Anthropic、収益急増もユーザー獲得に苦戦と報道",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+        "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "b5a48d76fa4d",
+      "title_ja": "Amazon Connectでレストラン電話注文AIを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "19217ff41abe",
+      "title_ja": "AWS、エージェント発見の新標準ARDを公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "00eaf917ab11",
+      "title_ja": "OpenAI、GPT-5.6 Solの価格を11月21日まで引き下げ",
+      "urls": [
+        "https://developers.openai.com/api/docs/pricing"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "ba0ceedfb025",
+      "title_ja": "SageMaker HyperPodにRayの新機能追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "f118b12cbd5c",
+      "title_ja": "自己改善型モデルOrnith-1.5がHugging Faceに登場",
+      "urls": [
+        "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "6ff2b0e21587",
+      "title_ja": "AWSで構築する組織内知識管理AIシステム",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "a8a77e450426",
+      "title_ja": "OpenAI、AIエージェントを一般向けに拡大",
+      "urls": [
+        "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "2c4e5a5abaf0",
+      "title_ja": "Xiaomi、高帯域メモリ搭載のAI Cubeを発表",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory/"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": "055bf7d16a6a",
+      "title_ja": "AIによるメタデータ補正・統合の実践事例",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/"
       ]
     }
   ]
