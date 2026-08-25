@@ -1,129 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-18",
-      "id": "38aef9b52f3f",
-      "title_ja": "StripeがOpenRouterを70億ドル超で買収へ",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-        "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "f7751a62e0c6",
-      "title_ja": "Groqが350億円調達、ネオクラウド事業へ転換",
-      "urls": [
-        "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "93e6c840a68b",
-      "title_ja": "OpenAI「GPT 5.6 Sol」が高評価の視覚モデルに",
-      "urls": [
-        "https://blog.roboflow.com/openai-gpt-5-6/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "248c74532a44",
-      "title_ja": "Amazon、AI学習用に希少な古書を破棄と報道",
-      "urls": [
-        "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-        "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
-        "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "9dc5caf38ae1",
-      "title_ja": "NvidiaがSoftBank系データセンターに15億ドル出資",
-      "urls": [
-        "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "683619ac514b",
-      "title_ja": "NvidiaがOpenAIインフラ融資保証を大幅縮小",
-      "urls": [
-        "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "76963b852e28",
-      "title_ja": "Copilot Autofixのバグ修正がSnowflake侵害を招く",
-      "urls": [
-        "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "cf6ec781d9fa",
-      "title_ja": "「モデルはわざと劣化させられている」との指摘",
-      "urls": [
-        "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "c526ed123976",
-      "title_ja": "Nemotron 3.5 LightningがSageMakerで利用可能に",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "0851ba680ea4",
-      "title_ja": "数学特化のコーディングエージェント「MathCode」公開",
-      "urls": [
-        "https://math-ai-org.github.io/mathcode/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "96c37b6c7bb6",
-      "title_ja": "Bedrock AgentCoreでOpenClawエージェントが自動決済",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "79efbb054d4a",
-      "title_ja": "Alibaba「Qwen 3.8 27B」公開、思考が過剰との指摘も",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "d5d055cd5d3c",
-      "title_ja": "Qwen 3.8 27Bの16GB VRAM向けllama.cpp設定公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vqrt86/after_pushing_1m_tokens_through_qwen_38_27b_here/"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "d1b7ed52e00e",
-      "title_ja": "OpenAI、リスク評価担当の「準備チーム」を解散と報道",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "id": "ce3eefd69303",
-      "title_ja": "openai-python v3.2.0リリース、Bedrock対応など追加",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.2.0"
-      ]
-    },
-    {
       "date": "2026-08-19",
       "id": "e7e318e87e3c",
       "title_ja": "Anthropicの年換算売上、2カ月で650億ドルに急増",
@@ -940,6 +817,171 @@
       "title_ja": "AIによるメタデータ補正・統合の実践事例",
       "urls": [
         "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "b9406ae170bd",
+      "title_ja": "OpenAI、独自推論チップJalapeñoを発表",
+      "urls": [
+        "https://openai.com/index/jalapeno-first-results",
+        "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+        "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+        "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "8ca73d5e2065",
+      "title_ja": "Qwen3.8-Flash-Next、リリース目前に",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vxwtyd/qwen38flashnext_tomorrow/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "f1c8ae9706e4",
+      "title_ja": "Claude Cowork、チャットとの共有メモリに対応",
+      "urls": [
+        "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "79f6641c4618",
+      "title_ja": "Keenable、AIエージェント向け検索インデックスで26億円調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "51cfe3db04ed",
+      "title_ja": "OpenAI CFO、チップから製品までの統合戦略を説明",
+      "urls": [
+        "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "a14ffe864c76",
+      "title_ja": "Stability AI、7600万ドルを新規調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "f1c76f23a788",
+      "title_ja": "Quantization-Aware Healing、4bit圧縮で元モデル超えの精度",
+      "urls": [
+        "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "113584368e84",
+      "title_ja": "LLMが推論エンジンを悪用しホストを制御するリスク",
+      "urls": [
+        "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "315b074b9edb",
+      "title_ja": "llama.cpp v0.3.0リリース、新モデル・機能追加",
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "699fce74a44a",
+      "title_ja": "Amazon OpenSearch、MCP Apps対応でエージェント観測性強化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "33eae878317d",
+      "title_ja": "OpenAI、ChatGPT WorkとCodex向け管理者プラグイン公開",
+      "urls": [
+        "https://openai.com/index/introducing-admin-plugin"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "f0fe60763ef5",
+      "title_ja": "Gamma、デザインスタートアップLicaを買収",
+      "urls": [
+        "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "253f6697afdf",
+      "title_ja": "永続エージェント向け軽量ハーネス「Headlong」公開",
+      "urls": [
+        "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "a7689adddef3",
+      "title_ja": "JetBrains、Qwen3.6を用いたローカルAI統合を計画",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vxdvmv/jetbrains_local_ai_using_qwen36_27b/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "93d55d2b762d",
+      "title_ja": "Superwhisper、音声認識向け正規化モデルS1-miniを公開",
+      "urls": [
+        "https://huggingface.co/superwhisper/s1-mini"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "034c2462b05d",
+      "title_ja": "Qwen3.8-27B、FP8量子化版が公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "d21068479952",
+      "title_ja": "IBM、Granite 4.2 LLMファミリーを公開",
+      "urls": [
+        "https://huggingface.co/blog/ibm-granite/granite-4-2",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vy2jz7/ibmgranitegranite4230b_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "0c6b106ff394",
+      "title_ja": "Apple、M5 UltraとM5 Max搭載Mac Studioを発表",
+      "urls": [
+        "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vxzgyt/apple_releases_m5_ultra_at_12tbs_bandwith/"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "656f0a0d213f",
+      "title_ja": "Qwen3.8-27B向け投機的デコード用ドラフトモデル公開",
+      "urls": [
+        "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": "b148462596ad",
+      "title_ja": "AWS、Quick DesktopとFSxでガバナンス付きレポート運用例を紹介",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/"
       ]
     }
   ]
