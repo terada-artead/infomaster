@@ -1,158 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-19",
-      "id": "e7e318e87e3c",
-      "title_ja": "Anthropicの年換算売上、2カ月で650億ドルに急増",
-      "urls": [
-        "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "9f1fb4617b32",
-      "title_ja": "Etchedの評価額、1カ月で210億ドルに倍増",
-      "urls": [
-        "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "5abe05a3699c",
-      "title_ja": "Bedrock AgentCore決済機能が一般提供開始",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "6023038a8912",
-      "title_ja": "Asana、OpenAI Codexで5年分の開発を2週間に短縮",
-      "urls": [
-        "https://openai.com/index/asana"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "e31db42fd1ba",
-      "title_ja": "27BパラメータのQwen 3.8、大型モデル並みのベンチマークスコア",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "f6d3c3da0538",
-      "title_ja": "Warp、AI開発向けインフラ「Warp Factories」を発表",
-      "urls": [
-        "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "f8a2ad7a615b",
-      "title_ja": "GPT-5.6 Sol、OpenRouterで価格を50%引き下げ",
-      "urls": [
-        "https://openrouter.ai/openai/gpt-5.6-sol"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "1f8785e20f6e",
-      "title_ja": "Amazon Bedrockでベクトル・プロンプト併用の文書分類手法",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "d8f0510d4053",
-      "title_ja": "Axonius、Bedrock AgentCoreでマルチテナントAIエージェントを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "3a15a6a18265",
-      "title_ja": "AI企業の利用実態レポート、透明性に限界との指摘",
-      "urls": [
-        "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "53f6354fa047",
-      "title_ja": "LiquidAI、軽量マルチモーダルモデル「LFM2.5-VL-3B」を公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/LFM2.5-VL-3B"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "756140ae88a6",
-      "title_ja": "Amazon Quick、埋め込みチャットのカスタマイズ手法を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "8c429a71cdd1",
-      "title_ja": "Amazon Bedrockで契約書検索の精度を自動フィルタ生成で向上",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "c9c7f84c9c0c",
-      "title_ja": "Firefox「Smart Window」、Exa連携でウェブ情報参照を強化",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "48aefa073ed1",
-      "title_ja": "Tencent、GUIエージェント基盤モデル「UI-Mate-27B」を公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vrhg08/tencentuimate27b_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "5ba78b757300",
-      "title_ja": "AIエージェントに必要なメモリ量を分析",
-      "urls": [
-        "https://huggingface.co/blog/ibm-research/altk-evolve-hmm"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "5289bec9799a",
-      "title_ja": "Jumio、AWS上でリアルタイム特徴量ストアを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "95524b9f1235",
-      "title_ja": "Microsoft Copilotに脆弱性、パスワード窃取が可能に",
-      "urls": [
-        "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/"
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "id": "4e7c800af4c9",
-      "title_ja": "AIによる科学的発見の加速、初期的証拠が示される",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mteol7gac22j"
-      ]
-    },
-    {
       "date": "2026-08-20",
       "id": "1b4f9a603eeb",
       "title_ja": "Meta、30Bのエージェント特化モデルMuse Glimmerを公開",
@@ -982,6 +830,172 @@
       "title_ja": "AWS、Quick DesktopとFSxでガバナンス付きレポート運用例を紹介",
       "urls": [
         "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "34e62ff4c7cf",
+      "title_ja": "OpenAIの未公開モデル、Hugging Face侵入事故の全容判明",
+      "urls": [
+        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+        "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+        "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "d4b5c908f621",
+      "title_ja": "GLM-5.3-Flash公開、Opus 4.8に迫る性能を低コストで実現",
+      "urls": [
+        "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+        "https://huggingface.co/zai-org/GLM-5.3-Flash",
+        "https://artificialanalysis.ai/models/glm-5-3-flash"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "e518d876024c",
+      "title_ja": "Anthropic、Nscaleと450億ドル規模の計算資源契約",
+      "urls": [
+        "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "a50e18aa16c5",
+      "title_ja": "NVIDIA、NVLink FusionにNVHBMカスタムメモリを追加",
+      "urls": [
+        "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "99ece13e787f",
+      "title_ja": "vLLM v0.28.0公開、Kimi-K3向け最適化を大幅強化",
+      "urls": [
+        "https://github.com/vllm-project/vllm/releases/tag/v0.28.0"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "aff445d3536e",
+      "title_ja": "Amazon Bedrock、フレームワーク非依存のエージェント評価ツール公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "c5fcdc890274",
+      "title_ja": "謎の高性能モデルOx Alpha、正体はZ.aiのGLM系だった",
+      "urls": [
+        "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
+        "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "03b16224233a",
+      "title_ja": "ロボティクスのGeneralist、評価額30億ドルに到達",
+      "urls": [
+        "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "ac6eb9276806",
+      "title_ja": "Google、Gemini 3.5 Transcribeで音声認識を高度化",
+      "urls": [
+        "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "55000dbc066e",
+      "title_ja": "AI企業成長支援のRunable、2100万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "60626a39b2db",
+      "title_ja": "OpenAI、月額100ドルのビジネスプランを新設",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1vygebh/new_100_business_plan_2_seat_minimum_they_finally/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "713c17492903",
+      "title_ja": "Natera、Bedrock AgentCoreで予約対応音声エージェント構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "6bddd388692a",
+      "title_ja": "Particle、ポッドキャストをAIエージェント検索可能にするRadar公開",
+      "urls": [
+        "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "209658f98324",
+      "title_ja": "Arga Labs、企業向けAIエージェント訓練で1000万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B公開、量子化版も同時登場",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1vyie86/fully_quantized_nvfp4_qwen3827b_with_quasar_qad/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "bb5854974104",
+      "title_ja": "QueryStory、AIの回答透明性向上へ600万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "33551649b533",
+      "title_ja": "Meta、AIエージェント代替施策で業務混乱が発生と報道",
+      "urls": [
+        "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "7f572d65aad1",
+      "title_ja": "GoDaddy、分析基盤をAmazon Quickへ移行",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "bdba8e2906c8",
+      "title_ja": "Bedrock AgentCore、アカウント跨ぎのナレッジベース接続に対応",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": "e4ac4d425bd6",
+      "title_ja": "元Meta研究者、工場向け視覚AIモデルPerceptronを開発",
+      "urls": [
+        "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/"
       ]
     }
   ]
