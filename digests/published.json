@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-20",
-      "id": "1b4f9a603eeb",
-      "title_ja": "Meta、30Bのエージェント特化モデルMuse Glimmerを公開",
-      "urls": [
-        "https://huggingface.co/meta-models/Muse-Glimmer-30B"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "2f00013902a2",
-      "title_ja": "Replit、GPT-5.6 Luna搭載の無料開発モードを提供",
-      "urls": [
-        "https://openai.com/index/replit"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "47420612f631",
-      "title_ja": "AI計算資源の価格付けを支援するスタートアップに注目",
-      "urls": [
-        "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "6eb73f63ff0e",
-      "title_ja": "Cerebras、新チップCS-4を発表",
-      "urls": [
-        "https://www.cerebras.ai/cs4"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "cd7100a3064d",
-      "title_ja": "オープンソースLLM群Ornith-1.5が公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vsou3a/ornith15_397b_deepswe_56_35ba3b_9b/",
-        "https://ornith.ai/ornith_1_5.html"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "f1e200b4b4b9",
-      "title_ja": "OpenAI、フロンティアモデルでゼロデータ保持を継続提供",
-      "urls": [
-        "https://openai.com/index/our-commitment-to-zero-data-retention"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "d1942c284f95",
-      "title_ja": "Cursor、GitHub対抗のコードホスティング基盤を発表",
-      "urls": [
-        "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "faf6119bab63",
-      "title_ja": "AlibabaのRISC-VチップがQwen3.8 27Bを推論実行",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vs0wsl/alibabas_riscv_cpu_xuantie_c950_runs_qwen38_27b/"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "bb6e58f54894",
-      "title_ja": "Qwen3.8-27Bの各種量子化版がHugging Faceに登場",
-      "urls": [
-        "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "8ec1298df12f",
-      "title_ja": "研究者、OpenAIのサイバー防御プログラムへのアクセス失効を報告",
-      "urls": [
-        "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "9d8a9b8bf88a",
-      "title_ja": "Nvidiaの新たな計算資源金融戦略に疑問の声",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "980337b8e230",
-      "title_ja": "サイバー領域で重要能力を持つモデル開発のペース配分議論",
-      "urls": [
-        "https://openai.com/index/pacing-model-development-cyber-capabilities/"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "22089e63ddc3",
-      "title_ja": "Google、SearchとGeminiに学習支援AI機能を追加",
-      "urls": [
-        "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "c86c5d5f5cf7",
-      "title_ja": "TerraPower、AIデータセンター向け原子炉に優位性",
-      "urls": [
-        "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "e24875277dd9",
-      "title_ja": "OpenAI、IPOと競争激化の中で開発ペースを減速",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "75bb8d6c5587",
-      "title_ja": "ソフトウェアチームにおけるAI利用パターンの分析",
-      "urls": [
-        "https://linear.app/data"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "c99f54343031",
-      "title_ja": "Google TurboQuantのRust実装Turbovecが公開",
-      "urls": [
-        "https://github.com/RyanCodrai/turbovec"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "bd0e37645cdf",
-      "title_ja": "OpenAI、新モデルで推論監視に計算資源の20%を投入",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mtf67piajs2n"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "c1c7e913fcf6",
-      "title_ja": "Amazon、Fire TV版Alexa+をPrime不要で無料化",
-      "urls": [
-        "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "id": "26ed078844ac",
-      "title_ja": "GLM-5.3のArtificial Analysisベンチマーク結果公開",
-      "urls": [
-        "https://artificialanalysis.ai/models/glm-5-3"
-      ]
-    },
-    {
       "date": "2026-08-21",
       "id": "f726cd00afef",
       "title_ja": "RampがAIモデルルーター「Router」を発表",
@@ -996,6 +835,160 @@
       "title_ja": "元Meta研究者、工場向け視覚AIモデルPerceptronを開発",
       "urls": [
         "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "74b1125af868",
+      "title_ja": "Google、Gemini Omni 1.1 Flashを発表",
+      "urls": [
+        "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "b35d4ed4faf2",
+      "title_ja": "Amazon BedrockでOpenAIモデルがインド国内推論に対応",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "b6648a2b1e87",
+      "title_ja": "Anthropic、AIエージェント向けハードウェア標準を公開",
+      "urls": [
+        "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+        "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "e53c571ad5ed",
+      "title_ja": "NVIDIA MPSでASR推論コストを75%削減",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "fe8cee02dd34",
+      "title_ja": "GLM-5.3-Flash、Hugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "7b6a04d9ab01",
+      "title_ja": "Amazon QuickとfalでAIクリエイティブワークフロー構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "3613b53a3b07",
+      "title_ja": "Nvidia、売上673億ドルの見通しを示す",
+      "urls": [
+        "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "407fac1fba99",
+      "title_ja": "Claudeの「load-bearing vocabulary」をHNで公開",
+      "urls": [
+        "https://louisabraham.github.io/load-bearing/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "7e859ed239e0",
+      "title_ja": "DeepgramがSageMaker AIの観測性を強化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "e94f9b29d3f6",
+      "title_ja": "Claude・Codex・Hermesが所有者不明コードを企業内に導入",
+      "urls": [
+        "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "0dc8b258a0c7",
+      "title_ja": "オーストラリア、公式音楽チャートから生成AIを排除",
+      "urls": [
+        "https://www.nytimes.com/2026/08/25/world/australia/australia-ai-music-chart-ban.html"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "23693f7b66c2",
+      "title_ja": "オープンソースのモデルゲートウェイがHNで公開",
+      "urls": [
+        "https://github.com/experientiallabs/experiential"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "d0b5a5cfadd9",
+      "title_ja": "Thinking Machines共同創業者のBarret Zoph、Googleに移籍",
+      "urls": [
+        "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "adc17ded0689",
+      "title_ja": "AdobeがPhotoshopにAI機能を追加",
+      "urls": [
+        "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "bc6639b3f246",
+      "title_ja": "Claude Code Opus 5のAuto Modeに脆弱性",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "e85cf5658048",
+      "title_ja": "LaionがBig Video Datasetを公開",
+      "urls": [
+        "https://projects.laion.ai/bvd/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "6bf56b95d081",
+      "title_ja": "Meta、AI向け閉ループ液冷システムを解説",
+      "urls": [
+        "https://about.fb.com/news/2026/08/closed-loop-cooling-explained-the-plumbing-behind-metas-ai/"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "58b7bb6f4dbd",
+      "title_ja": "Plaud、AIイヤホンを発売",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": "76f70ada1da2",
+      "title_ja": "Nvidia、AIチップ部門「PAC」を新設",
+      "urls": [
+        "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc"
       ]
     }
   ]
