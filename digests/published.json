@@ -1,150 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-21",
-      "id": "f726cd00afef",
-      "title_ja": "RampがAIモデルルーター「Router」を発表",
-      "urls": [
-        "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "08dde364f7c2",
-      "title_ja": "OpenAI、Greg Brockman主導の体制に移行",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "a9b696153570",
-      "title_ja": "Mistral AI、検索精度向上の「Agentic Search」提供",
-      "urls": [
-        "https://mistral.ai/news/agentic-search/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "2e19f7d259b7",
-      "title_ja": "AWS、Bedrock AgentCoreで企業向けエージェントAI基盤を拡充",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "8941231cf4d7",
-      "title_ja": "Tencent、新フラッグシップモデル「Hunyuan Hy4」をテスト開始",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vth4lo/tencent_begins_testing_its_new_flagship_model/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "a1a747f4e122",
-      "title_ja": "DeepSeek、「DeepSeek-V4-Flash」をHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "eab5285cfdeb",
-      "title_ja": "LFM2.5-DSpark、推論速度を最大3.2倍に高速化",
-      "urls": [
-        "https://huggingface.co/blog/LiquidAI/lfm25-dspark"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "410b8288a173",
-      "title_ja": "AWS、IDP Acceleratorで文書処理を自動化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-quick-automate-and-the-idp-accelerator/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "bb7f10ed90dc",
-      "title_ja": "Grokに暗号化指示によるデータ漏洩の脆弱性",
-      "urls": [
-        "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "ad89fb510e3c",
-      "title_ja": "StampliがChatGPT Workで製品発表を短縮",
-      "urls": [
-        "https://openai.com/index/stampli"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "bb72d97feb83",
-      "title_ja": "Binance、AIエージェント取引の「Agent OS」を開始",
-      "urls": [
-        "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "a9f0044edd6f",
-      "title_ja": "Slack、AIエージェントと共同編集する「vibe-coding」チャンネル導入",
-      "urls": [
-        "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "de7397e164d6",
-      "title_ja": "Anthropic Python SDK v0.125.0リリース",
-      "urls": [
-        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.125.0"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "9c6c713126af",
-      "title_ja": "OpenAI、Anthropicに対抗し顧客データ保護策を強化",
-      "urls": [
-        "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "4e1b63a2e790",
-      "title_ja": "数学界に広がるAI活用への危機感",
-      "urls": [
-        "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "cba58727ea88",
-      "title_ja": "1.25億パラメータのピアノ自動補完モデルが登場",
-      "urls": [
-        "https://simedw.com/2026/08/20/midi-autocomplete/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "22c6af58e68a",
-      "title_ja": "Qwen3.8-27bがローカルモデルとして高いエージェント能力を発揮",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vt78xd/qwen3827b_has_the_highest_level_of_agency_ive/"
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "id": "d12db132426d",
-      "title_ja": "llama.cpp、Vulkanバックエンドの最適化をリリース",
-      "urls": [
-        "https://github.com/ggml-org/llama.cpp/releases/tag/b10517"
-      ]
-    },
-    {
       "date": "2026-08-22",
       "id": "e7129e9021b6",
       "title_ja": "moonshotai、新モデルKimi-K3をHugging Faceで公開",
@@ -989,6 +845,118 @@
       "title_ja": "Nvidia、AIチップ部門「PAC」を新設",
       "urls": [
         "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "b42ac281ecaf",
+      "title_ja": "OpenAI、SpaceXによるCursor買収でCursorとの契約終了",
+      "urls": [
+        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "4424584ee706",
+      "title_ja": "Z.ai、GLM-5.3を公開しコーディング性能を大幅強化",
+      "urls": [
+        "https://huggingface.co/zai-org/GLM-5.3"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "7f0374631f4f",
+      "title_ja": "ニュークラウドLambda、AIチップ購入向けに10億ドルの債務調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "87553218d4be",
+      "title_ja": "Tencent、770BパラメータのMoEモデル「Hy4-preview」公開",
+      "urls": [
+        "https://huggingface.co/tencent/Hy4-preview"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "1b0375ab2430",
+      "title_ja": "Meta幹部がOpenAIに移籍、東南アジア事業を統括",
+      "urls": [
+        "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "6f8f0395b331",
+      "title_ja": "科学研究ワークフロー評価用ベンチマークTerminal-Bench-Science登場",
+      "urls": [
+        "https://www.terminal-bench-science.ai/announcement"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "d9c5264ee661",
+      "title_ja": "OpenAI、ExcelとPowerPointファイル内に非表示タスク機能を実装",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1w108mr/new_openai_built_a_hidden_task_system_for_chatgpt/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "ea803b9ee6de",
+      "title_ja": "Decathlon、需要予測にChronos-2をAWSで導入",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "f09599886f98",
+      "title_ja": "NPUベンダー独自形式を解析、GGUFモデルを変換なしで1.5倍高速化",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w0hrrn/i_reverseengineered_an_npu_vendors_engine_format/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "8152c5575eb2",
+      "title_ja": "Anthropic研究者、自己改善型AIシステムの実証を紹介",
+      "urls": [
+        "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "2ca26eebdd70",
+      "title_ja": "TTSモデルBreeze-TTS-2、フロンティア級の品質と評価",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w1002h/breezetts2_initial_impressions_genuinely_frontier/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "1484132ab400",
+      "title_ja": "Salesforce、SageMaker Inference ComponentsでマルチAZ高可用性を実現",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "ca50f3998f6e",
+      "title_ja": "Anthropic、国防総省のサプライチェーンリスク認定訴訟で勝訴",
+      "urls": [
+        "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": "52da779df248",
+      "title_ja": "Micron、HBMはDDR5比で約3倍のウェーハ面積が必要と指摘",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w0mmk7/micron_hbm_requires_three_times_more_wafer_area/"
       ]
     }
   ]
