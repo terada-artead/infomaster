@@ -1,166 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-22",
-      "id": "e7129e9021b6",
-      "title_ja": "moonshotai、新モデルKimi-K3をHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "298d2ddeec0a",
-      "title_ja": "NVIDIA AVOがARC-AGI-3で全183レベル攻略",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricks、画像動画生成モデルLTX-2.5を公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "1ba05c9ce7a0",
-      "title_ja": "Panasonic AvionicsがAWSでエージェント型AI診断システムを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "dd3c688a3807",
-      "title_ja": "AWS、エージェント型データ運用基盤ADOPを発表",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "e9ba6db1fcd1",
-      "title_ja": "AIデータ企業Micro1、粗収益実行速度5億ドルに到達",
-      "urls": [
-        "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "2204ba57be32",
-      "title_ja": "AWS Bedrock上のCodexで10倍課金の不具合",
-      "urls": [
-        "https://github.com/openai/codex/issues/37674"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "d19c644c1369",
-      "title_ja": "Bedrock AgentCore Gateway、エージェントのツールアクセスを統制",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "f9536ed64a38",
-      "title_ja": "Bedrock、RAGのコスト削減へクエリ対応型圧縮を提案",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "48bb2bd11735",
-      "title_ja": "AIコーディングエディタ「Huzzah」がHacker Newsで発表",
-      "urls": [
-        "https://www.danielvaughn.dev/posts/huzzah/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "2d9dc85f5563",
-      "title_ja": "Ornith-1.5-35B-A3Bモデルが公開",
-      "urls": [
-        "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "6e84d41d42ab",
-      "title_ja": "Bedrock、GPT-5.6系にクロスリージョン推論を追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "db0bf4cf3653",
-      "title_ja": "OpenAI、企業向け利用でAnthropicのシェアを侵食との調査",
-      "urls": [
-        "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "02ed539fac86",
-      "title_ja": "8月17日の障害についての報告",
-      "urls": [
-        "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "98c5297d9458",
-      "title_ja": "Qwen3.8-27BをRTX 3090で381tpsまで最適化",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vtup5s/i_pushed_qwen3827b_to_381_tps_for_a_single/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "6ac7852311e2",
-      "title_ja": "Starcloud、軌道上データセンター向けに2.5億ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "bdb698ec663c",
-      "title_ja": "Google Discover、AIチャットボットでフィードをカスタマイズ可能に",
-      "urls": [
-        "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "f5c14fa58d07",
-      "title_ja": "Google、パブリッシャー向けに優先ソース指定機能を追加",
-      "urls": [
-        "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "177ef6f6e33e",
-      "title_ja": "Micron、ボイジーに100億ドル規模の研究拠点を発表",
-      "urls": [
-        "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx"
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "id": "464d2d00cb90",
-      "title_ja": "Qwen3.8 27B向け最速NVFP4量子化版が登場",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vub9od/fastest_nvfp4_quant_of_qwen38_27b_out_there/"
-      ]
-    },
-    {
       "date": "2026-08-23",
       "id": "92ba46e36366",
       "title_ja": "DeepMind出身チーム、研究再現AIエージェント「Faraday」公開",
@@ -957,6 +797,86 @@
       "title_ja": "Micron、HBMはDDR5比で約3倍のウェーハ面積が必要と指摘",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1w0mmk7/micron_hbm_requires_three_times_more_wafer_area/"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "a1a747f4e122",
+      "title_ja": "DeepSeek-V4-Flashが公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "3c97c389c32d",
+      "title_ja": "Breeze TTS 2、音声合成モデルを公開",
+      "urls": [
+        "https://huggingface.co/BreezeBlue/Breeze-TTS-2"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "a85aa69b831b",
+      "title_ja": "Nvidiaの優位性はGPU効率以外にも",
+      "urls": [
+        "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "1c359d226297",
+      "title_ja": "元a16zのVijay Pande、AI特化バイオ投資を語る",
+      "urls": [
+        "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "b52115842f50",
+      "title_ja": "Google AI OverviewsがWikipediaに影響との指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mu6uexzec22o"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "bebe9a3ec6fa",
+      "title_ja": "CursorがOpenAIモデルへのアクセス失う",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1w1jihk/openai_models_are_only_5_of_cursor_traffic_that/"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "a65698737fa1",
+      "title_ja": "OpenAI Python クライアント v3.6.0公開",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.6.0"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "d675ad5b276b",
+      "title_ja": "LLMメモリをプログラム解析に応用",
+      "urls": [
+        "https://pwning.systems/posts/llm-memory-program-analysis/"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "f53579f901f9",
+      "title_ja": "モデル冗長性の重要性を指摘する声",
+      "urls": [
+        "https://bsky.app/profile/hardmaru.bsky.social/post/3mu7oaexpsc2p"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": "9621eb675332",
+      "title_ja": "音声エージェント向けモデルPhonellm-alpha-1公開",
+      "urls": [
+        "https://huggingface.co/pipecat-ai/phonellm-alpha-1"
       ]
     }
   ]
