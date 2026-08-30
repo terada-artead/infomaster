@@ -1,62 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-23",
-      "id": "92ba46e36366",
-      "title_ja": "DeepMind出身チーム、研究再現AIエージェント「Faraday」公開",
-      "urls": [
-        "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "id": "1f0e60fded5c",
-      "title_ja": "MiniMax、音声付き動画生成モデル「MiniMax-H3」を公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "id": "2bc2cf30ffd5",
-      "title_ja": "Qwen、MoE構成の大規模テキスト生成モデルを公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "id": "620096717211",
-      "title_ja": "Nvidia研究、AIエージェント性能はハーネス設計が鍵と指摘",
-      "urls": [
-        "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "id": "286576db227e",
-      "title_ja": "Nvidia、データセンター開発のCloverleafと提携",
-      "urls": [
-        "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "id": "b96a45c2e083",
-      "title_ja": "DeepSeek、新モデル「DeepSeek-V4-Pro」を公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "id": "c248308cd463",
-      "title_ja": "オフィス業務自動化向けエージェントハーネス「Munder Difflin」公開",
-      "urls": [
-        "https://munderdiffl.in/"
-      ]
-    },
-    {
       "date": "2026-08-24",
       "id": "2a0dd24fa0d1",
       "title_ja": "NvidiaがPoolsideに60億ドル投資、技術ライセンスと人材獲得",
@@ -877,6 +821,30 @@
       "title_ja": "音声エージェント向けモデルPhonellm-alpha-1公開",
       "urls": [
         "https://huggingface.co/pipecat-ai/phonellm-alpha-1"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "id": "e7129e9021b6",
+      "title_ja": "MoonshotAI、Kimi-K3をHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/moonshotai/Kimi-K3"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "id": "92c1824269f4",
+      "title_ja": "Lightricks、動画生成モデルLTX-2.5を公開",
+      "urls": [
+        "https://huggingface.co/Lightricks/LTX-2.5"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "id": "eb79656c925c",
+      "title_ja": "Qwen3.8-Flash-Next公開、Qwen4基盤の実験的アーキテクチャ",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
       ]
     }
   ]
