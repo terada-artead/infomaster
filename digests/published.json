@@ -1,46 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-24",
-      "id": "2a0dd24fa0d1",
-      "title_ja": "NvidiaがPoolsideに60億ドル投資、技術ライセンスと人材獲得",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vw0mcd/nvidia_poolside_deal_to_compete_with_chinese_open/"
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "id": "7f4a080681f7",
-      "title_ja": "MiniMax、最大5分の楽曲生成モデル「Music3」を公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-Music3"
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "id": "8e6abcd786ce",
-      "title_ja": "Liquid AI、次期100Bパラメータモデルを予告",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vvmxls/new_100b_liquid_ai_model_coming_soon/"
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "id": "6c12be2e07a8",
-      "title_ja": "投機的デコード手法DFlash2、Qwenで最大8倍の高速化を検証",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/"
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "id": "4fb50ea0a322",
-      "title_ja": "Kimi K3をB300×8で稼働、92tok/s・百万トークン190ドルを実測",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vw1j2p/i_hosted_kimi_k3_28t_parameters_using_8_b300s_92/"
-      ]
-    },
-    {
       "date": "2026-08-25",
       "id": "4d38648c033d",
       "title_ja": "Hugging Face、評価額130億ドルで買収交渉と報道",
@@ -845,6 +805,126 @@
       "title_ja": "Qwen3.8-Flash-Next公開、Qwen4基盤の実験的アーキテクチャ",
       "urls": [
         "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "493a177a82af",
+      "title_ja": "NvidiaがMediaTekに35億ドル出資",
+      "urls": [
+        "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "77e651c0246f",
+      "title_ja": "米国防総省がChatGPTとGrokを中央AIポータルに導入",
+      "urls": [
+        "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "6e180b23b86d",
+      "title_ja": "米当局、FTX元幹部から押収したAnthropic株を売却",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1w38vay/feds_quietly_sold_a_seized_anthropic_stake_from/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "8a7cdd78fd48",
+      "title_ja": "ChatGPT広告、年換算売上10億ドルに到達",
+      "urls": [
+        "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "badf236d9d67",
+      "title_ja": "動画検索AIのClipto、2.5億ドル評価で15億円調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "1f0e60fded5c",
+      "title_ja": "MiniMax、画像・テキストから動画生成の新モデルH3を公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "1a0e767ddab6",
+      "title_ja": "ハーバード法科大学院中退者、警察向けAI法務支援に6百万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "a7280d2026d2",
+      "title_ja": "AWS Agent Registryが一般提供開始",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "baab72ac3819",
+      "title_ja": "ChatGPTがEUで規制強化の対象に",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "5e194712572c",
+      "title_ja": "Hugging Faceへのハッキング、OpenAIの組織文化に疑問符",
+      "urls": [
+        "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "4c2a16cfb43f",
+      "title_ja": "Anthropic社員の海賊版利用チャット、Sony訴訟で証拠に",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "20c9f9de702f",
+      "title_ja": "DeepSeek、マルチモーダル実験モデルV4-Flash-Vision-Expを公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "3d475f3c8db9",
+      "title_ja": "Amazon Bedrockで企業向けエージェント検索基盤を構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "c5864f008a72",
+      "title_ja": "Amazon Bedrockでマルチテナント型エージェントチャットを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base/"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": "ac6e7e3c37d7",
+      "title_ja": "ChatGPT Workの仕様を解説",
+      "urls": [
+        "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
       ]
     }
   ]
