@@ -1,112 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-25",
-      "id": "4d38648c033d",
-      "title_ja": "Hugging Face、評価額130億ドルで買収交渉と報道",
-      "urls": [
-        "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vx15zb/who_would_buy_huggingface/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "6fa02c4f9ef7",
-      "title_ja": "General Intuition、評価額60億ドルで資金調達交渉",
-      "urls": [
-        "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "b4d239e1cc10",
-      "title_ja": "NVIDIA、AIエージェント向けVera Rubin NVL72を発表",
-      "urls": [
-        "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "99acd7325486",
-      "title_ja": "Anthropic、収益急増もユーザー獲得に苦戦と報道",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-        "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "b5a48d76fa4d",
-      "title_ja": "Amazon Connectでレストラン電話注文AIを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "19217ff41abe",
-      "title_ja": "AWS、エージェント発見の新標準ARDを公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "00eaf917ab11",
-      "title_ja": "OpenAI、GPT-5.6 Solの価格を11月21日まで引き下げ",
-      "urls": [
-        "https://developers.openai.com/api/docs/pricing"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "ba0ceedfb025",
-      "title_ja": "SageMaker HyperPodにRayの新機能追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "f118b12cbd5c",
-      "title_ja": "自己改善型モデルOrnith-1.5がHugging Faceに登場",
-      "urls": [
-        "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "6ff2b0e21587",
-      "title_ja": "AWSで構築する組織内知識管理AIシステム",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "a8a77e450426",
-      "title_ja": "OpenAI、AIエージェントを一般向けに拡大",
-      "urls": [
-        "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "2c4e5a5abaf0",
-      "title_ja": "Xiaomi、高帯域メモリ搭載のAI Cubeを発表",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vwvghi/xiaomi_ai_cube_announced_with_12tbs_memory/"
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "id": "055bf7d16a6a",
-      "title_ja": "AIによるメタデータ補正・統合の実践事例",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/"
-      ]
-    },
-    {
       "date": "2026-08-26",
       "id": "b9406ae170bd",
       "title_ja": "OpenAI、独自推論チップJalapeñoを発表",
@@ -925,6 +819,169 @@
       "title_ja": "ChatGPT Workの仕様を解説",
       "urls": [
         "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "e7232d52f37f",
+      "title_ja": "Anthropic、Claude Fable 5.1とMythos 5.1を発表",
+      "urls": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "https://www.reddit.com/r/ClaudeAI/comments/1w4juuz/introducing_claude_fable_51_and_claude_mythos_51/",
+        "https://bsky.app/profile/emollick.bsky.social/post/3mui3rgx72c2v"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "f2694bfa96c4",
+      "title_ja": "OpenAI、サイバー能力が重大水準に達したAstraを発表",
+      "urls": [
+        "https://openai.com/index/path-to-astra"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "555b86ad6550",
+      "title_ja": "空間知能向け世界モデルAtlasが公開",
+      "urls": [
+        "https://www.worldlabs.ai/blog/atlas"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "c0364833b410",
+      "title_ja": "ChatGPTが医療機関のEHRデータと連携可能に",
+      "urls": [
+        "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "5c23ba73e597",
+      "title_ja": "NVIDIAとCrowdStrikeがエージェント型セキュリティで提携強化",
+      "urls": [
+        "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "c6d1166e74fa",
+      "title_ja": "AIRがAIエージェント審査サービスで50億円調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "20b040f8e58f",
+      "title_ja": "Gemini、動画理解のエージェント機能を追加",
+      "urls": [
+        "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "dc38027fbdb6",
+      "title_ja": "Jamf、Bedrock向けリアルタイム支出管理を構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "239e2a8c2c65",
+      "title_ja": "Empirik、障害予測サービスで21億円調達し始動",
+      "urls": [
+        "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "3d72f61333f5",
+      "title_ja": "Google、時系列予測モデルTimesFM 3.0を公開",
+      "urls": [
+        "https://huggingface.co/google/timesfm-3.0-pytorch"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "2e7d0fb45461",
+      "title_ja": "1.5時間学習の小型Transformerが既存LLMを凌駕",
+      "urls": [
+        "https://mvakde.github.io/blog/44-on-arc-1/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "7415c6bcd9dd",
+      "title_ja": "Google Pics、プロンプト操作の画像編集ツールを発表",
+      "urls": [
+        "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+        "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "91dad0068ec2",
+      "title_ja": "Hugging Face、ローカルAI向けWebGPUカーネル群を公開",
+      "urls": [
+        "https://huggingface.co/blog/webgpu-kernels"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "b76c7e39a74f",
+      "title_ja": "AWS、Amazon Quickのセキュリティ設計パターンを解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/securing-amazon-quick-from-poc-to-production-agents-flows-and-spaces/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "b0cbef382238",
+      "title_ja": "AIネイティブ企業のエージェント活用事例をOpenAIが紹介",
+      "urls": [
+        "https://openai.com/index/ai-native-company-workflows"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "3c30961dd089",
+      "title_ja": "t54、Bedrock AgentCoreで決済向け信頼レイヤーを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-payments/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "fb0827c68cc0",
+      "title_ja": "48GB Macで104GBのQwenモデルを動作させる手法公開",
+      "urls": [
+        "https://github.com/carloslfu/slotstream"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "2bda9611adcf",
+      "title_ja": "Intel、メモリ事業再参入を示唆",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w4fp6w/intel_hints_it_may_get_back_into_memory_business/"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "d810a7f79561",
+      "title_ja": "音声同期動画生成モデルFastH3が公開",
+      "urls": [
+        "https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": "ad90e6779ea3",
+      "title_ja": "LLMベンチマークの測定対象を検証するBenchMIRT公開",
+      "urls": [
+        "https://huggingface.co/blog/allenai/benchmirt"
       ]
     }
   ]
