@@ -1,171 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-26",
-      "id": "b9406ae170bd",
-      "title_ja": "OpenAI、独自推論チップJalapeñoを発表",
-      "urls": [
-        "https://openai.com/index/jalapeno-first-results",
-        "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
-        "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-        "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "8ca73d5e2065",
-      "title_ja": "Qwen3.8-Flash-Next、リリース目前に",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vxwtyd/qwen38flashnext_tomorrow/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "f1c8ae9706e4",
-      "title_ja": "Claude Cowork、チャットとの共有メモリに対応",
-      "urls": [
-        "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "79f6641c4618",
-      "title_ja": "Keenable、AIエージェント向け検索インデックスで26億円調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "51cfe3db04ed",
-      "title_ja": "OpenAI CFO、チップから製品までの統合戦略を説明",
-      "urls": [
-        "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "a14ffe864c76",
-      "title_ja": "Stability AI、7600万ドルを新規調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "f1c76f23a788",
-      "title_ja": "Quantization-Aware Healing、4bit圧縮で元モデル超えの精度",
-      "urls": [
-        "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "113584368e84",
-      "title_ja": "LLMが推論エンジンを悪用しホストを制御するリスク",
-      "urls": [
-        "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "315b074b9edb",
-      "title_ja": "llama.cpp v0.3.0リリース、新モデル・機能追加",
-      "urls": [
-        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.3.0"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "699fce74a44a",
-      "title_ja": "Amazon OpenSearch、MCP Apps対応でエージェント観測性強化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "33eae878317d",
-      "title_ja": "OpenAI、ChatGPT WorkとCodex向け管理者プラグイン公開",
-      "urls": [
-        "https://openai.com/index/introducing-admin-plugin"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "f0fe60763ef5",
-      "title_ja": "Gamma、デザインスタートアップLicaを買収",
-      "urls": [
-        "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "253f6697afdf",
-      "title_ja": "永続エージェント向け軽量ハーネス「Headlong」公開",
-      "urls": [
-        "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "a7689adddef3",
-      "title_ja": "JetBrains、Qwen3.6を用いたローカルAI統合を計画",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vxdvmv/jetbrains_local_ai_using_qwen36_27b/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "93d55d2b762d",
-      "title_ja": "Superwhisper、音声認識向け正規化モデルS1-miniを公開",
-      "urls": [
-        "https://huggingface.co/superwhisper/s1-mini"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "034c2462b05d",
-      "title_ja": "Qwen3.8-27B、FP8量子化版が公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "d21068479952",
-      "title_ja": "IBM、Granite 4.2 LLMファミリーを公開",
-      "urls": [
-        "https://huggingface.co/blog/ibm-granite/granite-4-2",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vy2jz7/ibmgranitegranite4230b_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "0c6b106ff394",
-      "title_ja": "Apple、M5 UltraとM5 Max搭載Mac Studioを発表",
-      "urls": [
-        "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vxzgyt/apple_releases_m5_ultra_at_12tbs_bandwith/"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "656f0a0d213f",
-      "title_ja": "Qwen3.8-27B向け投機的デコード用ドラフトモデル公開",
-      "urls": [
-        "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2"
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "id": "b148462596ad",
-      "title_ja": "AWS、Quick DesktopとFSxでガバナンス付きレポート運用例を紹介",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/"
-      ]
-    },
-    {
       "date": "2026-08-27",
       "id": "34e62ff4c7cf",
       "title_ja": "OpenAIの未公開モデル、Hugging Face侵入事故の全容判明",
@@ -982,6 +817,166 @@
       "title_ja": "LLMベンチマークの測定対象を検証するBenchMIRT公開",
       "urls": [
         "https://huggingface.co/blog/allenai/benchmirt"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "63b19b50b402",
+      "title_ja": "Google、Gemini 3.8 FlashとFlash Cyberを発表",
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "c097ba37b0cc",
+      "title_ja": "AfterQueryが評価額$3.2Bに、YC史上最速ユニコーン",
+      "urls": [
+        "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "ca0a2fc92792",
+      "title_ja": "OpenAI新モデルAstra、再帰的深度推論で安全専門家が警鐘",
+      "urls": [
+        "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "adb3987c273c",
+      "title_ja": "Wonderful、$550MのシリーズCで評価額$5Bに倍増",
+      "urls": [
+        "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "d9ce3ecdee9c",
+      "title_ja": "AI security企業HiddenLayerが$100M調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "b3fd8ab69e8f",
+      "title_ja": "豪州からAmazon BedrockでOpenAIモデル利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "61be402eb5f2",
+      "title_ja": "米政府、著作権materialでのLLM学習をOpenAI支持",
+      "urls": [
+        "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "1406a1e1c7a4",
+      "title_ja": "Fable 5.1がFable 5より高コスト・低速との報告",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1w5fh39/differences_between_fable_5_and_fable_51_on/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "8b134edef1d0",
+      "title_ja": "AWSで生成AIを活用したサポート業務のモダナイズ事例",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "2c633787a9bb",
+      "title_ja": "H3-World、言語理解でゲーム内キャラクターを制御",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w5akpy/h3world_turning_language_understanding_into_world/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "8c10bd00da2e",
+      "title_ja": "IBM、Confluent上で時系列モデルによるリアルタイム分析",
+      "urls": [
+        "https://huggingface.co/blog/ibm-research/real-time-intelligence"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "239556b1f7d6",
+      "title_ja": "Amazon Bedrockでダッシュボード障害を自動検知",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-an-aws-team-detects-dashboard-content-failures-at-scale-using-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "5708a8b25abf",
+      "title_ja": "Bedrock AgentCoreでアーキテクチャ図を自動生成",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "59aa377f5801",
+      "title_ja": "Adobe、インドのRilo社を買収",
+      "urls": [
+        "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "d90573234ae3",
+      "title_ja": "Google、ハリウッドスタジオとAIライセンス契約交渉",
+      "urls": [
+        "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "cba317831f78",
+      "title_ja": "GLM 5.3 Flashがローカルで動くMinecraft用MOD生成",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w5gk2b/glm_53_flash_makes_a_black_hole_minecraft_mod/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "f87bb394d39e",
+      "title_ja": "企業スケール時のAI統合をシンプルに保つ工夫",
+      "urls": [
+        "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "7fa0ac6fd7e8",
+      "title_ja": "Meta、AIハードウェア開発拠点Infrastructure Labを公開",
+      "urls": [
+        "https://about.fb.com/news/2026/09/inside-metas-infrastructure-lab/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "679c29f8bd96",
+      "title_ja": "障がい学生向け移行計画支援AI「Trinity」をBedrockで拡張",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": "07dde70d40fe",
+      "title_ja": "Amazonのアシスタント、なりすましメールを検知する機能追加",
+      "urls": [
+        "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
       ]
     }
   ]
