@@ -1,172 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-27",
-      "id": "34e62ff4c7cf",
-      "title_ja": "OpenAIの未公開モデル、Hugging Face侵入事故の全容判明",
-      "urls": [
-        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-        "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-        "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "d4b5c908f621",
-      "title_ja": "GLM-5.3-Flash公開、Opus 4.8に迫る性能を低コストで実現",
-      "urls": [
-        "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
-        "https://huggingface.co/zai-org/GLM-5.3-Flash",
-        "https://artificialanalysis.ai/models/glm-5-3-flash"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "e518d876024c",
-      "title_ja": "Anthropic、Nscaleと450億ドル規模の計算資源契約",
-      "urls": [
-        "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "a50e18aa16c5",
-      "title_ja": "NVIDIA、NVLink FusionにNVHBMカスタムメモリを追加",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "99ece13e787f",
-      "title_ja": "vLLM v0.28.0公開、Kimi-K3向け最適化を大幅強化",
-      "urls": [
-        "https://github.com/vllm-project/vllm/releases/tag/v0.28.0"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "aff445d3536e",
-      "title_ja": "Amazon Bedrock、フレームワーク非依存のエージェント評価ツール公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "c5fcdc890274",
-      "title_ja": "謎の高性能モデルOx Alpha、正体はZ.aiのGLM系だった",
-      "urls": [
-        "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
-        "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "03b16224233a",
-      "title_ja": "ロボティクスのGeneralist、評価額30億ドルに到達",
-      "urls": [
-        "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "ac6eb9276806",
-      "title_ja": "Google、Gemini 3.5 Transcribeで音声認識を高度化",
-      "urls": [
-        "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "55000dbc066e",
-      "title_ja": "AI企業成長支援のRunable、2100万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "60626a39b2db",
-      "title_ja": "OpenAI、月額100ドルのビジネスプランを新設",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1vygebh/new_100_business_plan_2_seat_minimum_they_finally/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "713c17492903",
-      "title_ja": "Natera、Bedrock AgentCoreで予約対応音声エージェント構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "6bddd388692a",
-      "title_ja": "Particle、ポッドキャストをAIエージェント検索可能にするRadar公開",
-      "urls": [
-        "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "209658f98324",
-      "title_ja": "Arga Labs、企業向けAIエージェント訓練で1000万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "ca26bca182f6",
-      "title_ja": "Qwen3.8-27B公開、量子化版も同時登場",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1vyie86/fully_quantized_nvfp4_qwen3827b_with_quasar_qad/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "bb5854974104",
-      "title_ja": "QueryStory、AIの回答透明性向上へ600万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "33551649b533",
-      "title_ja": "Meta、AIエージェント代替施策で業務混乱が発生と報道",
-      "urls": [
-        "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "7f572d65aad1",
-      "title_ja": "GoDaddy、分析基盤をAmazon Quickへ移行",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "bdba8e2906c8",
-      "title_ja": "Bedrock AgentCore、アカウント跨ぎのナレッジベース接続に対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/"
-      ]
-    },
-    {
-      "date": "2026-08-27",
-      "id": "e4ac4d425bd6",
-      "title_ja": "元Meta研究者、工場向け視覚AIモデルPerceptronを開発",
-      "urls": [
-        "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/"
-      ]
-    },
-    {
       "date": "2026-08-28",
       "id": "74b1125af868",
       "title_ja": "Google、Gemini Omni 1.1 Flashを発表",
@@ -977,6 +811,173 @@
       "title_ja": "Amazonのアシスタント、なりすましメールを検知する機能追加",
       "urls": [
         "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "ea981681c9e2",
+      "title_ja": "Nvidia、Hugging Faceを129億ドルで買収",
+      "urls": [
+        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+        "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+        "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+        "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
+        "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "fc40ddafdd41",
+      "title_ja": "OpenAI、防衛最前線向けに10億ドル拠出のDaybreakを発表",
+      "urls": [
+        "https://openai.com/index/daybreak-for-frontline-defenders"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "fbd1bad4b84c",
+      "title_ja": "OpenAI Python SDK v3.8.0公開、gpt-6-astra対応",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.8.0"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "ca24c75ccec2",
+      "title_ja": "Palo Alto Networks、AI運用自動化のConsoleを500億円規模で買収",
+      "urls": [
+        "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "ff1868da76fb",
+      "title_ja": "Thinking Machines、評価額400億ドルで10億ドル調達交渉",
+      "urls": [
+        "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "519991c639b3",
+      "title_ja": "オープンモデル群「K2 Horizon」が公開",
+      "urls": [
+        "https://ifm.ai/blog/k2/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w68rj6/introducing_k2_horizon_frontier_performance/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "bb6e58f54894",
+      "title_ja": "Qwen3.8-27B、Cerebras上で高速推論を実現",
+      "urls": [
+        "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+        "https://inference-docs.cerebras.ai/models/overview"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "2b0379511ea0",
+      "title_ja": "Google DeepMind、気象AI最新版WeatherNext 3公開",
+      "urls": [
+        "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+        "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "9509bbf8b01c",
+      "title_ja": "Nvidia、IFA 2026でローカルAI推進を発表",
+      "urls": [
+        "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "ce0242573405",
+      "title_ja": "Claude、セッション上限を週1回リセットできる新機能",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1w5r094/this_is_new_limitreset_resets_your_session_limit/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "90c599e2da9d",
+      "title_ja": "Nvidia、家庭内PCを連携させる無料ツールPAIRを発表",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "a139f80b1592",
+      "title_ja": "350MモデルをGRPOで構造化出力向けに微調整",
+      "urls": [
+        "https://huggingface.co/blog/grpo-with-trl-ifstruct"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "85f743ffd377",
+      "title_ja": "Amazon Bedrock AgentCoreでAI駆動開発を実践",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "82c75f7fe9e1",
+      "title_ja": "Meta、Muse Sparkのフィードバック提供者に割引提供",
+      "urls": [
+        "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "24310dd0bfe4",
+      "title_ja": "Google、Gmail・Docs・Keepに音声AIアシスタント導入",
+      "urls": [
+        "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "cdd1118267ee",
+      "title_ja": "コーディングエージェント向け永続メモリの実装解説",
+      "urls": [
+        "https://huggingface.co/blog/funes"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "e44cf13a88b8",
+      "title_ja": "OutlookとAmazon Quickを連携しメール自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/integrating-outlook-with-amazon-quick-for-ai-powered-email-automation/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "e1a6c67c6109",
+      "title_ja": "Perplexity、Qwen3.6向けMac推論サーバーをOSS公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "b6435c2209f6",
+      "title_ja": "組織内での「マルチプレイヤーAI」活用に課題",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mun4tzchis2n"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": "1549a63baf38",
+      "title_ja": "Qwen3.8-Flash-Next、Qwen4基盤の試験公開版として登場",
+      "urls": [
+        "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
       ]
     }
   ]
