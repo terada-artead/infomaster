@@ -1,160 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-28",
-      "id": "74b1125af868",
-      "title_ja": "Google、Gemini Omni 1.1 Flashを発表",
-      "urls": [
-        "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-        "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "b35d4ed4faf2",
-      "title_ja": "Amazon BedrockでOpenAIモデルがインド国内推論に対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "b6648a2b1e87",
-      "title_ja": "Anthropic、AIエージェント向けハードウェア標準を公開",
-      "urls": [
-        "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-        "https://www.anthropic.com/news/model-hardware-standard-research-preview"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "e53c571ad5ed",
-      "title_ja": "NVIDIA MPSでASR推論コストを75%削減",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "fe8cee02dd34",
-      "title_ja": "GLM-5.3-Flash、Hugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "7b6a04d9ab01",
-      "title_ja": "Amazon QuickとfalでAIクリエイティブワークフロー構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "3613b53a3b07",
-      "title_ja": "Nvidia、売上673億ドルの見通しを示す",
-      "urls": [
-        "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "407fac1fba99",
-      "title_ja": "Claudeの「load-bearing vocabulary」をHNで公開",
-      "urls": [
-        "https://louisabraham.github.io/load-bearing/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "7e859ed239e0",
-      "title_ja": "DeepgramがSageMaker AIの観測性を強化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "e94f9b29d3f6",
-      "title_ja": "Claude・Codex・Hermesが所有者不明コードを企業内に導入",
-      "urls": [
-        "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "0dc8b258a0c7",
-      "title_ja": "オーストラリア、公式音楽チャートから生成AIを排除",
-      "urls": [
-        "https://www.nytimes.com/2026/08/25/world/australia/australia-ai-music-chart-ban.html"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "23693f7b66c2",
-      "title_ja": "オープンソースのモデルゲートウェイがHNで公開",
-      "urls": [
-        "https://github.com/experientiallabs/experiential"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "d0b5a5cfadd9",
-      "title_ja": "Thinking Machines共同創業者のBarret Zoph、Googleに移籍",
-      "urls": [
-        "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "adc17ded0689",
-      "title_ja": "AdobeがPhotoshopにAI機能を追加",
-      "urls": [
-        "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "bc6639b3f246",
-      "title_ja": "Claude Code Opus 5のAuto Modeに脆弱性",
-      "urls": [
-        "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "e85cf5658048",
-      "title_ja": "LaionがBig Video Datasetを公開",
-      "urls": [
-        "https://projects.laion.ai/bvd/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "6bf56b95d081",
-      "title_ja": "Meta、AI向け閉ループ液冷システムを解説",
-      "urls": [
-        "https://about.fb.com/news/2026/08/closed-loop-cooling-explained-the-plumbing-behind-metas-ai/"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "58b7bb6f4dbd",
-      "title_ja": "Plaud、AIイヤホンを発売",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability"
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "id": "76f70ada1da2",
-      "title_ja": "Nvidia、AIチップ部門「PAC」を新設",
-      "urls": [
-        "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc"
-      ]
-    },
-    {
       "date": "2026-08-29",
       "id": "b42ac281ecaf",
       "title_ja": "OpenAI、SpaceXによるCursor買収でCursorとの契約終了",
@@ -978,6 +824,151 @@
       "title_ja": "Qwen3.8-Flash-Next、Qwen4基盤の試験公開版として登場",
       "urls": [
         "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "5302786105ea",
+      "title_ja": "Z.aiがGLM-5.3-Flash公開、マルチモーダル対応",
+      "urls": [
+        "https://huggingface.co/zai-org/GLM-5.3-Flash"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B公開、Qwenファミリー最新世代",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "920440924028",
+      "title_ja": "Crusoeが3000億円調達、評価額3兆円に",
+      "urls": [
+        "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "6379e22bcefb",
+      "title_ja": "Claude・Codex・Cursorのツール選択を1.7万回分析",
+      "urls": [
+        "https://armature.tech/blog/which-tools-coding-agents-install"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "ac4ec989a2a7",
+      "title_ja": "Nscale、IPO前に3500億円規模の資金調達検討",
+      "urls": [
+        "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "d26be4db00d9",
+      "title_ja": "Google AI Modeの商品価格、通常検索より2割高い傾向",
+      "urls": [
+        "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "1b8415738489",
+      "title_ja": "Anthropic、2兆ドルIPOで外部トラスティに注目",
+      "urls": [
+        "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "a7a3a65935fc",
+      "title_ja": "米企業でオープンソースAI採用が拡大",
+      "urls": [
+        "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "71bd09ad43e3",
+      "title_ja": "Claudeがフェルマーの最終定理を形式化",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3muppeq2ey22t"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "cef83a828800",
+      "title_ja": "llama.cpp v0.4.0、Qwen3.8-Flash-Next対応など追加",
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "85ed07997475",
+      "title_ja": "OpenAIの制御外エージェント群、再び外部ネットへ流出",
+      "urls": [
+        "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+        "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "f01bbd59764e",
+      "title_ja": "コーディングエージェントはLSPよりgrepを好む",
+      "urls": [
+        "https://www.agentconnect.md/blog/grep-beat-lsp-harness/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "2417b0e6711f",
+      "title_ja": "294kパラメータの超小型TTS「sanoTTS」公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w6lmmg/i_released_sanotts_smallest_complete_tts_stack_in/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "96b7b42b27ab",
+      "title_ja": "Intuit、Bedrockで障害復旧エージェントを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "538d1cb28481",
+      "title_ja": "NVIDIA Cosmos 3をSageMakerで運用するモデル工場構築法",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "3b36fcbd9228",
+      "title_ja": "MoE推論モデル、ルーター調整で推論トークン8.5%削減",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w6lk6z/increasing_active_parameters_per_token_in_moe/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "12eb1e43d769",
+      "title_ja": "Ling-3.0-flash-VL、視覚理解機能を追加",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w7c6u4/ling30flashvl_built_on_ling30flash_with_visual/"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": "f63b447094ef",
+      "title_ja": "GPT-6で個人ナレッジベースを自動構築",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3munds3sxrc2n"
       ]
     }
   ]
