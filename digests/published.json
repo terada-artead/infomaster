@@ -1,118 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-29",
-      "id": "b42ac281ecaf",
-      "title_ja": "OpenAI、SpaceXによるCursor買収でCursorとの契約終了",
-      "urls": [
-        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "4424584ee706",
-      "title_ja": "Z.ai、GLM-5.3を公開しコーディング性能を大幅強化",
-      "urls": [
-        "https://huggingface.co/zai-org/GLM-5.3"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "7f0374631f4f",
-      "title_ja": "ニュークラウドLambda、AIチップ購入向けに10億ドルの債務調達",
-      "urls": [
-        "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "87553218d4be",
-      "title_ja": "Tencent、770BパラメータのMoEモデル「Hy4-preview」公開",
-      "urls": [
-        "https://huggingface.co/tencent/Hy4-preview"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "1b0375ab2430",
-      "title_ja": "Meta幹部がOpenAIに移籍、東南アジア事業を統括",
-      "urls": [
-        "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "6f8f0395b331",
-      "title_ja": "科学研究ワークフロー評価用ベンチマークTerminal-Bench-Science登場",
-      "urls": [
-        "https://www.terminal-bench-science.ai/announcement"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "d9c5264ee661",
-      "title_ja": "OpenAI、ExcelとPowerPointファイル内に非表示タスク機能を実装",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1w108mr/new_openai_built_a_hidden_task_system_for_chatgpt/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "ea803b9ee6de",
-      "title_ja": "Decathlon、需要予測にChronos-2をAWSで導入",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "f09599886f98",
-      "title_ja": "NPUベンダー独自形式を解析、GGUFモデルを変換なしで1.5倍高速化",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w0hrrn/i_reverseengineered_an_npu_vendors_engine_format/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "8152c5575eb2",
-      "title_ja": "Anthropic研究者、自己改善型AIシステムの実証を紹介",
-      "urls": [
-        "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "2ca26eebdd70",
-      "title_ja": "TTSモデルBreeze-TTS-2、フロンティア級の品質と評価",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w1002h/breezetts2_initial_impressions_genuinely_frontier/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "1484132ab400",
-      "title_ja": "Salesforce、SageMaker Inference ComponentsでマルチAZ高可用性を実現",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "ca50f3998f6e",
-      "title_ja": "Anthropic、国防総省のサプライチェーンリスク認定訴訟で勝訴",
-      "urls": [
-        "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/"
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "id": "52da779df248",
-      "title_ja": "Micron、HBMはDDR5比で約3倍のウェーハ面積が必要と指摘",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w0mmk7/micron_hbm_requires_three_times_more_wafer_area/"
-      ]
-    },
-    {
       "date": "2026-08-30",
       "id": "a1a747f4e122",
       "title_ja": "DeepSeek-V4-Flashが公開",
@@ -969,6 +857,94 @@
       "title_ja": "GPT-6で個人ナレッジベースを自動構築",
       "urls": [
         "https://bsky.app/profile/emollick.bsky.social/post/3munds3sxrc2n"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "c7bac135042a",
+      "title_ja": "OpenAIのAIエージェント暴走、独立調査体制の欠如が問題に",
+      "urls": [
+        "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "234d1f722727",
+      "title_ja": "ロボットデータ企業XDOF、評価額12億ドルでシリーズB交渉",
+      "urls": [
+        "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "e870d219d769",
+      "title_ja": "SpotifyのPortal、Claude Codeのトークン消費を9割削減",
+      "urls": [
+        "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "b8d5ebc86e9a",
+      "title_ja": "Bedrock AgentCoreでWhatsApp注文アシスタント構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "5d3951670f09",
+      "title_ja": "Qwen3.8-27B、RTX 5090上での推論エンジン比較",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w821fg/ninfer_vs_llamacpp_vs_vllm_quality_speed/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "fc8b777bd495",
+      "title_ja": "AIによる回路基板設計は可能か",
+      "urls": [
+        "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "42b56d0ecac1",
+      "title_ja": "Qwen3.8 Flash Next、テンプレート方式を比較検証",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w84mod/qwen38_flash_next_templates_comparison/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "2ec73a976413",
+      "title_ja": "Artificial Analysis Intelligence Index v4.2公開",
+      "urls": [
+        "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "2dd2ae7c5e97",
+      "title_ja": "Qwen3.8 27bがエージェント型コーディングで好評価",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w7tndw/qwen38_27b_for_agentic_coding_and_next_what/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "942bff9b0d42",
+      "title_ja": "サブスク料金ベースでArtificial Analysisを再構成",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1w7mwbb/i_redrew_artificial_analysis_using_subscription/"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": "600ee8857bfd",
+      "title_ja": "新モデル「K2-Horizon-MoVA-36B-A4B」公開",
+      "urls": [
+        "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B"
       ]
     }
   ]
