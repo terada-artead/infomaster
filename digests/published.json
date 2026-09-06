@@ -1,86 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-08-30",
-      "id": "a1a747f4e122",
-      "title_ja": "DeepSeek-V4-Flashが公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "3c97c389c32d",
-      "title_ja": "Breeze TTS 2、音声合成モデルを公開",
-      "urls": [
-        "https://huggingface.co/BreezeBlue/Breeze-TTS-2"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "a85aa69b831b",
-      "title_ja": "Nvidiaの優位性はGPU効率以外にも",
-      "urls": [
-        "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "1c359d226297",
-      "title_ja": "元a16zのVijay Pande、AI特化バイオ投資を語る",
-      "urls": [
-        "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "b52115842f50",
-      "title_ja": "Google AI OverviewsがWikipediaに影響との指摘",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mu6uexzec22o"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "bebe9a3ec6fa",
-      "title_ja": "CursorがOpenAIモデルへのアクセス失う",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1w1jihk/openai_models_are_only_5_of_cursor_traffic_that/"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "a65698737fa1",
-      "title_ja": "OpenAI Python クライアント v3.6.0公開",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.6.0"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "d675ad5b276b",
-      "title_ja": "LLMメモリをプログラム解析に応用",
-      "urls": [
-        "https://pwning.systems/posts/llm-memory-program-analysis/"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "f53579f901f9",
-      "title_ja": "モデル冗長性の重要性を指摘する声",
-      "urls": [
-        "https://bsky.app/profile/hardmaru.bsky.social/post/3mu7oaexpsc2p"
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "id": "9621eb675332",
-      "title_ja": "音声エージェント向けモデルPhonellm-alpha-1公開",
-      "urls": [
-        "https://huggingface.co/pipecat-ai/phonellm-alpha-1"
-      ]
-    },
-    {
       "date": "2026-08-31",
       "id": "e7129e9021b6",
       "title_ja": "MoonshotAI、Kimi-K3をHugging Faceで公開",
@@ -945,6 +865,103 @@
       "title_ja": "新モデル「K2-Horizon-MoVA-36B-A4B」公開",
       "urls": [
         "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "3784d7aba971",
+      "title_ja": "OpenAI、コーディングエージェントで研究加速の内幕を公開",
+      "urls": [
+        "https://openai.com/index/research-acceleration-view-inside-openai"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "4424584ee706",
+      "title_ja": "Z.ai、GLM-5.3公開　コーディングとサイバー能力が大幅強化",
+      "urls": [
+        "https://huggingface.co/zai-org/GLM-5.3"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "87553218d4be",
+      "title_ja": "Tencent、新モデルHy4-previewをHugging Faceに公開",
+      "urls": [
+        "https://huggingface.co/tencent/Hy4-preview"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "fcfbb6fadfe0",
+      "title_ja": "Qwen3.8 27B派生モデル8種の比較検証結果が公開",
+      "urls": [
+        "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w8vx6w/8_uncensored_qwen_38_27b_variants_one_base_167/"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "3e587c7e7418",
+      "title_ja": "XHToken、軽量モデルSpark-X2.5-4B/1.7Bを公開",
+      "urls": [
+        "https://huggingface.co/XHToken/Spark-X2.5-4B"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "ffb29772a913",
+      "title_ja": "GPT-6ベースのAstra、ロボットアームへ応用と話題に",
+      "urls": [
+        "https://openai.robocurve.org/gpt-6-astra/"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "3ace14236133",
+      "title_ja": "AIによる既発表論文の遡及的分析、学術界への影響懸念",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3muuhy3m6jc2o"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "7b3879a9c2a5",
+      "title_ja": "既存コーディングベンチマークを超える新指標の提案",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w8us6t/coding_benchmarks_that_are_quickly_showcasing/"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "36e2bba17c60",
+      "title_ja": "Uber創業者カラニックのAtoms、ロボタクシー参入検討か",
+      "urls": [
+        "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "465c8b3e8bf4",
+      "title_ja": "AIエージェントハーネス選定めぐりr/LocalLLaMAで議論",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w8f7bp/which_agent_harness_do_you_use_and_why/"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "15ef9c98527c",
+      "title_ja": "長文コンテキスト向けKVキャッシュストリーミング最適化のPR",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1w8jflp/block_kv_cache_streaming_bound_vram_at_long/"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": "4601df7a0772",
+      "title_ja": "AI活用拡大で作業実態把握が困難にとの指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3musaft2voc2z"
       ]
     }
   ]
