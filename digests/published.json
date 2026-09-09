@@ -1,169 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-02",
-      "id": "e7232d52f37f",
-      "title_ja": "Anthropic、Claude Fable 5.1とMythos 5.1を発表",
-      "urls": [
-        "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-        "https://www.reddit.com/r/ClaudeAI/comments/1w4juuz/introducing_claude_fable_51_and_claude_mythos_51/",
-        "https://bsky.app/profile/emollick.bsky.social/post/3mui3rgx72c2v"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "f2694bfa96c4",
-      "title_ja": "OpenAI、サイバー能力が重大水準に達したAstraを発表",
-      "urls": [
-        "https://openai.com/index/path-to-astra"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "555b86ad6550",
-      "title_ja": "空間知能向け世界モデルAtlasが公開",
-      "urls": [
-        "https://www.worldlabs.ai/blog/atlas"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "c0364833b410",
-      "title_ja": "ChatGPTが医療機関のEHRデータと連携可能に",
-      "urls": [
-        "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "5c23ba73e597",
-      "title_ja": "NVIDIAとCrowdStrikeがエージェント型セキュリティで提携強化",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "c6d1166e74fa",
-      "title_ja": "AIRがAIエージェント審査サービスで50億円調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "20b040f8e58f",
-      "title_ja": "Gemini、動画理解のエージェント機能を追加",
-      "urls": [
-        "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "dc38027fbdb6",
-      "title_ja": "Jamf、Bedrock向けリアルタイム支出管理を構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "239e2a8c2c65",
-      "title_ja": "Empirik、障害予測サービスで21億円調達し始動",
-      "urls": [
-        "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "3d72f61333f5",
-      "title_ja": "Google、時系列予測モデルTimesFM 3.0を公開",
-      "urls": [
-        "https://huggingface.co/google/timesfm-3.0-pytorch"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "2e7d0fb45461",
-      "title_ja": "1.5時間学習の小型Transformerが既存LLMを凌駕",
-      "urls": [
-        "https://mvakde.github.io/blog/44-on-arc-1/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "7415c6bcd9dd",
-      "title_ja": "Google Pics、プロンプト操作の画像編集ツールを発表",
-      "urls": [
-        "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-        "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "91dad0068ec2",
-      "title_ja": "Hugging Face、ローカルAI向けWebGPUカーネル群を公開",
-      "urls": [
-        "https://huggingface.co/blog/webgpu-kernels"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "b76c7e39a74f",
-      "title_ja": "AWS、Amazon Quickのセキュリティ設計パターンを解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/securing-amazon-quick-from-poc-to-production-agents-flows-and-spaces/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "b0cbef382238",
-      "title_ja": "AIネイティブ企業のエージェント活用事例をOpenAIが紹介",
-      "urls": [
-        "https://openai.com/index/ai-native-company-workflows"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "3c30961dd089",
-      "title_ja": "t54、Bedrock AgentCoreで決済向け信頼レイヤーを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-payments/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "fb0827c68cc0",
-      "title_ja": "48GB Macで104GBのQwenモデルを動作させる手法公開",
-      "urls": [
-        "https://github.com/carloslfu/slotstream"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "2bda9611adcf",
-      "title_ja": "Intel、メモリ事業再参入を示唆",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w4fp6w/intel_hints_it_may_get_back_into_memory_business/"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "d810a7f79561",
-      "title_ja": "音声同期動画生成モデルFastH3が公開",
-      "urls": [
-        "https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree"
-      ]
-    },
-    {
-      "date": "2026-09-02",
-      "id": "ad90e6779ea3",
-      "title_ja": "LLMベンチマークの測定対象を検証するBenchMIRT公開",
-      "urls": [
-        "https://huggingface.co/blog/allenai/benchmirt"
-      ]
-    },
-    {
       "date": "2026-09-03",
       "id": "63b19b50b402",
       "title_ja": "Google、Gemini 3.8 FlashとFlash Cyberを発表",
@@ -1063,6 +900,167 @@
       "title_ja": "AIエージェントのテスト・検証手法の実態を分析",
       "urls": [
         "https://danluu.com/agentic-testing/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "6a32f47d0502",
+      "title_ja": "AWS、2026年8月のAIビルダー向け新機能をまとめて紹介",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "d1ea6002b015",
+      "title_ja": "大手企業のAI支出、8月に従業員あたりで減少",
+      "urls": [
+        "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "42e9c4faadda",
+      "title_ja": "Mistral、欧州エネルギー企業のFortranコードをAIで移行支援",
+      "urls": [
+        "https://mistral.ai/news/legacy-code-modernization/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "f16f589d3c5f",
+      "title_ja": "GPT-6 AstraがAmazon Bedrockで一般提供開始",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "a58bb6dba21b",
+      "title_ja": "Claudeのトークンを盗む攻撃、Anthropicが利用者に警告",
+      "urls": [
+        "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "178209c23784",
+      "title_ja": "Heurist Finance、Bedrock AgentCoreで投資ワークベンチ構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "606e9bc7b6ea",
+      "title_ja": "Suno、著作権訴訟の中でライセンス楽曲学習の新モデルv6を投入",
+      "urls": [
+        "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "0853b7237e63",
+      "title_ja": "Sequoia、AIエージェントのセキュリティリスク対策企業Cymphonyに追加投資",
+      "urls": [
+        "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "3eb3e9557eb7",
+      "title_ja": "Paul Christiano氏、OpenAI財団理事会に参加",
+      "urls": [
+        "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "4a5aaae05ec9",
+      "title_ja": "米国、中国AI企業によるAI技術の模倣を非難",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wb9prm/us_accuses_chinese_ai_firms_of_malicious_copying/",
+        "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "448701fe9974",
+      "title_ja": "vLLM v0.29.0リリース、Model Runner V2がデフォルトに",
+      "urls": [
+        "https://github.com/vllm-project/vllm/releases/tag/v0.29.0"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "78524e1fb74f",
+      "title_ja": "OpenAI、画像生成モデル「ChatGPT Images 2.5」を発表",
+      "urls": [
+        "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "c0b0be274153",
+      "title_ja": "AIアシスタント「Instinct」、専用メールアドレス機能を追加",
+      "urls": [
+        "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "a9e40bcc7711",
+      "title_ja": "2.8兆パラメータのKimi K3、MacBook Proで1トークン/秒稼働",
+      "urls": [
+        "https://github.com/argonautlabsai/deltafin"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "cb791d9eaaa1",
+      "title_ja": "1ビット27BモデルをブラウザでWebGPU推論、6GB GPUで動作",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wbm50k/1bit_27b_in_the_browser_2530_toks_on_a_6_gb_rtx/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "9aea9dc83ca6",
+      "title_ja": "Shipt、AIショッピングアシスタントを導入",
+      "urls": [
+        "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "46660cb2ea43",
+      "title_ja": "IBM、商用利用可能なライセンスの時系列モデルを公開",
+      "urls": [
+        "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "fd512afc6b72",
+      "title_ja": "Anthropic、活動家監視のための予測的監視システムを開発と報道",
+      "urls": [
+        "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "209e9ecb3c6a",
+      "title_ja": "Instacart、AI買い物アシスタント「Clementine」を導入",
+      "urls": [
+        "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": "595f5a162f6b",
+      "title_ja": "AWS、TorchServe後継としてRay Serve Deep Learning Containersを提供",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/"
       ]
     }
   ]
