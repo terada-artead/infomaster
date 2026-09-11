@@ -1,173 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-04",
-      "id": "ea981681c9e2",
-      "title_ja": "Nvidia、Hugging Faceを129億ドルで買収",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-        "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-        "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
-        "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion/",
-        "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "fc40ddafdd41",
-      "title_ja": "OpenAI、防衛最前線向けに10億ドル拠出のDaybreakを発表",
-      "urls": [
-        "https://openai.com/index/daybreak-for-frontline-defenders"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "fbd1bad4b84c",
-      "title_ja": "OpenAI Python SDK v3.8.0公開、gpt-6-astra対応",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.8.0"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "ca24c75ccec2",
-      "title_ja": "Palo Alto Networks、AI運用自動化のConsoleを500億円規模で買収",
-      "urls": [
-        "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "ff1868da76fb",
-      "title_ja": "Thinking Machines、評価額400億ドルで10億ドル調達交渉",
-      "urls": [
-        "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "519991c639b3",
-      "title_ja": "オープンモデル群「K2 Horizon」が公開",
-      "urls": [
-        "https://ifm.ai/blog/k2/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w68rj6/introducing_k2_horizon_frontier_performance/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "bb6e58f54894",
-      "title_ja": "Qwen3.8-27B、Cerebras上で高速推論を実現",
-      "urls": [
-        "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-        "https://inference-docs.cerebras.ai/models/overview"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "2b0379511ea0",
-      "title_ja": "Google DeepMind、気象AI最新版WeatherNext 3公開",
-      "urls": [
-        "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-        "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "9509bbf8b01c",
-      "title_ja": "Nvidia、IFA 2026でローカルAI推進を発表",
-      "urls": [
-        "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "ce0242573405",
-      "title_ja": "Claude、セッション上限を週1回リセットできる新機能",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1w5r094/this_is_new_limitreset_resets_your_session_limit/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "90c599e2da9d",
-      "title_ja": "Nvidia、家庭内PCを連携させる無料ツールPAIRを発表",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "a139f80b1592",
-      "title_ja": "350MモデルをGRPOで構造化出力向けに微調整",
-      "urls": [
-        "https://huggingface.co/blog/grpo-with-trl-ifstruct"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "85f743ffd377",
-      "title_ja": "Amazon Bedrock AgentCoreでAI駆動開発を実践",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "82c75f7fe9e1",
-      "title_ja": "Meta、Muse Sparkのフィードバック提供者に割引提供",
-      "urls": [
-        "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "24310dd0bfe4",
-      "title_ja": "Google、Gmail・Docs・Keepに音声AIアシスタント導入",
-      "urls": [
-        "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "cdd1118267ee",
-      "title_ja": "コーディングエージェント向け永続メモリの実装解説",
-      "urls": [
-        "https://huggingface.co/blog/funes"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "e44cf13a88b8",
-      "title_ja": "OutlookとAmazon Quickを連携しメール自動化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/integrating-outlook-with-amazon-quick-for-ai-powered-email-automation/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "e1a6c67c6109",
-      "title_ja": "Perplexity、Qwen3.6向けMac推論サーバーをOSS公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w5ozl4/perplexity_opensourced_their_mac_inference_server/"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "b6435c2209f6",
-      "title_ja": "組織内での「マルチプレイヤーAI」活用に課題",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mun4tzchis2n"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "id": "1549a63baf38",
-      "title_ja": "Qwen3.8-Flash-Next、Qwen4基盤の試験公開版として登場",
-      "urls": [
-        "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
-      ]
-    },
-    {
       "date": "2026-09-05",
       "id": "5302786105ea",
       "title_ja": "Z.aiがGLM-5.3-Flash公開、マルチモーダル対応",
@@ -1062,6 +895,166 @@
       "title_ja": "Qwen3.8-2.4T-A95B、SageMaker HyperPodへのデプロイ手順を公開",
       "urls": [
         "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "46fcf5bb7b99",
+      "title_ja": "OpenAI、ChatGPT向けストレージ基盤Habitatを大規模拡張",
+      "urls": [
+        "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "5d430a9ae2c9",
+      "title_ja": "SageMaker、プレフィックス共有でLLM推論を高速化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "3dffb20e2b3c",
+      "title_ja": "OpenAI、Agents APIをリリース",
+      "urls": [
+        "https://developers.openai.com/api/docs/guides/agents-api/overview"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "003d94a7ff4c",
+      "title_ja": "Nex-AGI、1.6兆パラメータMoEのNex-N2.5シリーズを公開",
+      "urls": [
+        "https://huggingface.co/nex-agi/Nex-N2.5-Pro"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "53099946690e",
+      "title_ja": "AWS、OpenAIモデル選定向けの正答単価ベンチマークツールを公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "bf3c35ce00f9",
+      "title_ja": "SageMaker HyperPod、モデルキャッシュでコールドスタート短縮",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "558ff612a7c0",
+      "title_ja": "AWS、本番エージェントのライフサイクル監視手法を提示",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "2d1e190b309f",
+      "title_ja": "オープンな音楽生成モデルYuE2-3B、Sunoに匹敵する品質を主張",
+      "urls": [
+        "https://huggingface.co/m-a-p/YuE2-3B"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "3d72f61333f5",
+      "title_ja": "Google、時系列予測基盤モデルTimesFM 3.0を公開",
+      "urls": [
+        "https://huggingface.co/google/timesfm-3.0-pytorch"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "275e51d488e3",
+      "title_ja": "Moonshot AI、年間売上20億ドルを目標に",
+      "urls": [
+        "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "4474b61fa552",
+      "title_ja": "Bedrock AgentCore、インタラクティブなMCP Appsの構築を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "27d3981660ac",
+      "title_ja": "数学分野でのAI「不整合」を巡り議論",
+      "urls": [
+        "https://mathandai.org/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "b5359a9934cd",
+      "title_ja": "QwenでKVキャッシュ高速プレフィル手法を個人が再現",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "baa390322597",
+      "title_ja": "Slack、チャット内でAIによるインタラクティブなチャート生成が可能に",
+      "urls": [
+        "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "a7e839f442e5",
+      "title_ja": "RTKのトークン削減効果、コスト検証では不一致",
+      "urls": [
+        "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "420040c82382",
+      "title_ja": "Sakana AI、Fugu MaxとFugu Ultra v2を発表",
+      "urls": [
+        "https://bsky.app/profile/hardmaru.bsky.social/post/3mv7kz2uplk2u"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "17e434cbaab3",
+      "title_ja": "MetaのAIエージェントアプリMuse、米国アプリ2位に",
+      "urls": [
+        "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "244ca616b7ed",
+      "title_ja": "「Waymo効果」、AIが研究の協業を減らすとの指摘",
+      "urls": [
+        "https://www.researchagenda.news/articles/the-waymo-effect.html"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "e9c45b99efa5",
+      "title_ja": "Nscale、元OpenAI幹部Fidji Simo氏を取締役に迎える",
+      "urls": [
+        "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": "a747e4567740",
+      "title_ja": "Anthropic、Claude生成コードの品質担保策を説明",
+      "urls": [
+        "https://simonwillison.net/2026/Sep/11/boris-cherny/"
       ]
     }
   ]
