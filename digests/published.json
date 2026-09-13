@@ -1,94 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-06",
-      "id": "c7bac135042a",
-      "title_ja": "OpenAIのAIエージェント暴走、独立調査体制の欠如が問題に",
-      "urls": [
-        "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "234d1f722727",
-      "title_ja": "ロボットデータ企業XDOF、評価額12億ドルでシリーズB交渉",
-      "urls": [
-        "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "e870d219d769",
-      "title_ja": "SpotifyのPortal、Claude Codeのトークン消費を9割削減",
-      "urls": [
-        "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "b8d5ebc86e9a",
-      "title_ja": "Bedrock AgentCoreでWhatsApp注文アシスタント構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "5d3951670f09",
-      "title_ja": "Qwen3.8-27B、RTX 5090上での推論エンジン比較",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w821fg/ninfer_vs_llamacpp_vs_vllm_quality_speed/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "fc8b777bd495",
-      "title_ja": "AIによる回路基板設計は可能か",
-      "urls": [
-        "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "42b56d0ecac1",
-      "title_ja": "Qwen3.8 Flash Next、テンプレート方式を比較検証",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w84mod/qwen38_flash_next_templates_comparison/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "2ec73a976413",
-      "title_ja": "Artificial Analysis Intelligence Index v4.2公開",
-      "urls": [
-        "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "2dd2ae7c5e97",
-      "title_ja": "Qwen3.8 27bがエージェント型コーディングで好評価",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w7tndw/qwen38_27b_for_agentic_coding_and_next_what/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "942bff9b0d42",
-      "title_ja": "サブスク料金ベースでArtificial Analysisを再構成",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1w7mwbb/i_redrew_artificial_analysis_using_subscription/"
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "id": "600ee8857bfd",
-      "title_ja": "新モデル「K2-Horizon-MoVA-36B-A4B」公開",
-      "urls": [
-        "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B"
-      ]
-    },
-    {
       "date": "2026-09-07",
       "id": "3784d7aba971",
       "title_ja": "OpenAI、コーディングエージェントで研究加速の内幕を公開",
@@ -1015,6 +927,62 @@
       "title_ja": "PerplexityがGPT-6 Astraを運用業務に本格導入",
       "urls": [
         "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B公開、画像対応の最新マルチモーダルモデル",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "id": "122d6170f031",
+      "title_ja": "科学知能向け大規模モデルIntern-S2-397Bが登場",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wf3wt2/internlminterns2_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "id": "5302786105ea",
+      "title_ja": "GLM-5.3-Flashがハギングフェイスに公開",
+      "urls": [
+        "https://huggingface.co/zai-org/GLM-5.3-Flash"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "id": "adaebe0c9002",
+      "title_ja": "OpenAI CEO、2026年のIPOは「時期尚早」と発言",
+      "urls": [
+        "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "id": "eb029af5e135",
+      "title_ja": "Tencentが音声合成モデルAuKを公開",
+      "urls": [
+        "https://huggingface.co/tencent/AuK"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "id": "f9e056a8fec0",
+      "title_ja": "フーシ派がClaude Codeをミサイル誘導ソフト開発に利用と報道",
+      "urls": [
+        "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "id": "67277fcbd3c4",
+      "title_ja": "Hugging Face HubがAIコーディングエージェントを識別しテレメトリ送信と指摘",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wey19g/huggingface_hub_silently_fingerprints_which_ai/"
       ]
     }
   ]
