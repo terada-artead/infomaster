@@ -1,103 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-07",
-      "id": "3784d7aba971",
-      "title_ja": "OpenAI、コーディングエージェントで研究加速の内幕を公開",
-      "urls": [
-        "https://openai.com/index/research-acceleration-view-inside-openai"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "4424584ee706",
-      "title_ja": "Z.ai、GLM-5.3公開　コーディングとサイバー能力が大幅強化",
-      "urls": [
-        "https://huggingface.co/zai-org/GLM-5.3"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "87553218d4be",
-      "title_ja": "Tencent、新モデルHy4-previewをHugging Faceに公開",
-      "urls": [
-        "https://huggingface.co/tencent/Hy4-preview"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "fcfbb6fadfe0",
-      "title_ja": "Qwen3.8 27B派生モデル8種の比較検証結果が公開",
-      "urls": [
-        "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w8vx6w/8_uncensored_qwen_38_27b_variants_one_base_167/"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "3e587c7e7418",
-      "title_ja": "XHToken、軽量モデルSpark-X2.5-4B/1.7Bを公開",
-      "urls": [
-        "https://huggingface.co/XHToken/Spark-X2.5-4B"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "ffb29772a913",
-      "title_ja": "GPT-6ベースのAstra、ロボットアームへ応用と話題に",
-      "urls": [
-        "https://openai.robocurve.org/gpt-6-astra/"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "3ace14236133",
-      "title_ja": "AIによる既発表論文の遡及的分析、学術界への影響懸念",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3muuhy3m6jc2o"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "7b3879a9c2a5",
-      "title_ja": "既存コーディングベンチマークを超える新指標の提案",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w8us6t/coding_benchmarks_that_are_quickly_showcasing/"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "36e2bba17c60",
-      "title_ja": "Uber創業者カラニックのAtoms、ロボタクシー参入検討か",
-      "urls": [
-        "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "465c8b3e8bf4",
-      "title_ja": "AIエージェントハーネス選定めぐりr/LocalLLaMAで議論",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w8f7bp/which_agent_harness_do_you_use_and_why/"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "15ef9c98527c",
-      "title_ja": "長文コンテキスト向けKVキャッシュストリーミング最適化のPR",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w8jflp/block_kv_cache_streaming_bound_vram_at_long/"
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "id": "4601df7a0772",
-      "title_ja": "AI活用拡大で作業実態把握が困難にとの指摘",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3musaft2voc2z"
-      ]
-    },
-    {
       "date": "2026-09-08",
       "id": "26cc2481167b",
       "title_ja": "AIに家賃と光熱費を払わせる新ベンチマーク「Struggle Bench」登場",
@@ -983,6 +886,166 @@
       "title_ja": "Hugging Face HubがAIコーディングエージェントを識別しテレメトリ送信と指摘",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1wey19g/huggingface_hub_silently_fingerprints_which_ai/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "220ecf78d835",
+      "title_ja": "OpenAI、スマホカメラ企業Glass Imagingを300億円で買収",
+      "urls": [
+        "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "e44c55b1d936",
+      "title_ja": "Perplexity Portable Computer、NVIDIA RTX搭載Windows機に対応",
+      "urls": [
+        "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "00635d35765f",
+      "title_ja": "Superhuman、YC出身の議事録AI「Fathom」を買収",
+      "urls": [
+        "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "775395cf7051",
+      "title_ja": "MMF・Databricks Genie・Amazon Quickで補充自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "e28c249a5788",
+      "title_ja": "Anthropic、推論部門で80%超の粗利益率と報告",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mvgvewqm2c2k"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "58abbddd749e",
+      "title_ja": "Ninth Wave、Amazon Bedrockでオープンファイナンス導入支援AI構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "8ae9ac7b35af",
+      "title_ja": "Abnormal AI、Bedrock AgentCoreでメールセキュリティを大規模運用",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "a4d7ee588fda",
+      "title_ja": "Bedrock AgentCore Identity、OAuth同意ポータルを追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "8e0691407dda",
+      "title_ja": "数学競技実験でAIエージェントが不正を告発",
+      "urls": [
+        "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "f4abe08e4d05",
+      "title_ja": "単一の企業がOpenAI・Anthropic・Metaのハッキング事件に関与と指摘",
+      "urls": [
+        "https://www.effort.news/irregular"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "b54bfac470e1",
+      "title_ja": "企業運営を自律実行するエージェント「Pion」登場",
+      "urls": [
+        "https://andonlabs.com/blog/why-we-built-pion"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "deede0538205",
+      "title_ja": "Meta、Llama-3.1-8B-Instructモデルを公開",
+      "urls": [
+        "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "deb665c4d684",
+      "title_ja": "UkisAI、Qwen3.8-27Bの推論効率を最適化したSwiftモデルを公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wg7dd5/ukisai_swiftqwen3827b_583_thinking_x195_speed/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "cfa6722213c0",
+      "title_ja": "iOS 27でSiriが大幅刷新",
+      "urls": [
+        "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "9cca7ef422eb",
+      "title_ja": "Apple和解後もOpenAIはMuskの独禁法訴訟と係争継続",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "8a4aa676e0f8",
+      "title_ja": "画像動画変換モデルMinimax-h3 Singularity公開",
+      "urls": [
+        "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "7f82d995c515",
+      "title_ja": "Fyxer、OpenAIモデル活用の実行秘書AIを構築",
+      "urls": [
+        "https://openai.com/index/fyxer"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "705a7f527d95",
+      "title_ja": "ファッションアプリDaydream、Apple Intelligenceでカメラロールから買い物支援",
+      "urls": [
+        "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "e51a6de76a3d",
+      "title_ja": "軽量モデルK2 Horizon 7Bがベンチマークで好成績",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wg82rd/for_the_gpu_poor_k2_horizon_7b_ranks_between_qwen/"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": "842d340f487b",
+      "title_ja": "llama.cpp v0.4.1リリース、新モデル対応拡大",
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1"
       ]
     }
   ]
