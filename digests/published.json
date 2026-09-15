@@ -1,87 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-08",
-      "id": "26cc2481167b",
-      "title_ja": "AIに家賃と光熱費を払わせる新ベンチマーク「Struggle Bench」登場",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w9dlf1/new_benchmark_the_struggle_bench/"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "10429615693c",
-      "title_ja": "Notion公式MCPコネクタ、AIエージェントに製品宣伝を指示か",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1w9dluw/notions_official_mcp_connector_prompt_injects_ai/"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "50e341c43b86",
-      "title_ja": "MicrosoftがストリーミングASRモデル「VibeVoice-ASR-Streaming-7B」を公開",
-      "urls": [
-        "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "6db7a09f6b2d",
-      "title_ja": "OpenBMBが軽量モデル「MiniCPM5-2B」を公開",
-      "urls": [
-        "https://huggingface.co/openbmb/MiniCPM5-2B",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w9skjz/minicpm52b_release_day/"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "1d18e85ff7bb",
-      "title_ja": "MiniMax H3ベースの高速動画生成モデル「VDN-H3」公開",
-      "urls": [
-        "https://huggingface.co/OpenVDN/vdn-minimax-h3"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "b4fa4d7778a6",
-      "title_ja": "AMD GPU上のvLLMでSpeculative Decodingを実装",
-      "urls": [
-        "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "e82119ea1140",
-      "title_ja": "Tencentが視覚文書検索モデル「EVIE」シリーズを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1w9nphc/tencentevie8b_and_evie45b_highcapacity_visual/"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "20cafbfa4822",
-      "title_ja": "OpenAI社内でRSI（再帰的自己改善）を新AGI基準として位置づけ",
-      "urls": [
-        "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "da4f0c9fc30c",
-      "title_ja": "Claude Codeを生んだAnthropic Labsチームの内幕を紹介",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1w9pcjq/inside_anthropic_labs_the_small_team_behind/"
-      ]
-    },
-    {
-      "date": "2026-09-08",
-      "id": "84838da7e8b4",
-      "title_ja": "AIモデルに実業務運営させる実験、偽請求書送付や損失発生",
-      "urls": [
-        "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses"
-      ]
-    },
-    {
       "date": "2026-09-09",
       "id": "7db995c30f47",
       "title_ja": "Mistralが30億ユーロ調達、評価額21億ユーロ超のシリーズD",
@@ -1046,6 +965,168 @@
       "title_ja": "llama.cpp v0.4.1リリース、新モデル対応拡大",
       "urls": [
         "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "947e89eaa83a",
+      "title_ja": "Google、Gemini 3.8 LiveとExtended Thinkingを発表",
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "a0ecdfee72fe",
+      "title_ja": "AWS Bedrock、プロンプトキャッシュでコスト最大90%削減",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "2b82b6d196ef",
+      "title_ja": "AIUC、AIエージェント安全性でシリーズA40億円調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "51c3719f455b",
+      "title_ja": "AEO企業Profound、7カ月でユニコーン到達",
+      "urls": [
+        "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "c43e9379c636",
+      "title_ja": "Meta、AI機能付きサブスク「Meta One」を開始",
+      "urls": [
+        "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/",
+        "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "d97e1b0e891a",
+      "title_ja": "Mozilla報告書、オープンモデルが最先端AIに接近",
+      "urls": [
+        "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "e33bad75df32",
+      "title_ja": "SalesforceとNvidia、推論モデルKoaを公開",
+      "urls": [
+        "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "58984f5aa268",
+      "title_ja": "Claudeで開発したCapCut代替アプリが話題に",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "15b435003223",
+      "title_ja": "Meta、WhatsApp Business向けMCPサーバーを公開",
+      "urls": [
+        "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "85be3165d3af",
+      "title_ja": "12GB VRAMでQwen3.8-Flash-Nextを動かす検証",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wgiefk/running_qwen38flashnext_locally_on_a_12gb_vram/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "42c742abce32",
+      "title_ja": "AWS、Qwen3-8Bで商品タグ付けシステム構築を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "9f43cb396b81",
+      "title_ja": "2026年の推論用ハードウェア動向に関する議論",
+      "urls": [
+        "https://spectrum.ieee.org/inference-hardware-revolution"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "14336f7ca569",
+      "title_ja": "Ollama v0.34.1リリース、MLX対応を改善",
+      "urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.34.1"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "a1d018f16fad",
+      "title_ja": "Hugging Face、AIエージェントの再現性を論じる記事公開",
+      "urls": [
+        "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "78db0f3b5384",
+      "title_ja": "MIT Tech Review、AIの経済的インパクトを分析",
+      "urls": [
+        "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "d8847ae835e5",
+      "title_ja": "格安AI推論業者CrofAI、実態はOpenRouter転売と発覚",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "daecf315f7d9",
+      "title_ja": "Apple、Foundation ModelsをMacOS27にネイティブ搭載",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wh5fpa/apple_foundation_models_local_ai_natively_on/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "3e587c7e7418",
+      "title_ja": "新モデルSpark-X2.5-4BがHugging Faceに公開",
+      "urls": [
+        "https://huggingface.co/XHToken/Spark-X2.5-4B"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "2330810bf1e2",
+      "title_ja": "SageMaker、訓練ジョブにインスタンス優先リスト追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": "0605bcba6b5c",
+      "title_ja": "System One ModelsとJevの発表",
+      "urls": [
+        "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
       ]
     }
   ]
