@@ -1,170 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-09",
-      "id": "7db995c30f47",
-      "title_ja": "Mistralが30億ユーロ調達、評価額21億ユーロ超のシリーズD",
-      "urls": [
-        "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-        "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "278717cc8721",
-      "title_ja": "脳型アーキテクチャBDHをSageMaker HyperPodで開発",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "e623e2c86879",
-      "title_ja": "Cognitionが評価額480億ドルに到達、AIコーディング市場は複数勝者へ",
-      "urls": [
-        "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "f0e27f432f48",
-      "title_ja": "DeepMindがヒトゲノム全変異のDNA予測地図を公開",
-      "urls": [
-        "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "482f99062b1b",
-      "title_ja": "SageMaker AIで小型LLM推論をG5/G6/G7比較検証",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "f65a7bb90c70",
-      "title_ja": "DiDiがBedrockでコンタクトセンターQAを内製化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-didi-built-intelligent-contact-center-qa-with-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "1823f25dc231",
-      "title_ja": "DeepSeek Flash 4.1がAPIでテスト開始・展開中",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wan3nl/deepseek_flash_41_is_already_being_tested_via_api/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "a02b9db14c7c",
-      "title_ja": "Metaが個人向けAIエージェント「Muse」を発表",
-      "urls": [
-        "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
-        "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-        "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "eea517d5e109",
-      "title_ja": "OpenAIのナビエ・ストークス方程式解決を巡り議論",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3muzke4uexs2v"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "a1b72811dd25",
-      "title_ja": "1PasswordがCodex導入でエンジニア生産性21%向上",
-      "urls": [
-        "https://openai.com/index/1password"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "ee7155480b8c",
-      "title_ja": "HPE Zertoがオンプレミス向けエージェント型障害対応システムを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "91a0d6e6254c",
-      "title_ja": "Google CloudとAccentureがエンタープライズAI展開で提携",
-      "urls": [
-        "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "78931cac54ff",
-      "title_ja": "OpenAI、数学者の研究成果流用疑惑が浮上",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricksが画像・動画生成モデルLTX-2.5を公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "503e9c2326e7",
-      "title_ja": "GPT-5.6 SolがMITの量子コンピューティング実験を支援",
-      "urls": [
-        "https://openai.com/index/codex-quantum-computing-experiments"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "3b381c3fcfb5",
-      "title_ja": "Qwenが自動運転向けモデルQwen-Drive-1.0を公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wauxg9/qwenqwendrive104b_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "1dcea8b0f8ac",
-      "title_ja": "OpenAI、スケッチから画像生成する「ChatGPT Images 2.5」発表",
-      "urls": [
-        "https://openai.com/index/introducing-chatgpt-images-2-5",
-        "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "550284f58c31",
-      "title_ja": "Bedrock AgentCoreでエージェント評価をCI/CDに統合",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "16673d70457d",
-      "title_ja": "元DeepMind研究者が予測型エージェント開発企業を設立",
-      "urls": [
-        "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/"
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "id": "a6ea7e099681",
-      "title_ja": "AIエージェントのテスト・検証手法の実態を分析",
-      "urls": [
-        "https://danluu.com/agentic-testing/"
-      ]
-    },
-    {
       "date": "2026-09-10",
       "id": "6a32f47d0502",
       "title_ja": "AWS、2026年8月のAIビルダー向け新機能をまとめて紹介",
@@ -1127,6 +963,168 @@
       "title_ja": "System One ModelsとJevの発表",
       "urls": [
         "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "def75ecd4873",
+      "title_ja": "元Infosysトップのスタートアップ、53億円相当を追加調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "046432880ec7",
+      "title_ja": "NVIDIA新GPU「Vera Rubin」がMLPerf推論で首位性能",
+      "urls": [
+        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "7f73f40ae99d",
+      "title_ja": "Claude、文書・スライド作成のDocsとSlidesを提供開始",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "d3d39f902f00",
+      "title_ja": "公開AIベンチマークの信頼性低下が指摘される",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mvneqxjm3s22"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "b229c2cba999",
+      "title_ja": "Google、スマートホーム操作用のMCPサーバーを公開",
+      "urls": [
+        "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+        "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "14a1b53588b2",
+      "title_ja": "Apple、AI需要を受けサーバー事業再参入を検討",
+      "urls": [
+        "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1why9ao/apple_may_return_to_server_market_with_nvidia/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "467dc9d43658",
+      "title_ja": "MistralとMozilla、ブラウザ向けプライベートAIで提携",
+      "urls": [
+        "https://mistral.ai/news/mistral-x-mozilla/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "c0e534495ba4",
+      "title_ja": "Google調査、科学研究へのAI活用の複雑な影響を報告",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mvmhlphggk27"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "b5a1743af4f4",
+      "title_ja": "OpenAI、ChatGPTに「Sponsored Agents」広告を拡大",
+      "urls": [
+        "https://openai.com/index/reimagining-advertising-with-ai/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "a14a5d6b9521",
+      "title_ja": "AWS、医療・生命科学向けオープンソースAgent Skillsを公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "2298ecda65e0",
+      "title_ja": "中国のオープンウェイトAI、米フロンティアとの差が4カ月に縮小",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wi32jg/chinas_openweight_ai_models_are_now_just_4_months/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "552a76560141",
+      "title_ja": "DeepSeek v4.1 Flash、「最高のハッキングモデル」と評される",
+      "urls": [
+        "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "094a3a6ba9b1",
+      "title_ja": "Amazon EKSでNVRxを用いた耐障害分散学習手法を公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "ac7aaae20f69",
+      "title_ja": "Emerald AI・Google・NVIDIA、データセンター電力連合を発足",
+      "urls": [
+        "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "0b10385b1288",
+      "title_ja": "AnthropicとOpenAI、独立安全評価者を社内に配置へ",
+      "urls": [
+        "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "1eaaf8c14802",
+      "title_ja": "Qwen3.8-Flash-NextのKVキャッシュをRAMにオフロードする手法",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1whx5xi/you_can_offload_most_of_qwen38flashnexts_kv_cache/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "b4f453b53dcf",
+      "title_ja": "Claudeの新使用制限、業務利用に支障との声",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1whi2hu/the_new_usage_limits_make_subscription_and_team/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "6db7a09f6b2d",
+      "title_ja": "軽量モデル「MiniCPM5-2B」がHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/openbmb/MiniCPM5-2B"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "d0884460aa9c",
+      "title_ja": "AWS Bedrock AgentCore、システムプロンプト最適化機能を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": "f39820d1793a",
+      "title_ja": "Meta、「Muse Spark」モデルの重み公開が遅延",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1whqm2c/hey_meta_wheres_those_muse_spark_weights/"
       ]
     }
   ]
