@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-11",
-      "id": "b32e9b847135",
-      "title_ja": "OpenAI、クラウドエージェント構築用Agents APIを提供開始",
-      "urls": [
-        "https://openai.com/index/introducing-the-agents-api"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "b8a75fb67d81",
-      "title_ja": "OpenAI、音声API向け新モデルGPT-Live-1を公開",
-      "urls": [
-        "https://openai.com/index/introducing-gpt-live-1-in-the-api"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "6a886414536a",
-      "title_ja": "OpenAI、ChatGPT WorkにData agentを導入",
-      "urls": [
-        "https://openai.com/index/put-data-to-work"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "403f674bcee8",
-      "title_ja": "Cognition、新モデルSWE-2を発表",
-      "urls": [
-        "https://cognition.com/blog/swe-2"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "eb79656c925c",
-      "title_ja": "Qwen3.8-Flash-Next、Hugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "0bb946f0c421",
-      "title_ja": "OpenAI、金融機関向けChatGPTを発表",
-      "urls": [
-        "https://openai.com/index/introducing-chatgpt-financial-services"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "a9e027c5d6e4",
-      "title_ja": "Skild AI、NVIDIA Physical AIでロボット学習を実装",
-      "urls": [
-        "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "43169485cbc7",
-      "title_ja": "Anthropic、中国AI企業の蒸留攻撃を報告",
-      "urls": [
-        "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "ed7189b44925",
-      "title_ja": "Maven Robotics、シリーズAで1億ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "5c348986a151",
-      "title_ja": "DeepSeek、V4.1 Flashを発表しKVキャッシュ圧縮を刷新",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wcbid7/deepseek_v41_flash_is_out/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "4419d27eaf76",
-      "title_ja": "TwelveLabs Marengo 3.0、Amazon Bedrockで一般提供開始",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "1f0e60fded5c",
-      "title_ja": "MiniMax-H3、Hugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "54827c4e6e12",
-      "title_ja": "OpenAI、Astra需要でProサブスクを一時停止",
-      "urls": [
-        "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "0286b52989ae",
-      "title_ja": "Listen Labs、15億ドル調達ラウンドを撤回しSalesforceと交渉へ",
-      "urls": [
-        "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "20c9f9de702f",
-      "title_ja": "DeepSeek、視覚理解対応の実験モデルV4-Flash-Vision-Expを公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "325b5817277a",
-      "title_ja": "Universal Music、ElevenLabsとAI音楽プラットフォームを開始",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "830fb9aa9b11",
-      "title_ja": "ClouderaとMistral、ソブリンAIで提携",
-      "urls": [
-        "https://mistral.ai/news/mistral-x-cloudera/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "da1eeb0d17fa",
-      "title_ja": "インドPocket FM、AI活用でコンテンツ制作コストを削減し収益倍増",
-      "urls": [
-        "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "8324d57fee88",
-      "title_ja": "38億パラメータLLMを998ドルでCOREスコア0.384まで学習",
-      "urls": [
-        "https://hugovergnes.github.io/little-lm-3-8b/"
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "id": "c6ab3418f3e2",
-      "title_ja": "Qwen3.8-2.4T-A95B、SageMaker HyperPodへのデプロイ手順を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/"
-      ]
-    },
-    {
       "date": "2026-09-12",
       "id": "46fcf5bb7b99",
       "title_ja": "OpenAI、ChatGPT向けストレージ基盤Habitatを大規模拡張",
@@ -1130,6 +969,170 @@
       "title_ja": "Cloudflare、セキュリティ監査用「Security-Audit-Skill」を公開",
       "urls": [
         "https://github.com/cloudflare/security-audit-skill"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "72a147bca7de",
+      "title_ja": "SageMaker HyperPod、GPU認識型推論ゲートウェイを発表",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "e2cc67e2ab19",
+      "title_ja": "Bedrock AgentCore runtime発表、エージェント運用のコスト最適化へ",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "8981793a8aaf",
+      "title_ja": "Crusoe、データセンター拡張に39億ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "b3615add02cf",
+      "title_ja": "研究者がClaudeを使いOpenAI社内システムに侵入",
+      "urls": [
+        "https://www.hacktron.ai/blog/hacking-openai",
+        "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "fd3b761a63e0",
+      "title_ja": "PrismML、2bit三値量子化の27Bモデルを公開",
+      "urls": [
+        "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "56c9254caa70",
+      "title_ja": "SageMaker Inference、2026年の主要リリースを総括",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "8250b8c61be5",
+      "title_ja": "Manus、評価額40億ドルで5億ドル調達を検討",
+      "urls": [
+        "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "ea36c1448b7e",
+      "title_ja": "米軍、AIの幻覚情報で軍事行動寸前に",
+      "urls": [
+        "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+        "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "5d12cf6035d8",
+      "title_ja": "米政府サイトが中国製Qwen検索ツールを使用",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wjmomv/us_government_website_used_ai_search_tool_qwen/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "4080c885cc09",
+      "title_ja": "Anthropic、GPU最適化コードをオープンソース化",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1wj7beg/anthropic_opensources_claudewritten_gpu/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "51006c4cd491",
+      "title_ja": "Kimi K3がAmazon Bedrockで利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "5f759f1230a0",
+      "title_ja": "小型AIモデルがドローンによる自律標的攻撃を可能に",
+      "urls": [
+        "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "d7dddac5c9c6",
+      "title_ja": "Cactus Needle 3、8-29MBでDeepSeek V4 Flash相当の性能",
+      "urls": [
+        "https://cactuscompute.com/needle"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "8f293007b5a6",
+      "title_ja": "Hugging FaceがオープンウェイトモデルAIの安全基盤に参画",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wjyn95/is_hf_starting_to_move_against_abliterated_models/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "1f22b084bcc7",
+      "title_ja": "中国AI各社、2年以内に10〜40兆パラメータモデルを計画",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1wj9dna/at_least_six_or_seven_chinese_ai_labs_aim_to/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "da2cb17df8cb",
+      "title_ja": "コーディングエージェントでHugging FaceモデルをSageMakerへデプロイ",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "81575cd0e9ff",
+      "title_ja": "ChatGPT開発者による新型AIモデル「Jev」に注目集まる",
+      "urls": [
+        "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wjieap/made_the_horizontal_opensource_model_for_jev_with/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "0f73d188d043",
+      "title_ja": "国連、Google連携でAI向けデータ整備へ",
+      "urls": [
+        "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "69fc18ebf513",
+      "title_ja": "GLMコーディングエージェント「ZCode」がGit履歴を無断送信",
+      "urls": [
+        "https://tokenstead.ai/guides/zcode-silent-git-history-upload"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": "b52909325615",
+      "title_ja": "Apple Silicon向け並列制約付きデコーディングモデルを公開",
+      "urls": [
+        "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD"
       ]
     }
   ]
