@@ -1,166 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-12",
-      "id": "46fcf5bb7b99",
-      "title_ja": "OpenAI、ChatGPT向けストレージ基盤Habitatを大規模拡張",
-      "urls": [
-        "https://openai.com/index/scaling-storage-one-billion-users-part-one"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "5d430a9ae2c9",
-      "title_ja": "SageMaker、プレフィックス共有でLLM推論を高速化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "3dffb20e2b3c",
-      "title_ja": "OpenAI、Agents APIをリリース",
-      "urls": [
-        "https://developers.openai.com/api/docs/guides/agents-api/overview"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "003d94a7ff4c",
-      "title_ja": "Nex-AGI、1.6兆パラメータMoEのNex-N2.5シリーズを公開",
-      "urls": [
-        "https://huggingface.co/nex-agi/Nex-N2.5-Pro"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "53099946690e",
-      "title_ja": "AWS、OpenAIモデル選定向けの正答単価ベンチマークツールを公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "bf3c35ce00f9",
-      "title_ja": "SageMaker HyperPod、モデルキャッシュでコールドスタート短縮",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "558ff612a7c0",
-      "title_ja": "AWS、本番エージェントのライフサイクル監視手法を提示",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "2d1e190b309f",
-      "title_ja": "オープンな音楽生成モデルYuE2-3B、Sunoに匹敵する品質を主張",
-      "urls": [
-        "https://huggingface.co/m-a-p/YuE2-3B"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "3d72f61333f5",
-      "title_ja": "Google、時系列予測基盤モデルTimesFM 3.0を公開",
-      "urls": [
-        "https://huggingface.co/google/timesfm-3.0-pytorch"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "275e51d488e3",
-      "title_ja": "Moonshot AI、年間売上20億ドルを目標に",
-      "urls": [
-        "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "4474b61fa552",
-      "title_ja": "Bedrock AgentCore、インタラクティブなMCP Appsの構築を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "27d3981660ac",
-      "title_ja": "数学分野でのAI「不整合」を巡り議論",
-      "urls": [
-        "https://mathandai.org/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "b5359a9934cd",
-      "title_ja": "QwenでKVキャッシュ高速プレフィル手法を個人が再現",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wd4xxv/someone_apparently_managed_to_kind_of_replicate/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "baa390322597",
-      "title_ja": "Slack、チャット内でAIによるインタラクティブなチャート生成が可能に",
-      "urls": [
-        "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "a7e839f442e5",
-      "title_ja": "RTKのトークン削減効果、コスト検証では不一致",
-      "urls": [
-        "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "420040c82382",
-      "title_ja": "Sakana AI、Fugu MaxとFugu Ultra v2を発表",
-      "urls": [
-        "https://bsky.app/profile/hardmaru.bsky.social/post/3mv7kz2uplk2u"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "17e434cbaab3",
-      "title_ja": "MetaのAIエージェントアプリMuse、米国アプリ2位に",
-      "urls": [
-        "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "244ca616b7ed",
-      "title_ja": "「Waymo効果」、AIが研究の協業を減らすとの指摘",
-      "urls": [
-        "https://www.researchagenda.news/articles/the-waymo-effect.html"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "e9c45b99efa5",
-      "title_ja": "Nscale、元OpenAI幹部Fidji Simo氏を取締役に迎える",
-      "urls": [
-        "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/"
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "id": "a747e4567740",
-      "title_ja": "Anthropic、Claude生成コードの品質担保策を説明",
-      "urls": [
-        "https://simonwillison.net/2026/Sep/11/boris-cherny/"
-      ]
-    },
-    {
       "date": "2026-09-13",
       "id": "7f452d3805d7",
       "title_ja": "Mecka AI、Sequoia主導で約500億円のシリーズB調達へ",
@@ -1133,6 +973,135 @@
       "title_ja": "Apple Silicon向け並列制約付きデコーディングモデルを公開",
       "urls": [
         "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "1bc0911d200a",
+      "title_ja": "OpenAIとMicrosoft、web「破滅ループ」認識か訴訟文書で判明",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "5c348986a151",
+      "title_ja": "DeepSeek、KVキャッシュ圧縮を極めた新モデルV4.1-Flash公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "1f0e60fded5c",
+      "title_ja": "MiniMax、動画生成対応のMiniMax-H3を公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "83bf6e618316",
+      "title_ja": "Anthropic、初の評価パートナーにAccentureを選定",
+      "urls": [
+        "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "3e1dd1f8d677",
+      "title_ja": "OpenAI、自社LLMで半導体「Jalapeño」を設計",
+      "urls": [
+        "https://spectrum.ieee.org/llms-for-chip-design"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "91aee42fab4e",
+      "title_ja": "a16z出資のVals AI、ベンチマークの標準化目指す",
+      "urls": [
+        "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "79e6d15835f2",
+      "title_ja": "AI規制論争続く、Anthropicの「ペース調整案」に賛否",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "8c2aa81a2d6a",
+      "title_ja": "UkisAI、推論トークン削減モデルSwift-Qwen3.8-27bを公開",
+      "urls": [
+        "https://huggingface.co/ukisai/Swift-Qwen3.8-27b"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "891b06747757",
+      "title_ja": "Anthropic、生物学実験を行う研究ラボを運営",
+      "urls": [
+        "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "2cf33901ecc6",
+      "title_ja": "Alibaba、がんなど150疾患検出の医療AIをオープンソース化",
+      "urls": [
+        "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wk9fag/alibaba_opensources_medical_ai_model_that_can/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "c57778e77b4f",
+      "title_ja": "AI大手4社、開発ペース調整の呼びかけで独禁法違反訴訟",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wk9wv5/anthropic_openai_spacexai_google_sued_over_call/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "8401e8e9e2ed",
+      "title_ja": "スタートアップ量産のVantora、物理AI向けに1億ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "bb8b06c8a13d",
+      "title_ja": "AI向け独禁法適用除外の是非、専門家が議論",
+      "urls": [
+        "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "2e601c1ef468",
+      "title_ja": "Qwen3.8-27B、M5 MacBook Proで144tok/sを記録",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wk9hze/qwen3827b_at_144_toks_on_an_m5_max_macbook_pro/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "e5c245eb467b",
+      "title_ja": "ワールドモデル企業、技術詳細を非公開に",
+      "urls": [
+        "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "id": "b4233d80af41",
+      "title_ja": "MetaのAIアシスタント「Muse」、Mac版に不気味さの指摘",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
       ]
     }
   ]
