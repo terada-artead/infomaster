@@ -1,111 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-13",
-      "id": "7f452d3805d7",
-      "title_ja": "Mecka AI、Sequoia主導で約500億円のシリーズB調達へ",
-      "urls": [
-        "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "6f2a35537323",
-      "title_ja": "35B級MoEモデルEdge0、3GiBメモリで動作するプレビュー公開",
-      "urls": [
-        "https://huggingface.co/Edge0/Edge0-35B-A3B-preview"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "7b2efff00401",
-      "title_ja": "OpenAIのエージェントが5月にRubyGemsを無断攻撃と報告",
-      "urls": [
-        "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-        "https://www.rubyhack.ai/"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "6d999a50c5c7",
-      "title_ja": "Nex-AGI、エージェント特化の次世代モデル群Nex-N2.5を公開",
-      "urls": [
-        "https://huggingface.co/nex-agi/Nex-N2.5-mini"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "4efc05c398f0",
-      "title_ja": "Tencent、4ステップ高速音声生成モデルAuK-Flashを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wecf25/tencentaukflash_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "bb6e58f54894",
-      "title_ja": "UnslothがQwen3.8-27BのGGUF量子化版を公開",
-      "urls": [
-        "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "bacf7aac6987",
-      "title_ja": "Nvidiaの「AI業界の中央銀行」的役割を分析する記事",
-      "urls": [
-        "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "96d80ce9809e",
-      "title_ja": "AnthropicとOpenAI、再帰的自己改善の兆候を初めて明言",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mvdj4gr3ds2v"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "ddb897a7cc9c",
-      "title_ja": "4000ドルのUnitree製ロボット犬をレビュー",
-      "urls": [
-        "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "84985e80e3dc",
-      "title_ja": "Anthropic、AI悪用対策報告書とKimi関連の流出事案に言及",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wdxspd/countering_misuse_of_ai_september_2026_anthropic/"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "fabc01f652a2",
-      "title_ja": "Googleがオープンソースコードを無断使用したとの指摘",
-      "urls": [
-        "https://www.minitap.ai/blog/i-expected-better-from-google"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "9e0cf4774686",
-      "title_ja": "ソフトウェア開発AI評価の新指標Real-SWE Benchmark登場",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wemcdc/realswe_benchmark_new/"
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "id": "968c32634dc2",
-      "title_ja": "PerplexityがGPT-6 Astraを運用業務に本格導入",
-      "urls": [
-        "https://openai.com/index/perplexity-improving-accuracy-with-astra"
-      ]
-    },
-    {
       "date": "2026-09-14",
       "id": "ca26bca182f6",
       "title_ja": "Qwen3.8-27B公開、画像対応の最新マルチモーダルモデル",
@@ -1102,6 +997,64 @@
       "title_ja": "MetaのAIアシスタント「Muse」、Mac版に不気味さの指摘",
       "urls": [
         "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "2d1e190b309f",
+      "title_ja": "オープン音楽生成モデル「YuE2-3B」公開、Suno v5/v6に匹敵",
+      "urls": [
+        "https://huggingface.co/m-a-p/YuE2-3B"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "fd1059f774f4",
+      "title_ja": "Claudeの推論トークン配分、実態調査で低下傾向と指摘",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1wl6wyn/its_time_to_cancel_your_subscriptions_anthropic/"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "3cc50d035623",
+      "title_ja": "Qwen、生成と編集を統合した画像モデルQwen-Image-2.1公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen-Image-2.1",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wlgrft/qwenimage21_released/",
+        "https://qwen.ai/blog?id=qwen-image-2.1"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "5d885f2b9705",
+      "title_ja": "非自己回帰の分類モデル「Laya」公開、100言語対応",
+      "urls": [
+        "https://huggingface.co/convaiinnovations/laya"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "7362b503eb6d",
+      "title_ja": "ChatGPTが他サイトの閲覧行動を広告連携で把握と報道",
+      "urls": [
+        "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "afdfa90a322d",
+      "title_ja": "中国電信、256K文脈対応LLM「Xing4.0-29B-A4B」公開",
+      "urls": [
+        "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": "c8aee9fb8db2",
+      "title_ja": "社内ドキュメント全てClaude Code生成、現場の不満をブログで紹介",
+      "urls": [
+        "https://simonwillison.net/2026/Sep/20/voxium/"
       ]
     }
   ]
