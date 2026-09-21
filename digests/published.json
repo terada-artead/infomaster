@@ -1,62 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-14",
-      "id": "ca26bca182f6",
-      "title_ja": "Qwen3.8-27B公開、画像対応の最新マルチモーダルモデル",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "id": "122d6170f031",
-      "title_ja": "科学知能向け大規模モデルIntern-S2-397Bが登場",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wf3wt2/internlminterns2_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "id": "5302786105ea",
-      "title_ja": "GLM-5.3-Flashがハギングフェイスに公開",
-      "urls": [
-        "https://huggingface.co/zai-org/GLM-5.3-Flash"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "id": "adaebe0c9002",
-      "title_ja": "OpenAI CEO、2026年のIPOは「時期尚早」と発言",
-      "urls": [
-        "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "id": "eb029af5e135",
-      "title_ja": "Tencentが音声合成モデルAuKを公開",
-      "urls": [
-        "https://huggingface.co/tencent/AuK"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "id": "f9e056a8fec0",
-      "title_ja": "フーシ派がClaude Codeをミサイル誘導ソフト開発に利用と報道",
-      "urls": [
-        "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo"
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "id": "67277fcbd3c4",
-      "title_ja": "Hugging Face HubがAIコーディングエージェントを識別しテレメトリ送信と指摘",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wey19g/huggingface_hub_silently_fingerprints_which_ai/"
-      ]
-    },
-    {
       "date": "2026-09-15",
       "id": "220ecf78d835",
       "title_ja": "OpenAI、スマホカメラ企業Glass Imagingを300億円で買収",
@@ -1055,6 +999,169 @@
       "title_ja": "社内ドキュメント全てClaude Code生成、現場の不満をブログで紹介",
       "urls": [
         "https://simonwillison.net/2026/Sep/20/voxium/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "80e68252491f",
+      "title_ja": "xAIのGrok 4.6、Amazon Bedrockで提供開始",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "39b901174b54",
+      "title_ja": "「Grok 4.7」がリリース",
+      "urls": [
+        "https://x.ai/news/grok-4-7"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "2ad1fe5074ea",
+      "title_ja": "Google、オープンなエージェントオーケストレーター「AX」を公開",
+      "urls": [
+        "https://agentexecutor.io"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "d2871d486c61",
+      "title_ja": "V7、GPT-5.6で企業データをAIエージェント向けの知識基盤に変換",
+      "urls": [
+        "https://openai.com/index/v7"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "eb79656c925c",
+      "title_ja": "Qwen3.8-Flash-Next、Hugging Faceに登場",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "8fe4474fdbb9",
+      "title_ja": "Higgsfield、GPT-6 Astraで動画機能を短期間で追加",
+      "urls": [
+        "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "5fb2a618a0bb",
+      "title_ja": "カリフォルニア州、AIデータセンターのエネルギー規制を強化",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "8763168305e5",
+      "title_ja": "OpenAI、未解決だった数学問題を100件超解決したと報告",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mw2l5jyq7226",
+        "https://www.reddit.com/r/OpenAI/comments/1wmq961/ai_may_be_entering_a_completely_different_phase/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "fa1a14a0c6b7",
+      "title_ja": "Google、Geminiモデルが3社に不正侵入したと確認",
+      "urls": [
+        "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "e314fec7eafa",
+      "title_ja": "DeepSeek、2兆パラメータモデルを訓練中、8兆モデルも計画",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wmblx1/deepseek_training_2t_and_plans_8t_model/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "bfa8a2eb8715",
+      "title_ja": "Benchling、Amazon Bedrockでマルチテナント型AIエージェントを保護",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "a8482f18a454",
+      "title_ja": "Google、Gemini搭載の899ドルAIノートパソコン「Googlebook」を発表",
+      "urls": [
+        "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "6af58b306bcd",
+      "title_ja": "Amazon、MetaのAIエージェント「Muse」の利用をブロック",
+      "urls": [
+        "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+        "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "7a832a2c4cd6",
+      "title_ja": "Meta、大西洋横断の海底ケーブル「Petal」を発表",
+      "urls": [
+        "https://about.fb.com/news/2026/09/announcing-petal-meta-petabit-transoceanic-cable/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "8b70683bc002",
+      "title_ja": "EXL、AWS上で医療請求処理向けIDPソリューションを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "a34d58b87503",
+      "title_ja": "NVIDIA、AIセキュリティをエージェントスタック全層のエンジニアリング課題と位置付け",
+      "urls": [
+        "https://blogs.nvidia.com/blog/ai-security-agent-stack/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "cdae21d54eb9",
+      "title_ja": "元会計士のTabby、AIで記帳業務を自動化",
+      "urls": [
+        "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "ca7d15d15b2f",
+      "title_ja": "音声認識モデル「Confucius4-R2T2」がHugging Faceに公開",
+      "urls": [
+        "https://huggingface.co/netease-youdao/Confucius4-R2T2"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "680b009e86cf",
+      "title_ja": "AIコーディングでCIがボトルネックに、パイプラインを再設計",
+      "urls": [
+        "https://linear.app/now/ci-bottleneck-reworked"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": "10538c022345",
+      "title_ja": "OpenAI、次段階のAIに向けたグローバル標準策定を提言",
+      "urls": [
+        "https://openai.com/index/building-standards-next-phase-ai"
       ]
     }
   ]
