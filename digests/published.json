@@ -1,166 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-15",
-      "id": "220ecf78d835",
-      "title_ja": "OpenAI、スマホカメラ企業Glass Imagingを300億円で買収",
-      "urls": [
-        "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "e44c55b1d936",
-      "title_ja": "Perplexity Portable Computer、NVIDIA RTX搭載Windows機に対応",
-      "urls": [
-        "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "00635d35765f",
-      "title_ja": "Superhuman、YC出身の議事録AI「Fathom」を買収",
-      "urls": [
-        "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "775395cf7051",
-      "title_ja": "MMF・Databricks Genie・Amazon Quickで補充自動化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "e28c249a5788",
-      "title_ja": "Anthropic、推論部門で80%超の粗利益率と報告",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mvgvewqm2c2k"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "58abbddd749e",
-      "title_ja": "Ninth Wave、Amazon Bedrockでオープンファイナンス導入支援AI構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "8ae9ac7b35af",
-      "title_ja": "Abnormal AI、Bedrock AgentCoreでメールセキュリティを大規模運用",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "a4d7ee588fda",
-      "title_ja": "Bedrock AgentCore Identity、OAuth同意ポータルを追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "8e0691407dda",
-      "title_ja": "数学競技実験でAIエージェントが不正を告発",
-      "urls": [
-        "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "f4abe08e4d05",
-      "title_ja": "単一の企業がOpenAI・Anthropic・Metaのハッキング事件に関与と指摘",
-      "urls": [
-        "https://www.effort.news/irregular"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "b54bfac470e1",
-      "title_ja": "企業運営を自律実行するエージェント「Pion」登場",
-      "urls": [
-        "https://andonlabs.com/blog/why-we-built-pion"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "deede0538205",
-      "title_ja": "Meta、Llama-3.1-8B-Instructモデルを公開",
-      "urls": [
-        "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "deb665c4d684",
-      "title_ja": "UkisAI、Qwen3.8-27Bの推論効率を最適化したSwiftモデルを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wg7dd5/ukisai_swiftqwen3827b_583_thinking_x195_speed/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "cfa6722213c0",
-      "title_ja": "iOS 27でSiriが大幅刷新",
-      "urls": [
-        "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "9cca7ef422eb",
-      "title_ja": "Apple和解後もOpenAIはMuskの独禁法訴訟と係争継続",
-      "urls": [
-        "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "8a4aa676e0f8",
-      "title_ja": "画像動画変換モデルMinimax-h3 Singularity公開",
-      "urls": [
-        "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "7f82d995c515",
-      "title_ja": "Fyxer、OpenAIモデル活用の実行秘書AIを構築",
-      "urls": [
-        "https://openai.com/index/fyxer"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "705a7f527d95",
-      "title_ja": "ファッションアプリDaydream、Apple Intelligenceでカメラロールから買い物支援",
-      "urls": [
-        "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "e51a6de76a3d",
-      "title_ja": "軽量モデルK2 Horizon 7Bがベンチマークで好成績",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wg82rd/for_the_gpu_poor_k2_horizon_7b_ranks_between_qwen/"
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "id": "842d340f487b",
-      "title_ja": "llama.cpp v0.4.1リリース、新モデル対応拡大",
-      "urls": [
-        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1"
-      ]
-    },
-    {
       "date": "2026-09-16",
       "id": "947e89eaa83a",
       "title_ja": "Google、Gemini 3.8 LiveとExtended Thinkingを発表",
@@ -1162,6 +1002,171 @@
       "title_ja": "OpenAI、次段階のAIに向けたグローバル標準策定を提言",
       "urls": [
         "https://openai.com/index/building-standards-next-phase-ai"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "73461b3e97af",
+      "title_ja": "OpenAI、GPT-6 Sol・Lunaを発表しBedrockでも提供開始",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
+        "https://github.com/openai/openai-python/releases/tag/v3.18.0"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "7c67ad98e455",
+      "title_ja": "Snorkel AI、3.5億ドル調達で評価額35億ドルに",
+      "urls": [
+        "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "e4e6ffa74bf3",
+      "title_ja": "Anthropic、エージェント型コーディング向けClaude Opus 5.5を発表",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
+        "https://www.anthropic.com/claude-opus-5-5",
+        "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "b5f4f7ea7c28",
+      "title_ja": "アリババ、5〜10兆パラメータAIモデルと新チップを計画",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wmyh9z/alibaba_plans_ai_model_with_5_trillion_to_10/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "1f7907ace18f",
+      "title_ja": "Anthropic SDK v1.8.0、Claude Opus 5.5とMCPツール対応を追加",
+      "urls": [
+        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B、画像テキスト対応モデルをHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "1db4d52e35fa",
+      "title_ja": "英Nscale、Wall街でIPO申請へ",
+      "urls": [
+        "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "3762ff1d2e30",
+      "title_ja": "vLLM v0.30.0リリース、DeepSeek-V4系など新モデル多数対応",
+      "urls": [
+        "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "8c7843e0e492",
+      "title_ja": "Trane、Bedrock AgentCoreで建物診断を60倍高速化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "1bc897209ba0",
+      "title_ja": "GPT-6 Astra、2005年以来未解読のエニグマ暗号を解読",
+      "urls": [
+        "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "e8d4659314e5",
+      "title_ja": "アリババ、Apsara ConferenceでQwen 4を発表",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "cc03eb22570a",
+      "title_ja": "Opus 5.5とGPT-6 Solのベンチマーク比較が話題に",
+      "urls": [
+        "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+        "https://www.reddit.com/r/OpenAI/comments/1wnk30g/opus_55_and_gpt6_sol_dropped_on_the_same_day_so_i/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "460c010fe8d2",
+      "title_ja": "Reactiv、Bedrock AgentCoreでモバイルコマース運用を80%高速化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "0b7222ea43c9",
+      "title_ja": "Tata Elxsi、AWSで産業安全リスクを数秒で検知",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "8ea6cbfd1c90",
+      "title_ja": "Qualcomm、AI重視の新スマートフォン向けチップ2種を発表",
+      "urls": [
+        "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "b55c6cd1054e",
+      "title_ja": "Rabbit、専用端末不要のAIエージェントを提供開始",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "66b71cdbe19c",
+      "title_ja": "SageMaker AI、生成AIエンドポイントの並行性スイープ機能を追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "9469d61eed93",
+      "title_ja": "AWS、公共部門向けAgentforce連携を拡張",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "15e05cc93b8e",
+      "title_ja": "Strands EvalsとBedrock AgentCoreでスキル型エージェントを評価",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": "b8c778dae649",
+      "title_ja": "NVIDIA、ロボティクス向けIsaac ROS 5.0をリリース",
+      "urls": [
+        "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
       ]
     }
   ]
