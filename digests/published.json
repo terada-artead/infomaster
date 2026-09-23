@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-16",
-      "id": "947e89eaa83a",
-      "title_ja": "Google、Gemini 3.8 LiveとExtended Thinkingを発表",
-      "urls": [
-        "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "a0ecdfee72fe",
-      "title_ja": "AWS Bedrock、プロンプトキャッシュでコスト最大90%削減",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "2b82b6d196ef",
-      "title_ja": "AIUC、AIエージェント安全性でシリーズA40億円調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "51c3719f455b",
-      "title_ja": "AEO企業Profound、7カ月でユニコーン到達",
-      "urls": [
-        "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "c43e9379c636",
-      "title_ja": "Meta、AI機能付きサブスク「Meta One」を開始",
-      "urls": [
-        "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/",
-        "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "d97e1b0e891a",
-      "title_ja": "Mozilla報告書、オープンモデルが最先端AIに接近",
-      "urls": [
-        "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "e33bad75df32",
-      "title_ja": "SalesforceとNvidia、推論モデルKoaを公開",
-      "urls": [
-        "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "58984f5aa268",
-      "title_ja": "Claudeで開発したCapCut代替アプリが話題に",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "15b435003223",
-      "title_ja": "Meta、WhatsApp Business向けMCPサーバーを公開",
-      "urls": [
-        "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "85be3165d3af",
-      "title_ja": "12GB VRAMでQwen3.8-Flash-Nextを動かす検証",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wgiefk/running_qwen38flashnext_locally_on_a_12gb_vram/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "42c742abce32",
-      "title_ja": "AWS、Qwen3-8Bで商品タグ付けシステム構築を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "9f43cb396b81",
-      "title_ja": "2026年の推論用ハードウェア動向に関する議論",
-      "urls": [
-        "https://spectrum.ieee.org/inference-hardware-revolution"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "14336f7ca569",
-      "title_ja": "Ollama v0.34.1リリース、MLX対応を改善",
-      "urls": [
-        "https://github.com/ollama/ollama/releases/tag/v0.34.1"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "a1d018f16fad",
-      "title_ja": "Hugging Face、AIエージェントの再現性を論じる記事公開",
-      "urls": [
-        "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "78db0f3b5384",
-      "title_ja": "MIT Tech Review、AIの経済的インパクトを分析",
-      "urls": [
-        "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "d8847ae835e5",
-      "title_ja": "格安AI推論業者CrofAI、実態はOpenRouter転売と発覚",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "daecf315f7d9",
-      "title_ja": "Apple、Foundation ModelsをMacOS27にネイティブ搭載",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wh5fpa/apple_foundation_models_local_ai_natively_on/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "3e587c7e7418",
-      "title_ja": "新モデルSpark-X2.5-4BがHugging Faceに公開",
-      "urls": [
-        "https://huggingface.co/XHToken/Spark-X2.5-4B"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "2330810bf1e2",
-      "title_ja": "SageMaker、訓練ジョブにインスタンス優先リスト追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/"
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "id": "0605bcba6b5c",
-      "title_ja": "System One ModelsとJevの発表",
-      "urls": [
-        "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
-      ]
-    },
-    {
       "date": "2026-09-17",
       "id": "def75ecd4873",
       "title_ja": "元Infosysトップのスタートアップ、53億円相当を追加調達",
@@ -1167,6 +1005,170 @@
       "title_ja": "NVIDIA、ロボティクス向けIsaac ROS 5.0をリリース",
       "urls": [
         "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "28f1d4284b37",
+      "title_ja": "AIエージェントが不正手段でテストを突破と報告",
+      "urls": [
+        "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "7863c4c666f3",
+      "title_ja": "AI創薬のEnveda、311億円調達し評価額2000億円に",
+      "urls": [
+        "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "f9027d80e820",
+      "title_ja": "GPT-6でプロンプトキャッシュ機能が改善",
+      "urls": [
+        "https://openai.com/index/better-prompt-caching-for-gpt-6"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "117b225a2730",
+      "title_ja": "企業向けAIのEma、77億円調達しエンタープライズ市場に浸透",
+      "urls": [
+        "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "a0388b22709d",
+      "title_ja": "オランダ小売HEMA、Amazon Bedrockで社内AIアシスタント構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "ef1b3a4772ea",
+      "title_ja": "Anthropic、Claudeが新規酵素システムを自律発見",
+      "urls": [
+        "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+        "https://www.reddit.com/r/singularity/comments/1woe138/claude_discovered_a_novel_enzyme_system_with/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "4e56c7312349",
+      "title_ja": "Ringg、GPT-5.6で顧客対応の65%を自動解決",
+      "urls": [
+        "https://openai.com/index/ringg"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "3bf3a05e5f79",
+      "title_ja": "AWS、Strands Agentsで動画解析エージェントを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "716a82fce177",
+      "title_ja": "OpenAI、Patreon出身幹部3人をクリエイター戦略担当に採用",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "52b80abd4e04",
+      "title_ja": "Harvey、GPT-6 Astraで法律文書のドラフト精度向上",
+      "urls": [
+        "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "abf255ad4a75",
+      "title_ja": "ChatGPTモバイル版に音声ベースのエージェント機能追加",
+      "urls": [
+        "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "f50a6831740a",
+      "title_ja": "カリフォルニア州、データセンターの透明性を義務化する法案に署名",
+      "urls": [
+        "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "4b5c4b8d923b",
+      "title_ja": "Hugging FaceのtransformersがGGUF形式をネイティブ対応",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wnxm0r/ggufs_in_transformers_natively/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "f2ff7f760561",
+      "title_ja": "invideo、GPT-6 Astraで色調整作業を3倍高速化",
+      "urls": [
+        "https://openai.com/index/invideo-builds-with-gpt-6-astra"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "14b81786a9c7",
+      "title_ja": "Amazon Bedrock、オープンウェイトモデルによるAIコーディングエージェントに対応",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "0765deb14458",
+      "title_ja": "Airbnb、GPT-6 Astraなど最先端モデルの利用を拡大",
+      "urls": [
+        "https://openai.com/index/airbnb-gpt-6-astra"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "3d6baecede6b",
+      "title_ja": "AI推論コスト、四半期ごとに50%のペースで急落",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wo1bct/cost_of_intelligence_is_dropping_fast/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "68ead6b6af2b",
+      "title_ja": "Google DeepMind、プライベートAIコンピュートにサーバー側メモリ機能追加",
+      "urls": [
+        "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "a86391fe9862",
+      "title_ja": "OpenAI、数学分野の不祥事受け専門家パネル設置へ",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": "81481aa316e3",
+      "title_ja": "Google、Gemini 3.8のテキスト読み上げモデルを公開",
+      "urls": [
+        "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+        "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
       ]
     }
   ]
