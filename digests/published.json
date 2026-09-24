@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-17",
-      "id": "def75ecd4873",
-      "title_ja": "元Infosysトップのスタートアップ、53億円相当を追加調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "046432880ec7",
-      "title_ja": "NVIDIA新GPU「Vera Rubin」がMLPerf推論で首位性能",
-      "urls": [
-        "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "7f73f40ae99d",
-      "title_ja": "Claude、文書・スライド作成のDocsとSlidesを提供開始",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "d3d39f902f00",
-      "title_ja": "公開AIベンチマークの信頼性低下が指摘される",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mvneqxjm3s22"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "b229c2cba999",
-      "title_ja": "Google、スマートホーム操作用のMCPサーバーを公開",
-      "urls": [
-        "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-        "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "14a1b53588b2",
-      "title_ja": "Apple、AI需要を受けサーバー事業再参入を検討",
-      "urls": [
-        "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1why9ao/apple_may_return_to_server_market_with_nvidia/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "467dc9d43658",
-      "title_ja": "MistralとMozilla、ブラウザ向けプライベートAIで提携",
-      "urls": [
-        "https://mistral.ai/news/mistral-x-mozilla/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "c0e534495ba4",
-      "title_ja": "Google調査、科学研究へのAI活用の複雑な影響を報告",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mvmhlphggk27"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "b5a1743af4f4",
-      "title_ja": "OpenAI、ChatGPTに「Sponsored Agents」広告を拡大",
-      "urls": [
-        "https://openai.com/index/reimagining-advertising-with-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "a14a5d6b9521",
-      "title_ja": "AWS、医療・生命科学向けオープンソースAgent Skillsを公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "2298ecda65e0",
-      "title_ja": "中国のオープンウェイトAI、米フロンティアとの差が4カ月に縮小",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wi32jg/chinas_openweight_ai_models_are_now_just_4_months/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "552a76560141",
-      "title_ja": "DeepSeek v4.1 Flash、「最高のハッキングモデル」と評される",
-      "urls": [
-        "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "094a3a6ba9b1",
-      "title_ja": "Amazon EKSでNVRxを用いた耐障害分散学習手法を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "ac7aaae20f69",
-      "title_ja": "Emerald AI・Google・NVIDIA、データセンター電力連合を発足",
-      "urls": [
-        "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "0b10385b1288",
-      "title_ja": "AnthropicとOpenAI、独立安全評価者を社内に配置へ",
-      "urls": [
-        "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "1eaaf8c14802",
-      "title_ja": "Qwen3.8-Flash-NextのKVキャッシュをRAMにオフロードする手法",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1whx5xi/you_can_offload_most_of_qwen38flashnexts_kv_cache/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "b4f453b53dcf",
-      "title_ja": "Claudeの新使用制限、業務利用に支障との声",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1whi2hu/the_new_usage_limits_make_subscription_and_team/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "6db7a09f6b2d",
-      "title_ja": "軽量モデル「MiniCPM5-2B」がHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/openbmb/MiniCPM5-2B"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "d0884460aa9c",
-      "title_ja": "AWS Bedrock AgentCore、システムプロンプト最適化機能を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "id": "f39820d1793a",
-      "title_ja": "Meta、「Muse Spark」モデルの重み公開が遅延",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1whqm2c/hey_meta_wheres_those_muse_spark_weights/"
-      ]
-    },
-    {
       "date": "2026-09-18",
       "id": "192794312f97",
       "title_ja": "OpenAI、法律業界向け「Astra for Law」を発表",
@@ -1169,6 +1007,170 @@
         "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
         "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "f602776a0ed2",
+      "title_ja": "Lovableの年間換算収益が600億円規模に到達",
+      "urls": [
+        "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "87cb2cb94630",
+      "title_ja": "ElevenLabsのCEO、IPO時期とAI音声の開示倫理を語る",
+      "urls": [
+        "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "0655c35997df",
+      "title_ja": "OpenAIのエージェントが豪政府の医療サイトに侵入、当局が調査へ",
+      "urls": [
+        "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+        "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
+        "https://www.bbc.com/news/live/cvgl73pxgndwt"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "48a9d95577c8",
+      "title_ja": "Anthropicのバイオ研究室、重大な発見を報告",
+      "urls": [
+        "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "8e953b62eee2",
+      "title_ja": "OracleがStargateデータセンターで不可抗力通知を送付",
+      "urls": [
+        "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "f450f8a8f92a",
+      "title_ja": "GoogleのGeminiが電話をかけ企業と交渉する機能をテスト",
+      "urls": [
+        "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+        "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "a6e0c2c45467",
+      "title_ja": "Ando、人とAIエージェントが共存するチームチャットアプリを発表",
+      "urls": [
+        "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "16dae4c7c5cb",
+      "title_ja": "MetaのMuse、簡単な誘導でファイルシステム全体を送信",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "18998a397625",
+      "title_ja": "UkisAI、効率重視の推論LLM「Swift」シリーズを公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wp6gal/ukisai_swift_series_27b_flash_next_and_bonsai_2/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "7510d01c327e",
+      "title_ja": "AnthropicがClaude ProプランにFable 5利用枠を追加",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1wp7ofj/anthropic_to_include_fable_5_usage_in_pro_plans/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "6f92c274a23e",
+      "title_ja": "XiaomiがMiMo-V2.6シリーズをHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "0483f47aaf2d",
+      "title_ja": "AWS、AgentCore GatewayによるマルチアカウントAI構成を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "30290d8cdac7",
+      "title_ja": "PrismML、小型LLMをQualcomm製スマートグラスに搭載",
+      "urls": [
+        "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "ae171c0177ab",
+      "title_ja": "Qwen-3.8-27B、API利用を不要にする性能を実証",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wp0z3i/qwen3827b_is_good_enough_that_i_stopped_using_api/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "2a2722c80bce",
+      "title_ja": "難関ベンチマークの達成コスト、能力向上とともに低下",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mw7n5pr7222t"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "a5fd23b13539",
+      "title_ja": "TaichuAI、マルチモーダルモデル「ZDTaichu5.0-9B」を公開",
+      "urls": [
+        "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "8451e6726f36",
+      "title_ja": "Google、長尺で一貫した動画生成の自動化を研究発表",
+      "urls": [
+        "https://research.google/blog/coherent-long-form-video-generation/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "885e65d22621",
+      "title_ja": "Aderant、Amazon Novaでチケット振り分けを自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "195c9779df27",
+      "title_ja": "Google、軌道上データセンター計画「Suncatcher」の衛星を打ち上げへ",
+      "urls": [
+        "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+        "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": "70359c27b4e5",
+      "title_ja": "Y Combinator採択のオープンソースIDE「Whiteboard」が公開",
+      "urls": [
+        "https://github.com/devdotfast/whiteboard"
       ]
     }
   ]
