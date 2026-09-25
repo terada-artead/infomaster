@@ -1,172 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-18",
-      "id": "192794312f97",
-      "title_ja": "OpenAI、法律業界向け「Astra for Law」を発表",
-      "urls": [
-        "https://openai.com/index/astra-for-law",
-        "https://openai.com/index/astra-for-law/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "dd27b544c523",
-      "title_ja": "OpenAI、GPT-5.6の不整合行動を6件開示",
-      "urls": [
-        "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-        "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
-        "https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "f94fd964d75e",
-      "title_ja": "AWS上でエンタープライズ向けAIエージェント基盤が本番稼働",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/a-shared-agentic-platform-for-wood-mackenzie-on-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "d95188870b47",
-      "title_ja": "Huawei、次世代AIチップを2027年Q1投入へ前倒し",
-      "urls": [
-        "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wirvb0/chinas_huawei_says_ai_chip_demand_outstrips/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "d7c63e80f239",
-      "title_ja": "Apple、M系Ultra搭載のAIサーバーを開発中と報道",
-      "urls": [
-        "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "b7fb532a2719",
-      "title_ja": "JPMorgan、Claude Codeをサンドボックス環境で運用",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1wit5yg/jpmorgan_is_putting_claude_code_inside_a_sandbox/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "c78d0c6b782c",
-      "title_ja": "Base Labs、Hugging Faceと開放型AI安全性連携を開始",
-      "urls": [
-        "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "4bf9544d82b0",
-      "title_ja": "Google・Nvidia・AnthropicらがEmerald AIと送電網容量確保へ",
-      "urls": [
-        "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "3efbd9eb2446",
-      "title_ja": "GLM、独自の推論インフラを構築",
-      "urls": [
-        "https://z.ai/blog/glm-built-its-inference-infrastructure"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricks、画像動画変換モデル「LTX-2.5」を公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "0b6d2d59e628",
-      "title_ja": "AWS、AI採用支援サービス「Amazon Connect Talent」を発表",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "b6fa6fac1a59",
-      "title_ja": "AIエージェントの監視をAIで補う動きが拡大",
-      "urls": [
-        "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "a3827026bd29",
-      "title_ja": "アイスランドのTreble、音声シミュレーションで1800万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "0a3be15b32c0",
-      "title_ja": "Claude Code、複数エージェント管理の「Projects」を刷新",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
-        "https://bsky.app/profile/emollick.bsky.social/post/3mvqbjqav7k2o"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "a6a39cb7eefe",
-      "title_ja": "AWS、Bedrock Knowledge Bases向けベクトルストア選定ガイドを公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "012857c2159f",
-      "title_ja": "SageMaker AIで産業安全向け合成データパイプラインを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "2ada79cc919c",
-      "title_ja": "未封印文書、MicrosoftがAIスクレイピングを内部で「窃盗」と表現",
-      "urls": [
-        "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-        "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "cb281fd96f2f",
-      "title_ja": "Snap、AIアシスタント「Specs Intelligence」をiOS・Macに投入",
-      "urls": [
-        "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "4987e3a50225",
-      "title_ja": "Google、家族向け実験的AIエージェント「CC」を発表",
-      "urls": [
-        "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "id": "9c15e0144647",
-      "title_ja": "Cloudflare、セキュリティ監査用「Security-Audit-Skill」を公開",
-      "urls": [
-        "https://github.com/cloudflare/security-audit-skill"
-      ]
-    },
-    {
       "date": "2026-09-19",
       "id": "72a147bca7de",
       "title_ja": "SageMaker HyperPod、GPU認識型推論ゲートウェイを発表",
@@ -1171,6 +1005,167 @@
       "title_ja": "Y Combinator採択のオープンソースIDE「Whiteboard」が公開",
       "urls": [
         "https://github.com/devdotfast/whiteboard"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "e2a6a90d9b2c",
+      "title_ja": "AnthropicがAkamaiに7年で116億ドルのクラウド契約",
+      "urls": [
+        "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "ab39be484551",
+      "title_ja": "MicrosoftがCopilot「スーパーアプリ」を正式発表",
+      "urls": [
+        "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "c67b725df023",
+      "title_ja": "英NscaleがAI データセンター拡張へ33.6億ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "68927c778ed0",
+      "title_ja": "Anthropic創業者らがIPO前に議決権50.1%確保を要求",
+      "urls": [
+        "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "2cd7844d2486",
+      "title_ja": "MetaがAIパーソナルエージェントMuseの展開を強化",
+      "urls": [
+        "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+        "https://simonwillison.net/2026/Sep/25/john-gruber/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "9831ca8a8ec4",
+      "title_ja": "新モデルHemmingway-1が日常文章生成に特化",
+      "urls": [
+        "https://huggingface.co/Altworld/Hemmingway-1"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "60b8559cd96d",
+      "title_ja": "NSAがAIモデル評価に多額の予算投入と報じられる",
+      "urls": [
+        "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "784f183592b3",
+      "title_ja": "Amazon Bedrock向けLLM品質保証ツールNarrateAI",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "833035880c08",
+      "title_ja": "Edge0が無制限長ストリーミング音声認識モデルを公開",
+      "urls": [
+        "https://huggingface.co/Edge0/Audio8-ASR-Infinite"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "a87b101918a7",
+      "title_ja": "Amazon EKSでMoE強化学習のスループット40%向上",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "ff3979163f0a",
+      "title_ja": "Lightspeedがインド向けAIファンドで2.5億ドル目標",
+      "urls": [
+        "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "43d45f70ac9f",
+      "title_ja": "OpenAIのAIエージェントがHugging Face等を無断攻撃",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "60b440d54854",
+      "title_ja": "H200サーバー購入とレンタルの損益分岐点を試算",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wq672b/i_ran_the_actual_breakeven_math_on_buying_vs/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "35263ae93b4b",
+      "title_ja": "Xiaomi MiMoがマルチモーダルRLモデルV2.6を公開",
+      "urls": [
+        "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "c6142acfdf6a",
+      "title_ja": "SageMaker HyperPodでSkyRLによるマルチモーダルRL訓練",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "9f15985d4d9e",
+      "title_ja": "Qwen3-TTSをSageMakerでリアルタイム音声合成に展開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "768d9e2b5eea",
+      "title_ja": "AnthropicのOpus 5.5がコーディング用途で話題に",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wps80t/opus_55_is_it_really_a_game_changer_for_coding/"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "4bfa8e77beb0",
+      "title_ja": "米控訴裁、Anthropicのサプライチェーンリスク認定を支持",
+      "urls": [
+        "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "9de028fbe46c",
+      "title_ja": "ProactionがCodex活用で売上60%増と発表",
+      "urls": [
+        "https://openai.com/index/proaction"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": "9792599b61c6",
+      "title_ja": "SonyとUMGがSunoを著作権侵害で再び提訴",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music"
       ]
     }
   ]
