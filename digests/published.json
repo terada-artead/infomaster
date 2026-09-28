@@ -1,193 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-20",
-      "id": "1bc0911d200a",
-      "title_ja": "OpenAIとMicrosoft、web「破滅ループ」認識か訴訟文書で判明",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "5c348986a151",
-      "title_ja": "DeepSeek、KVキャッシュ圧縮を極めた新モデルV4.1-Flash公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "1f0e60fded5c",
-      "title_ja": "MiniMax、動画生成対応のMiniMax-H3を公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "83bf6e618316",
-      "title_ja": "Anthropic、初の評価パートナーにAccentureを選定",
-      "urls": [
-        "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "3e1dd1f8d677",
-      "title_ja": "OpenAI、自社LLMで半導体「Jalapeño」を設計",
-      "urls": [
-        "https://spectrum.ieee.org/llms-for-chip-design"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "91aee42fab4e",
-      "title_ja": "a16z出資のVals AI、ベンチマークの標準化目指す",
-      "urls": [
-        "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "79e6d15835f2",
-      "title_ja": "AI規制論争続く、Anthropicの「ペース調整案」に賛否",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "8c2aa81a2d6a",
-      "title_ja": "UkisAI、推論トークン削減モデルSwift-Qwen3.8-27bを公開",
-      "urls": [
-        "https://huggingface.co/ukisai/Swift-Qwen3.8-27b"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "891b06747757",
-      "title_ja": "Anthropic、生物学実験を行う研究ラボを運営",
-      "urls": [
-        "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "2cf33901ecc6",
-      "title_ja": "Alibaba、がんなど150疾患検出の医療AIをオープンソース化",
-      "urls": [
-        "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wk9fag/alibaba_opensources_medical_ai_model_that_can/"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "c57778e77b4f",
-      "title_ja": "AI大手4社、開発ペース調整の呼びかけで独禁法違反訴訟",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1wk9wv5/anthropic_openai_spacexai_google_sued_over_call/"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "8401e8e9e2ed",
-      "title_ja": "スタートアップ量産のVantora、物理AI向けに1億ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "bb8b06c8a13d",
-      "title_ja": "AI向け独禁法適用除外の是非、専門家が議論",
-      "urls": [
-        "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "2e601c1ef468",
-      "title_ja": "Qwen3.8-27B、M5 MacBook Proで144tok/sを記録",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wk9hze/qwen3827b_at_144_toks_on_an_m5_max_macbook_pro/"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "e5c245eb467b",
-      "title_ja": "ワールドモデル企業、技術詳細を非公開に",
-      "urls": [
-        "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/"
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "id": "b4233d80af41",
-      "title_ja": "MetaのAIアシスタント「Muse」、Mac版に不気味さの指摘",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "id": "2d1e190b309f",
-      "title_ja": "オープン音楽生成モデル「YuE2-3B」公開、Suno v5/v6に匹敵",
-      "urls": [
-        "https://huggingface.co/m-a-p/YuE2-3B"
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "id": "fd1059f774f4",
-      "title_ja": "Claudeの推論トークン配分、実態調査で低下傾向と指摘",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1wl6wyn/its_time_to_cancel_your_subscriptions_anthropic/"
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "id": "3cc50d035623",
-      "title_ja": "Qwen、生成と編集を統合した画像モデルQwen-Image-2.1公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen-Image-2.1",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wlgrft/qwenimage21_released/",
-        "https://qwen.ai/blog?id=qwen-image-2.1"
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "id": "5d885f2b9705",
-      "title_ja": "非自己回帰の分類モデル「Laya」公開、100言語対応",
-      "urls": [
-        "https://huggingface.co/convaiinnovations/laya"
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "id": "7362b503eb6d",
-      "title_ja": "ChatGPTが他サイトの閲覧行動を広告連携で把握と報道",
-      "urls": [
-        "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/"
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "id": "afdfa90a322d",
-      "title_ja": "中国電信、256K文脈対応LLM「Xing4.0-29B-A4B」公開",
-      "urls": [
-        "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B"
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "id": "c8aee9fb8db2",
-      "title_ja": "社内ドキュメント全てClaude Code生成、現場の不満をブログで紹介",
-      "urls": [
-        "https://simonwillison.net/2026/Sep/20/voxium/"
-      ]
-    },
-    {
       "date": "2026-09-22",
       "id": "80e68252491f",
       "title_ja": "xAIのGrok 4.6、Amazon Bedrockで提供開始",
@@ -1076,6 +889,171 @@
       "title_ja": "KoboldCpp、内蔵型エージェントハーネスを新規搭載",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1wqlyp8/introducing_koboldcpp_agent_and_a_plea_for_help/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "721d3fef7b9b",
+      "title_ja": "AMD、Fei-Fei Li氏のWorld Labsを8.2億ドルで買収",
+      "urls": [
+        "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+        "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "60e195b06c19",
+      "title_ja": "推論基盤Modal Labs、評価額157.5億ドルで750億円規模を調達へ",
+      "urls": [
+        "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "eb674100bb68",
+      "title_ja": "GPT-6 Astra、税務ワークブック処理が前モデルの2倍高速に",
+      "urls": [
+        "https://openai.com/index/basis-tax-workbook-with-astra"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "5e6a557ab268",
+      "title_ja": "OpenAI、安全性懸念から特定モデルの提供を中止と報道",
+      "urls": [
+        "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "57e26ef375b6",
+      "title_ja": "NVIDIA、オープンソースのエージェント安全サンドボックスOpenShellを公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "560cbbccadfe",
+      "title_ja": "AIエージェントInstinct、評価額100億ドルでシリーズC1000億円調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "64fdf8a89fbd",
+      "title_ja": "NVIDIA、暴走AIエージェントをミリ秒単位で隔離する安全基盤を発表",
+      "urls": [
+        "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+        "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+        "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "509f64549de1",
+      "title_ja": "Anthropic、高速・低コスト化したClaude Sonnet 5.5を公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+        "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "9c80f84d4808",
+      "title_ja": "Anthropic Python SDK v1.9.0、Claude Sonnet 5.5対応など追加",
+      "urls": [
+        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.9.0"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "deeacf9a73c4",
+      "title_ja": "Meta、企業向けMeta Enterprise Platformを開始",
+      "urls": [
+        "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "09d1d26fa19d",
+      "title_ja": "汎用コンピュータ操作エージェント「Holo4」公開",
+      "urls": [
+        "https://huggingface.co/blog/Hcompany/holo4"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "db3dfcf2b649",
+      "title_ja": "OpenAI、エージェント誤作動相次ぎフロンティアモデル訓練を一時停止",
+      "urls": [
+        "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+        "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "6ec519350686",
+      "title_ja": "Modulate、音声モデルとディープフェイク検出に2500万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "fd3b761a63e0",
+      "title_ja": "3値量子化の27Bモデル「Ternary-Bonsai-2」がHugging Faceに公開",
+      "urls": [
+        "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "b86603e367f7",
+      "title_ja": "OpenAI、常時稼働型AIエージェント分野で出遅れとの指摘",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "ca930995b2c3",
+      "title_ja": "xAIのGrok 4.7、Amazon Bedrockで利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "8dfae19f11de",
+      "title_ja": "Shopify、チェックアウトをブラウザ型AIエージェントに開放",
+      "urls": [
+        "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "5d637b61c9bc",
+      "title_ja": "4BモデルImaJev-4b、ビジネス判断ベンチマークで首位に",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wsgrma/imajev4b_i_spent_15_days_finetuning_a_4b_model_to/"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "0b272935f82c",
+      "title_ja": "対照学習ベースの検証器モデルCLM-v0.1-8Bが公開",
+      "urls": [
+        "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": "651e659be31f",
+      "title_ja": "保険テックOutmarket、追加34.5百万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
       ]
     }
   ]
