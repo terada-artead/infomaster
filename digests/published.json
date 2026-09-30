@@ -1,171 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-23",
-      "id": "73461b3e97af",
-      "title_ja": "OpenAI、GPT-6 Sol・Lunaを発表しBedrockでも提供開始",
-      "urls": [
-        "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-        "https://github.com/openai/openai-python/releases/tag/v3.18.0"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "7c67ad98e455",
-      "title_ja": "Snorkel AI、3.5億ドル調達で評価額35億ドルに",
-      "urls": [
-        "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "e4e6ffa74bf3",
-      "title_ja": "Anthropic、エージェント型コーディング向けClaude Opus 5.5を発表",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
-        "https://www.anthropic.com/claude-opus-5-5",
-        "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "b5f4f7ea7c28",
-      "title_ja": "アリババ、5〜10兆パラメータAIモデルと新チップを計画",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wmyh9z/alibaba_plans_ai_model_with_5_trillion_to_10/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "1f7907ace18f",
-      "title_ja": "Anthropic SDK v1.8.0、Claude Opus 5.5とMCPツール対応を追加",
-      "urls": [
-        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.8.0"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "ca26bca182f6",
-      "title_ja": "Qwen3.8-27B、画像テキスト対応モデルをHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "1db4d52e35fa",
-      "title_ja": "英Nscale、Wall街でIPO申請へ",
-      "urls": [
-        "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "3762ff1d2e30",
-      "title_ja": "vLLM v0.30.0リリース、DeepSeek-V4系など新モデル多数対応",
-      "urls": [
-        "https://github.com/vllm-project/vllm/releases/tag/v0.30.0"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "8c7843e0e492",
-      "title_ja": "Trane、Bedrock AgentCoreで建物診断を60倍高速化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "1bc897209ba0",
-      "title_ja": "GPT-6 Astra、2005年以来未解読のエニグマ暗号を解読",
-      "urls": [
-        "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "e8d4659314e5",
-      "title_ja": "アリババ、Apsara ConferenceでQwen 4を発表",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wmxfjs/qwen_4_announced_at_apsara_conference/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "cc03eb22570a",
-      "title_ja": "Opus 5.5とGPT-6 Solのベンチマーク比較が話題に",
-      "urls": [
-        "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
-        "https://www.reddit.com/r/OpenAI/comments/1wnk30g/opus_55_and_gpt6_sol_dropped_on_the_same_day_so_i/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "460c010fe8d2",
-      "title_ja": "Reactiv、Bedrock AgentCoreでモバイルコマース運用を80%高速化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "0b7222ea43c9",
-      "title_ja": "Tata Elxsi、AWSで産業安全リスクを数秒で検知",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "8ea6cbfd1c90",
-      "title_ja": "Qualcomm、AI重視の新スマートフォン向けチップ2種を発表",
-      "urls": [
-        "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "b55c6cd1054e",
-      "title_ja": "Rabbit、専用端末不要のAIエージェントを提供開始",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "66b71cdbe19c",
-      "title_ja": "SageMaker AI、生成AIエンドポイントの並行性スイープ機能を追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "9469d61eed93",
-      "title_ja": "AWS、公共部門向けAgentforce連携を拡張",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "15e05cc93b8e",
-      "title_ja": "Strands EvalsとBedrock AgentCoreでスキル型エージェントを評価",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "id": "b8c778dae649",
-      "title_ja": "NVIDIA、ロボティクス向けIsaac ROS 5.0をリリース",
-      "urls": [
-        "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
-      ]
-    },
-    {
       "date": "2026-09-24",
       "id": "28f1d4284b37",
       "title_ja": "AIエージェントが不正手段でテストを突破と報告",
@@ -1061,6 +896,169 @@
       "title_ja": "OpenAI、GPT-6.1をセキュリティ上の懸念から公開見送りと報道",
       "urls": [
         "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "ce56aa83d006",
+      "title_ja": "Google、次期フロンティアモデル「Gemini 4 Argon」を発表",
+      "urls": [
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "90249c2a3882",
+      "title_ja": "OpenAI、モデル蒸留による推論抽出攻撃を遮断",
+      "urls": [
+        "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "131c3b052433",
+      "title_ja": "ハードウェア設計AIのFlow Engineering、評価額750億円で資金調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "ecee7b20064e",
+      "title_ja": "音声AIのElevenLabs、評価額220億ドルに倍増",
+      "urls": [
+        "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "532f254b17e0",
+      "title_ja": "NVIDIAとCoreWeave、エージェント型AI向け基盤で連携強化",
+      "urls": [
+        "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "32de5b12bdde",
+      "title_ja": "耐久実行基盤のRestate、2000万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "01a0ddbaaaeb",
+      "title_ja": "AIエージェント同士の価格交渉、カスタマー対応急増の兆し",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mwqzi6ftns2j"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "95e85b435e3d",
+      "title_ja": "Amazon Bedrock、Claudeモデルのリージョン内推論を拡大",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "70c5a614c72c",
+      "title_ja": "Qwen系アーキテクチャ、音声モデルの主流バックボーンに",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wtpntt/qwenfamily_llms_are_quietly_becoming_the_backbone/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "afdfa90a322d",
+      "title_ja": "中国電信、Xing4.0-29Bモデルを公開",
+      "urls": [
+        "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "348f0c13d3c0",
+      "title_ja": "OpenAI「Decisions API」、エージェント判断の高速化狙う",
+      "urls": [
+        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "d6b003b6ebfa",
+      "title_ja": "Altman氏、モデルの安全性確認までIPO見送りと言及",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "0241e600b90d",
+      "title_ja": "YC発Magnitude、エージェント向け自己最適化推論エンジン公開",
+      "urls": [
+        "https://github.com/magnitudedev/magnitude"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "d88e4de27dbb",
+      "title_ja": "5ドルマイコンで動く音声認識モデル「Oído」公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wu2jjy/oído_speech_recognition_that_beats_whispertiny/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "02723146acc0",
+      "title_ja": "BAAI、270億パラメータのエージェントモデル「AREX-2」公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wtzedu/baaiarex2_27b_agent_model_based_on_qwen38_27b/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "9d0cd3e06e9a",
+      "title_ja": "Reddit、AIボット対策でRSSと公開API提供を終了",
+      "urls": [
+        "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "92c627208580",
+      "title_ja": "DoorDash、テキストで注文できるAIエージェントを開始",
+      "urls": [
+        "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "e1f60c1c2506",
+      "title_ja": "MetaとOpenAI、AI搭載の育成型デバイス投入へ",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "c696e8b1f342",
+      "title_ja": "Google、AI設計タンパク質への電子透かし技術を発表",
+      "urls": [
+        "https://deepmind.google/blog/introducing-synthid-bio/",
+        "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": "56d81d046096",
+      "title_ja": "WebGPU向け高速カーネル群、Hugging Faceでオープンソース公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wu8tpg/we_just_opensourced_the_worlds_fastest_webgpu/"
       ]
     }
   ]
