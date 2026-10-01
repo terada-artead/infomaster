@@ -1,170 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-24",
-      "id": "28f1d4284b37",
-      "title_ja": "AIエージェントが不正手段でテストを突破と報告",
-      "urls": [
-        "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "7863c4c666f3",
-      "title_ja": "AI創薬のEnveda、311億円調達し評価額2000億円に",
-      "urls": [
-        "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "f9027d80e820",
-      "title_ja": "GPT-6でプロンプトキャッシュ機能が改善",
-      "urls": [
-        "https://openai.com/index/better-prompt-caching-for-gpt-6"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "117b225a2730",
-      "title_ja": "企業向けAIのEma、77億円調達しエンタープライズ市場に浸透",
-      "urls": [
-        "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "a0388b22709d",
-      "title_ja": "オランダ小売HEMA、Amazon Bedrockで社内AIアシスタント構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "ef1b3a4772ea",
-      "title_ja": "Anthropic、Claudeが新規酵素システムを自律発見",
-      "urls": [
-        "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-        "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
-        "https://www.reddit.com/r/singularity/comments/1woe138/claude_discovered_a_novel_enzyme_system_with/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "4e56c7312349",
-      "title_ja": "Ringg、GPT-5.6で顧客対応の65%を自動解決",
-      "urls": [
-        "https://openai.com/index/ringg"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "3bf3a05e5f79",
-      "title_ja": "AWS、Strands Agentsで動画解析エージェントを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "716a82fce177",
-      "title_ja": "OpenAI、Patreon出身幹部3人をクリエイター戦略担当に採用",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "52b80abd4e04",
-      "title_ja": "Harvey、GPT-6 Astraで法律文書のドラフト精度向上",
-      "urls": [
-        "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "abf255ad4a75",
-      "title_ja": "ChatGPTモバイル版に音声ベースのエージェント機能追加",
-      "urls": [
-        "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "f50a6831740a",
-      "title_ja": "カリフォルニア州、データセンターの透明性を義務化する法案に署名",
-      "urls": [
-        "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "4b5c4b8d923b",
-      "title_ja": "Hugging FaceのtransformersがGGUF形式をネイティブ対応",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wnxm0r/ggufs_in_transformers_natively/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "f2ff7f760561",
-      "title_ja": "invideo、GPT-6 Astraで色調整作業を3倍高速化",
-      "urls": [
-        "https://openai.com/index/invideo-builds-with-gpt-6-astra"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "14b81786a9c7",
-      "title_ja": "Amazon Bedrock、オープンウェイトモデルによるAIコーディングエージェントに対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "0765deb14458",
-      "title_ja": "Airbnb、GPT-6 Astraなど最先端モデルの利用を拡大",
-      "urls": [
-        "https://openai.com/index/airbnb-gpt-6-astra"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "3d6baecede6b",
-      "title_ja": "AI推論コスト、四半期ごとに50%のペースで急落",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wo1bct/cost_of_intelligence_is_dropping_fast/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "68ead6b6af2b",
-      "title_ja": "Google DeepMind、プライベートAIコンピュートにサーバー側メモリ機能追加",
-      "urls": [
-        "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "a86391fe9862",
-      "title_ja": "OpenAI、数学分野の不祥事受け専門家パネル設置へ",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "id": "81481aa316e3",
-      "title_ja": "Google、Gemini 3.8のテキスト読み上げモデルを公開",
-      "urls": [
-        "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-        "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
-      ]
-    },
-    {
       "date": "2026-09-25",
       "id": "f602776a0ed2",
       "title_ja": "Lovableの年間換算収益が600億円規模に到達",
@@ -1059,6 +895,167 @@
       "title_ja": "WebGPU向け高速カーネル群、Hugging Faceでオープンソース公開",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1wu8tpg/we_just_opensourced_the_worlds_fastest_webgpu/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "c2600e87db69",
+      "title_ja": "NVIDIA、AIファクトリーのROI最大化要因を解説",
+      "urls": [
+        "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "4785a23659ed",
+      "title_ja": "FTC、OpenAIやAnthropic等を製品リスクで調査",
+      "urls": [
+        "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "8fac3ce4d39c",
+      "title_ja": "チップ設計向けAI「GPT-Synopsys」発表",
+      "urls": [
+        "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "a116d3c39321",
+      "title_ja": "衛星向けAI企業Satlytが800万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "ff3f38f1f11b",
+      "title_ja": "Plus会員の体験談、Sol 6.1でトークン消費が大幅減",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wuyrq9/as_a_plus_subscriber_sol_61_is_a_game_changer/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "c8364c18fa74",
+      "title_ja": "AWS Bedrock AgentCoreでクラウド移行を自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "eb59ea8627f0",
+      "title_ja": "OpenAI Python SDK v3.23.0公開",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.23.0"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "e4ec1e84959a",
+      "title_ja": "Cloudflare、オープンウェイトの意思決定モデル「Clef」公開",
+      "urls": [
+        "https://huggingface.co/Cloudflare/clef",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wv4zzi/clef_open_weights_decision_model_by_cloudflare/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "a766209d1283",
+      "title_ja": "新ツール「Dots」の実行モデルを1日検証したレポート",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wuznlr/i_spent_a_day_poking_dots_with_sticks_heres_what/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "8141d04860ee",
+      "title_ja": "MetaのAIデータセンター、連邦税回避に活用と報道",
+      "urls": [
+        "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "3f45a89a6cdd",
+      "title_ja": "AWS、イベント駆動型の「アンビエントエージェント」構築法を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "2d92623ab273",
+      "title_ja": "Shopify、AIチャットでストア構築できる「Canvas」公開",
+      "urls": [
+        "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "e48a7f736f56",
+      "title_ja": "エージェント連鎖の脆弱性、ワーム化の懸念指摘",
+      "urls": [
+        "https://simonwillison.net/2026/Oct/1/matthew-green/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "0a8003d8035e",
+      "title_ja": "IFM、オープンモデル群「K2 Horizon」についてAMA実施",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wv8zww/ama_about_k2_horizon_meet_our_team_from_ifm/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "637d3dfa247f",
+      "title_ja": "Albertsons、ChatGPT Enterpriseを業務変革に活用",
+      "urls": [
+        "https://openai.com/index/albertsons-reimagining-retail"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "0ff719d6f303",
+      "title_ja": "AWS、コンテキストバンディットによる個人化で転換率向上",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "8563316c0507",
+      "title_ja": "OpenAI、Pro 200の仕様変更とPro 500新設を発表",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wus2rc/if_youre_on_pro_200_you_need_to_read_this/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "d03584551aad",
+      "title_ja": "軽量分類モデル「GLiNER2.5-Decide」公開",
+      "urls": [
+        "https://huggingface.co/fastino/GLiNER2.5-Decide"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "4954f1a6cbc0",
+      "title_ja": "隠れ情報ゲーム「Stratego」でAIが攻略に成功",
+      "urls": [
+        "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": "5ad4d669d97d",
+      "title_ja": "Qwen3.8派生の軽量モデル「Victoria」「Maple」公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wujph3/two_openweights_releases_victoria_qwen38flashnext/"
       ]
     }
   ]
