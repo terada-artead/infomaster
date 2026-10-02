@@ -1,170 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-25",
-      "id": "f602776a0ed2",
-      "title_ja": "Lovableの年間換算収益が600億円規模に到達",
-      "urls": [
-        "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "87cb2cb94630",
-      "title_ja": "ElevenLabsのCEO、IPO時期とAI音声の開示倫理を語る",
-      "urls": [
-        "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "0655c35997df",
-      "title_ja": "OpenAIのエージェントが豪政府の医療サイトに侵入、当局が調査へ",
-      "urls": [
-        "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
-        "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
-        "https://www.bbc.com/news/live/cvgl73pxgndwt"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "48a9d95577c8",
-      "title_ja": "Anthropicのバイオ研究室、重大な発見を報告",
-      "urls": [
-        "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "8e953b62eee2",
-      "title_ja": "OracleがStargateデータセンターで不可抗力通知を送付",
-      "urls": [
-        "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "f450f8a8f92a",
-      "title_ja": "GoogleのGeminiが電話をかけ企業と交渉する機能をテスト",
-      "urls": [
-        "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
-        "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "a6e0c2c45467",
-      "title_ja": "Ando、人とAIエージェントが共存するチームチャットアプリを発表",
-      "urls": [
-        "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "16dae4c7c5cb",
-      "title_ja": "MetaのMuse、簡単な誘導でファイルシステム全体を送信",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "18998a397625",
-      "title_ja": "UkisAI、効率重視の推論LLM「Swift」シリーズを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wp6gal/ukisai_swift_series_27b_flash_next_and_bonsai_2/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "7510d01c327e",
-      "title_ja": "AnthropicがClaude ProプランにFable 5利用枠を追加",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1wp7ofj/anthropic_to_include_fable_5_usage_in_pro_plans/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "6f92c274a23e",
-      "title_ja": "XiaomiがMiMo-V2.6シリーズをHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "0483f47aaf2d",
-      "title_ja": "AWS、AgentCore GatewayによるマルチアカウントAI構成を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "30290d8cdac7",
-      "title_ja": "PrismML、小型LLMをQualcomm製スマートグラスに搭載",
-      "urls": [
-        "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "ae171c0177ab",
-      "title_ja": "Qwen-3.8-27B、API利用を不要にする性能を実証",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wp0z3i/qwen3827b_is_good_enough_that_i_stopped_using_api/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "2a2722c80bce",
-      "title_ja": "難関ベンチマークの達成コスト、能力向上とともに低下",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mw7n5pr7222t"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "a5fd23b13539",
-      "title_ja": "TaichuAI、マルチモーダルモデル「ZDTaichu5.0-9B」を公開",
-      "urls": [
-        "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "8451e6726f36",
-      "title_ja": "Google、長尺で一貫した動画生成の自動化を研究発表",
-      "urls": [
-        "https://research.google/blog/coherent-long-form-video-generation/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "885e65d22621",
-      "title_ja": "Aderant、Amazon Novaでチケット振り分けを自動化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "195c9779df27",
-      "title_ja": "Google、軌道上データセンター計画「Suncatcher」の衛星を打ち上げへ",
-      "urls": [
-        "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
-        "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/"
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "id": "70359c27b4e5",
-      "title_ja": "Y Combinator採択のオープンソースIDE「Whiteboard」が公開",
-      "urls": [
-        "https://github.com/devdotfast/whiteboard"
-      ]
-    },
-    {
       "date": "2026-09-26",
       "id": "e2a6a90d9b2c",
       "title_ja": "AnthropicがAkamaiに7年で116億ドルのクラウド契約",
@@ -1056,6 +892,151 @@
       "title_ja": "Qwen3.8派生の軽量モデル「Victoria」「Maple」公開",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1wujph3/two_openweights_releases_victoria_qwen38flashnext/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen系最新モデルQwen3.8-27Bがハギングフェースで公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "882596cbc763",
+      "title_ja": "Chatham FinancialがOpenAIモデルで資本市場業務を効率化",
+      "urls": [
+        "https://openai.com/index/chatham-financial"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "6a7050a4b2e4",
+      "title_ja": "Amazon SageMakerで検索エージェントをマルチターンRLでファインチューニング",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "bf2760270644",
+      "title_ja": "最先端AIモデルが会計タスクで若手会計士を上回る",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mwucaaj3ws25"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "cc02ca5d84b0",
+      "title_ja": "Qwen-Image-2.1蒸留版viggle-turboがハギングフェースで公開",
+      "urls": [
+        "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "5d15134f70e0",
+      "title_ja": "Amazon Quickとルールエンジンでリース契約のコンプライアンス審査を自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "038134d95b4f",
+      "title_ja": "Meta、AIエージェント「Muse」搭載ガジェット向けコードをオープンソース化",
+      "urls": [
+        "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "94f7add19cb4",
+      "title_ja": "Redis開発者が手がけたLLMローカル実行ツール「ds4」が話題に",
+      "urls": [
+        "https://dwarfstar.sh/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "56c490db0401",
+      "title_ja": "企業向けエージェント訓練データ生成ツール「AutoSynthData」公開",
+      "urls": [
+        "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "593a5e64b60b",
+      "title_ja": "AppleがAIエージェントのリスクを理由にmacOSのフルディスクアクセスを制限",
+      "urls": [
+        "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+        "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "e925a640346d",
+      "title_ja": "AI音楽生成Sunoが発話音声生成機能を追加",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "2fca604ef192",
+      "title_ja": "CloudflareがマルチモーダルモデルClef-Flashを公開",
+      "urls": [
+        "https://huggingface.co/Cloudflare/clef-flash"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "a10088d524a0",
+      "title_ja": "Amazon Bedrock AgentCoreでClaude Desktopに安全なWeb検索を追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "5c0c42097c18",
+      "title_ja": "Nvidiaチップ密輸容疑でテック企業CEOが米で逮捕",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "d1baa948a9e2",
+      "title_ja": "エージェント型コーディングの「四騎士」論がHacker Newsで議論に",
+      "urls": [
+        "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "cecaa627e24b",
+      "title_ja": "NVIDIAがメモリ64GB版DGX Sparkを発表",
+      "urls": [
+        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "1d9153a94591",
+      "title_ja": "Amazon、データセンター建設反対への懸念に反論するブログを公開",
+      "urls": [
+        "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "6b1161959faf",
+      "title_ja": "GLM 5.3 Flashで1カ月コーディングした体験記がHacker Newsで話題",
+      "urls": [
+        "https://wagtail.org/blog/one-month-on-glm-53-flash/"
       ]
     }
   ]
