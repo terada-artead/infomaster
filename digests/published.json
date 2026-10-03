@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-26",
-      "id": "e2a6a90d9b2c",
-      "title_ja": "AnthropicがAkamaiに7年で116億ドルのクラウド契約",
-      "urls": [
-        "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "ab39be484551",
-      "title_ja": "MicrosoftがCopilot「スーパーアプリ」を正式発表",
-      "urls": [
-        "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "c67b725df023",
-      "title_ja": "英NscaleがAI データセンター拡張へ33.6億ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "68927c778ed0",
-      "title_ja": "Anthropic創業者らがIPO前に議決権50.1%確保を要求",
-      "urls": [
-        "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "2cd7844d2486",
-      "title_ja": "MetaがAIパーソナルエージェントMuseの展開を強化",
-      "urls": [
-        "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-        "https://simonwillison.net/2026/Sep/25/john-gruber/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "9831ca8a8ec4",
-      "title_ja": "新モデルHemmingway-1が日常文章生成に特化",
-      "urls": [
-        "https://huggingface.co/Altworld/Hemmingway-1"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "60b8559cd96d",
-      "title_ja": "NSAがAIモデル評価に多額の予算投入と報じられる",
-      "urls": [
-        "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "784f183592b3",
-      "title_ja": "Amazon Bedrock向けLLM品質保証ツールNarrateAI",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "833035880c08",
-      "title_ja": "Edge0が無制限長ストリーミング音声認識モデルを公開",
-      "urls": [
-        "https://huggingface.co/Edge0/Audio8-ASR-Infinite"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "a87b101918a7",
-      "title_ja": "Amazon EKSでMoE強化学習のスループット40%向上",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "ff3979163f0a",
-      "title_ja": "Lightspeedがインド向けAIファンドで2.5億ドル目標",
-      "urls": [
-        "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "43d45f70ac9f",
-      "title_ja": "OpenAIのAIエージェントがHugging Face等を無断攻撃",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "60b440d54854",
-      "title_ja": "H200サーバー購入とレンタルの損益分岐点を試算",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wq672b/i_ran_the_actual_breakeven_math_on_buying_vs/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "35263ae93b4b",
-      "title_ja": "Xiaomi MiMoがマルチモーダルRLモデルV2.6を公開",
-      "urls": [
-        "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "c6142acfdf6a",
-      "title_ja": "SageMaker HyperPodでSkyRLによるマルチモーダルRL訓練",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "9f15985d4d9e",
-      "title_ja": "Qwen3-TTSをSageMakerでリアルタイム音声合成に展開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "768d9e2b5eea",
-      "title_ja": "AnthropicのOpus 5.5がコーディング用途で話題に",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1wps80t/opus_55_is_it_really_a_game_changer_for_coding/"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "4bfa8e77beb0",
-      "title_ja": "米控訴裁、Anthropicのサプライチェーンリスク認定を支持",
-      "urls": [
-        "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "9de028fbe46c",
-      "title_ja": "ProactionがCodex活用で売上60%増と発表",
-      "urls": [
-        "https://openai.com/index/proaction"
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "id": "9792599b61c6",
-      "title_ja": "SonyとUMGがSunoを著作権侵害で再び提訴",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music"
-      ]
-    },
-    {
       "date": "2026-09-27",
       "id": "0411e2774483",
       "title_ja": "OpenAIエージェントがコンテナ突破、ユーザー画像流出で訓練停止",
@@ -1037,6 +876,71 @@
       "title_ja": "GLM 5.3 Flashで1カ月コーディングした体験記がHacker Newsで話題",
       "urls": [
         "https://wagtail.org/blog/one-month-on-glm-53-flash/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "0a0bab444a96",
+      "title_ja": "Unitree、64タスク対応ヒューマノイド基盤モデル公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "4895ed02d15f",
+      "title_ja": "NVIDIA、話者分離モデルNemotron-3-Diarizationを公開",
+      "urls": [
+        "https://huggingface.co/nvidia/Nemotron-3-Diarization"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "4528afcf38aa",
+      "title_ja": "SupersonicLabs、意思決定特化モデルJulia-1を公開",
+      "urls": [
+        "https://huggingface.co/SupersonicLabs/Julia-1"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "1ef1b38c39d0",
+      "title_ja": "Aleph Alpha、ドイツ製ソブリンLLM「Kolibri」公開",
+      "urls": [
+        "https://tej.as/blog/aleph-alpha-kolibri",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "ec7340b6edae",
+      "title_ja": "特定モデル特化の軽量推論エンジンが増加",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "baa9ea860b21",
+      "title_ja": "OpenAI、GPT-6系列のモデル利用ガイドを公開",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wwq6yn/openai_publishes_a_model_guide_for_the_gpt6/"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "a5fd23b13539",
+      "title_ja": "TaichuAI、9Bのマルチモーダル視覚言語モデル公開",
+      "urls": [
+        "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": "5671402926db",
+      "title_ja": "Sean Parker氏、Stability AIを音楽生成軸に再建",
+      "urls": [
+        "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
       ]
     }
   ]
