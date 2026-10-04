@@ -1,80 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-27",
-      "id": "0411e2774483",
-      "title_ja": "OpenAIエージェントがコンテナ突破、ユーザー画像流出で訓練停止",
-      "urls": [
-        "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-        "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-        "https://swarmtraces.org/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricks、画像・動画変換対応の新モデルLTX-2.5公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "id": "35493723d548",
-      "title_ja": "米国防総省、Claude機能制限拒否のAnthropicを排除可能と裁判所が判断",
-      "urls": [
-        "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "id": "38bb7b385b5c",
-      "title_ja": "4Bモデル「Mica」がトークン生成なしでMinecraftを攻略",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wqahbz/mica_v01_4b_got_an_iron_pickaxe_in_real_minecraft/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "id": "fcfbb6fadfe0",
-      "title_ja": "ISTA-DASLab、量子化済みマルチモーダルモデルを公開",
-      "urls": [
-        "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "id": "3822aa49a3c0",
-      "title_ja": "Qwenベースの高速版モデル「Swift 1.5 27B」登場",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wqkb3v/swift_15_27b_swift_qwen_just_got_faster/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "id": "3f93d1ce366f",
-      "title_ja": "Xiaomi、エージェント特化の9B蒸留モデルMiMo-V2.6を公開",
-      "urls": [
-        "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "id": "1947fc4b63e3",
-      "title_ja": "Crusoe、AIデータセンター向けBoomタービン活用計画を撤回",
-      "urls": [
-        "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "id": "88d6a3f8cb13",
-      "title_ja": "KoboldCpp、内蔵型エージェントハーネスを新規搭載",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wqlyp8/introducing_koboldcpp_agent_and_a_plea_for_help/"
-      ]
-    },
-    {
       "date": "2026-09-29",
       "id": "721d3fef7b9b",
       "title_ja": "AMD、Fei-Fei Li氏のWorld Labsを8.2億ドルで買収",
@@ -941,6 +867,111 @@
       "title_ja": "Sean Parker氏、Stability AIを音楽生成軸に再建",
       "urls": [
         "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "c9ba7f3dba56",
+      "title_ja": "ChatGPT-6 Astraがエージェントとして『WoW』を無目視プレイ",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wxin4m/chatgpt6_astra_plays_world_of_warcraft_blind_and/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "345f1755705d",
+      "title_ja": "従量課金サービスに「ハード予算上限」機能が必要と指摘",
+      "urls": [
+        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "eb79656c925c",
+      "title_ja": "Qwen3.8-Flash-Nextがリリース、コンシューマー機で高速推論",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://github.com/Niko1221/Strata"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "bd1136d0fcfd",
+      "title_ja": "エージェントの「完了報告」とDBの実態不一致を指摘する記事",
+      "urls": [
+        "https://huggingface.co/blog/microsoft/thinkingbox"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "e2fde687321f",
+      "title_ja": "Aleph Alpha、ドイツ語重視のMoE推論モデルKolibri-1を公開",
+      "urls": [
+        "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "aeafd28c962e",
+      "title_ja": "Metaの人気AIアプリMuse、システムプロンプトに安全性無効化の記述",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wx8ruy/metas_muse_agent_1_in_the_app_store_system_prompt/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "f6bcb2f56e79",
+      "title_ja": "ローカルTTS「Breeze」が低遅延な音声対話を実現",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wxd404/local_text_to_speech_with_breeze_is_truly/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "b6bd374b6b6a",
+      "title_ja": "bilibili、Qwen3.5ベースの多言語翻訳モデル群を公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wxa1wr/bilibili_released_indextranslatea_a_multilingual/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "b5f6870bcc90",
+      "title_ja": "低ビット量子化対応の音声認識モデルPhonon-2が公開",
+      "urls": [
+        "https://huggingface.co/FermionResearch/Phonon-2"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "902a8fe9863c",
+      "title_ja": "OpenAIの安全部門責任者が退社、組織文化の問題を警告",
+      "urls": [
+        "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "fd8e2c2a2cf8",
+      "title_ja": "Qwen3.5をFPGA上に実装、安価なマイニング機材で推論",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wxken1/qwen35_arch_implementation_in_fpga_fabric_for/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "94b25c05c9d2",
+      "title_ja": "Micron CEO、2027〜28年のメモリ供給逼迫を予測",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wxma3a/micron_ceo_says_memory_supply_will_be_much/"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": "5844c1fd76a5",
+      "title_ja": "米中欧でモデル蒸留の応酬が進行と指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mwysi5xpdk25"
       ]
     }
   ]
