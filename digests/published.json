@@ -973,6 +973,168 @@
       "urls": [
         "https://bsky.app/profile/emollick.bsky.social/post/3mwysi5xpdk25"
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "917ba46d3f15",
+      "title_ja": "Reflection、5010億パラメータのオープンウェイトモデルBeamを発表",
+      "urls": [
+        "https://reflection.ai/blog/introducing-beam",
+        "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wy0jrc/reflection_ai_is_about_to_release_a_us_openweight/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "dbf6a51fde3f",
+      "title_ja": "Claude Opus 5.5のエージェントが磁性半導体候補を発見",
+      "urls": [
+        "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "9668af85ed2e",
+      "title_ja": "vllm v0.31.0リリース、DeepSeek-V4.1-Flash性能を最適化",
+      "urls": [
+        "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "5c72c009e4c7",
+      "title_ja": "Z.aiのGLM 5.3、Amazon Bedrockで利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "df294a11bdb6",
+      "title_ja": "Tencent基盤上の中国系AIエージェント群がAmapを標的に",
+      "urls": [
+        "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "7ce1dacb4f2a",
+      "title_ja": "llama.cpp v0.6.0、新バッチAPIとGLM-5.3対応を追加",
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "92c1824269f4",
+      "title_ja": "Lightricks、画像・音声から動画生成するLTX-2.5を公開",
+      "urls": [
+        "https://huggingface.co/Lightricks/LTX-2.5"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "aeca04431d9f",
+      "title_ja": "Claude Opus/Sonnet 5.5、AWS GovCloudで利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "a3e25dbd2a96",
+      "title_ja": "Wikipedia運営、OpenAIの「不審な」ボットと5月障害の関連を確認",
+      "urls": [
+        "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "4aec355d7489",
+      "title_ja": "MCPのエージェント間通信にセキュリティ上のリスク",
+      "urls": [
+        "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "043f1ee35a10",
+      "title_ja": "SageMaker、コーディングエージェント向け推論最適化スキルを追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "818918b6b23d",
+      "title_ja": "Bedrock AgentCoreでマルチエージェントシステムを評価",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "2d8e70fb45ce",
+      "title_ja": "OpenAI、ChatGPTに新しいビジュアル広告形式を導入",
+      "urls": [
+        "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "55eeb63b17b7",
+      "title_ja": "Amazon Quick、アカウント間リソース昇格を自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "d16241c2084e",
+      "title_ja": "HackerRankのAI面接官、50万件超の面接を実施",
+      "urls": [
+        "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "3685b45efb88",
+      "title_ja": "OpenAI、ChatGPTとCodexにテキスト電子透かしを導入",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "7073395c0f94",
+      "title_ja": "autotrust、画像対応の決定モデルJEV-27B-VLを公開",
+      "urls": [
+        "https://huggingface.co/autotrust/JEV-27B-VL"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "5282b8e550cb",
+      "title_ja": "中国電信、256Kコンテキスト対応のXing4.0-29Bを公開",
+      "urls": [
+        "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "5f53e39dd9e9",
+      "title_ja": "企業エージェントAI時代の予測分析活用が論点に",
+      "urls": [
+        "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": "ae0f27b1ad7d",
+      "title_ja": "LangChainとBedrock Knowledge BasesでエージェンティックRAGを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/"
+      ]
     }
   ]
 }
