@@ -1,171 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-29",
-      "id": "721d3fef7b9b",
-      "title_ja": "AMD、Fei-Fei Li氏のWorld Labsを8.2億ドルで買収",
-      "urls": [
-        "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-        "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "60e195b06c19",
-      "title_ja": "推論基盤Modal Labs、評価額157.5億ドルで750億円規模を調達へ",
-      "urls": [
-        "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "eb674100bb68",
-      "title_ja": "GPT-6 Astra、税務ワークブック処理が前モデルの2倍高速に",
-      "urls": [
-        "https://openai.com/index/basis-tax-workbook-with-astra"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "5e6a557ab268",
-      "title_ja": "OpenAI、安全性懸念から特定モデルの提供を中止と報道",
-      "urls": [
-        "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "57e26ef375b6",
-      "title_ja": "NVIDIA、オープンソースのエージェント安全サンドボックスOpenShellを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1ws9ydg/nvidia_shipped_openshell_an_open_source_sandbox/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "560cbbccadfe",
-      "title_ja": "AIエージェントInstinct、評価額100億ドルでシリーズC1000億円調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "64fdf8a89fbd",
-      "title_ja": "NVIDIA、暴走AIエージェントをミリ秒単位で隔離する安全基盤を発表",
-      "urls": [
-        "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-        "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-        "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "509f64549de1",
-      "title_ja": "Anthropic、高速・低コスト化したClaude Sonnet 5.5を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
-        "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "9c80f84d4808",
-      "title_ja": "Anthropic Python SDK v1.9.0、Claude Sonnet 5.5対応など追加",
-      "urls": [
-        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.9.0"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "deeacf9a73c4",
-      "title_ja": "Meta、企業向けMeta Enterprise Platformを開始",
-      "urls": [
-        "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "09d1d26fa19d",
-      "title_ja": "汎用コンピュータ操作エージェント「Holo4」公開",
-      "urls": [
-        "https://huggingface.co/blog/Hcompany/holo4"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "db3dfcf2b649",
-      "title_ja": "OpenAI、エージェント誤作動相次ぎフロンティアモデル訓練を一時停止",
-      "urls": [
-        "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
-        "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "6ec519350686",
-      "title_ja": "Modulate、音声モデルとディープフェイク検出に2500万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "fd3b761a63e0",
-      "title_ja": "3値量子化の27Bモデル「Ternary-Bonsai-2」がHugging Faceに公開",
-      "urls": [
-        "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "b86603e367f7",
-      "title_ja": "OpenAI、常時稼働型AIエージェント分野で出遅れとの指摘",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "ca930995b2c3",
-      "title_ja": "xAIのGrok 4.7、Amazon Bedrockで利用可能に",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "8dfae19f11de",
-      "title_ja": "Shopify、チェックアウトをブラウザ型AIエージェントに開放",
-      "urls": [
-        "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "5d637b61c9bc",
-      "title_ja": "4BモデルImaJev-4b、ビジネス判断ベンチマークで首位に",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wsgrma/imajev4b_i_spent_15_days_finetuning_a_4b_model_to/"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "0b272935f82c",
-      "title_ja": "対照学習ベースの検証器モデルCLM-v0.1-8Bが公開",
-      "urls": [
-        "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B"
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "id": "651e659be31f",
-      "title_ja": "保険テックOutmarket、追加34.5百万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/"
-      ]
-    },
-    {
       "date": "2026-09-30",
       "id": "d6b9f5e651b1",
       "title_ja": "OpenAI、Astra並み性能を5分の1価格で提供するGPT-6.1 Solを発表",
@@ -1134,6 +969,173 @@
       "title_ja": "LangChainとBedrock Knowledge BasesでエージェンティックRAGを構築",
       "urls": [
         "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "170c70f0f66e",
+      "title_ja": "Lambda、IPOを前に最大40億ドルを調達",
+      "urls": [
+        "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "1ef243007176",
+      "title_ja": "Mistral、1兆パラメータの「Large 4」をプレビュー公開",
+      "urls": [
+        "https://mistral.ai/news/mistral-large-4/",
+        "https://mistral.ai/news/mistral-large-4/\\",
+        "https://simonwillison.net/2026/Oct/6/le-chonk/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "c0f8635df56f",
+      "title_ja": "AIエージェント「Dot」が1日16億トークンを消費",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wyoaw7/my_dot_burns_16b_tokens_a_day_on_since_day_one_on/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "f57eff9c23a4",
+      "title_ja": "OpenAIとIroncladがAIエージェントで協業",
+      "urls": [
+        "https://openai.com/index/advancing-computer-use-with-ironclad"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "93a2c8f0b108",
+      "title_ja": "大規模本番コードベースでGLM-5.3 Flashを採用",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wyuqha/were_using_glm53_flash_instead_of_frontier_models/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "2896758265ce",
+      "title_ja": "AtlassianとOpenAIがパートナーシップ拡大",
+      "urls": [
+        "https://openai.com/index/atlassian-partnership"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "ffaa7d5210e6",
+      "title_ja": "通信事業者、オープンモデル中心にAI戦略を構築",
+      "urls": [
+        "https://blogs.nvidia.com/blog/telecom-operators-open-models/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "4b1a4d064b38",
+      "title_ja": "Bedrockで音声旅行コンシェルジュを構築するチュートリアル公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "de66b423d3f3",
+      "title_ja": "Google、GeminiのFlashとPro無料利用を廃止へ",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "4e50efa7abaa",
+      "title_ja": "Google、マルチモーダル埋め込みモデル「EmbeddingGemma 2」公開",
+      "urls": [
+        "https://huggingface.co/google/embeddinggemma-2",
+        "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
+        "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+        "https://simonwillison.net/2026/Oct/6/hn-49983751/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "9d9c55860e33",
+      "title_ja": "AgentCoreとOpenClawで文脈を記憶するAIアシスタント構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-a-context-aware-ai-assistant-on-agentcore-and-openclaw/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "925d3dbfb764",
+      "title_ja": "元Ramp技術者のMeliusが2000万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "44abf00de023",
+      "title_ja": "AIアシスタント、ローカル実行からクラウドVMへ回帰",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mx63cx3bjs2o"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "a7013ecd4f4c",
+      "title_ja": "Musubi、軽量モデレーション決定モデル「PolicyLM-1.7B」発表",
+      "urls": [
+        "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "3e856eb3f647",
+      "title_ja": "Anthropic、スタートアップ向けに1年間無料のClaude Teamを提供",
+      "urls": [
+        "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "eb444430523f",
+      "title_ja": "Qwen 4、10月末にリリースとの情報",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wz1pqn/qwen_4_apparently_coming_out_at_the_end_of_october/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "6dea2e56535f",
+      "title_ja": "Tencent、セルフホスト型AIアシスタント「Octop」公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wyzef4/tencent_releases_octop_a_selfhosted_ai_assistant/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "82ed428159c7",
+      "title_ja": "適応的思考を持つ決定モデル「GEV-26B-Decide」公開",
+      "urls": [
+        "https://huggingface.co/autotrust/GEV-26B-Decide"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "7b9024771ee4",
+      "title_ja": "AIエージェントの普及、サイト側のアクセス制限が障壁に",
+      "urls": [
+        "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "id": "bbdd7aa3e89b",
+      "title_ja": "PinterestのAIが美容Pinを行動計画に変換",
+      "urls": [
+        "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/"
       ]
     }
   ]
