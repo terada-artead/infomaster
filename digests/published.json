@@ -1,176 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-09-30",
-      "id": "d6b9f5e651b1",
-      "title_ja": "OpenAI、Astra並み性能を5分の1価格で提供するGPT-6.1 Solを発表",
-      "urls": [
-        "https://openai.com/index/introducing-gpt-6-1-sol",
-        "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
-        "https://openai.com/index/introducing-gpt-6-1-sol/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "36193bd2fd97",
-      "title_ja": "OpenAI、評価額1.4兆ドルで300億ドル調達交渉と報道",
-      "urls": [
-        "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "4616c617defc",
-      "title_ja": "Anthropic、IPO目論見書で巨額損失と成長、存続リスクも開示",
-      "urls": [
-        "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
-        "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "dec620cb7225",
-      "title_ja": "OpenAI、常時稼働のAIエージェント「Dots」を発表",
-      "urls": [
-        "https://openai.com/index/introducing-dots",
-        "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-        "https://openai.com/index/introducing-dots/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "6071f63e21f6",
-      "title_ja": "OpenAI DevDay 2026、GPT-6 Astraなど20件超の発表",
-      "urls": [
-        "https://openai.com/index/devday-2026-recap",
-        "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-        "https://openai.com/index/devday-2026-recap/",
-        "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "2833bea77aa4",
-      "title_ja": "AMD、World Labsを82億ドルで買収しNvidiaに対抗",
-      "urls": [
-        "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "e06185c2c32b",
-      "title_ja": "ChatGPT Pro、月額500ドルの新プラン導入で実質値上げ",
-      "urls": [
-        "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wt5f4e/looks_like_the_era_of_subsidised_compute_is/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "352a298aea68",
-      "title_ja": "OpenAI、ChatGPTをアプリストア的なプラットフォームへ拡張",
-      "urls": [
-        "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "3044f63155f8",
-      "title_ja": "Meta、中小企業向けAIエージェント「Muse for Small Business」を発表",
-      "urls": [
-        "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "d4f9f7ea2f92",
-      "title_ja": "データセンター投資の正当化に年6兆ドルの収益が必要と試算",
-      "urls": [
-        "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "f98597eae81f",
-      "title_ja": "GLM-5.3、バイナリ悪用ベンチマークで制御フロー乗っ取りを達成",
-      "urls": [
-        "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-        "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "5c348986a151",
-      "title_ja": "DeepSeek、画像対応の新モデル「DeepSeek-V4.1-Flash」を公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "0e5c51300664",
-      "title_ja": "OpenAI Codex、デバイス横断の再利用可能クラウド環境を追加",
-      "urls": [
-        "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "fbf63bd9a4b4",
-      "title_ja": "NVIDIA、競技プログラミング特化モデルNemotron-3を公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wsuqmb/nvidianvidianemotronlabs3competitivecoding550ba55b/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "5d885f2b9705",
-      "title_ja": "多言語対応の高速意思決定モデル「Laya」公開",
-      "urls": [
-        "https://huggingface.co/convaiinnovations/laya"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "d156b0403078",
-      "title_ja": "コンデナスト、Bedrockで動画検索時間を250分から2分に短縮",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "54b60c2eb49b",
-      "title_ja": "会話型AIエージェントのプライバシー分析論文が公開",
-      "urls": [
-        "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "3cc50d035623",
-      "title_ja": "Qwen、透過画像対応の新画像生成モデル「Qwen-Image-2.1」を公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen-Image-2.1"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "bf42ad52e5cf",
-      "title_ja": "AWS、Bedrock AgentCoreを用いた契約書解析プラットフォームを紹介",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "id": "87538e4032f9",
-      "title_ja": "OpenAI、GPT-6.1をセキュリティ上の懸念から公開見送りと報道",
-      "urls": [
-        "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/"
-      ]
-    },
-    {
       "date": "2026-10-01",
       "id": "ce56aa83d006",
       "title_ja": "Google、次期フロンティアモデル「Gemini 4 Argon」を発表",
@@ -1136,6 +966,174 @@
       "title_ja": "PinterestのAIが美容Pinを行動計画に変換",
       "urls": [
         "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "270d2009beef",
+      "title_ja": "OpenAI、数学の未解決問題を解く論文722本を公開",
+      "urls": [
+        "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "e85b9e2ad448",
+      "title_ja": "MicrosoftとNVIDIA、AI PC「Surface Laptop Ultra」など発表",
+      "urls": [
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+        "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+        "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "99f7f1fb215d",
+      "title_ja": "Anthropic、高速・低コストの新モデルClaude Haiku 5.5を発表",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.0",
+        "https://www.anthropic.com/claude-haiku-5-5",
+        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "04347efee76c",
+      "title_ja": "Google、Meta主導の「仮想細胞」構想に3億ドル出資",
+      "urls": [
+        "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "d66b18709c4b",
+      "title_ja": "OpenAI、GPT-6と対話に図やボタンを加える新UIを公開",
+      "urls": [
+        "https://openai.com/index/gpt-6-for-everyone/",
+        "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "1622e539f5fe",
+      "title_ja": "韓国、銀行へのハッキングにAIエージェント利用の疑いと発表",
+      "urls": [
+        "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "19bbd8a9667a",
+      "title_ja": "Mistral、オープンウェイトモデル「Le Chonk」を発表",
+      "urls": [
+        "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "df90a0a7a604",
+      "title_ja": "OpenAI、判断に特化した「Decisions API」をパブリックベータ公開",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1wzprt3/decisions_api_is_now_available_in_public_beta/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "f79fc1981148",
+      "title_ja": "Nous Research、評価額15億ドル達成とAIエージェント発表",
+      "urls": [
+        "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "286c73249272",
+      "title_ja": "Docker、新ツール「Docker Agent」を公開",
+      "urls": [
+        "https://github.com/docker/docker-agent"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "24157dcdb45d",
+      "title_ja": "Google、AI生成メディア判定サイト「SynthID」を世界展開",
+      "urls": [
+        "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+        "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "a7a3eb5fdce0",
+      "title_ja": "AWS、エージェント型自動化のビジネスケース構築法を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "bdf03c88e2ba",
+      "title_ja": "Cornerstone OnDemand、Bedrockでデータベース診断時間78%削減",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "3c6644f5f311",
+      "title_ja": "Microsoft、CopilotにWindowsとファイルへのアクセス権限を拡大",
+      "urls": [
+        "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "2dfd32af3975",
+      "title_ja": "オープン楽曲モデルYuE2活用の作曲スタジオ「Ruach Studio」公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wziir6/ruach_studio_a_whole_song_studio_around_yue2_on/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "cb48a4276ada",
+      "title_ja": "Qlik、Amazon Bedrockで根拠付き企業向けAIを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "c2919a917ad7",
+      "title_ja": "Amazon、RAGの権限管理を強化するQuickとBedrockの連携発表",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "68d2d671da66",
+      "title_ja": "Meta、AI戦略におけるデータセンターの役割を説明",
+      "urls": [
+        "https://about.fb.com/news/2026/10/meta-data-centers-ai-approach/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "188acac79052",
+      "title_ja": "AI開発者、Adobe対抗のオープンソース版クリエイティブツールを公開",
+      "urls": [
+        "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": "5e545e973a6a",
+      "title_ja": "EmbeddingGemma 2のビジョン機能、ブラウザ上で動作するデモ公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1wzs1t5/imagetext_retrieval_with_embeddinggemma_2s_vision/"
       ]
     }
   ]
