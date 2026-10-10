@@ -1,151 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-03",
-      "id": "ca26bca182f6",
-      "title_ja": "Qwen系最新モデルQwen3.8-27Bがハギングフェースで公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "882596cbc763",
-      "title_ja": "Chatham FinancialがOpenAIモデルで資本市場業務を効率化",
-      "urls": [
-        "https://openai.com/index/chatham-financial"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "6a7050a4b2e4",
-      "title_ja": "Amazon SageMakerで検索エージェントをマルチターンRLでファインチューニング",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "bf2760270644",
-      "title_ja": "最先端AIモデルが会計タスクで若手会計士を上回る",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mwucaaj3ws25"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "cc02ca5d84b0",
-      "title_ja": "Qwen-Image-2.1蒸留版viggle-turboがハギングフェースで公開",
-      "urls": [
-        "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "5d15134f70e0",
-      "title_ja": "Amazon Quickとルールエンジンでリース契約のコンプライアンス審査を自動化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "038134d95b4f",
-      "title_ja": "Meta、AIエージェント「Muse」搭載ガジェット向けコードをオープンソース化",
-      "urls": [
-        "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "94f7add19cb4",
-      "title_ja": "Redis開発者が手がけたLLMローカル実行ツール「ds4」が話題に",
-      "urls": [
-        "https://dwarfstar.sh/"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "56c490db0401",
-      "title_ja": "企業向けエージェント訓練データ生成ツール「AutoSynthData」公開",
-      "urls": [
-        "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "593a5e64b60b",
-      "title_ja": "AppleがAIエージェントのリスクを理由にmacOSのフルディスクアクセスを制限",
-      "urls": [
-        "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-        "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "e925a640346d",
-      "title_ja": "AI音楽生成Sunoが発話音声生成機能を追加",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "2fca604ef192",
-      "title_ja": "CloudflareがマルチモーダルモデルClef-Flashを公開",
-      "urls": [
-        "https://huggingface.co/Cloudflare/clef-flash"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "a10088d524a0",
-      "title_ja": "Amazon Bedrock AgentCoreでClaude Desktopに安全なWeb検索を追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "5c0c42097c18",
-      "title_ja": "Nvidiaチップ密輸容疑でテック企業CEOが米で逮捕",
-      "urls": [
-        "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "d1baa948a9e2",
-      "title_ja": "エージェント型コーディングの「四騎士」論がHacker Newsで議論に",
-      "urls": [
-        "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "cecaa627e24b",
-      "title_ja": "NVIDIAがメモリ64GB版DGX Sparkを発表",
-      "urls": [
-        "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "1d9153a94591",
-      "title_ja": "Amazon、データセンター建設反対への懸念に反論するブログを公開",
-      "urls": [
-        "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning"
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "id": "6b1161959faf",
-      "title_ja": "GLM 5.3 Flashで1カ月コーディングした体験記がHacker Newsで話題",
-      "urls": [
-        "https://wagtail.org/blog/one-month-on-glm-53-flash/"
-      ]
-    },
-    {
       "date": "2026-10-04",
       "id": "0a0bab444a96",
       "title_ja": "Unitree、64タスク対応ヒューマノイド基盤モデル公開",
@@ -1134,6 +989,118 @@
       "title_ja": "Qwen3.8-27B、AMD GPUでのベンチマーク結果が公開",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "d3eeb0753ebb",
+      "title_ja": "ブラウン氏、共和党人脈でSpaceXの月額12.5億ドル契約を仲介",
+      "urls": [
+        "https://wsj.com/tech/ai/tom-brown-athropic-669005ad"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "6fafcbf09565",
+      "title_ja": "Anthropic、内部AIエージェント評価からネット接続を遮断",
+      "urls": [
+        "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "e4ec1e84959a",
+      "title_ja": "Cloudflare、意思決定特化の27BモデルClefを公開",
+      "urls": [
+        "https://huggingface.co/Cloudflare/clef"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "ff937c402522",
+      "title_ja": "NvidiaがオープンモデルのReflection AI買収を協議",
+      "urls": [
+        "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "36cc2f96c79b",
+      "title_ja": "ウクライナのドローン攻撃、Yandexのデータセンターを損傷",
+      "urls": [
+        "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "5c348986a151",
+      "title_ja": "DeepSeek、マルチモーダル対応のV4.1-Flashを公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "c9390824224e",
+      "title_ja": "OpenAI、新AIエージェント「Dots」でプライバシー基準を強調",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "b9dc0d5943c8",
+      "title_ja": "Apple、ポッドキャストAIスタートアップHuxeのチームと技術を獲得",
+      "urls": [
+        "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "5c1db9239c15",
+      "title_ja": "Cloudflare無料枠で動くセルフホスト型個人AIエージェント公開",
+      "urls": [
+        "https://github.com/rociiu/talorys"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "6c3ff23f9d7d",
+      "title_ja": "数学者100人超、数学とAIの現状について意見交換",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1x2notw/100_reactions_from_leading_mathematicians_on_the/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "6d57a260d9ad",
+      "title_ja": "DistroKid、UMG提訴を受け楽曲を無断削除",
+      "urls": [
+        "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "abb123843bd5",
+      "title_ja": "FrancisRing、音声同期対応の動画生成モデルPrismを公開",
+      "urls": [
+        "https://huggingface.co/FrancisRing/Prism"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "4e11b4c66e25",
+      "title_ja": "EmbeddingGemma 2をローカル実行するMac向け検索アプリ公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": "bb0f0693cafc",
+      "title_ja": "Blackwell向け推論エンジンBasaltがStrata比2.6倍の速度達成",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x223ai/basalt_flashnext_at_665_toks_structured_354_prose/"
       ]
     }
   ]
