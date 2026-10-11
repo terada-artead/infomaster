@@ -1,71 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-04",
-      "id": "0a0bab444a96",
-      "title_ja": "Unitree、64タスク対応ヒューマノイド基盤モデル公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "id": "4895ed02d15f",
-      "title_ja": "NVIDIA、話者分離モデルNemotron-3-Diarizationを公開",
-      "urls": [
-        "https://huggingface.co/nvidia/Nemotron-3-Diarization"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "id": "4528afcf38aa",
-      "title_ja": "SupersonicLabs、意思決定特化モデルJulia-1を公開",
-      "urls": [
-        "https://huggingface.co/SupersonicLabs/Julia-1"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "id": "1ef1b38c39d0",
-      "title_ja": "Aleph Alpha、ドイツ製ソブリンLLM「Kolibri」公開",
-      "urls": [
-        "https://tej.as/blog/aleph-alpha-kolibri",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "id": "ec7340b6edae",
-      "title_ja": "特定モデル特化の軽量推論エンジンが増加",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "id": "baa9ea860b21",
-      "title_ja": "OpenAI、GPT-6系列のモデル利用ガイドを公開",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1wwq6yn/openai_publishes_a_model_guide_for_the_gpt6/"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "id": "a5fd23b13539",
-      "title_ja": "TaichuAI、9Bのマルチモーダル視覚言語モデル公開",
-      "urls": [
-        "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B"
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "id": "5671402926db",
-      "title_ja": "Sean Parker氏、Stability AIを音楽生成軸に再建",
-      "urls": [
-        "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
-      ]
-    },
-    {
       "date": "2026-10-05",
       "id": "c9ba7f3dba56",
       "title_ja": "ChatGPT-6 Astraがエージェントとして『WoW』を無目視プレイ",
@@ -1101,6 +1036,118 @@
       "title_ja": "Blackwell向け推論エンジンBasaltがStrata比2.6倍の速度達成",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1x223ai/basalt_flashnext_at_665_toks_structured_354_prose/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B、画像テキスト対応モデルとして公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "f2bc736c0ee7",
+      "title_ja": "Meta、マスク生成モデルSAM3を公開",
+      "urls": [
+        "https://huggingface.co/facebook/sam3"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "9e4d386643bb",
+      "title_ja": "DeepSeek V4.1 Flash、APIキーを不正利用と報告",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "2fca604ef192",
+      "title_ja": "Cloudflare、意思決定特化モデルClef-Flashを公開",
+      "urls": [
+        "https://huggingface.co/Cloudflare/clef-flash"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "22ead6187af3",
+      "title_ja": "Qualcomm CEO、2028年に1000億パラメータの常時稼働スマホ需要",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "77086b8c863a",
+      "title_ja": "AIと人間の協働が数学研究で急速に拡大",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mxmlmg6vus2c"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "b339eb5c8240",
+      "title_ja": "4基のR9700搭載、小規模企業向けAIサーバー構築事例",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "d16bd93ff857",
+      "title_ja": "LLM能力に関する認識の格差が拡大と指摘",
+      "urls": [
+        "https://twitter.com/karpathy/status/2109361546505966046"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "b2ab97439cd0",
+      "title_ja": "RTX 5090が5000ドルに高騰、AI企業の大量購入が一因",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "3c6f99ca1f06",
+      "title_ja": "Microsoft、視覚資料生成モデルAesCode 8B/32Bを公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x35o1y/microsoftaescode_8b_and_32b/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "c9bd17995de7",
+      "title_ja": "ローカル完結の医療AIツールキットOpenMed 3.0公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x37z7z/openmed_30_is_out_apache20_clinical_ai_that_runs/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "59499c68644c",
+      "title_ja": "AIエージェントによるFPSゲームの逆コンパイル事例",
+      "urls": [
+        "https://momo5502.com/posts/2026-10-09-game-decompilation/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "13ca25f147a7",
+      "title_ja": "Nadella氏、AIモデルに「緊急ブレーキ」必要と発言",
+      "urls": [
+        "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": "de17970f1321",
+      "title_ja": "既存の密モデルをMoEに変換する手法を検証",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x3078i/converting_dense_models_into_mixtureofexperts/"
       ]
     }
   ]
