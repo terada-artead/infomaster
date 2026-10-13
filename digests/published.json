@@ -1,111 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-05",
-      "id": "c9ba7f3dba56",
-      "title_ja": "ChatGPT-6 Astraがエージェントとして『WoW』を無目視プレイ",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1wxin4m/chatgpt6_astra_plays_world_of_warcraft_blind_and/"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "345f1755705d",
-      "title_ja": "従量課金サービスに「ハード予算上限」機能が必要と指摘",
-      "urls": [
-        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "eb79656c925c",
-      "title_ja": "Qwen3.8-Flash-Nextがリリース、コンシューマー機で高速推論",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-        "https://github.com/Niko1221/Strata"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "bd1136d0fcfd",
-      "title_ja": "エージェントの「完了報告」とDBの実態不一致を指摘する記事",
-      "urls": [
-        "https://huggingface.co/blog/microsoft/thinkingbox"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "e2fde687321f",
-      "title_ja": "Aleph Alpha、ドイツ語重視のMoE推論モデルKolibri-1を公開",
-      "urls": [
-        "https://huggingface.co/Aleph-Alpha/Kolibri-1"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "aeafd28c962e",
-      "title_ja": "Metaの人気AIアプリMuse、システムプロンプトに安全性無効化の記述",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wx8ruy/metas_muse_agent_1_in_the_app_store_system_prompt/"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "f6bcb2f56e79",
-      "title_ja": "ローカルTTS「Breeze」が低遅延な音声対話を実現",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wxd404/local_text_to_speech_with_breeze_is_truly/"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "b6bd374b6b6a",
-      "title_ja": "bilibili、Qwen3.5ベースの多言語翻訳モデル群を公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wxa1wr/bilibili_released_indextranslatea_a_multilingual/"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "b5f6870bcc90",
-      "title_ja": "低ビット量子化対応の音声認識モデルPhonon-2が公開",
-      "urls": [
-        "https://huggingface.co/FermionResearch/Phonon-2"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "902a8fe9863c",
-      "title_ja": "OpenAIの安全部門責任者が退社、組織文化の問題を警告",
-      "urls": [
-        "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "fd8e2c2a2cf8",
-      "title_ja": "Qwen3.5をFPGA上に実装、安価なマイニング機材で推論",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wxken1/qwen35_arch_implementation_in_fpga_fabric_for/"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "94b25c05c9d2",
-      "title_ja": "Micron CEO、2027〜28年のメモリ供給逼迫を予測",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wxma3a/micron_ceo_says_memory_supply_will_be_much/"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "id": "5844c1fd76a5",
-      "title_ja": "米中欧でモデル蒸留の応酬が進行と指摘",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mwysi5xpdk25"
-      ]
-    },
-    {
       "date": "2026-10-06",
       "id": "917ba46d3f15",
       "title_ja": "Reflection、5010億パラメータのオープンウェイトモデルBeamを発表",
@@ -1148,6 +1043,166 @@
       "title_ja": "既存の密モデルをMoEに変換する手法を検証",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1x3078i/converting_dense_models_into_mixtureofexperts/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "033e5603f4df",
+      "title_ja": "Meta、エージェント特化の新フロンティアモデル「Muse Wonder」発表",
+      "urls": [
+        "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "c4b9d6e88059",
+      "title_ja": "WindBorne、気象気球AIで米空軍と約50億円契約を獲得",
+      "urls": [
+        "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "fc5a6a5fae0f",
+      "title_ja": "Microsoft、独自AIチップ「Maia 300」を発表",
+      "urls": [
+        "https://news.microsoft.com/maia-2026/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "e919eab60d74",
+      "title_ja": "Qwen、長時間タスク向けRLフレームワーク「QwenGyre」公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "cb1d8044b50f",
+      "title_ja": "NVIDIA、Vera Rubinアーキテクチャをオープン化",
+      "urls": [
+        "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "93481ec2e3a9",
+      "title_ja": "Agent37、低コストなAIエージェント用サンドボックスを発表",
+      "urls": [
+        "https://news.ycombinator.com/item?id=50059096"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "b7884da985bf",
+      "title_ja": "Baidu、OCRモデル「Unlimited-OCR」をHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/baidu/Unlimited-OCR"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "1a1dd2abd44c",
+      "title_ja": "Amazon、ロボット稼働数が100万台を突破",
+      "urls": [
+        "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "167c7efa09e6",
+      "title_ja": "Qwen、高速画像生成モデル「Qwen-Image-2.1-Turbo」公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "9e4d9446e955",
+      "title_ja": "Epic Games、「AIファースト」開発モデルへ転換と報道",
+      "urls": [
+        "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "e437bb138aae",
+      "title_ja": "OpenAIのGPT、Amazon Bedrockでアジア太平洋地域から利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "458c04cd04ca",
+      "title_ja": "アプリやバイナリを解析するエージェント型リバースエンジニアリングツール",
+      "urls": [
+        "https://github.com/morluto/rea"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "c6e880faedee",
+      "title_ja": "IntelのGPU「Crescent Island」、D-Seriesに改名",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "bbbed27a1f33",
+      "title_ja": "Unsloth、量子化版「EmbeddingGemma-2-GGUF」を公開",
+      "urls": [
+        "https://huggingface.co/unsloth/embeddinggemma-2-GGUF"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "6d5747a1c9b0",
+      "title_ja": "Blueprints AI、法令準拠の建築図面を数分で生成",
+      "urls": [
+        "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "a6d1a90bc9e9",
+      "title_ja": "調査会社、AnthropicのIPO評価を「投資家の軽信の試練」と批判",
+      "urls": [
+        "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "2c8d16c22c55",
+      "title_ja": "GPT-6 Pro、学術論文の誤りを日常的に発見",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mxnnvoyesk2a"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "84410a602fe5",
+      "title_ja": "元Plaud幹部、常時音声収集型AIアプリで26億円調達",
+      "urls": [
+        "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "87821ac2756f",
+      "title_ja": "Amazon SageMakerでllama.cppによる意思決定モデルのデプロイが可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": "9fc95e55d52a",
+      "title_ja": "AWS EKSでRayコンテナによるマルチノードLLM推論が可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/"
       ]
     }
   ]
