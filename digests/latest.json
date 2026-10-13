@@ -1,283 +1,307 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T10:16:50+09:00",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T08:16:55+09:00",
   "stats": {
-    "collected": 96,
-    "fresh": 79,
-    "selected": 22,
+    "collected": 131,
+    "fresh": 114,
+    "selected": 49,
     "published": 20
   },
   "highlights": [
-    "Metaがエージェント向け最新モデル「Muse Wonder」を発表",
-    "MicrosoftがAI推論用の新カスタムチップMaia 300を発表",
-    "WindBorneが気象予測AIで米空軍と約50億円規模の契約"
+    "Google、新フラッグシップのGemini 4 Argonを発表",
+    "Character.AI、破産申請し一部資産をDisneyへ売却",
+    "NVIDIA RTX Spark、PCアプリの対応エコシステムが始動"
   ],
   "items": [
     {
-      "id": "033e5603f4df",
+      "id": "8b1ab1df41ac",
       "importance": "high",
       "category": "product",
-      "title_ja": "Meta、エージェント特化の新フロンティアモデル「Muse Wonder」発表",
-      "summary_ja": "Metaは個人・業務向けエージェントタスクで最高水準の性能を目指した新モデル「Muse Wonder」と「Muse Wonder Full」を発表した。同社によれば現時点で最も高性能なモデルと位置付けられている。エージェント開発を行うエンジニアは、タスク自動化や業務アシスタント構築の選択肢として評価する価値がある。",
+      "title_ja": "Google、Gemini 4 Argonをリリース",
+      "summary_ja": "Googleはフロンティア級の推論能力を掲げる新モデルGemini 4 Argonを発表した。GeminiアプリとAntigravityで提供が始まったが、利用には課金が必要で、開発者向けAPIは11月まで50%の割引料金が適用される。ロボティクス向けの派生モデルGemini 4 Argon for Roboticsも同時に公開された。",
       "sources": [
         {
-          "name": "Meta Newsroom",
-          "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://deepmind.google/models/gemini/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+        },
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/"
         }
       ]
     },
     {
-      "id": "c4b9d6e88059",
+      "id": "b2fa807e4b0d",
       "importance": "high",
       "category": "business",
-      "title_ja": "WindBorne、気象気球AIで米空軍と約50億円契約を獲得",
-      "summary_ja": "気象気球とAIを使って天候予測を行うシリコンバレーのスタートアップWindBorneが、米空軍と約5000万ドル規模の契約を獲得したと報じられている。軍需分野における気象予測AIの実用化事例として注目される。",
+      "title_ja": "Character.AI、破産申請し資産の一部をDisneyへ売却",
+      "summary_ja": "対話型チャットボットサービスのCharacter.AIが創業5年で連邦破産法11条（Chapter 11）の申請を行い、資産の一部を2000万ドルでDisneyに売却する。AIスタートアップの事業継続性に対する懸念を示す事例として注目されている。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
-        }
-      ]
-    },
-    {
-      "id": "fc5a6a5fae0f",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "Microsoft、独自AIチップ「Maia 300」を発表",
-      "summary_ja": "MicrosoftはAI処理向けの自社開発チップ最新版「Maia 300」を発表した。クラウド推論基盤の内製化を進める動きとして、Azure上でのコスト構造やモデル提供価格に影響を与える可能性がある。",
-      "sources": [
+          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/"
+        },
         {
-          "name": "Microsoft Source AI",
-          "url": "https://news.microsoft.com/maia-2026/"
-        }
-      ]
-    },
-    {
-      "id": "e919eab60d74",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "Qwen、長時間タスク向けRLフレームワーク「QwenGyre」公開",
-      "summary_ja": "Qwenが、極めて長時間かつ複雑なタスクでAIエージェントを訓練するための強化学習フレームワーク「QwenGyre」を公開した。",
-      "sources": [
+          "name": "Hacker News",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
+        },
         {
           "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x57zpx/characterai_files_for_bankruptcy_to_sell_some/"
         }
       ]
     },
     {
-      "id": "cb1d8044b50f",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "NVIDIA、Vera Rubinアーキテクチャをオープン化",
-      "summary_ja": "NVIDIAはOCP Global Summitで、AIインフラの世界的なスケーリングを支援するため「Vera Rubin」アーキテクチャをオープン化し、新たなパートナーシップを発表した。",
+      "id": "8bb1da51925f",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "NVIDIA RTX Spark、PCアプリ対応が始動",
+      "summary_ja": "NVIDIAはゲーミングPC・クリエイティブスタジオ・個人用AIスーパーコンピュータを統合した新チップ「RTX Spark」向けに、グローバルなPCアプリエコシステムの準備が整ったと発表した。最大128GBの統合メモリと1ペタフロップスのAI計算性能を持ち、開発者はこの単一チップ上でRTXの全スタックを活用できる。",
       "sources": [
         {
           "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/"
         }
       ]
     },
     {
-      "id": "93481ec2e3a9",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Agent37、低コストなAIエージェント用サンドボックスを発表",
-      "summary_ja": "YC出身のAgent37が、既存サービスの10%未満のコストでAIエージェントを実行できるサンドボックスをHacker Newsでローンチした。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50059096"
-        }
-      ]
-    },
-    {
-      "id": "b7884da985bf",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Baidu、OCRモデル「Unlimited-OCR」をHugging Faceで公開",
-      "summary_ja": "BaiduがHugging Face上で画像からテキストを抽出するOCRモデル「Unlimited-OCR」を公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/baidu/Unlimited-OCR"
-        }
-      ]
-    },
-    {
-      "id": "1a1dd2abd44c",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Amazon、ロボット稼働数が100万台を突破",
-      "summary_ja": "Amazonはロボット労働力が100万台を超えたと報じられており、人間従業員との役割分担の今後が注目されている。",
-      "sources": [
-        {
-          "name": "Ars Technica AI",
-          "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/"
-        }
-      ]
-    },
-    {
-      "id": "167c7efa09e6",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Qwen、高速画像生成モデル「Qwen-Image-2.1-Turbo」公開",
-      "summary_ja": "Qwenが8ステップの denoising で高速な画像生成・編集を行う「Qwen-Image-2.1-Turbo」をHugging Faceで公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
-        }
-      ]
-    },
-    {
-      "id": "9e4d9446e955",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Epic Games、「AIファースト」開発モデルへ転換と報道",
-      "summary_ja": "Epic Gamesが手書きコードやAIなしのアートを廃し、「AIファースト」のゲーム開発モデルへ移行していると報じられている。",
-      "sources": [
-        {
-          "name": "Ars Technica AI",
-          "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/"
-        }
-      ]
-    },
-    {
-      "id": "e437bb138aae",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "OpenAIのGPT、Amazon Bedrockでアジア太平洋地域から利用可能に",
-      "summary_ja": "AWSはOpenAIのGPTモデルをタイ、マレーシア、シンガポール、インドネシア、台湾からAmazon Bedrockのクロスリージョン推論経由で利用可能にした。",
+      "id": "aa1cf074c866",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "AWS、SageMaker向けMoEカーネル最適化を公開",
+      "summary_ja": "AWSはSageMaker AI上で動くfused Mixture-of-Experts（MoE）モデルのカーネル最適化手法を公開した。Swap-ABによるWGMMA活用、FP8量子化向けTritonバックエンドルーティング、Triton JIT再コンパイルの排除により、H200 GPUでスループットを最大10%、Time to First Tokenを最大9%改善した。実運用でのMoE推論効率化に直接応用できる内容となっている。",
       "sources": [
         {
           "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/"
+          "url": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/"
         }
       ]
     },
     {
-      "id": "458c04cd04ca",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "アプリやバイナリを解析するエージェント型リバースエンジニアリングツール",
-      "summary_ja": "Hacker Newsで、アプリの挙動からネイティブバイナリまでをエージェントで解析するリバースエンジニアリングツールが紹介された。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://github.com/morluto/rea"
-        }
-      ]
-    },
-    {
-      "id": "c6e880faedee",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "IntelのGPU「Crescent Island」、D-Seriesに改名",
-      "summary_ja": "Intelの新GPU「Crescent Island」が「D-Series」としてブランド名を変更し、最大480GBのLPDDR5Xメモリと1.3PFLOPSのFP8性能をサポートする。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/"
-        }
-      ]
-    },
-    {
-      "id": "bbbed27a1f33",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Unsloth、量子化版「EmbeddingGemma-2-GGUF」を公開",
-      "summary_ja": "UnslothがGoogle DeepMind製のマルチモーダル埋め込みモデル「EmbeddingGemma 2」の量子化版GGUFをHugging Faceで公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF"
-        }
-      ]
-    },
-    {
-      "id": "6d5747a1c9b0",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Blueprints AI、法令準拠の建築図面を数分で生成",
-      "summary_ja": "スタートアップBlueprints AIが、写真やPDF、スケッチから法令準拠の建築図面を数分で生成するソフトウェアを開発した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/"
-        }
-      ]
-    },
-    {
-      "id": "a6d1a90bc9e9",
+      "id": "a2f578c60a47",
       "importance": "medium",
       "category": "business",
-      "title_ja": "調査会社、AnthropicのIPO評価を「投資家の軽信の試練」と批判",
-      "summary_ja": "ある調査会社がAnthropicのIPOを「投資家の軽信性に対する前例のない試練」と呼び、評価額を疑問視していると報じられている。",
+      "title_ja": "AIラボ、閉鎖スタートアップからデータ購入",
+      "summary_ja": "AI企業が事業停止したスタートアップのデータアーカイブを学習用に買い取る動きが進んでいる。",
       "sources": [
         {
-          "name": "Hacker News",
-          "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html"
+          "name": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
         }
       ]
     },
     {
-      "id": "2c8d16c22c55",
+      "id": "8d45898e533e",
       "importance": "medium",
-      "category": "tool",
-      "title_ja": "GPT-6 Pro、学術論文の誤りを日常的に発見",
-      "summary_ja": "GPT-6 Proが通常業務の一環として学術論文の誤りを頻繁に発見しており、その指摘は些末なものではないとSNS上で報告されている。",
+      "category": "product",
+      "title_ja": "Higgsfield、AI動画生成の長尺化を実現",
+      "summary_ja": "Higgsfieldは生成動画の長さを1分から10分超に拡張し、GPT-6 Astra等の新機能を統合した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/higgsfield-longer-videos-voice"
+        }
+      ]
+    },
+    {
+      "id": "b7e9a9976189",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AWS、決済可能なAIエージェント構築事例を公開",
+      "summary_ja": "AWSはAnchor Browserと協力し、Bedrock AgentCore paymentsを用いてx402対応のWebリソースへ自律的に支払うAIエージェントの構築事例を公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/"
+        }
+      ]
+    },
+    {
+      "id": "f99ea621acd6",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Meta、新モデルMuse Wonderを公開",
+      "summary_ja": "MetaはMuse WonderとMuse Wonder Fullを公開し、Artificial AnalysisではGPT-6.1 Sol相当と評価されている。",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/"
+        }
+      ]
+    },
+    {
+      "id": "5c805f394d6c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic、AI能力の閾値に関する分析を公表",
+      "summary_ja": "AnthropicはIoTデバイスを狙う自己複製型AIワームなど、能力の連続的向上ではなく閾値到達に注目すべきとする研究を発表した。",
       "sources": [
         {
           "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxnnvoyesk2a"
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxr77gpvik2q"
         }
       ]
     },
     {
-      "id": "84410a602fe5",
+      "id": "e2fde687321f",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Aleph-Alpha、推論特化モデルKolibri-1を公開",
+      "summary_ja": "Aleph-AlphaはMoE構成の推論特化モデル「Kolibri-1」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        }
+      ]
+    },
+    {
+      "id": "f1305662a1d2",
       "importance": "medium",
       "category": "business",
-      "title_ja": "元Plaud幹部、常時音声収集型AIアプリで26億円調達",
-      "summary_ja": "元Plaud幹部が立ち上げた、ユーザーの行動を背景で常時聞き取るAIアプリ企業が2600万ドルを調達した。",
+      "title_ja": "Shopify、AIエージェントへのカタログ開放を拡大",
+      "summary_ja": "Shopifyは10億件超の商品リスティングへのAIエージェントのアクセスを拡大し、ユーザーが代理購入を設定できるようにすると発表した。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
+        }
+      ]
+    },
+    {
+      "id": "ce8b8b48b5a8",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Epic Games、Disney向けゲーム開発でAI活用を拡大",
+      "summary_ja": "Epic GamesはDisneyの未発表ゲームの開発でAnthropicのClaudeなどを用いた「AIファースト」の方針を取り、発売は当初予定から延期されたと報じられている。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
+        }
+      ]
+    },
+    {
+      "id": "3aa63102ae81",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Amex、AIエージェントの無断購入防止策を導入",
+      "summary_ja": "American Expressは、AIエージェントがユーザー未承認の購入を行わないようにする新しい枠組みを導入した。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/"
+          "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
         }
       ]
     },
     {
-      "id": "87821ac2756f",
+      "id": "53911f98c21c",
       "importance": "medium",
-      "category": "tool",
-      "title_ja": "Amazon SageMakerでllama.cppによる意思決定モデルのデプロイが可能に",
-      "summary_ja": "AWSは、llama.cppを用いた意思決定モデルをAmazon SageMaker AI上でOpenAI互換APIとしてデプロイする手法を公開した。",
+      "category": "product",
+      "title_ja": "LiquidAI、オンデバイス向けLFM2.5-24B-A2Bを公開",
+      "summary_ja": "LiquidAIは240億パラメータのうち活性化が20億の推論モデルLFM2.5-24B-A2Bを公開し、LFM2.5ファミリーの最大・最終モデルと位置付けている。",
       "sources": [
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/"
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x52kco/liquidailfm2524ba2b/"
         }
       ]
     },
     {
-      "id": "9fc95e55d52a",
+      "id": "f0da900404f3",
       "importance": "medium",
-      "category": "tool",
-      "title_ja": "AWS EKSでRayコンテナによるマルチノードLLM推論が可能に",
-      "summary_ja": "AWSは、Ray LLM Deep Learning ContainersでAmazon EKS上の複数GPUノードにまたがるLLM推論をデプロイする方法を公開した。",
+      "category": "product",
+      "title_ja": "Orca Security、Bedrockで自然言語セキュリティ検索を構築",
+      "summary_ja": "Orca SecurityはAmazon Bedrock上に自然言語クエリエージェント「Discovery AI」を構築し、クエリコストを90%、入力トークンを93%、レイテンシを75%削減した。",
       "sources": [
         {
           "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/"
+          "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "6a78f6efee3a",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Intel、D270 GPU AIアクセラレータを発表",
+      "summary_ja": "Intelは最大480GBのLPDDR5Xメモリを搭載するAIアクセラレータ「D270 GPU」を発表した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html"
+        }
+      ]
+    },
+    {
+      "id": "34dcacc1dfae",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AutoTrust、決定モデルJEV-35Bを公開",
+      "summary_ja": "AutoTrustはランキングチームの代わりに単一の決定モデルを用いるJEV-35BをHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/autotrust/JEV-35B"
+        }
+      ]
+    },
+    {
+      "id": "51e3d24adc70",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Pluto Security、企業向けAIセキュリティで4200万ドル調達",
+      "summary_ja": "Pluto Securityは従業員によるAIツールの予期しない利用から生じるセキュリティリスクに対応するため4200万ドルを調達した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/"
+        }
+      ]
+    },
+    {
+      "id": "5bfc900bb0bf",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ShipStation、Bedrock AgentCoreでAI IT ヘルプデスクを構築",
+      "summary_ja": "ShipStation GlobalはSlack向けAI ITヘルプデスク「Deckhand」を構築し、運用開始3カ月でチャンネル問い合わせの97.5%を解決した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "89f4f685d9b7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Science Corporation、視覚回復チップを患者に初移植",
+      "summary_ja": "Science Corporationは視覚回復用インプラント「PRIMA」をStargardt病患者に初めて移植したと発表した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 7.1286,
-    "run_cost_usd": 0.1023,
-    "average_run_usd": 0.1061,
-    "runs_recorded": 74
+    "spent_usd": 7.2511,
+    "run_cost_usd": 0.1226,
+    "average_run_usd": 0.1056,
+    "runs_recorded": 75
   }
 }
