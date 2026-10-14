@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T07:15:11+09:00",
+  "stats": {
+    "collected": 119,
+    "fresh": 106,
+    "selected": 45,
+    "published": 20
+  },
+  "highlights": [
+    "Qwen3.8-Flash-NextとLTX-2.5など新モデルがHugging Faceで公開",
+    "OpenAI DaybreakでSentinelOneがマルウェア分析を週単位から時間単位に短縮",
+    "AWSがBedrock AgentCoreで文書処理・資料生成の自動化事例を公開"
+  ],
+  "items": [
+    {
+      "id": "eb79656c925c",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Qwen3.8-Flash-Next、画像テキスト対応モデルとして公開",
+      "summary_ja": "Alibaba系QwenがHugging Faceに新モデル「Qwen3.8-Flash-Next」を公開した。画像とテキストを扱うマルチモーダルモデルで、ダウンロード数は218万件、いいね数は6206件に達している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        }
+      ]
+    },
+    {
+      "id": "92c1824269f4",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Lightricks、動画生成モデルLTX-2.5をHugging Faceに公開",
+      "summary_ja": "LightricksがテキストやimageからPlatformの動画生成・音声生成に対応する新モデル「LTX-2.5」をHugging Faceに公開した。画像・テキスト・動画・音声の相互変換を広くサポートし、ダウンロード数は182万件を超えている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "0acbf9d39fb0",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Tamnoon、Bedrockで自律型クラウドセキュリティ修復を実現",
+      "summary_ja": "TamnoonはAmazon Bedrock上でエージェント型のクラウド修復オーケストレーター「Tami」を構築し、CNAPPなどの検知結果を自律的に調査・修復する仕組みを実装した。90日間でクリティカルなクラウド露出を90%以上削減し、本番環境での問題はゼロだったと報告されている。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "004cd593adab",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "SentinelOne、OpenAI Daybreakでマルウェア分析を大幅短縮",
+      "summary_ja": "SentinelOneはOpenAIのDaybreakを活用し、従来数週間かかっていたマルウェア分析を数時間に短縮した。これにより、より多くの脅威を調査する余力が生まれたとしている。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/sentinelone"
+        }
+      ]
+    },
+    {
+      "id": "779fba837235",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "AWS、Bedrock AgentCoreで自己改善型文書処理システムを解説",
+      "summary_ja": "AWSはAmazon Bedrock AgentCoreを用いて、ビジネス文書を分類・抽出・検証し学習するエージェント型文書処理（IDP）システムの構築方法を公開した。新しい文書フォーマットにも手動テンプレート設定なしで対応できる点が特徴で、人手の介入を最小限に抑えられる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "410be8fc6cbb",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "NVIDIA、Nemotron Bolt 3.5 74Bを10月15日リリース",
+      "summary_ja": "NVIDIAはMoE構成の74Bパラメータモデル「Nemotron Bolt 3.5」を10月15日にリリースし、2bit量子化により24GBに収めている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/"
+        }
+      ]
+    },
+    {
+      "id": "e7b2c4bb55de",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "OpenBMB、オンデバイス動作のMoE型マルチモーダルモデルを公開",
+      "summary_ja": "OpenBMBが35B-A3B構成のMoE型マルチモーダルモデル「MiniCPM-V 4.7」を公開し、スマートフォン上で約3GBのメモリでも滑らかに動作するデモが話題となっている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/"
+        }
+      ]
+    },
+    {
+      "id": "57c3309db5be",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Amp、OpenAIの新モデル群でコード以外の業務にもエージェント活用",
+      "summary_ja": "AmpはGPT-6 Astra、Ultrafast、GPT-Live-1などOpenAIの新モデルを活用し、コーディング以外の業務にもAIエージェントを拡張している。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/amp-beyond-coding"
+        }
+      ]
+    },
+    {
+      "id": "36a7e1c23fbb",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google DeepMind、シンガポール政府とGemmaで詐欺検知モデル開発",
+      "summary_ja": "Google DeepMindはシンガポールのGovTechと共同で、軽量なオンデバイスGemmaモデルを用いてチャット上の詐欺会話を検知する仕組みを構築した。",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+        }
+      ]
+    },
+    {
+      "id": "7971a844816f",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AWS、Bedrock AgentCoreでプレゼン資料自動生成を解説",
+      "summary_ja": "AWSはBedrock AgentCoreを使い、企業文書からPowerPoint資料を90秒以内に自動生成するエージェントシステムの構築方法を公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "e4249aa490a6",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "Zenzap、職場向けAIチャットアプリで44百万ドル調達",
+      "summary_ja": "ZenzapはWhatsAppに代わる職場向けAIチャットアプリの開発資金として4400万ドルを調達した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/"
+        }
+      ]
+    },
+    {
+      "id": "bf4176bf7e1b",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "ASML、好調な受注でAI投資継続への懸念を緩和",
+      "summary_ja": "ASMLの好調な受注実績が、AI関連投資ブームが減速するのではという懸念を和らげている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/"
+        }
+      ]
+    },
+    {
+      "id": "3660bad241b6",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "中国のオープンモデル、米国のクローズドモデルとの差は7か月",
+      "summary_ja": "独自ベンチマーク集計サイトwhatmodel.shの分析によると、中国のオープンウェイトモデルは米国のクローズドモデルに性能面で約7か月遅れているとされる。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5pjv7/the_ai_race_chinas_openweight_models_trail_us/"
+        }
+      ]
+    },
+    {
+      "id": "504a28fcb44d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "HiRO-ACEv2、低コストで3km解像度の異常気象シミュレーションを実現",
+      "summary_ja": "Hugging Faceのブログで、3km解像度の極端気象シミュレーションを低コストで行う新モデル「HiRO-ACEv2」が紹介された。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2"
+        }
+      ]
+    },
+    {
+      "id": "0a3035ce11f2",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "The Verge、AI開発競争の再激化を指摘",
+      "summary_ja": "The VergeはAnthropicとOpenAIが先行していたAI開発競争に、GoogleやMetaなどの他社も再び存在感を示し始めていると報じている。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
+        }
+      ]
+    },
+    {
+      "id": "f1d896ad4391",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI Python SDK v3.31.0、ブラウザ・コンピュータツールセット追加",
+      "summary_ja": "OpenAIのPython SDKがv3.31.0にアップデートされ、新たにブラウザおよびコンピュータ操作用ツールセットが追加された。",
+      "sources": [
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.31.0"
+        }
+      ]
+    },
+    {
+      "id": "6ee455e9d355",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Fish Audio、多話者対応の音声合成モデルDrama 3を公開",
+      "summary_ja": "Fish AudioはMoE構成の音声合成モデル「Drama 3」を公開し、複数キャラクターの長編コンテンツ向けに音声クローンや感情表現生成に対応している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/fishaudio/drama-3"
+        }
+      ]
+    },
+    {
+      "id": "a8b8c31de898",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Third Moment Research、GPT-6系モデルで1万エージェントを36時間超稼働",
+      "summary_ja": "Third Moment ResearchはGPT-6 AstraやCodex、Daybreakなどを活用し、数日間稼働し続け使うほど改善するAIエージェント群を構築している。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/third-moment-research"
+        }
+      ]
+    },
+    {
+      "id": "eee6cc87fc10",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "NVIDIA、英国スタートアップ支援に5年250百万ドルの計算資源を投資",
+      "summary_ja": "NVIDIAは英国のスタートアップエコシステム強化のため、5年間で2億5000万ドル規模の計算資源提供を含む新たな投資を発表した。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/"
+        }
+      ]
+    },
+    {
+      "id": "5a503e3d62a8",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Apate、詐欺情報収集のためAIエージェントを「潜入」させる",
+      "summary_ja": "Apate.aiは詐欺グループに意図的に騙されることで情報を収集するAIエージェントを運用している。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 7.3752,
+    "run_cost_usd": 0.124,
+    "average_run_usd": 0.1056,
+    "runs_recorded": 76
+  }
+}
