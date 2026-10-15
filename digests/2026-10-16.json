@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T07:10:06+09:00",
+  "stats": {
+    "collected": 110,
+    "fresh": 96,
+    "selected": 37,
+    "published": 20
+  },
+  "highlights": [
+    "NVIDIAがエッジ向けNemotron 3.5新モデル群を発表",
+    "Meta・Apple連携でMuse Spark Open公開、Macで動作",
+    "AnthropicがMETR研究者に社員級アクセスを付与し監視体制強化"
+  ],
+  "items": [
+    {
+      "id": "b655aadac97a",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "NVIDIA、Nemotron 3.5 Super VLとBoltモデルを公開",
+      "summary_ja": "NVIDIAはオープンな1200億パラメータモデルNemotron 3.5 Super VLと、エッジ向けの新モデルBolt 74B-A9B（24GB）およびBolt E4B（4GB）を公開した。Super VLは常時稼働の専門エージェント向けに高速かつ高精度なタスク完了を実現し、Boltシリーズはローカルのエージェント向けワークロードで知性と速度のバランスを最適化している。データセンターからデスクトップまでNemotronファミリーの展開先が広がる。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+        }
+      ]
+    },
+    {
+      "id": "51edf4c64381",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Mistral AI、確率的予測モデルTimestralを発表",
+      "summary_ja": "Mistral AIは4サイズ（500万〜2億900万パラメータ）で提供されるCPU効率の高いゼロショット対応の確率的時系列予測モデルTimestralを発表した。軽量なため、時系列予測をローカル環境で動かしたいエンジニアにとって導入コストの低い選択肢となる。",
+      "sources": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/timestral/"
+        }
+      ]
+    },
+    {
+      "id": "782d5b0065aa",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic、IPO前に四半期売上の急成長を投資家に説明",
+      "summary_ja": "AnthropicはIPOを控え、投資家向けの説明会で四半期売上が前年比約50%増の168億ドルに達したと伝えたと報じられている。",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+        }
+      ]
+    },
+    {
+      "id": "f727b4e1831e",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "llama.cpp v0.7.0、投機的デコードとMoEキャッシュを追加",
+      "summary_ja": "llama.cpp v0.7.0は投機的デコード技術LiliCorrとGLM5-Next向けMTP、ホストメモリに置いたMoEエキスパート用の新GPUキャッシュ（--moe-cache-mib、オフロード時最大約2.2倍の高速化）を追加した。K2 Horizon、Prism Bonsai 2 27B、EmbeddingGemma-2、Nemotron Super 3.5 VL/Boltなど多数の新モデルにも対応し、サーバーのチャットセッションAPIもリファクタリングされた。MoEモデルをローカル推論で扱うエンジニアは速度改善の恩恵を受けられる。",
+      "sources": [
+        {
+          "name": "GitHub ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0"
+        }
+      ]
+    },
+    {
+      "id": "20dfecfa26f1",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Anthropic、METR研究者に社員級アクセスを付与",
+      "summary_ja": "AnthropicはAI安全性評価団体METRの研究者に社員と同等のアクセス権を与え、METRはAnthropicのリスクやインシデント、運用方針についての独自評価を公表できるようになる。Anthropicはこれらの公表を差し止める権利を放棄しており、外部監視の実効性を高める動きとして注目される。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+        }
+      ]
+    },
+    {
+      "id": "75bb450ac9ab",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Hugging Face Transformers v5.20.0、Muse Spark Open対応",
+      "summary_ja": "Hugging Face Transformers v5.20.0がリリースされ、Metaの8160億パラメータ（アクティブ420億）のマルチモーダルMoEモデルMuse Spark Openを含む新モデルに対応した。同モデルはテキスト・画像・音声・動画を入力とし、最大104万8576トークンのコンテキストを持ち、マルチファイル編集やデバッグなどのエージェント型コーディング作業向けに訓練されている。BF16とNVFP4形式のチェックポイントが提供される。",
+      "sources": [
+        {
+          "name": "GitHub huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0"
+        }
+      ]
+    },
+    {
+      "id": "d33064359577",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Granite Switch 4.1、マルチモーダルモデルを発表",
+      "summary_ja": "単一エンドポイントでチャット・意思決定・音声処理に対応するマルチモーダルモデルGranite Switch 4.1が発表された。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+        }
+      ]
+    },
+    {
+      "id": "5f4607f9d7d2",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AWS、AIエージェント向け「Trust in Depth」手法を提唱",
+      "summary_ja": "AWSはAIエージェントに自律性を持たせつつ制御を維持するための層状アプローチ「Trust in Depth」を発表した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/"
+        }
+      ]
+    },
+    {
+      "id": "b78f437ea8f9",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Recursive Intelligence、AIによるチップ設計を開発",
+      "summary_ja": "スタートアップRecursive Intelligenceは、チップ設計を行い反復ごとに学習・改善するAIを開発し、設計プロセスの自動化・高速化を目指している。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
+        }
+      ]
+    },
+    {
+      "id": "07a9efc843a0",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "LiquidAI、オンデバイス向けLFM2.5-24B-A2Bを公開",
+      "summary_ja": "LiquidAIはLFM2.5ファミリー最大・最終モデルとなる240億パラメータ（アクティブ20億）の推論モデルLFM2.5-24B-A2Bを公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
+        }
+      ]
+    },
+    {
+      "id": "32165ee6af89",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、生命科学研究向けRosalind学術プランを開始",
+      "summary_ja": "OpenAIは対象となる学術研究室にGPT-Rosalindへのスポンサー付きアクセスを提供するRosalind Academic Planを開始した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+        }
+      ]
+    },
+    {
+      "id": "a4dc299544df",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Meta・Apple連携でオープン重みモデルMuse Spark Open公開",
+      "summary_ja": "MetaはMacStudio上でApple MLXフレームワークを用いて動作する8160億パラメータ（アクティブ420億）のオープン重みモデルMuse Spark Openを発表した。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/"
+        }
+      ]
+    },
+    {
+      "id": "4e50efa7abaa",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google、マルチモーダル埋め込みモデルEmbeddingGemma-2公開",
+      "summary_ja": "Google DeepMindはテキスト・画像・動画・音声を単一の768次元ベクトル空間に統合するマルチモーダル埋め込みモデルEmbeddingGemma-2（総パラメータ7.4億）を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/google/embeddinggemma-2"
+        }
+      ]
+    },
+    {
+      "id": "f2f6f0e7a83f",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Amazon、アプリ不要のアンビエントAIデバイス構想を語る",
+      "summary_ja": "Amazonのデバイス部門責任者Panos Panay氏は、AIデバイスがバックグラウンドで動作しユーザーのニーズを先回りする未来像を語った。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/"
+        }
+      ]
+    },
+    {
+      "id": "003647c313b9",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "FTC、Anthropic・OpenAIの違反を調査中と報道",
+      "summary_ja": "FTCはトランプ氏がAIリスクを「でっち上げ」と否定した後、AnthropicとOpenAIの潜在的な違反を調査していると報じられている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
+        }
+      ]
+    },
+    {
+      "id": "30228237199a",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenBMB、軽量マルチモーダルモデルMiniCPM-V-4.7-1B公開",
+      "summary_ja": "OpenBMBはオンデバイス推論向けの10億パラメータ版マルチモーダルモデルMiniCPM-V-4.7-1Bを公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B"
+        }
+      ]
+    },
+    {
+      "id": "50150b2440ea",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Krea 3、大規模編集向け画像モデルを公開",
+      "summary_ja": "大規模な画像編集作業向けに設計された画像モデルKrea 3が公開された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.krea.ai/krea-3"
+        }
+      ]
+    },
+    {
+      "id": "cfc122f3d72d",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "Stepfun、大規模言語モデルStep-5-Previewを公開",
+      "summary_ja": "StepfunはエージェントワークをターゲットとしたフラッグシップモデルStep-5-Preview（600B/27B、最大100万トークンコンテキスト）を公開し、ソフトウェアエンジニアリングや専門知識業務、特に金融分野で高い性能を示すとしている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6dx5x/stepfun_step5preview_released_600b27b1m_context/"
+        }
+      ]
+    },
+    {
+      "id": "ad09b0946a60",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google DeepMind、抗菌ペプチド探索にAntigravityを活用",
+      "summary_ja": "Google DeepMindは科学研究向けツールGoogle Antigravityを用いて新規抗菌ペプチドの探索を加速する取り組みを発表した。",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+        }
+      ]
+    },
+    {
+      "id": "46e7cecee360",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA、RTX Sparkノート発売イベントを開催",
+      "summary_ja": "NVIDIAはクリエイター・ゲーマー・AIエージェント向けPCとしてRTX Sparkを発表し、Windows側でも最適化が進められている。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 7.4983,
+    "run_cost_usd": 0.1232,
+    "average_run_usd": 0.1052,
+    "runs_recorded": 77
+  }
+}
