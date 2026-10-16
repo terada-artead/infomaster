@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-09",
-      "id": "34de0981eaae",
-      "title_ja": "Google、業務横断型Geminiエージェントを発表",
-      "urls": [
-        "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-        "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "1e4975e7a397",
-      "title_ja": "中国Manus、Meta提携解消後初の5億ドル超調達",
-      "urls": [
-        "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "7f580e2b4e97",
-      "title_ja": "韓国大手銀行への攻撃、複数AIモデルを組み合わせ実行",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x0n4pt/last_week_some_of_south_koreas_biggest_banks_were/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "efcdc3919ca7",
-      "title_ja": "AWS、AIエージェント向け従量課金決済機能を提供",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "99134731fc9b",
-      "title_ja": "LLM評価のArena、200億円調達し評価額31億ドルに",
-      "urls": [
-        "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "53388dee81af",
-      "title_ja": "OpenAIの年換算売上、従来示唆より200億ドル少なく",
-      "urls": [
-        "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "3cc50d035623",
-      "title_ja": "Qwen-Image-2.1がHugging Faceに公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen-Image-2.1"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "45d6a2b79938",
-      "title_ja": "LegalOn、Codex利用コストを65%削減",
-      "urls": [
-        "https://openai.com/index/legalon-halves-codex-costs"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "512cb5780375",
-      "title_ja": "99ドルのAIエージェント搭載スマートリング登場",
-      "urls": [
-        "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "5d885f2b9705",
-      "title_ja": "多言語テキスト分類モデルLayaが公開",
-      "urls": [
-        "https://huggingface.co/convaiinnovations/laya"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "d07e6967ea51",
-      "title_ja": "産業用AI、エージェント化で自律化が進展",
-      "urls": [
-        "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "db7b9e6fe248",
-      "title_ja": "Oracle、ChatGPTとCodexで業務を数日から数分に短縮",
-      "urls": [
-        "https://openai.com/index/oracle"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "f7abd6714882",
-      "title_ja": "Goodfire、低コストなAIエージェント監視手法を発表",
-      "urls": [
-        "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "e5b532cf0deb",
-      "title_ja": "Google、完全オフライン動作の会議文字起こしアプリ公開",
-      "urls": [
-        "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
-        "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "570cb2cddef8",
-      "title_ja": "Nvidia、ロボタクシーや人型ロボット向け物理AIを強化",
-      "urls": [
-        "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "1e05a14d1fe2",
-      "title_ja": "Strata、Claude作成の痕跡をGit履歴から削除",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x15a8w/strata_rewrote_their_github_history_to_wipe/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "097c2ef4d87a",
-      "title_ja": "AI文章を自然な文体に書き換える12Bモデル公開",
-      "urls": [
-        "https://huggingface.co/jialinyyzz/humanizer"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "5beef147a781",
-      "title_ja": "開発者、最先端AIエージェントでシミュレーション構築",
-      "urls": [
-        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "7fc877e49f70",
-      "title_ja": "Cal AI創業者、個人向けAIエージェント新興企業で1000万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "id": "0856c1a27e7e",
-      "title_ja": "Anthropic、OSSプロジェクト向け無料セキュリティ診断を開始",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
-      ]
-    },
-    {
       "date": "2026-10-10",
       "id": "7984e92e6601",
       "title_ja": "Typesafe AI、非テキストAIモデルJevで75億ドル評価の資金調達",
@@ -1195,6 +1033,169 @@
       "urls": [
         "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
         "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "ad81c0b49307",
+      "title_ja": "Reflection AI、オープンウェイトの501Bモデル「Beam」公開",
+      "urls": [
+        "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
+        "https://huggingface.co/blog/reflection-beam",
+        "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "ca580b1475b7",
+      "title_ja": "Meta新規約、提携サイトのAI学習利用を可能にする条項",
+      "urls": [
+        "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+        "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "4cb1432a55f2",
+      "title_ja": "Stanford等、隠れた内部思考で高速化する「ハイブリッド推論エージェント」提案",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "331a5588d0cf",
+      "title_ja": "AWS、Bedrock AgentCore向けエージェント評価フレームワークを公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "660063e865d4",
+      "title_ja": "Replit CEO、「自動運転型企業」の到来を展望",
+      "urls": [
+        "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "9e63539289a3",
+      "title_ja": "Stack Overflow for Agents、ChatGPTプラグインで登録者急増",
+      "urls": [
+        "https://openai.com/index/stack-overflow-chatgpt-plugin"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "5cea1aeddd4a",
+      "title_ja": "Elorian、画像で推論する新モデルGlimpseを発表",
+      "urls": [
+        "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "50c3267aa73a",
+      "title_ja": "中国、AI関連23技術を含む輸出規制案を公表",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "0d918f85309d",
+      "title_ja": "オープンウェイトモデル、一部ベンチマークでSonnet 5上回る",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "fdd4c6f578d6",
+      "title_ja": "Replit、Anthropicとの提携を終了",
+      "urls": [
+        "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "7ff2fab56ea7",
+      "title_ja": "VercelのAIモデル「Jev」、過去最速の採用ペースを記録",
+      "urls": [
+        "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "c7dfeeeb6dfb",
+      "title_ja": "Claude Codeチームのコードレビュー手法が公開",
+      "urls": [
+        "https://claude.dev/blog/solving-code-review-at-anthropic/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "c9b93292368a",
+      "title_ja": "論文、安価モデルへの単純な置き換えに懐疑的な見方を提示",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mxxj65qhac2t"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "f2bbffb158fe",
+      "title_ja": "OpenAI Python SDK v3.32.0リリース",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.32.0"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "eb0ac7f68c40",
+      "title_ja": "Cal AI、インフルエンサー活用で急成長しMyFitnessPalが買収",
+      "urls": [
+        "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "e07170025272",
+      "title_ja": "ChatGPTのChrome拡張、開いているタブを参照可能に",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "3a7946cd06e1",
+      "title_ja": "「Gemini 4 Argon」がStarCraftをプレイするベンチマークが更新",
+      "urls": [
+        "https://starskirmish.com/bench/v0-2/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "ec42443de449",
+      "title_ja": "拡散言語モデルORL、RTX 5090で毎秒2788トークンを達成",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "d2e0c42b1f67",
+      "title_ja": "Gemini 4エージェント群がMinecraftを攻略した論文が話題に",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mxzbegeels2t"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": "8ffbbf24c13a",
+      "title_ja": "インドでも不正なAIエージェント活動が報告される",
+      "urls": [
+        "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
       ]
     }
   ]
