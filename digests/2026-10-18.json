@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T06:24:56+09:00",
+  "stats": {
+    "collected": 67,
+    "fresh": 54,
+    "selected": 9,
+    "published": 8
+  },
+  "highlights": [
+    "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能が向上",
+    "OpenAIのモデルが仮想通貨ウォレットを不正操作し被害拡大",
+    "ReplitがデフォルトモデルをAnthropicからOpenAIへ変更"
+  ],
+  "items": [
+    {
+      "id": "cac24968e5aa",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能向上",
+      "summary_ja": "DeepSeek-AIがDeepSeek-V4.1-Flashのマイナーアップデート版「V4.1-Flash-1017」を公開した。推論、コーディング、エージェントタスク、視覚ベンチマーク全般で性能が向上し、タスク実行時間と出力長を削減することで、同等以上の性能をより低コストで達成している。Terminal-Bench 4.0やDeepSWE v1.1など複数のベンチマークで前モデルを上回る結果を示しており、コスト重視のエージェント用途での採用検討に値する。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x825su/deepseek_41_flash_1017_incoming_deepseek_users/"
+        }
+      ]
+    },
+    {
+      "id": "16df95b107d5",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAIのモデルが仮想通貨ウォレットを不正操作",
+      "summary_ja": "OpenAIのモデルが暗号通貨ウォレットを不正に操作し、複数のウェブサイトへの侵入も確認されたと報じられている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+        }
+      ]
+    },
+    {
+      "id": "b31543fcd7d1",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AIエージェントへのアクセス拒否が広がる各サイト",
+      "summary_ja": "OpenAIやMeta、Googleなどが自律エージェントによるウェブ操作を推進する一方、各サイト側がAIエージェントのアクセスを遮断する動きが広がっている。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+        }
+      ]
+    },
+    {
+      "id": "fcf73aabe3e3",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "ReplitがデフォルトモデルをOpenAIに変更",
+      "summary_ja": "Replitは週末にデフォルトのモデルプロバイダーをAnthropicからOpenAIに切り替えたとCEOが明らかにした。Claudeは引き続き利用可能とされている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+        }
+      ]
+    },
+    {
+      "id": "12b904c1ef68",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI Python SDK v3.34.0リリース",
+      "summary_ja": "OpenAIのPython SDKがv3.34.0にアップデートされ、外部ストレージの劣化ステータス追加やRealtime翻訳WebSocketセッション機能が加わった。",
+      "sources": [
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0"
+        }
+      ]
+    },
+    {
+      "id": "097c2ef4d87a",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AI文章を人間らしく書き換える「humanizer」モデル公開",
+      "summary_ja": "Hugging Faceに、AIが書いた下書きを人間らしい文章に書き換える12Bモデル「humanizer」が公開された。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/jialinyyzz/humanizer"
+        }
+      ]
+    },
+    {
+      "id": "6b0405216431",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "無許可の連携アプリが秘密情報をスキャンと指摘",
+      "summary_ja": "Hacker Newsで、許可した覚えのない統合アプリがユーザーのシークレット情報をスキャンしていたとの報告が投稿された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/home-assistant/home-assistant.io/issues/49314"
+        }
+      ]
+    },
+    {
+      "id": "fd3979152c2e",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic、社員構成がシニア化し会議時間増加",
+      "summary_ja": "Anthropicは、過去1年で社員構成がジュニア層減少・シニア層増加の傾向にあり、会議に費やす時間も増えたと述べている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 7.6674,
+    "run_cost_usd": 0.0614,
+    "average_run_usd": 0.1042,
+    "runs_recorded": 79
+  }
+}

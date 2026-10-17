@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-10",
-      "id": "7984e92e6601",
-      "title_ja": "Typesafe AI、非テキストAIモデルJevで75億ドル評価の資金調達",
-      "urls": [
-        "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-        "https://typesafe.ai/blog/series-ai"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "570fe3204556",
-      "title_ja": "Sophos、OpenAI Daybreakで脅威調査時間を96%削減",
-      "urls": [
-        "https://openai.com/index/sophos"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "9bf93d58cc35",
-      "title_ja": "Asana、GPT-6 Astraでブラウザエージェントのコストを76分の1に",
-      "urls": [
-        "https://openai.com/index/asana-browser-agent"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "5aa0a3190245",
-      "title_ja": "LiquidAI、ゼロ出力トークンの決定モデルd1-3Bを公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/d1-3B"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "38b7d9a221b2",
-      "title_ja": "Postman、Amazon BedrockでAgent Modeを4000万人に提供",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "ef02ef4ed440",
-      "title_ja": "Tencent、5Bのオムニモーダル解析モデルYoutu-Parsing-Omniを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "2d9c5e9e87ef",
-      "title_ja": "Cactus-Compute、16.9MBのオンデバイス音声認識モデルwhistleを公開",
-      "urls": [
-        "https://huggingface.co/Cactus-Compute/whistle"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "36f74a116594",
-      "title_ja": "Anthropic Python SDK v1.13.0をリリース",
-      "urls": [
-        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.13.0"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "da19564dd2e9",
-      "title_ja": "Amazon Bedrock、2026年9月の更新をまとめて公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "0d8c74eec04d",
-      "title_ja": "OpenAI、研究情報の不適切な取り扱いで安全研究者3名を解雇",
-      "urls": [
-        "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "4c03269d7f1a",
-      "title_ja": "トルコ語向け軽量TTSモデルEMA Lightningが公開",
-      "urls": [
-        "https://huggingface.co/canberkkkkkk/ema-lightning"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "3c5e66d9de6d",
-      "title_ja": "招待制AIエージェントInstinct、競合Museの台頭に直面",
-      "urls": [
-        "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "95e54cfc130a",
-      "title_ja": "ランダム化比較試験、GPT-4oが試験成績を向上させると確認",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mxhfe5axps2o"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "4da66c445617",
-      "title_ja": "OpenAI Python SDK v3.28.0をリリース",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.28.0"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "dd1a4ba899e0",
-      "title_ja": "Amazon、データセンター契約でNDA使用を取りやめ",
-      "urls": [
-        "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "13a86554d2a3",
-      "title_ja": "AIコーディングエージェント、コード量増でもレビューが律速に",
-      "urls": [
-        "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "10fb5ef9ee8c",
-      "title_ja": "Google、エッジ向けGPU推論エンジンML Driftをオープンソース化",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "faac871e12b6",
-      "title_ja": "Lancet研究、救急医療でGeminiの助言が医師と同水準と評価",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mxg56pvsvc2c"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "43fd2a198be0",
-      "title_ja": "Anthropicのモデル、フィラデルフィア警察に虚偽の殺人情報を提供",
-      "urls": [
-        "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "id": "4e7c5ed2daff",
-      "title_ja": "Qwen3.8-27B、AMD GPUでのベンチマーク結果が公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/"
-      ]
-    },
-    {
       "date": "2026-10-11",
       "id": "d3eeb0753ebb",
       "title_ja": "ブラウン氏、共和党人脈でSpaceXの月額12.5億ドル契約を仲介",
@@ -1196,6 +1034,71 @@
       "title_ja": "インドでも不正なAIエージェント活動が報告される",
       "urls": [
         "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": "cac24968e5aa",
+      "title_ja": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能向上",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1x825su/deepseek_41_flash_1017_incoming_deepseek_users/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": "16df95b107d5",
+      "title_ja": "OpenAIのモデルが仮想通貨ウォレットを不正操作",
+      "urls": [
+        "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": "b31543fcd7d1",
+      "title_ja": "AIエージェントへのアクセス拒否が広がる各サイト",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": "fcf73aabe3e3",
+      "title_ja": "ReplitがデフォルトモデルをOpenAIに変更",
+      "urls": [
+        "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": "12b904c1ef68",
+      "title_ja": "OpenAI Python SDK v3.34.0リリース",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.34.0"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": "097c2ef4d87a",
+      "title_ja": "AI文章を人間らしく書き換える「humanizer」モデル公開",
+      "urls": [
+        "https://huggingface.co/jialinyyzz/humanizer"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": "6b0405216431",
+      "title_ja": "無許可の連携アプリが秘密情報をスキャンと指摘",
+      "urls": [
+        "https://github.com/home-assistant/home-assistant.io/issues/49314"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": "fd3979152c2e",
+      "title_ja": "Anthropic、社員構成がシニア化し会議時間増加",
+      "urls": [
+        "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
       ]
     }
   ]

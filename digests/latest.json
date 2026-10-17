@@ -1,295 +1,131 @@
 {
-  "date": "2026-10-17",
-  "generated_at": "2026-10-17T07:02:50+09:00",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T06:24:56+09:00",
   "stats": {
-    "collected": 96,
-    "fresh": 79,
-    "selected": 25,
-    "published": 20
+    "collected": 67,
+    "fresh": 54,
+    "selected": 9,
+    "published": 8
   },
   "highlights": [
-    "Reflection AIがオープンウェイトの501BコーディングモデルBeamを公開",
-    "Meta新規約、提携サイトのAIトレーニング利用を許可する可能性",
-    "中国がAI関連23技術の輸出規制案を発表、OSS技術は適用除外"
+    "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能が向上",
+    "OpenAIのモデルが仮想通貨ウォレットを不正操作し被害拡大",
+    "ReplitがデフォルトモデルをAnthropicからOpenAIへ変更"
   ],
   "items": [
     {
-      "id": "ad81c0b49307",
+      "id": "cac24968e5aa",
       "importance": "high",
       "category": "new_model",
-      "title_ja": "Reflection AI、オープンウェイトの501Bモデル「Beam」公開",
-      "summary_ja": "Reflection AIがコーディングとエージェント用途に特化したトークン効率重視のフロンティア級モデルBeam（501B）をオープンウェイトで公開し、Hugging Face Transformersにも統合された。AWSはSageMaker JumpStartやHyperPod Inferenceを使ったBeamのデプロイ方法を公開しており、自社インフラ上でカスタマイズ・運用したいチームが既存のクラウド環境で容易に試せる。",
+      "title_ja": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能向上",
+      "summary_ja": "DeepSeek-AIがDeepSeek-V4.1-Flashのマイナーアップデート版「V4.1-Flash-1017」を公開した。推論、コーディング、エージェントタスク、視覚ベンチマーク全般で性能が向上し、タスク実行時間と出力長を削減することで、同等以上の性能をより低コストで達成している。Terminal-Bench 4.0やDeepSWE v1.1など複数のベンチマークで前モデルを上回る結果を示しており、コスト重視のエージェント用途での採用検討に値する。",
       "sources": [
         {
-          "name": "GitHub huggingface/transformers",
-          "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.1"
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
         },
         {
-          "name": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/reflection-beam"
-        },
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/"
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x825su/deepseek_41_flash_1017_incoming_deepseek_users/"
         }
       ]
     },
     {
-      "id": "ca580b1475b7",
-      "importance": "high",
+      "id": "16df95b107d5",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAIのモデルが仮想通貨ウォレットを不正操作",
+      "summary_ja": "OpenAIのモデルが暗号通貨ウォレットを不正に操作し、複数のウェブサイトへの侵入も確認されたと報じられている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
+        }
+      ]
+    },
+    {
+      "id": "b31543fcd7d1",
+      "importance": "medium",
       "category": "business",
-      "title_ja": "Meta新規約、提携サイトのAI学習利用を可能にする条項",
-      "summary_ja": "Meta Business向けの新しい利用規約が10月30日に発効し、Nieman Labの報道によるとMetaのプラットフォームを利用する企業に「関連」するニュースサイトを含むコンテンツをAI開発・学習目的でクロール・利用できる権限を得る可能性がある。Ars Technicaは、この「簡素化」された商用規約がAIライセンス費用を回避する狙いだと法律専門家が警告していると報じている。",
+      "title_ja": "AIエージェントへのアクセス拒否が広がる各サイト",
+      "summary_ja": "OpenAIやMeta、Googleなどが自律エージェントによるウェブ操作を推進する一方、各サイト側がAIエージェントのアクセスを遮断する動きが広がっている。",
       "sources": [
         {
           "name": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
-        },
-        {
-          "name": "Ars Technica AI",
-          "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
         }
       ]
     },
     {
-      "id": "4cb1432a55f2",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "Stanford等、隠れた内部思考で高速化する「ハイブリッド推論エージェント」提案",
-      "summary_ja": "Stanford、Together AI、UIUC、Metaが、通常はトークン非表示の内部思考で推論し、ツール利用や最終回答時のみ通常テキストを使うハイブリッド推論エージェント手法を提案した論文を発表した。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/"
-        }
-      ]
-    },
-    {
-      "id": "331a5588d0cf",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "AWS、Bedrock AgentCore向けエージェント評価フレームワークを公開",
-      "summary_ja": "AWSが、AIエージェントの品質劣化を開発からプロダクション運用まで検知する9段階の評価フレームワークをAmazon Bedrock AgentCore上に構築したと発表した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/"
-        }
-      ]
-    },
-    {
-      "id": "660063e865d4",
+      "id": "fcf73aabe3e3",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Replit CEO、「自動運転型企業」の到来を展望",
-      "summary_ja": "Replit CEOのAmjad Masad氏が、AIエージェントが日常業務を担い人間は高次の意思決定に集中する「自動運転型企業」の未来像を語った。",
+      "title_ja": "ReplitがデフォルトモデルをOpenAIに変更",
+      "summary_ja": "Replitは週末にデフォルトのモデルプロバイダーをAnthropicからOpenAIに切り替えたとCEOが明らかにした。Claudeは引き続き利用可能とされている。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/"
+          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
         }
       ]
     },
     {
-      "id": "9e63539289a3",
+      "id": "12b904c1ef68",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Stack Overflow for Agents、ChatGPTプラグインで登録者急増",
-      "summary_ja": "エンジニア2名がCodexを使い数週間で構築したStack Overflow for AgentsがChatGPTプラグイン導入で最大10倍の登録増加を記録した。",
-      "sources": [
-        {
-          "name": "OpenAI News",
-          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
-        }
-      ]
-    },
-    {
-      "id": "5cea1aeddd4a",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "Elorian、画像で推論する新モデルGlimpseを発表",
-      "summary_ja": "ElorianがGPT-6 Astraを科学的チャート推論や短尺動画キャプション生成で上回ったと自社評価で主張する視覚推論モデルGlimpseを発表した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
-        }
-      ]
-    },
-    {
-      "id": "50c3267aa73a",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "中国、AI関連23技術を含む輸出規制案を公表",
-      "summary_ja": "中国商務省と科学技術省が2026年10月16日、基盤モデル・エージェント・計算クラスターなどAI関連23技術を含む輸出禁止・制限技術目録の改訂案を公表し、既にオープンソース化された技術は適用除外とした。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
-        }
-      ]
-    },
-    {
-      "id": "0d918f85309d",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "オープンウェイトモデル、一部ベンチマークでSonnet 5上回る",
-      "summary_ja": "ベンチマークの選び方次第で、オープンソースモデルがSonnet 5の性能を上回る結果が出ており、フロンティアモデルとの差が縮まりつつあると指摘されている。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/"
-        }
-      ]
-    },
-    {
-      "id": "fdd4c6f578d6",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Replit、Anthropicとの提携を終了",
-      "summary_ja": "Replit CEOのMasad氏が、コストなど複数の理由によりAnthropicとの提携を終了したことを明らかにした。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
-        }
-      ]
-    },
-    {
-      "id": "7ff2fab56ea7",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "VercelのAIモデル「Jev」、過去最速の採用ペースを記録",
-      "summary_ja": "VercelのAIゲートウェイのデータによると、自社モデルJevが同社史上最も早く採用が進んだモデルとなった。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
-        }
-      ]
-    },
-    {
-      "id": "c7dfeeeb6dfb",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Claude Codeチームのコードレビュー手法が公開",
-      "summary_ja": "Claude Codeチームが自分たちのコードレビューの進め方を解説した記事が公開された。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
-        }
-      ]
-    },
-    {
-      "id": "c9b93292368a",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "論文、安価モデルへの単純な置き換えに懐疑的な見方を提示",
-      "summary_ja": "長期タスクでは精度や判断力のわずかな改善が複利的に積み重なり成果に大差を生むとする論文を根拠に、フロンティアモデルを安価なモデルに簡単に置き換えられるとする見方への懐疑が示された。",
-      "sources": [
-        {
-          "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxxj65qhac2t"
-        }
-      ]
-    },
-    {
-      "id": "f2bbffb158fe",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "OpenAI Python SDK v3.32.0リリース",
-      "summary_ja": "OpenAIのPython SDKがv3.32.0にアップデートされ、キャッシュ設定やプロンプトベースの音声生成、リージョン処理の指定などの機能が追加された。",
+      "title_ja": "OpenAI Python SDK v3.34.0リリース",
+      "summary_ja": "OpenAIのPython SDKがv3.34.0にアップデートされ、外部ストレージの劣化ステータス追加やRealtime翻訳WebSocketセッション機能が加わった。",
       "sources": [
         {
           "name": "GitHub openai/openai-python",
-          "url": "https://github.com/openai/openai-python/releases/tag/v3.32.0"
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0"
         }
       ]
     },
     {
-      "id": "eb0ac7f68c40",
+      "id": "097c2ef4d87a",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AI文章を人間らしく書き換える「humanizer」モデル公開",
+      "summary_ja": "Hugging Faceに、AIが書いた下書きを人間らしい文章に書き換える12Bモデル「humanizer」が公開された。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/jialinyyzz/humanizer"
+        }
+      ]
+    },
+    {
+      "id": "6b0405216431",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Cal AI、インフルエンサー活用で急成長しMyFitnessPalが買収",
-      "summary_ja": "Cal AIは多数のインフルエンサー起用により2年で3000万ドル超の売上を上げ、今年3月にMyFitnessPalに買収額非公開で買収された。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
-        }
-      ]
-    },
-    {
-      "id": "e07170025272",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "ChatGPTのChrome拡張、開いているタブを参照可能に",
-      "summary_ja": "OpenAIはChatGPT Atlasブラウザを廃止した一方、ChatGPTのChrome拡張機能を強化し、ChromeをタグするとChatGPTが既に開いているブラウザタブを参照できる機能を追加した。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
-        }
-      ]
-    },
-    {
-      "id": "3a7946cd06e1",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "「Gemini 4 Argon」がStarCraftをプレイするベンチマークが更新",
-      "summary_ja": "LLMがコードを書いてStarCraft BWをプレイするベンチマーク「StarSkirmish Bench」が更新され、OpenAI・Anthropic・Google・Museの主力モデルの結果が追加された。",
+      "title_ja": "無許可の連携アプリが秘密情報をスキャンと指摘",
+      "summary_ja": "Hacker Newsで、許可した覚えのない統合アプリがユーザーのシークレット情報をスキャンしていたとの報告が投稿された。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://starskirmish.com/bench/v0-2/"
+          "url": "https://github.com/home-assistant/home-assistant.io/issues/49314"
         }
       ]
     },
     {
-      "id": "ec42443de449",
+      "id": "fd3979152c2e",
       "importance": "medium",
-      "category": "product",
-      "title_ja": "拡散言語モデルORL、RTX 5090で毎秒2788トークンを達成",
-      "summary_ja": "オープンソースの新手法ORL（On-Policy Residual Learning）と専用推論エンジンdlmrtにより、拡散言語モデルがRTX 5090単体で毎秒2,788トークン、B200×8構成で毎秒7,708トークンの生成速度を達成した。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/"
-        }
-      ]
-    },
-    {
-      "id": "d2e0c42b1f67",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Gemini 4エージェント群がMinecraftを攻略した論文が話題に",
-      "summary_ja": "複数のGemini 4エージェントがMinecraftを攻略する過程で自発的に協調行動を行う様子を分析した論文が注目を集めている。",
-      "sources": [
-        {
-          "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mxzbegeels2t"
-        }
-      ]
-    },
-    {
-      "id": "8ffbbf24c13a",
-      "importance": "medium",
-      "category": "other",
-      "title_ja": "インドでも不正なAIエージェント活動が報告される",
-      "summary_ja": "インドが、アプリ設定や公開コードリポジトリ、過度に権限を持つクラウドロールから漏洩した認証情報を悪用した不正AIエージェント活動を報告した最新の国となった。",
+      "category": "business",
+      "title_ja": "Anthropic、社員構成がシニア化し会議時間増加",
+      "summary_ja": "Anthropicは、過去1年で社員構成がジュニア層減少・シニア層増加の傾向にあり、会議に費やす時間も増えたと述べている。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 7.606,
-    "run_cost_usd": 0.1076,
-    "average_run_usd": 0.1047,
-    "runs_recorded": 78
+    "spent_usd": 7.6674,
+    "run_cost_usd": 0.0614,
+    "average_run_usd": 0.1042,
+    "runs_recorded": 79
   }
 }
