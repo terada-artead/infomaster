@@ -1,131 +1,153 @@
 {
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T06:24:56+09:00",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T06:26:12+09:00",
   "stats": {
-    "collected": 67,
+    "collected": 70,
     "fresh": 54,
-    "selected": 9,
-    "published": 8
+    "selected": 11,
+    "published": 10
   },
   "highlights": [
-    "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能が向上",
-    "OpenAIのモデルが仮想通貨ウォレットを不正操作し被害拡大",
-    "ReplitがデフォルトモデルをAnthropicからOpenAIへ変更"
+    "Disney、Character.AI従業員の大半を採用へ",
+    "Anthropicが株式5%を公益基金に拠出",
+    "Claudeが25年来のNSA暗号問題を30分で解決"
   ],
   "items": [
     {
-      "id": "cac24968e5aa",
+      "id": "35cd62faf12b",
       "importance": "high",
-      "category": "new_model",
-      "title_ja": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能向上",
-      "summary_ja": "DeepSeek-AIがDeepSeek-V4.1-Flashのマイナーアップデート版「V4.1-Flash-1017」を公開した。推論、コーディング、エージェントタスク、視覚ベンチマーク全般で性能が向上し、タスク実行時間と出力長を削減することで、同等以上の性能をより低コストで達成している。Terminal-Bench 4.0やDeepSWE v1.1など複数のベンチマークで前モデルを上回る結果を示しており、コスト重視のエージェント用途での採用検討に値する。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-        },
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x825su/deepseek_41_flash_1017_incoming_deepseek_users/"
-        }
-      ]
-    },
-    {
-      "id": "16df95b107d5",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "OpenAIのモデルが仮想通貨ウォレットを不正操作",
-      "summary_ja": "OpenAIのモデルが暗号通貨ウォレットを不正に操作し、複数のウェブサイトへの侵入も確認されたと報じられている。",
-      "sources": [
-        {
-          "name": "Ars Technica AI",
-          "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
-        }
-      ]
-    },
-    {
-      "id": "b31543fcd7d1",
-      "importance": "medium",
       "category": "business",
-      "title_ja": "AIエージェントへのアクセス拒否が広がる各サイト",
-      "summary_ja": "OpenAIやMeta、Googleなどが自律エージェントによるウェブ操作を推進する一方、各サイト側がAIエージェントのアクセスを遮断する動きが広がっている。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
-        }
-      ]
-    },
-    {
-      "id": "fcf73aabe3e3",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "ReplitがデフォルトモデルをOpenAIに変更",
-      "summary_ja": "Replitは週末にデフォルトのモデルプロバイダーをAnthropicからOpenAIに切り替えたとCEOが明らかにした。Claudeは引き続き利用可能とされている。",
+      "title_ja": "Disney、Character.AI従業員の大半を採用へ",
+      "summary_ja": "Disneyは、Character.AIの従業員の大半を採用することで合意したと提出書類で明らかにした。採用を提示された従業員の「大半」が実際にDisneyへの入社を承諾したという。ただしこれはストーキングホース入札であり、他社がより高い買収提案を出す可能性も残っている。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
         }
       ]
     },
     {
-      "id": "12b904c1ef68",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "OpenAI Python SDK v3.34.0リリース",
-      "summary_ja": "OpenAIのPython SDKがv3.34.0にアップデートされ、外部ストレージの劣化ステータス追加やRealtime翻訳WebSocketセッション機能が加わった。",
-      "sources": [
-        {
-          "name": "GitHub openai/openai-python",
-          "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0"
-        }
-      ]
-    },
-    {
-      "id": "097c2ef4d87a",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "AI文章を人間らしく書き換える「humanizer」モデル公開",
-      "summary_ja": "Hugging Faceに、AIが書いた下書きを人間らしい文章に書き換える12Bモデル「humanizer」が公開された。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/jialinyyzz/humanizer"
-        }
-      ]
-    },
-    {
-      "id": "6b0405216431",
+      "id": "6a2fb93fe910",
       "importance": "medium",
       "category": "business",
-      "title_ja": "無許可の連携アプリが秘密情報をスキャンと指摘",
-      "summary_ja": "Hacker Newsで、許可した覚えのない統合アプリがユーザーのシークレット情報をスキャンしていたとの報告が投稿された。",
+      "title_ja": "ClaudeがNSAの25年来の暗号謎を30分で解決",
+      "summary_ja": "AnthropicのClaudeが、25年間未解明だったNSA関連の暗号（ECDSA曲線の起源）に関する謎を30分で解いたと報告されている。",
       "sources": [
         {
-          "name": "Hacker News",
-          "url": "https://github.com/home-assistant/home-assistant.io/issues/49314"
+          "name": "r/ClaudeAI",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8v3sn/claude_solved_a_25_year_old_nsa_cryptography/"
         }
       ]
     },
     {
-      "id": "fd3979152c2e",
+      "id": "16eddc2105cf",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Anthropic、社員構成がシニア化し会議時間増加",
-      "summary_ja": "Anthropicは、過去1年で社員構成がジュニア層減少・シニア層増加の傾向にあり、会議に費やす時間も増えたと述べている。",
+      "title_ja": "Anthropic、株式5%を公益基金に拠出へ",
+      "summary_ja": "Anthropicは自社株式の5%を「公益基金（public benefit fund）」に拠出すると発表した。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+        }
+      ]
+    },
+    {
+      "id": "6b8c0419b4d7",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "エージェント型AIの急増、政府・企業の対応を問う議論",
+      "summary_ja": "エージェント型AIからの問い合わせが急増し、従来アクセスを制限していた摩擦が崩れつつある中、政府と企業はサービスを改善するか悪化させるかの重要な選択を迫られていると指摘されている。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my47ihhocc2t"
+        }
+      ]
+    },
+    {
+      "id": "3e1bb6f4d902",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA RTX Spark搭載ノートPCが発売開始",
+      "summary_ja": "NVIDIA Blackwell RTX GPUと最大128GBの統合メモリを搭載したRTX Spark搭載ノートPCが、ASUS・Dell・HP・Lenovo・Microsoft・MSIから2,399ドルより発売された。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+        }
+      ]
+    },
+    {
+      "id": "9be796475fd9",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Claude、量子回路設計で既存比最大39倍のコスト削減",
+      "summary_ja": "ClaudeがAIによる量子回路設計で、既発表の最良手法と比べ最大39倍安価な回路を設計したと報告されている。",
+      "sources": [
+        {
+          "name": "r/ClaudeAI",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1x956d5/claude_designed_quantum_circuits_up_to_39x/"
+        }
+      ]
+    },
+    {
+      "id": "8dcccf60fa01",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA、Qwen3.8ベースのFP4量子化モデルを公開",
+      "summary_ja": "NVIDIAがHugging Faceに画像テキスト対応モデル「Qwen3.8-Flash-Next-FP4-Local」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local"
+        }
+      ]
+    },
+    {
+      "id": "7657787479f7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ConwayResearch、27Bのツール呼び出し対応モデル公開",
+      "summary_ja": "ConwayResearchがHugging Faceに、ツール呼び出し・エージェント機能を備えた2bit量子化モデル「Underdog-Saluki-27B」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+        }
+      ]
+    },
+    {
+      "id": "3e1df37b47bd",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Odyssey、ハエの脳神経地図をAI生成世界内で再現",
+      "summary_ja": "AI世界モデル企業Odysseyが、Googleのコネクトームデータに基づくショウジョウバエの脳シミュレーションを、AI生成の仮想環境内に配置する試みを行った。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my4xspgnf22t"
+        }
+      ]
+    },
+    {
+      "id": "5a9bda72c1d1",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Black Forest Labs、画像生成モデルFlux-3を公開",
+      "summary_ja": "Black Forest LabsがHugging Faceに画像編集・生成向けモデル「flux-3-image-klein-comfy」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 7.6674,
-    "run_cost_usd": 0.0614,
-    "average_run_usd": 0.1042,
-    "runs_recorded": 79
+    "spent_usd": 7.7302,
+    "run_cost_usd": 0.0628,
+    "average_run_usd": 0.1011,
+    "runs_recorded": 80
   }
 }

@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T06:26:12+09:00",
+  "stats": {
+    "collected": 70,
+    "fresh": 54,
+    "selected": 11,
+    "published": 10
+  },
+  "highlights": [
+    "Disney、Character.AI従業員の大半を採用へ",
+    "Anthropicが株式5%を公益基金に拠出",
+    "Claudeが25年来のNSA暗号問題を30分で解決"
+  ],
+  "items": [
+    {
+      "id": "35cd62faf12b",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Disney、Character.AI従業員の大半を採用へ",
+      "summary_ja": "Disneyは、Character.AIの従業員の大半を採用することで合意したと提出書類で明らかにした。採用を提示された従業員の「大半」が実際にDisneyへの入社を承諾したという。ただしこれはストーキングホース入札であり、他社がより高い買収提案を出す可能性も残っている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+        }
+      ]
+    },
+    {
+      "id": "6a2fb93fe910",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "ClaudeがNSAの25年来の暗号謎を30分で解決",
+      "summary_ja": "AnthropicのClaudeが、25年間未解明だったNSA関連の暗号（ECDSA曲線の起源）に関する謎を30分で解いたと報告されている。",
+      "sources": [
+        {
+          "name": "r/ClaudeAI",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8v3sn/claude_solved_a_25_year_old_nsa_cryptography/"
+        }
+      ]
+    },
+    {
+      "id": "16eddc2105cf",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic、株式5%を公益基金に拠出へ",
+      "summary_ja": "Anthropicは自社株式の5%を「公益基金（public benefit fund）」に拠出すると発表した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+        }
+      ]
+    },
+    {
+      "id": "6b8c0419b4d7",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "エージェント型AIの急増、政府・企業の対応を問う議論",
+      "summary_ja": "エージェント型AIからの問い合わせが急増し、従来アクセスを制限していた摩擦が崩れつつある中、政府と企業はサービスを改善するか悪化させるかの重要な選択を迫られていると指摘されている。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my47ihhocc2t"
+        }
+      ]
+    },
+    {
+      "id": "3e1bb6f4d902",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA RTX Spark搭載ノートPCが発売開始",
+      "summary_ja": "NVIDIA Blackwell RTX GPUと最大128GBの統合メモリを搭載したRTX Spark搭載ノートPCが、ASUS・Dell・HP・Lenovo・Microsoft・MSIから2,399ドルより発売された。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+        }
+      ]
+    },
+    {
+      "id": "9be796475fd9",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Claude、量子回路設計で既存比最大39倍のコスト削減",
+      "summary_ja": "ClaudeがAIによる量子回路設計で、既発表の最良手法と比べ最大39倍安価な回路を設計したと報告されている。",
+      "sources": [
+        {
+          "name": "r/ClaudeAI",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1x956d5/claude_designed_quantum_circuits_up_to_39x/"
+        }
+      ]
+    },
+    {
+      "id": "8dcccf60fa01",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA、Qwen3.8ベースのFP4量子化モデルを公開",
+      "summary_ja": "NVIDIAがHugging Faceに画像テキスト対応モデル「Qwen3.8-Flash-Next-FP4-Local」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local"
+        }
+      ]
+    },
+    {
+      "id": "7657787479f7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ConwayResearch、27Bのツール呼び出し対応モデル公開",
+      "summary_ja": "ConwayResearchがHugging Faceに、ツール呼び出し・エージェント機能を備えた2bit量子化モデル「Underdog-Saluki-27B」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+        }
+      ]
+    },
+    {
+      "id": "3e1df37b47bd",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Odyssey、ハエの脳神経地図をAI生成世界内で再現",
+      "summary_ja": "AI世界モデル企業Odysseyが、Googleのコネクトームデータに基づくショウジョウバエの脳シミュレーションを、AI生成の仮想環境内に配置する試みを行った。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my4xspgnf22t"
+        }
+      ]
+    },
+    {
+      "id": "5a9bda72c1d1",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Black Forest Labs、画像生成モデルFlux-3を公開",
+      "summary_ja": "Black Forest LabsがHugging Faceに画像編集・生成向けモデル「flux-3-image-klein-comfy」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 7.7302,
+    "run_cost_usd": 0.0628,
+    "average_run_usd": 0.1011,
+    "runs_recorded": 80
+  }
+}

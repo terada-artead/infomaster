@@ -1,118 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-11",
-      "id": "d3eeb0753ebb",
-      "title_ja": "ブラウン氏、共和党人脈でSpaceXの月額12.5億ドル契約を仲介",
-      "urls": [
-        "https://wsj.com/tech/ai/tom-brown-athropic-669005ad"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "6fafcbf09565",
-      "title_ja": "Anthropic、内部AIエージェント評価からネット接続を遮断",
-      "urls": [
-        "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "e4ec1e84959a",
-      "title_ja": "Cloudflare、意思決定特化の27BモデルClefを公開",
-      "urls": [
-        "https://huggingface.co/Cloudflare/clef"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "ff937c402522",
-      "title_ja": "NvidiaがオープンモデルのReflection AI買収を協議",
-      "urls": [
-        "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "36cc2f96c79b",
-      "title_ja": "ウクライナのドローン攻撃、Yandexのデータセンターを損傷",
-      "urls": [
-        "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "5c348986a151",
-      "title_ja": "DeepSeek、マルチモーダル対応のV4.1-Flashを公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "c9390824224e",
-      "title_ja": "OpenAI、新AIエージェント「Dots」でプライバシー基準を強調",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "b9dc0d5943c8",
-      "title_ja": "Apple、ポッドキャストAIスタートアップHuxeのチームと技術を獲得",
-      "urls": [
-        "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "5c1db9239c15",
-      "title_ja": "Cloudflare無料枠で動くセルフホスト型個人AIエージェント公開",
-      "urls": [
-        "https://github.com/rociiu/talorys"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "6c3ff23f9d7d",
-      "title_ja": "数学者100人超、数学とAIの現状について意見交換",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1x2notw/100_reactions_from_leading_mathematicians_on_the/"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "6d57a260d9ad",
-      "title_ja": "DistroKid、UMG提訴を受け楽曲を無断削除",
-      "urls": [
-        "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "abb123843bd5",
-      "title_ja": "FrancisRing、音声同期対応の動画生成モデルPrismを公開",
-      "urls": [
-        "https://huggingface.co/FrancisRing/Prism"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "4e11b4c66e25",
-      "title_ja": "EmbeddingGemma 2をローカル実行するMac向け検索アプリ公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/"
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "id": "bb0f0693cafc",
-      "title_ja": "Blackwell向け推論エンジンBasaltがStrata比2.6倍の速度達成",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x223ai/basalt_flashnext_at_665_toks_structured_354_prose/"
-      ]
-    },
-    {
       "date": "2026-10-12",
       "id": "ca26bca182f6",
       "title_ja": "Qwen3.8-27B、画像テキスト対応モデルとして公開",
@@ -1099,6 +987,86 @@
       "title_ja": "Anthropic、社員構成がシニア化し会議時間増加",
       "urls": [
         "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "35cd62faf12b",
+      "title_ja": "Disney、Character.AI従業員の大半を採用へ",
+      "urls": [
+        "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "6a2fb93fe910",
+      "title_ja": "ClaudeがNSAの25年来の暗号謎を30分で解決",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1x8v3sn/claude_solved_a_25_year_old_nsa_cryptography/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "16eddc2105cf",
+      "title_ja": "Anthropic、株式5%を公益基金に拠出へ",
+      "urls": [
+        "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "6b8c0419b4d7",
+      "title_ja": "エージェント型AIの急増、政府・企業の対応を問う議論",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3my47ihhocc2t"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "3e1bb6f4d902",
+      "title_ja": "NVIDIA RTX Spark搭載ノートPCが発売開始",
+      "urls": [
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "9be796475fd9",
+      "title_ja": "Claude、量子回路設計で既存比最大39倍のコスト削減",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1x956d5/claude_designed_quantum_circuits_up_to_39x/"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "8dcccf60fa01",
+      "title_ja": "NVIDIA、Qwen3.8ベースのFP4量子化モデルを公開",
+      "urls": [
+        "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "7657787479f7",
+      "title_ja": "ConwayResearch、27Bのツール呼び出し対応モデル公開",
+      "urls": [
+        "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "3e1df37b47bd",
+      "title_ja": "Odyssey、ハエの脳神経地図をAI生成世界内で再現",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3my4xspgnf22t"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": "5a9bda72c1d1",
+      "title_ja": "Black Forest Labs、画像生成モデルFlux-3を公開",
+      "urls": [
+        "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
       ]
     }
   ]
