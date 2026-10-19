@@ -1,153 +1,283 @@
 {
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T06:26:12+09:00",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T07:54:53+09:00",
   "stats": {
-    "collected": 70,
-    "fresh": 54,
-    "selected": 11,
-    "published": 10
+    "collected": 100,
+    "fresh": 83,
+    "selected": 29,
+    "published": 20
   },
   "highlights": [
-    "Disney、Character.AI従業員の大半を採用へ",
-    "Anthropicが株式5%を公益基金に拠出",
-    "Claudeが25年来のNSA暗号問題を30分で解決"
+    "vLLMのKV転送最適化でTTFT・TPOTを大幅改善",
+    "Tenstorrentが15億ドル調達、評価額62億ドルに",
+    "AIエージェント軍団が100以上のサイトに侵入と報道"
   ],
   "items": [
     {
-      "id": "35cd62faf12b",
+      "id": "27312a297198",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "vLLM、プッシュ型KV転送でTTFT最大3倍改善",
+      "summary_ja": "vLLMのprefill-decode分離構成では、KVキャッシュをインスタンス間で転送する必要があり、そのコーディネーションがボトルネックになっていた。本記事ではNIXLベースのプッシュ型コネクタにより転送調整をクリティカルパスから外し、Amazon EC2 P5en（AWS EFA使用）上のベンチマークでTTFTを最大3倍、TPOTを最大30%改善した結果を紹介している。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/"
+        }
+      ]
+    },
+    {
+      "id": "d47baa3bafb6",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "vLLM、双方向KV転送でマルチターン対話のTTFT改善",
+      "summary_ja": "マルチターンのエージェント型ワークロードでは会話コンテキストが毎ターン増大し、再処理による遅延が課題だった。本記事では双方向KVキャッシュ転送によりprefillノードとdecodeノードが過去ターンの計算済みコンテキストを再利用できる仕組みを紹介し、Amazon EC2 P5en（EFA使用）上でQwen3-32Bは最大1.6倍、GLM-5-FP8は最大3.3倍のTTFT改善を確認したと報告している。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/"
+        }
+      ]
+    },
+    {
+      "id": "111c7ae55acd",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Deepgram、音声認識モデルNova-3をAWS Trainiumに最適化",
+      "summary_ja": "DeepgramはAWSのForward Deployed Engineeringチームと協力し、音声認識モデルNova-3をオフラインバッチ推論向けにAWS Trainium2へ移植した。AWS Neuronスタックへの移植、カーネルレベルのチューニング、データ並列Rustランタイムの構築により、バッチ文字起こしのスループットとコストを改善した取り組みが紹介されている。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/"
+        }
+      ]
+    },
+    {
+      "id": "2b9227ae1c18",
       "importance": "high",
       "category": "business",
-      "title_ja": "Disney、Character.AI従業員の大半を採用へ",
-      "summary_ja": "Disneyは、Character.AIの従業員の大半を採用することで合意したと提出書類で明らかにした。採用を提示された従業員の「大半」が実際にDisneyへの入社を承諾したという。ただしこれはストーキングホース入札であり、他社がより高い買収提案を出す可能性も残っている。",
+      "title_ja": "Tenstorrent、15億ドル調達で評価額62億ドルに",
+      "summary_ja": "Nvidiaに挑む半導体企業Tenstorrentは、今年初めに買収提案を受けていたが独立路線を維持するため15億ドルを調達し、評価額62億ドルとなった。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
         }
       ]
     },
     {
-      "id": "6a2fb93fe910",
+      "id": "4040b794061a",
       "importance": "medium",
       "category": "business",
-      "title_ja": "ClaudeがNSAの25年来の暗号謎を30分で解決",
-      "summary_ja": "AnthropicのClaudeが、25年間未解明だったNSA関連の暗号（ECDSA曲線の起源）に関する謎を30分で解いたと報告されている。",
+      "title_ja": "CERNとMistral、戦略的パートナーシップの意向表明に署名",
+      "summary_ja": "CERNとMistralが戦略的パートナーシップ構築に向けた意向表明書に署名した。",
       "sources": [
         {
-          "name": "r/ClaudeAI",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8v3sn/claude_solved_a_25_year_old_nsa_cryptography/"
+          "name": "Hacker News",
+          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
         }
       ]
     },
     {
-      "id": "16eddc2105cf",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Anthropic、株式5%を公益基金に拠出へ",
-      "summary_ja": "Anthropicは自社株式の5%を「公益基金（public benefit fund）」に拠出すると発表した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
-        }
-      ]
-    },
-    {
-      "id": "6b8c0419b4d7",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "エージェント型AIの急増、政府・企業の対応を問う議論",
-      "summary_ja": "エージェント型AIからの問い合わせが急増し、従来アクセスを制限していた摩擦が崩れつつある中、政府と企業はサービスを改善するか悪化させるかの重要な選択を迫られていると指摘されている。",
-      "sources": [
-        {
-          "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my47ihhocc2t"
-        }
-      ]
-    },
-    {
-      "id": "3e1bb6f4d902",
+      "id": "415765981e0f",
       "importance": "medium",
       "category": "product",
-      "title_ja": "NVIDIA RTX Spark搭載ノートPCが発売開始",
-      "summary_ja": "NVIDIA Blackwell RTX GPUと最大128GBの統合メモリを搭載したRTX Spark搭載ノートPCが、ASUS・Dell・HP・Lenovo・Microsoft・MSIから2,399ドルより発売された。",
+      "title_ja": "TwelveLabs Pegasus 1.5、Amazon Bedrockで利用可能に",
+      "summary_ja": "動画言語モデルPegasus 1.5がAmazon Bedrockで利用可能になり、長尺動画を構造化・タイムスタンプ付きメタデータに変換し、動画セグメンテーションや参照画像によるマルチモーダルプロンプト、最大2時間の動画のオンザフライ処理に対応した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "c1dfee28d50b",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Amazon、PyTorch向け新ツールTorchNeuronでNvidiaに対抗",
+      "summary_ja": "AmazonはPyTorchにおけるNvidiaの優位性を崩すべく、開発者が自社Trainiumなど代替チップでアプリを実行しやすくする新ツールTorchNeuronを発表した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+        }
+      ]
+    },
+    {
+      "id": "72f41f995ba8",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AI各社の自己申告ベンチマーク、第三者比で平均6.4%高い",
+      "summary_ja": "オープンソースのAIリーダーボードwhatmodel.shの調査によると、180モデル・103ベンチマークにわたる611件の比較で、AIラボ自身が公表するスコアは独立テスターの結果より平均6.4%高かった。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/"
+        }
+      ]
+    },
+    {
+      "id": "5c52b7d34bec",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Hugging Face、AWS TrainiumでのHFモデル実行ツールTorchNeuronを紹介",
+      "summary_ja": "Hugging Faceのブログ記事が、Hugging FaceモデルをAWS Trainium上でより簡単に実行できる新ツールTorchNeuronを紹介した。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/hf-torchneuron"
+        }
+      ]
+    },
+    {
+      "id": "ea3b81d8158f",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Nvidia、エンタープライズ向けエージェント用の新オープンモデルを発表",
+      "summary_ja": "Nvidiaは企業が自社データセンターで運用できるオープンモデルと、PC上で動くプライベートなオンデバイスAIエージェントの実現に向けた新モデルを発表した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+        }
+      ]
+    },
+    {
+      "id": "f45be2428505",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Cohereのモデル、llama.cppでサポート開始",
+      "summary_ja": "Cohereの担当者が、以前から要望の多かったllama.cppでの自社モデルサポートを開始したと発表した。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/"
+        }
+      ]
+    },
+    {
+      "id": "1dbe22633003",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、低リソースプログラミング言語でのChatGPT性能を改善",
+      "summary_ja": "OpenAIは、SQLiteやCOBOL移行など低リソースなプログラミング言語に関する新しい評価指標を導入し、ChatGPTのコーディング性能向上に取り組んでいると発表した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/low-resource-programming-languages"
+        }
+      ]
+    },
+    {
+      "id": "e5be943baa77",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "SageMaker JumpStart、2026年に100以上の新モデルをオンボード",
+      "summary_ja": "Amazon SageMaker JumpStartは2026年第1〜3四半期で30のプロバイダーから100以上の新モデルをオンボードし、Model Hubの簡素化などの機能強化も行われた。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/"
+        }
+      ]
+    },
+    {
+      "id": "f649037fa8e9",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AIコーディングツールOpenCode、ハッカーに侵害される",
+      "summary_ja": "オープンソースのAIコーディングエージェントOpenCodeのオンラインプラットフォームがハッカーに侵入され、ユーザーのAPIキーが盗まれる被害が発生した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+        }
+      ]
+    },
+    {
+      "id": "c93e63abfb94",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AIエージェント向けにネットを最適化すると他の利用者に悪影響の懸念",
+      "summary_ja": "MIT Technology Reviewは、AIエージェントが使いやすいようにインターネットを最適化する動きが、人間の一般利用者にとっては逆に使いにくくなる可能性を指摘している。",
+      "sources": [
+        {
+          "name": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
+        }
+      ]
+    },
+    {
+      "id": "a75d60c23936",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "MiniMax、新モデル「M3.1 Flash」を発表",
+      "summary_ja": "MiniMaxが新モデル「M3.1 Flash」を発表し、モデル重みは10月23日に公開予定と報じられている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/"
+        }
+      ]
+    },
+    {
+      "id": "f517fbed13f7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "inclusionAI、音声言語モデルMing-3.0-audio-flashを公開",
+      "summary_ja": "inclusionAIは音声とテキスト指示を入力でき、音声認識や音声質問応答、音声理解・推論、合成音声での応答に対応するネイティブ音声言語モデルMing-3.0-audio-flash（総パラメータ126B、アクティブ6.5B、MoE構成）をMITライセンスでHugging Faceに公開した。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yd01/inclusionaiming30audioflash_hugging_face/"
+        }
+      ]
+    },
+    {
+      "id": "e0adeca3ba3b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "新AWS体験からSageMaker Studioに直接アクセス可能に",
+      "summary_ja": "新規のSageMaker AI利用者は、Amazon・Apple・GitHub・Googleなど既存のアカウントでサインアップでき、クレジットカード不要で設定済みのSageMaker Studio環境と100ドル分の無料利用枠を得られるようになった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/"
+        }
+      ]
+    },
+    {
+      "id": "ca2be23ea0a1",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "NVIDIA、メディア業界向けエージェントセキュリティを強化",
+      "summary_ja": "NVIDIAはベルリンでのクリエイティブ業界イベントで、欧州放送連合（EBU）とのクラウド・オープンモデル連携拡大など、メディア業界向けエージェントセキュリティの新展開を発表した。",
       "sources": [
         {
           "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+          "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
         }
       ]
     },
     {
-      "id": "9be796475fd9",
+      "id": "c161d6bab526",
       "importance": "medium",
-      "category": "tool",
-      "title_ja": "Claude、量子回路設計で既存比最大39倍のコスト削減",
-      "summary_ja": "ClaudeがAIによる量子回路設計で、既発表の最良手法と比べ最大39倍安価な回路を設計したと報告されている。",
+      "category": "business",
+      "title_ja": "AIエージェント群による攻撃で100以上のサイトが侵害と報道",
+      "summary_ja": "AIセキュリティ企業Norforgeの調査によると、ほぼ自律的に動作するAIエージェント群を用いたハッカーが100以上のウェブサイトに侵入し、Reutersの報道ではJohn DeereやSharkNinja、Cumminsなどが被害企業に含まれるとされている。",
       "sources": [
         {
-          "name": "r/ClaudeAI",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1x956d5/claude_designed_quantum_circuits_up_to_39x/"
-        }
-      ]
-    },
-    {
-      "id": "8dcccf60fa01",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "NVIDIA、Qwen3.8ベースのFP4量子化モデルを公開",
-      "summary_ja": "NVIDIAがHugging Faceに画像テキスト対応モデル「Qwen3.8-Flash-Next-FP4-Local」を公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local"
-        }
-      ]
-    },
-    {
-      "id": "7657787479f7",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "ConwayResearch、27Bのツール呼び出し対応モデル公開",
-      "summary_ja": "ConwayResearchがHugging Faceに、ツール呼び出し・エージェント機能を備えた2bit量子化モデル「Underdog-Saluki-27B」を公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
-        }
-      ]
-    },
-    {
-      "id": "3e1df37b47bd",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Odyssey、ハエの脳神経地図をAI生成世界内で再現",
-      "summary_ja": "AI世界モデル企業Odysseyが、Googleのコネクトームデータに基づくショウジョウバエの脳シミュレーションを、AI生成の仮想環境内に配置する試みを行った。",
-      "sources": [
-        {
-          "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3my4xspgnf22t"
-        }
-      ]
-    },
-    {
-      "id": "5a9bda72c1d1",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Black Forest Labs、画像生成モデルFlux-3を公開",
-      "summary_ja": "Black Forest LabsがHugging Faceに画像編集・生成向けモデル「flux-3-image-klein-comfy」を公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 7.7302,
-    "run_cost_usd": 0.0628,
-    "average_run_usd": 0.1011,
-    "runs_recorded": 80
+    "spent_usd": 7.8425,
+    "run_cost_usd": 0.1123,
+    "average_run_usd": 0.1005,
+    "runs_recorded": 81
   }
 }
