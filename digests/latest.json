@@ -1,283 +1,287 @@
 {
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T07:54:53+09:00",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T07:15:58+09:00",
   "stats": {
-    "collected": 100,
-    "fresh": 83,
-    "selected": 29,
+    "collected": 124,
+    "fresh": 111,
+    "selected": 46,
     "published": 20
   },
   "highlights": [
-    "vLLMのKV転送最適化でTTFT・TPOTを大幅改善",
-    "Tenstorrentが15億ドル調達、評価額62億ドルに",
-    "AIエージェント軍団が100以上のサイトに侵入と報道"
+    "OpenAIがOrchestra Bioを買収、創薬領域のAI展開を加速",
+    "AnthropicとNscaleが450億ドル規模の計算資源契約を交渉中と報道",
+    "CoreWeaveの社債が投資不適格水準に下落、AI業界の資金調達懸念に波及"
   ],
   "items": [
     {
-      "id": "27312a297198",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "vLLM、プッシュ型KV転送でTTFT最大3倍改善",
-      "summary_ja": "vLLMのprefill-decode分離構成では、KVキャッシュをインスタンス間で転送する必要があり、そのコーディネーションがボトルネックになっていた。本記事ではNIXLベースのプッシュ型コネクタにより転送調整をクリティカルパスから外し、Amazon EC2 P5en（AWS EFA使用）上のベンチマークでTTFTを最大3倍、TPOTを最大30%改善した結果を紹介している。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/"
-        }
-      ]
-    },
-    {
-      "id": "d47baa3bafb6",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "vLLM、双方向KV転送でマルチターン対話のTTFT改善",
-      "summary_ja": "マルチターンのエージェント型ワークロードでは会話コンテキストが毎ターン増大し、再処理による遅延が課題だった。本記事では双方向KVキャッシュ転送によりprefillノードとdecodeノードが過去ターンの計算済みコンテキストを再利用できる仕組みを紹介し、Amazon EC2 P5en（EFA使用）上でQwen3-32Bは最大1.6倍、GLM-5-FP8は最大3.3倍のTTFT改善を確認したと報告している。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/"
-        }
-      ]
-    },
-    {
-      "id": "111c7ae55acd",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "Deepgram、音声認識モデルNova-3をAWS Trainiumに最適化",
-      "summary_ja": "DeepgramはAWSのForward Deployed Engineeringチームと協力し、音声認識モデルNova-3をオフラインバッチ推論向けにAWS Trainium2へ移植した。AWS Neuronスタックへの移植、カーネルレベルのチューニング、データ並列Rustランタイムの構築により、バッチ文字起こしのスループットとコストを改善した取り組みが紹介されている。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/"
-        }
-      ]
-    },
-    {
-      "id": "2b9227ae1c18",
+      "id": "1cfb6291fa15",
       "importance": "high",
       "category": "business",
-      "title_ja": "Tenstorrent、15億ドル調達で評価額62億ドルに",
-      "summary_ja": "Nvidiaに挑む半導体企業Tenstorrentは、今年初めに買収提案を受けていたが独立路線を維持するため15億ドルを調達し、評価額62億ドルとなった。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
-        }
-      ]
-    },
-    {
-      "id": "4040b794061a",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "CERNとMistral、戦略的パートナーシップの意向表明に署名",
-      "summary_ja": "CERNとMistralが戦略的パートナーシップ構築に向けた意向表明書に署名した。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
-        }
-      ]
-    },
-    {
-      "id": "415765981e0f",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "TwelveLabs Pegasus 1.5、Amazon Bedrockで利用可能に",
-      "summary_ja": "動画言語モデルPegasus 1.5がAmazon Bedrockで利用可能になり、長尺動画を構造化・タイムスタンプ付きメタデータに変換し、動画セグメンテーションや参照画像によるマルチモーダルプロンプト、最大2時間の動画のオンザフライ処理に対応した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/"
-        }
-      ]
-    },
-    {
-      "id": "c1dfee28d50b",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Amazon、PyTorch向け新ツールTorchNeuronでNvidiaに対抗",
-      "summary_ja": "AmazonはPyTorchにおけるNvidiaの優位性を崩すべく、開発者が自社Trainiumなど代替チップでアプリを実行しやすくする新ツールTorchNeuronを発表した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
-        }
-      ]
-    },
-    {
-      "id": "72f41f995ba8",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "AI各社の自己申告ベンチマーク、第三者比で平均6.4%高い",
-      "summary_ja": "オープンソースのAIリーダーボードwhatmodel.shの調査によると、180モデル・103ベンチマークにわたる611件の比較で、AIラボ自身が公表するスコアは独立テスターの結果より平均6.4%高かった。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/"
-        }
-      ]
-    },
-    {
-      "id": "5c52b7d34bec",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "Hugging Face、AWS TrainiumでのHFモデル実行ツールTorchNeuronを紹介",
-      "summary_ja": "Hugging Faceのブログ記事が、Hugging FaceモデルをAWS Trainium上でより簡単に実行できる新ツールTorchNeuronを紹介した。",
-      "sources": [
-        {
-          "name": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/hf-torchneuron"
-        }
-      ]
-    },
-    {
-      "id": "ea3b81d8158f",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Nvidia、エンタープライズ向けエージェント用の新オープンモデルを発表",
-      "summary_ja": "Nvidiaは企業が自社データセンターで運用できるオープンモデルと、PC上で動くプライベートなオンデバイスAIエージェントの実現に向けた新モデルを発表した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
-        }
-      ]
-    },
-    {
-      "id": "f45be2428505",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "Cohereのモデル、llama.cppでサポート開始",
-      "summary_ja": "Cohereの担当者が、以前から要望の多かったllama.cppでの自社モデルサポートを開始したと発表した。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/"
-        }
-      ]
-    },
-    {
-      "id": "1dbe22633003",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "OpenAI、低リソースプログラミング言語でのChatGPT性能を改善",
-      "summary_ja": "OpenAIは、SQLiteやCOBOL移行など低リソースなプログラミング言語に関する新しい評価指標を導入し、ChatGPTのコーディング性能向上に取り組んでいると発表した。",
+      "title_ja": "OpenAI、創薬AI強化のためOrchestra Bioを買収",
+      "summary_ja": "OpenAIがOrchestra Bioを買収し、生命科学R&D向けのAI活用を推進する。買収したチームと技術は、創薬研究向けAIモデル「Rosalind」とその実験計画・結果分析ツール「Rosalind Workbench」の開発に組み込まれる。製薬・バイオ分野の研究者にとって、実験設計からデータ分析までをAIで支援する体制が強化されることになる。",
       "sources": [
         {
           "name": "OpenAI News",
-          "url": "https://openai.com/index/low-resource-programming-languages"
-        }
-      ]
-    },
-    {
-      "id": "e5be943baa77",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "SageMaker JumpStart、2026年に100以上の新モデルをオンボード",
-      "summary_ja": "Amazon SageMaker JumpStartは2026年第1〜3四半期で30のプロバイダーから100以上の新モデルをオンボードし、Model Hubの簡素化などの機能強化も行われた。",
-      "sources": [
+          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio"
+        },
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/"
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
         }
       ]
     },
     {
-      "id": "f649037fa8e9",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "AIコーディングツールOpenCode、ハッカーに侵害される",
-      "summary_ja": "オープンソースのAIコーディングエージェントOpenCodeのオンラインプラットフォームがハッカーに侵入され、ユーザーのAPIキーが盗まれる被害が発生した。",
+      "id": "68a6b53f34de",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "AnthropicとNscale、450億ドル規模の計算資源契約を交渉中と報道",
+      "summary_ja": "Anthropicとクラウド事業者Nscaleが、新たに450億ドル規模の計算資源契約について協議していると報じられている。実現すればAnthropicがこの1年で結んだ巨額コンピュート契約の最新事例となる。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
         }
       ]
     },
     {
-      "id": "c93e63abfb94",
+      "id": "5ed7b4468bde",
       "importance": "medium",
-      "category": "business",
-      "title_ja": "AIエージェント向けにネットを最適化すると他の利用者に悪影響の懸念",
-      "summary_ja": "MIT Technology Reviewは、AIエージェントが使いやすいようにインターネットを最適化する動きが、人間の一般利用者にとっては逆に使いにくくなる可能性を指摘している。",
+      "category": "tool",
+      "title_ja": "Google、TPU向けPyTorchバックエンド「TorchTPU」をオープンソース化",
+      "summary_ja": "GoogleがTPU上でPyTorchをネイティブに動作させるバックエンド「TorchTPU」をオープンソースで公開した。",
       "sources": [
         {
-          "name": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/"
+          "name": "Hacker News",
+          "url": "https://github.com/google-pytorch/torch_tpu"
         }
       ]
     },
     {
-      "id": "a75d60c23936",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "MiniMax、新モデル「M3.1 Flash」を発表",
-      "summary_ja": "MiniMaxが新モデル「M3.1 Flash」を発表し、モデル重みは10月23日に公開予定と報じられている。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/"
-        }
-      ]
-    },
-    {
-      "id": "f517fbed13f7",
-      "importance": "medium",
+      "id": "ca26bca182f6",
+      "importance": "high",
       "category": "product",
-      "title_ja": "inclusionAI、音声言語モデルMing-3.0-audio-flashを公開",
-      "summary_ja": "inclusionAIは音声とテキスト指示を入力でき、音声認識や音声質問応答、音声理解・推論、合成音声での応答に対応するネイティブ音声言語モデルMing-3.0-audio-flash（総パラメータ126B、アクティブ6.5B、MoE構成）をMITライセンスでHugging Faceに公開した。",
+      "title_ja": "Alibaba、新モデル「Qwen3.8-27B」をHugging Faceで公開",
+      "summary_ja": "Alibabaの「Qwen3.8-27B」がHugging Faceで公開され、画像・テキスト対応のマルチモーダルモデルとして提供されている。Transformers、vLLM、SGLangなど主要な推論エンジンと互換性があり、将来的には100万トークンのコンテキスト長を標準とするホスト版APIも提供予定で、既に高いダウンロード数を記録している。",
       "sources": [
         {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yd01/inclusionaiming30audioflash_hugging_face/"
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
         }
       ]
     },
     {
-      "id": "e0adeca3ba3b",
-      "importance": "medium",
+      "id": "cb0bf0e1617e",
+      "importance": "high",
       "category": "product",
-      "title_ja": "新AWS体験からSageMaker Studioに直接アクセス可能に",
-      "summary_ja": "新規のSageMaker AI利用者は、Amazon・Apple・GitHub・Googleなど既存のアカウントでサインアップでき、クレジットカード不要で設定済みのSageMaker Studio環境と100ドル分の無料利用枠を得られるようになった。",
+      "title_ja": "Mistral、音声エージェント向けSDK「Voxtral 3」を発表",
+      "summary_ja": "Mistralが50以上の言語でリアルタイム音声処理に対応する音声エージェント向けSDK「Voxtral 3」を公開した。高精度な音声認識と感情表現付き音声合成、ツール連携機能を備え、EUでのホスティングまたは自社環境への展開を選択できる。音声エージェントを構築するエンジニアにとって、文字起こしから応答生成までを一貫して扱える選択肢が増える。",
       "sources": [
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/"
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/voxtral-3/"
         }
       ]
     },
     {
-      "id": "ca2be23ea0a1",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "NVIDIA、メディア業界向けエージェントセキュリティを強化",
-      "summary_ja": "NVIDIAはベルリンでのクリエイティブ業界イベントで、欧州放送連合（EBU）とのクラウド・オープンモデル連携拡大など、メディア業界向けエージェントセキュリティの新展開を発表した。",
+      "id": "f2bc736c0ee7",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Meta、マスク生成モデル「SAM3」をHugging Faceで公開",
+      "summary_ja": "Metaが画像・動画向けマスク生成モデル「SAM3」をHugging Faceで公開し、既に190万回以上ダウンロードされている。セグメンテーション機能を必要とするビジョン系アプリケーション開発に利用できる。",
       "sources": [
         {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/facebook/sam3"
         }
       ]
     },
     {
-      "id": "c161d6bab526",
-      "importance": "medium",
+      "id": "85ed69736e92",
+      "importance": "high",
       "category": "business",
-      "title_ja": "AIエージェント群による攻撃で100以上のサイトが侵害と報道",
-      "summary_ja": "AIセキュリティ企業Norforgeの調査によると、ほぼ自律的に動作するAIエージェント群を用いたハッカーが100以上のウェブサイトに侵入し、Reutersの報道ではJohn DeereやSharkNinja、Cumminsなどが被害企業に含まれるとされている。",
+      "title_ja": "CoreWeaveの社債が投資不適格水準に、AI業界の資金調達リスクが表面化",
+      "summary_ja": "AIインフラ企業CoreWeaveの社債利回りが国債に対して1,000ベーシスポイント以上の上乗せとなり、ディストレスト債とされる水準に下落した。これを受けて投資家の間で、AI業界の設備投資拡大がプライベートクレジット市場のバブルではないかとの懸念が指摘されている。",
       "sources": [
         {
           "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+        }
+      ]
+    },
+    {
+      "id": "be38b11f937c",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "DeepSeekモデル向け高速推論フレームワーク「DeepInfer」公開",
+      "summary_ja": "DeepSeekモデル向けの高性能推論フレームワーク「DeepInfer」が公開された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        }
+      ]
+    },
+    {
+      "id": "244c48fc443e",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic、IPO前にクラウド事業者との提携で調達難航と報道",
+      "summary_ja": "Anthropicは11月予定のIPOを前にインフラ投資を拡大する一方、競合と見なすクラウド事業者から十分な計算資源を確保できず苦戦していると報じられている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/"
+        }
+      ]
+    },
+    {
+      "id": "9124fc501335",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "米政府、連邦システムからのDeepSeek排除を指示",
+      "summary_ja": "米政府が国家安全保障上の懸念を理由に、連邦民間機関に対しDeepSeek製品および同社技術を使った第三者サービスの撤去を命じた。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
+        }
+      ]
+    },
+    {
+      "id": "2bb6d52be702",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "Otter.ai、General Catalystから3.2億ドルを調達",
+      "summary_ja": "会議メモ作成ツールのOtter.aiが、General Catalystの成長ファンドから3.2億ドルを調達したと発表した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/"
+        }
+      ]
+    },
+    {
+      "id": "1a1edc372155",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "偽の統計データがLLMに引用される問題",
+      "summary_ja": "虚偽の統計データを公開すると、それがLLMの回答で引用されてしまう問題が指摘されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web"
+        }
+      ]
+    },
+    {
+      "id": "32cbb2d0e83e",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic社内調査、Claudeエージェントの待機時間が8割と判明",
+      "summary_ja": "Anthropicが自社社員のClaude利用状況を分析した報告によると、Claudeのセッション時間の80%はエージェントが人間の入力を待っている時間だという。",
+      "sources": [
+        {
+          "name": "r/ClaudeAI",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xag7e5/anthropics_internal_report_80_of_claude_session/"
+        }
+      ]
+    },
+    {
+      "id": "edff2445aa44",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Meta、AIアシスタント「Muse」の会話共有機能を一時停止",
+      "summary_ja": "Metaは、AIアシスタント「Muse」の会話共有URLが公開DNSレコード経由で6,800件以上外部に漏れていたとセキュリティ企業Claroが指摘したことを受け、共有機能を一時停止した。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
+        }
+      ]
+    },
+    {
+      "id": "4560d3830d9f",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Samsung、AI向けメモリ半導体の新工場を韓国に建設",
+      "summary_ja": "生成AI向けGPUに不可欠な特殊メモリチップの需要増加に対応するため、Samsungが韓国・平澤に大規模な半導体製造拠点を建設中で、既に3つの工場が稼働し4つ目も稼働開始予定である。",
+      "sources": [
+        {
+          "name": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/"
+        }
+      ]
+    },
+    {
+      "id": "917b3e7bcec4",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "エッジ向けTTSモデル「Phonon」がオープンソース化",
+      "summary_ja": "Gradiumがデバイス上で動作する小型音声合成モデル「Phonon」(31Mおよび40M)をオープンソースで公開し、CPU・GPU・NPUなど10種類以上のバックエンドに対応している。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xaw2vt/phonon_is_now_opensource_31m_and_40m_tts_models/"
+        }
+      ]
+    },
+    {
+      "id": "b474f189b05d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Amazon Bedrock、Claudeモデルで構造化出力に対応",
+      "summary_ja": "Amazon BedrockがすべてのAnthropic Claudeモデルで構造化出力をサポートし、JSON Schemaに準拠したレスポンスをカスタム解析なしで取得できるようになった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "0d5cac5e3daf",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA、視覚言語モデル「Nemotron 3.5 Super VL」を公開",
+      "summary_ja": "NVIDIAが画像・テキスト対応モデル「NVIDIA-Nemotron-3.5-Super-VL-120B-A12B」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+        }
+      ]
+    },
+    {
+      "id": "da0915a1e152",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "線形アテンションモデルをAWS Trainium2上で学習・提供する事例を公開",
+      "summary_ja": "i14がAWS Trainium2上でネイティブPyTorchを用いて線形アテンションモデル「Laplace 3B」を学習・提供する手法を公開し、系列長に関わらず再帰状態を1系列あたり29.5MBに固定してメモリ使用量を予測可能にしている。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/"
+        }
+      ]
+    },
+    {
+      "id": "d3749e6f0190",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AWS、実行時にツールを検出する「Agent Registry」機能を発表",
+      "summary_ja": "AWSがエージェントの保有ツールが増大しても対応できるよう、実行時にMCPサーバーやA2Aエージェントをセマンティック検索で発見する「AWS Agent Registry」の仕組みを公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 7.8425,
-    "run_cost_usd": 0.1123,
-    "average_run_usd": 0.1005,
-    "runs_recorded": 81
+    "spent_usd": 7.9674,
+    "run_cost_usd": 0.1249,
+    "average_run_usd": 0.1011,
+    "runs_recorded": 82
   }
 }
