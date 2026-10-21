@@ -1,172 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-14",
-      "id": "8b1ab1df41ac",
-      "title_ja": "Google、Gemini 4 Argonをリリース",
-      "urls": [
-        "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-        "https://deepmind.google/models/gemini/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-        "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "b2fa807e4b0d",
-      "title_ja": "Character.AI、破産申請し資産の一部をDisneyへ売却",
-      "urls": [
-        "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-        "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x57zpx/characterai_files_for_bankruptcy_to_sell_some/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "8bb1da51925f",
-      "title_ja": "NVIDIA RTX Spark、PCアプリ対応が始動",
-      "urls": [
-        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "aa1cf074c866",
-      "title_ja": "AWS、SageMaker向けMoEカーネル最適化を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "a2f578c60a47",
-      "title_ja": "AIラボ、閉鎖スタートアップからデータ購入",
-      "urls": [
-        "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "8d45898e533e",
-      "title_ja": "Higgsfield、AI動画生成の長尺化を実現",
-      "urls": [
-        "https://openai.com/index/higgsfield-longer-videos-voice"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "b7e9a9976189",
-      "title_ja": "AWS、決済可能なAIエージェント構築事例を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "f99ea621acd6",
-      "title_ja": "Meta、新モデルMuse Wonderを公開",
-      "urls": [
-        "https://simonwillison.net/2026/Oct/12/llm-meta-ai/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "5c805f394d6c",
-      "title_ja": "Anthropic、AI能力の閾値に関する分析を公表",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mxr77gpvik2q"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "e2fde687321f",
-      "title_ja": "Aleph-Alpha、推論特化モデルKolibri-1を公開",
-      "urls": [
-        "https://huggingface.co/Aleph-Alpha/Kolibri-1"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "f1305662a1d2",
-      "title_ja": "Shopify、AIエージェントへのカタログ開放を拡大",
-      "urls": [
-        "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "ce8b8b48b5a8",
-      "title_ja": "Epic Games、Disney向けゲーム開発でAI活用を拡大",
-      "urls": [
-        "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "3aa63102ae81",
-      "title_ja": "Amex、AIエージェントの無断購入防止策を導入",
-      "urls": [
-        "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "53911f98c21c",
-      "title_ja": "LiquidAI、オンデバイス向けLFM2.5-24B-A2Bを公開",
-      "urls": [
-        "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x52kco/liquidailfm2524ba2b/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "f0da900404f3",
-      "title_ja": "Orca Security、Bedrockで自然言語セキュリティ検索を構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "6a78f6efee3a",
-      "title_ja": "Intel、D270 GPU AIアクセラレータを発表",
-      "urls": [
-        "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "34dcacc1dfae",
-      "title_ja": "AutoTrust、決定モデルJEV-35Bを公開",
-      "urls": [
-        "https://huggingface.co/autotrust/JEV-35B"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "51e3d24adc70",
-      "title_ja": "Pluto Security、企業向けAIセキュリティで4200万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "5bfc900bb0bf",
-      "title_ja": "ShipStation、Bedrock AgentCoreでAI IT ヘルプデスクを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "id": "89f4f685d9b7",
-      "title_ja": "Science Corporation、視覚回復チップを患者に初移植",
-      "urls": [
-        "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/"
-      ]
-    },
-    {
       "date": "2026-10-15",
       "id": "eb79656c925c",
       "title_ja": "Qwen3.8-Flash-Next、画像テキスト対応モデルとして公開",
@@ -1116,6 +950,172 @@
       "title_ja": "AWS、実行時にツールを検出する「Agent Registry」機能を発表",
       "urls": [
         "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "b56a338ff1e7",
+      "title_ja": "中国大手3社がNvidia製チップを350億ドル超発注",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "cdc94824f023",
+      "title_ja": "Meta、AI投資資金調達へ新株式クラスを発行",
+      "urls": [
+        "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "1ef243007176",
+      "title_ja": "Mistral、新モデル「Mistral Large 4」を公開",
+      "urls": [
+        "https://mistral.ai/news/mistral-large-4/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "258d5ff776fa",
+      "title_ja": "Anthropic、AIエージェント「Claude Duet」を発表",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+        "https://claude.com/product/claude-duet"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "95dedf578de7",
+      "title_ja": "OpenAIのモデル群がGoogle Cloudに提供開始",
+      "urls": [
+        "https://openai.com/index/openai-models-google-cloud",
+        "https://openai.com/index/openai-models-google-cloud/",
+        "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "bb132bf741e1",
+      "title_ja": "Recursive、コーディングモデル「Flint」をOllamaに提供",
+      "urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.8",
+        "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "dd62bb078550",
+      "title_ja": "Walmart、AIエージェントによる購買を解禁",
+      "urls": [
+        "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "8eaa1a0c5360",
+      "title_ja": "OpenAIのエージェントが安全監視を無効化し虚偽報告",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "178f902415d1",
+      "title_ja": "推論高速化手法「Eagle-4」が公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xb6zds/eagle4_released_faster_than_dflash2_dspark/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "17ca5ebcc0e1",
+      "title_ja": "OpenAI Python SDK v3.36.0がリリース",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.36.0"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "8722385c6c33",
+      "title_ja": "NVIDIA、GTC Berlinでローカル向けAIハードウェアを展示",
+      "urls": [
+        "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "de9db6f384cb",
+      "title_ja": "脆弱性対応を調整する「Patch the Planet」始動",
+      "urls": [
+        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "e75bb6768e87",
+      "title_ja": "Samsung、2027年分HBM容量が完売、価格高騰の見通し",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "10cc2c9d94e7",
+      "title_ja": "AIによる脆弱性発見増加で企業のパッチ対応が逼迫",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3myffkbheuc2e"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "b7884da985bf",
+      "title_ja": "Baidu、OCRモデル「Unlimited-OCR」をHugging Faceに公開",
+      "urls": [
+        "https://huggingface.co/baidu/Unlimited-OCR"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "ff933de51848",
+      "title_ja": "OpenBMB、35B規模MoEモデルをiPhoneで動作",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xbmsgf/35b_moe_running_at_205_toks_on_an_iphone_without/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "6bf82841932d",
+      "title_ja": "Mistral、NVIDIAとAIエンジニアリング分野で協業",
+      "urls": [
+        "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "12c1cb38a75e",
+      "title_ja": "Google CloudとNVIDIA、Vera Rubin基盤を一般提供開始",
+      "urls": [
+        "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "d46c8940730c",
+      "title_ja": "NVIDIA、欧州向けにオープンモデル群を拡充",
+      "urls": [
+        "https://blogs.nvidia.com/blog/open-models-europe-industry/"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": "64ddfb139fec",
+      "title_ja": "数千のAIエージェントで生物学研究データから新知見を発見",
+      "urls": [
+        "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+        "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
       ]
     }
   ]
