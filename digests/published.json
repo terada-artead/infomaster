@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-15",
-      "id": "eb79656c925c",
-      "title_ja": "Qwen3.8-Flash-Next、画像テキスト対応モデルとして公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricks、動画生成モデルLTX-2.5をHugging Faceに公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "0acbf9d39fb0",
-      "title_ja": "Tamnoon、Bedrockで自律型クラウドセキュリティ修復を実現",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "004cd593adab",
-      "title_ja": "SentinelOne、OpenAI Daybreakでマルウェア分析を大幅短縮",
-      "urls": [
-        "https://openai.com/index/sentinelone"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "779fba837235",
-      "title_ja": "AWS、Bedrock AgentCoreで自己改善型文書処理システムを解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "410be8fc6cbb",
-      "title_ja": "NVIDIA、Nemotron Bolt 3.5 74Bを10月15日リリース",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "e7b2c4bb55de",
-      "title_ja": "OpenBMB、オンデバイス動作のMoE型マルチモーダルモデルを公開",
-      "urls": [
-        "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "57c3309db5be",
-      "title_ja": "Amp、OpenAIの新モデル群でコード以外の業務にもエージェント活用",
-      "urls": [
-        "https://openai.com/index/amp-beyond-coding"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "36a7e1c23fbb",
-      "title_ja": "Google DeepMind、シンガポール政府とGemmaで詐欺検知モデル開発",
-      "urls": [
-        "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "7971a844816f",
-      "title_ja": "AWS、Bedrock AgentCoreでプレゼン資料自動生成を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "e4249aa490a6",
-      "title_ja": "Zenzap、職場向けAIチャットアプリで44百万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "bf4176bf7e1b",
-      "title_ja": "ASML、好調な受注でAI投資継続への懸念を緩和",
-      "urls": [
-        "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "3660bad241b6",
-      "title_ja": "中国のオープンモデル、米国のクローズドモデルとの差は7か月",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x5pjv7/the_ai_race_chinas_openweight_models_trail_us/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "504a28fcb44d",
-      "title_ja": "HiRO-ACEv2、低コストで3km解像度の異常気象シミュレーションを実現",
-      "urls": [
-        "https://huggingface.co/blog/allenai/hiro-acev2"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "0a3035ce11f2",
-      "title_ja": "The Verge、AI開発競争の再激化を指摘",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "f1d896ad4391",
-      "title_ja": "OpenAI Python SDK v3.31.0、ブラウザ・コンピュータツールセット追加",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.31.0"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "6ee455e9d355",
-      "title_ja": "Fish Audio、多話者対応の音声合成モデルDrama 3を公開",
-      "urls": [
-        "https://huggingface.co/fishaudio/drama-3"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "a8b8c31de898",
-      "title_ja": "Third Moment Research、GPT-6系モデルで1万エージェントを36時間超稼働",
-      "urls": [
-        "https://openai.com/index/third-moment-research"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "eee6cc87fc10",
-      "title_ja": "NVIDIA、英国スタートアップ支援に5年250百万ドルの計算資源を投資",
-      "urls": [
-        "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "id": "5a503e3d62a8",
-      "title_ja": "Apate、詐欺情報収集のためAIエージェントを「潜入」させる",
-      "urls": [
-        "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/"
-      ]
-    },
-    {
       "date": "2026-10-16",
       "id": "b655aadac97a",
       "title_ja": "NVIDIA、Nemotron 3.5 Super VLとBoltモデルを公開",
@@ -1116,6 +955,167 @@
       "urls": [
         "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
         "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "891b7e0bbf66",
+      "title_ja": "OpenAI、低コスト判断処理向けDecisions APIを発表",
+      "urls": [
+        "https://openai.com/index/decisions-api"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "812abe3aa79b",
+      "title_ja": "DeepSeek、米規制後に150億ドル調達と報道",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "c115ce57a51e",
+      "title_ja": "ClaudeがGoogle Docs・Sheets・Slidesに対応",
+      "urls": [
+        "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "c479324c7490",
+      "title_ja": "Amazon Polly、Generative音声エンジンを大幅刷新",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "f8df91dc1419",
+      "title_ja": "NVIDIA、世界モデル構築基盤Cosmosを拡張",
+      "urls": [
+        "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "8042c4cdf6b9",
+      "title_ja": "OpenAI、CLIツールを公開",
+      "urls": [
+        "https://github.com/openai/openai-cli"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "fe398319a3a9",
+      "title_ja": "1.58ビットの軽量TTS「Kitten-TTS 2」がオープンソース公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "84ed782f0df0",
+      "title_ja": "AIによる攻防の高速化、専門家が警鐘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mygfwzgdc22g"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "af6b159eb6ea",
+      "title_ja": "NVIDIA、AIファクトリー向け観測基盤Minervaを発表",
+      "urls": [
+        "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "6af0fd42e696",
+      "title_ja": "中国系ハッカー、AIエージェントでConnectWiseを侵害",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "c456f043e53d",
+      "title_ja": "Meta、AI投資資金調達のため新株式クラス創設へ",
+      "urls": [
+        "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "2f38489938aa",
+      "title_ja": "Anthropic、Agent SkillsをAgentic AI Foundationに寄贈",
+      "urls": [
+        "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "08577d1558fa",
+      "title_ja": "AWS SageMaker、GPU管理不要のサーバーレス学習カスタマイズが一般提供",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "6f92d2956556",
+      "title_ja": "NVIDIA DSX、AIファクトリーの電力制約解消に活用",
+      "urls": [
+        "https://blogs.nvidia.com/blog/dsx-power/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "054347e9fabb",
+      "title_ja": "欧州各国、NVIDIA Earth-2の気象予測モデルを導入",
+      "urls": [
+        "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "6eb73169f84c",
+      "title_ja": "自律AIエージェント群向けランタイム「OpenShell」公開",
+      "urls": [
+        "https://github.com/NVIDIA/OpenShell"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "eda525050cea",
+      "title_ja": "Uber、全従業員3万人にChatGPT Workを展開",
+      "urls": [
+        "https://openai.com/index/uber-chatgpt-work-rollout",
+        "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "4ab186bcd5d9",
+      "title_ja": "欧州金融機関、独自知能基盤にオープンモデル採用",
+      "urls": [
+        "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "264af0525447",
+      "title_ja": "1Password、AIエージェントがパスワードを見ずにログインできる機能を発表",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": "c8127c2e5751",
+      "title_ja": "エンタープライズAI、モデル選定より周辺構築が競争優位に",
+      "urls": [
+        "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
       ]
     }
   ]
