@@ -1,287 +1,287 @@
 {
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23T07:16:47+09:00",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T07:01:56+09:00",
   "stats": {
-    "collected": 123,
-    "fresh": 111,
-    "selected": 56,
+    "collected": 97,
+    "fresh": 89,
+    "selected": 32,
     "published": 20
   },
   "highlights": [
-    "DeepSeekが米規制直後に150億ドル調達と報道",
-    "OpenAIがDecisions APIを発表、低コスト判断処理に対応",
-    "中国系ハッカーがAIエージェントでConnectWiseを侵害"
+    "OpenAIが評価額1.25兆ドルで300億ドル調達を計画",
+    "Lightricks・NVIDIA・Recursiveなどから新モデルが相次いで公開",
+    "Anthropic Opus 4.8が査読実験で人間専門家を上回ったと報告"
   ],
   "items": [
     {
-      "id": "891b7e0bbf66",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "OpenAI、低コスト判断処理向けDecisions APIを発表",
-      "summary_ja": "OpenAIはアプリケーション向けに高速・低コストな意思決定処理を提供する「Decisions API」を発表した。これにより開発者はアプリ内でLLMを都度呼び出さずに、焦点を絞った判断処理を組み込める。推論コストを抑えつつレスポンシブなアプリを構築したいチームに有用な選択肢となる。",
-      "sources": [
-        {
-          "name": "OpenAI News",
-          "url": "https://openai.com/index/decisions-api"
-        }
-      ]
-    },
-    {
-      "id": "812abe3aa79b",
+      "id": "0e6b7b9249b2",
       "importance": "high",
       "category": "funding",
-      "title_ja": "DeepSeek、米規制後に150億ドル調達と報道",
-      "summary_ja": "DeepSeekが中国最大級の資金調達の一つとなる150億ドルを調達したと報じられている。これは米国が連邦機関に同社技術の排除を命じた直後のタイミングであり、米中AI競争の構図に影響を与える動きとして注目される。",
+      "title_ja": "OpenAI、評価額1.25兆ドルで300億ドル調達へ",
+      "summary_ja": "OpenAIがIPOを見据え、評価額1.25兆ドルで新たに300億ドルを調達する計画を進めていると報じられた。この評価額が実現すれば、非上場企業として過去最高額となる。資金調達の規模と評価額は、AI業界の投資動向や競合他社との資金力比較の指標として注目される。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
         }
       ]
     },
     {
-      "id": "c115ce57a51e",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "ClaudeがGoogle Docs・Sheets・Slidesに対応",
-      "summary_ja": "AnthropicのClaudeがGoogle Docs、Sheets、Slidesと連携できるようになった。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
-        }
-      ]
-    },
-    {
-      "id": "c479324c7490",
+      "id": "92c1824269f4",
       "importance": "high",
       "category": "product",
-      "title_ja": "Amazon Polly、Generative音声エンジンを大幅刷新",
-      "summary_ja": "Amazon PollyのGenerativeエンジンが大幅にアップグレードされ、低遅延のまま表現力と精度が向上し、9言語で14種の新音声が追加された。ヒンディー語とフィンランド語も一般提供となり、コード変更不要で既存利用者にそのまま適用される。音声合成を使うプロダクトは無改修で品質向上の恩恵を受けられる。",
+      "title_ja": "Lightricks、画像・動画生成モデルLTX-2.5を公開",
+      "summary_ja": "Lightricksが画像から動画、テキストから動画など複数タスクに対応する新モデル「LTX-2.5」をHugging Faceで公開し、短期間で200万件超のダウンロードを記録している。音声からの動画生成やテキストから音声生成にも対応しており、動画・音声系マルチモーダル案件での活用が期待できる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "8c177b37ece0",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "NVIDIA、軽量VLM「Nemotron 3.5 Bolt E4B」を公開",
+      "summary_ja": "NVIDIAがGemma 4ベースの軽量ビジョン言語モデル「Nemotron 3.5 Bolt E4B」を公開し、ollamaでも利用可能になった。128Kトークンのコンテキストと投機的デコード用のDFlashドラフトを備え、ローカル環境での音声アシスタントや画像理解、ツール利用に適しており、エッジ用途での低コスト推論に活用できる。",
+      "sources": [
+        {
+          "name": "GitHub ollama/ollama",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/"
+        }
+      ]
+    },
+    {
+      "id": "6c5b89fb0ac8",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Recursive、コーディング特化MoEモデルFlintを公開",
+      "summary_ja": "Recursiveがコーディングエージェント向けのMoE言語モデル「Flint」を公開した。総パラメータ398億（アクティブ約25億）で、SWE-bench Verifiedで74.2%、SWE-bench Pro v2で89.7%を記録しており、自律的なバグ修正・機能実装エージェントの構築に利用できる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/RecursiveSI/flint"
+        }
+      ]
+    },
+    {
+      "id": "b535efb45286",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Bayer、Bedrock AgentCoreで農業分析AIエージェント構築",
+      "summary_ja": "Bayer Crop ScienceがAmazon Bedrock AgentCore上に自然言語で問い合わせ可能なマルチエージェント分析基盤「ADE」を構築した。",
       "sources": [
         {
           "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/"
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/"
         }
       ]
     },
     {
-      "id": "f8df91dc1419",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "NVIDIA、世界モデル構築基盤Cosmosを拡張",
-      "summary_ja": "NVIDIAは物理AIが実世界を理解・シミュレートするための世界モデル構築を支援するCosmosプラットフォームを拡張し、新たな学習ツール、シミュレーションチェックポイント、Cosmos Data Factoryブループリントを追加した。同プラットフォームは6つの公開モデルリーダーボードで上位5位以内にランクしており、フロンティア級のオープンな基盤を提供する。世界モデルを扱う開発者にとって実装コストを下げる選択肢となる。",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
-        }
-      ]
-    },
-    {
-      "id": "8042c4cdf6b9",
+      "id": "5eee804247a4",
       "importance": "medium",
       "category": "product",
-      "title_ja": "OpenAI、CLIツールを公開",
-      "summary_ja": "OpenAIがコマンドラインから利用できるCLIツールを公開した。",
+      "title_ja": "Canva、設計を事前計画する画像生成モデルCraftを発表",
+      "summary_ja": "Canvaが2段階アーキテクチャでデザインを事前計画してから画像を生成する独自モデル「Canva Craft」を発表した。",
       "sources": [
         {
-          "name": "Hacker News",
-          "url": "https://github.com/openai/openai-cli"
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
         }
       ]
     },
     {
-      "id": "fe398319a3a9",
+      "id": "9e0308113d32",
       "importance": "medium",
-      "category": "product",
-      "title_ja": "1.58ビットの軽量TTS「Kitten-TTS 2」がオープンソース公開",
-      "summary_ja": "KittenMLがCPUのみでリアルタイム動作する1.58ビットの音声合成モデル「Kitten-TTS 2」をコードと重みごと公開した。ゼロショット音声クローン、多言語対応、感情・強調制御を備え、GPU不要で安価に自前運用できる。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/"
-        }
-      ]
-    },
-    {
-      "id": "84ed782f0df0",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "AIによる攻防の高速化、専門家が警鐘",
-      "summary_ja": "AI分野の専門家が、攻撃と防御がAIにより人間離れした速度で加速している兆候が可視化されていると指摘している。",
-      "sources": [
-        {
-          "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mygfwzgdc22g"
-        }
-      ]
-    },
-    {
-      "id": "af6b159eb6ea",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "NVIDIA、AIファクトリー向け観測基盤Minervaを発表",
-      "summary_ja": "NVIDIAはAIファクトリー運用の問題を早期発見し生産性を維持するためのAIOpsプラットフォーム「Minerva」を発表した。インフラとAIワークロードのテレメトリを統合し、専用AIモデルで実用的な洞察に変換する。複雑化するAI基盤運用の可視化を求める運用チームに直接役立つ。",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
-        }
-      ]
-    },
-    {
-      "id": "6af0fd42e696",
-      "importance": "high",
-      "category": "business",
-      "title_ja": "中国系ハッカー、AIエージェントでConnectWiseを侵害",
-      "summary_ja": "Microsoftによれば、中国寄りのハッカー集団がAIエージェントを用いてITベンダーConnectWiseに侵入し、数千社の顧客情報を窃取した。AIエージェントが攻撃の高速化・自動化に実際に使われた事例として、企業のセキュリティ対策見直しを迫る内容となっている。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
-        }
-      ]
-    },
-    {
-      "id": "c456f043e53d",
-      "importance": "high",
-      "category": "funding",
-      "title_ja": "Meta、AI投資資金調達のため新株式クラス創設へ",
-      "summary_ja": "Metaは広範なAIモデル・サービスへの投資資金を賄うため、新たな株式クラスを創設する計画を進めている。資金調達手法の転換は、AI投資の規模拡大に伴う資金戦略の変化を示す。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
-        }
-      ]
-    },
-    {
-      "id": "2f38489938aa",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Anthropic、Agent SkillsをAgentic AI Foundationに寄贈",
-      "summary_ja": "AnthropicはAgent Skills標準を、Linux Foundation傘下のAgentic AI Foundation（AAIF）に寄贈し、オープンでベンダー中立な運営を目指すと発表した。",
+      "category": "new_model",
+      "title_ja": "Moonshot、Kimi K3.1 ProをAPIで提供開始",
+      "summary_ja": "MoonshotがKimi K3.1 ProをAPIで公開し、重みは2026年11月4日までに公開予定とされている。",
       "sources": [
         {
           "name": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+          "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
         }
       ]
     },
     {
-      "id": "08577d1558fa",
+      "id": "17a3763d668e",
       "importance": "medium",
       "category": "product",
-      "title_ja": "AWS SageMaker、GPU管理不要のサーバーレス学習カスタマイズが一般提供",
-      "summary_ja": "Amazon SageMaker AIのサーバーレスモデルカスタマイズに「training sessions」機能が一般提供された。ユーザーは独自の損失関数や報酬信号、マルチターン強化学習のループを書くだけで、GPU割り当てや分散実行、障害復旧、チェックポイント保存はSageMakerが処理する。",
+      "title_ja": "Claude Opus 4.8、学術論文の査読実験で人間専門家を上回る",
+      "summary_ja": "ハーバード大学の社会科学論文124本を対象にした査読実験で、Claude Opus 4.8が全ての評価軸で人間の専門家査読者を上回ったと報告された。",
       "sources": [
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/"
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myjcs6g7zc2q"
         }
       ]
     },
     {
-      "id": "6f92d2956556",
+      "id": "6ee455e9d355",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Fish Audio、長編向けTTSモデルDrama 3を公開",
+      "summary_ja": "Fish Audioが複数話者の長編音声生成に対応するMoE構成の音声合成モデル「Drama 3」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/fishaudio/drama-3"
+        }
+      ]
+    },
+    {
+      "id": "f07d0bb3b14f",
       "importance": "medium",
       "category": "business",
-      "title_ja": "NVIDIA DSX、AIファクトリーの電力制約解消に活用",
-      "summary_ja": "各社がNVIDIA DSX AI Factory Platformを使い、変電所からラックまで電力網とAI施設を一つのシステムとして計画・シミュレーション・運用している。電力はインフラの最大のボトルネックとなっており、3000億ドル超の投資が動いている。",
+      "title_ja": "カザフスタン、AI向け計算基盤の整備を拡大",
+      "summary_ja": "カザフスタンがNVIDIA CEOの訪問に合わせ、AIインフラからモデル、アプリケーションに至るまで計算基盤の拡大を発表した。",
       "sources": [
         {
           "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/dsx-power/"
+          "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/"
         }
       ]
     },
     {
-      "id": "054347e9fabb",
+      "id": "19dea22ac3c7",
       "importance": "medium",
-      "category": "product",
-      "title_ja": "欧州各国、NVIDIA Earth-2の気象予測モデルを導入",
-      "summary_ja": "欧州の開発者・研究者がNVIDIA Earth-2のオープンモデルを用いて、エネルギーや保険、輸送分野向けの実運用レベルの気象・気候予測を構築している。",
+      "category": "business",
+      "title_ja": "AIラボ内部モデルと公開モデルの差拡大を懸念する指摘",
+      "summary_ja": "安全性や研究上の優位性を理由に、AIラボの内部モデルと公開モデルの性能差が拡大しており、金融・バイオ分野への直接参入の誘因になりうるとの指摘がなされた。",
       "sources": [
         {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/"
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mykox5d5k22o"
         }
       ]
     },
     {
-      "id": "6eb73169f84c",
+      "id": "2b3f616d26d3",
       "importance": "medium",
-      "category": "product",
-      "title_ja": "自律AIエージェント群向けランタイム「OpenShell」公開",
-      "summary_ja": "自律的に動作するAIエージェント群を安全かつプライベートに実行するためのランタイム「OpenShell」が公開された。",
+      "category": "tool",
+      "title_ja": "Hugging Face、AWS Trainium対応モデル検索ツールを公開",
+      "summary_ja": "Hugging FaceがモデルがAWS Trainium上で動作するかを調べられる検索ツールを公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/torch-neuronx-model-support"
+        }
+      ]
+    },
+    {
+      "id": "cf51e24baa15",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "inDrive、カザフスタンで2027年のロボタクシー試験を計画",
+      "summary_ja": "UberのライバルinDriveが、Pony.aiとNVIDIAの協力のもと2027年前半にカザフスタンの首都でロボタクシーの試験を開始する計画だと報じられた。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+        }
+      ]
+    },
+    {
+      "id": "f6a301346a05",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "LLMによる形式検証、大規模化が現実的にとの議論",
+      "summary_ja": "LLMの活用により、ソフトウェアの形式的検証がより大規模に実施可能になりつつあるとの議論がHacker Newsで取り上げられた。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://github.com/NVIDIA/OpenShell"
+          "url": "https://www.anthropic.com/research/formal-verification"
         }
       ]
     },
     {
-      "id": "eda525050cea",
+      "id": "49cfabc61c2b",
       "importance": "medium",
-      "category": "business",
-      "title_ja": "Uber、全従業員3万人にChatGPT Workを展開",
-      "summary_ja": "UberはOpenAIのChatGPT Workを全従業員3万人以上に展開し、小規模パイロットから全社展開に移行した。リサーチやデータ分析、資料作成、複雑なワークフロー遂行を支援する用途で、大企業の全社AI導入事例として参考になる。",
+      "category": "tool",
+      "title_ja": "llama.cpp、Qwen向けにVRAM節約のQSA選択実装",
+      "summary_ja": "llama.cppにkq_maskを使わないQSA選択の実装が追加され、Qwen Flash NextでVRAM使用量を削減できるという。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/"
+        }
+      ]
+    },
+    {
+      "id": "51888f116f5b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ThinkingBox、DB採点をRL報酬に変換する手法を公開",
+      "summary_ja": "Hugging Faceのブログで、データベースによる採点結果を強化学習の報酬に変換してエージェントを後段学習する手法「ThinkingBox」が紹介された。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+        }
+      ]
+    },
+    {
+      "id": "f8a90ed57699",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Anthropic、Python SDK v2.2.0をリリース",
+      "summary_ja": "AnthropicがPython SDKのv2.2.0をリリースし、メッセージスレッド対応やツールランナーの挙動修正などが加えられた。",
+      "sources": [
+        {
+          "name": "GitHub anthropics/anthropic-sdk-python",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0"
+        }
+      ]
+    },
+    {
+      "id": "ee4c22366ef7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、ChatGPT向けオンラインストレージ基盤を解説",
+      "summary_ja": "OpenAIが10億人超のChatGPTユーザーを支えるオンラインストレージ基盤「Habitat」の拡張について、Azure Cosmos DB活用などを交えて解説した。",
       "sources": [
         {
           "name": "OpenAI News",
-          "url": "https://openai.com/index/uber-chatgpt-work-rollout"
-        },
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
         }
       ]
     },
     {
-      "id": "4ab186bcd5d9",
+      "id": "c6dba218462c",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AWS、SageMakerでのマルチターン強化学習ガイドを公開",
+      "summary_ja": "AWSがAmazon SageMaker AI上でWordleを題材にマルチターン強化学習を実施する実践ガイドを公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/"
+        }
+      ]
+    },
+    {
+      "id": "6961cf70fece",
       "importance": "medium",
       "category": "business",
-      "title_ja": "欧州金融機関、独自知能基盤にオープンモデル採用",
-      "summary_ja": "NVIDIA GTCベルリンで、Revolutなど欧州の銀行・決済・金融データ企業が自社インフラ上でオープンウェイトモデルを運用し、独自の知能基盤を構築する事例が示された。",
+      "title_ja": "スウェーデン政府、ChatGPTとClaudeの利用を禁止へ",
+      "summary_ja": "スウェーデン政府機関がChatGPTとClaudeの業務利用を禁止する方針だと報じられた。",
       "sources": [
         {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/"
-        }
-      ]
-    },
-    {
-      "id": "264af0525447",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "1Password、AIエージェントがパスワードを見ずにログインできる機能を発表",
-      "summary_ja": "1Passwordは、AIエージェントが顧客のパスワードそのものに触れることなく個人アカウントへログインできる新機能を発表した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
-        }
-      ]
-    },
-    {
-      "id": "c8127c2e5751",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "エンタープライズAI、モデル選定より周辺構築が競争優位に",
-      "summary_ja": "MIT Technology Reviewは、エンタープライズAIの競争優位性がモデル自体の性能よりも、その周辺に構築する提供基盤（サービングハーネス）の設計に移りつつあると論じている。",
-      "sources": [
-        {
-          "name": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+          "name": "Hacker News",
+          "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 8.2181,
-    "run_cost_usd": 0.1271,
-    "average_run_usd": 0.1029,
-    "runs_recorded": 84
+    "spent_usd": 8.3318,
+    "run_cost_usd": 0.1137,
+    "average_run_usd": 0.1054,
+    "runs_recorded": 85
   }
 }

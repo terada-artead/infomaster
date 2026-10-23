@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-16",
-      "id": "b655aadac97a",
-      "title_ja": "NVIDIA、Nemotron 3.5 Super VLとBoltモデルを公開",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "51edf4c64381",
-      "title_ja": "Mistral AI、確率的予測モデルTimestralを発表",
-      "urls": [
-        "https://mistral.ai/news/timestral/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "782d5b0065aa",
-      "title_ja": "Anthropic、IPO前に四半期売上の急成長を投資家に説明",
-      "urls": [
-        "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "f727b4e1831e",
-      "title_ja": "llama.cpp v0.7.0、投機的デコードとMoEキャッシュを追加",
-      "urls": [
-        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "20dfecfa26f1",
-      "title_ja": "Anthropic、METR研究者に社員級アクセスを付与",
-      "urls": [
-        "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "75bb450ac9ab",
-      "title_ja": "Hugging Face Transformers v5.20.0、Muse Spark Open対応",
-      "urls": [
-        "https://github.com/huggingface/transformers/releases/tag/v5.20.0"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "d33064359577",
-      "title_ja": "Granite Switch 4.1、マルチモーダルモデルを発表",
-      "urls": [
-        "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "5f4607f9d7d2",
-      "title_ja": "AWS、AIエージェント向け「Trust in Depth」手法を提唱",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "b78f437ea8f9",
-      "title_ja": "Recursive Intelligence、AIによるチップ設計を開発",
-      "urls": [
-        "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "07a9efc843a0",
-      "title_ja": "LiquidAI、オンデバイス向けLFM2.5-24B-A2Bを公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "32165ee6af89",
-      "title_ja": "OpenAI、生命科学研究向けRosalind学術プランを開始",
-      "urls": [
-        "https://openai.com/index/introducing-the-rosalind-academic-plan"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "a4dc299544df",
-      "title_ja": "Meta・Apple連携でオープン重みモデルMuse Spark Open公開",
-      "urls": [
-        "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "4e50efa7abaa",
-      "title_ja": "Google、マルチモーダル埋め込みモデルEmbeddingGemma-2公開",
-      "urls": [
-        "https://huggingface.co/google/embeddinggemma-2"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "f2f6f0e7a83f",
-      "title_ja": "Amazon、アプリ不要のアンビエントAIデバイス構想を語る",
-      "urls": [
-        "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "003647c313b9",
-      "title_ja": "FTC、Anthropic・OpenAIの違反を調査中と報道",
-      "urls": [
-        "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "30228237199a",
-      "title_ja": "OpenBMB、軽量マルチモーダルモデルMiniCPM-V-4.7-1B公開",
-      "urls": [
-        "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "50150b2440ea",
-      "title_ja": "Krea 3、大規模編集向け画像モデルを公開",
-      "urls": [
-        "https://www.krea.ai/krea-3"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "cfc122f3d72d",
-      "title_ja": "Stepfun、大規模言語モデルStep-5-Previewを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x6dx5x/stepfun_step5preview_released_600b27b1m_context/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "ad09b0946a60",
-      "title_ja": "Google DeepMind、抗菌ペプチド探索にAntigravityを活用",
-      "urls": [
-        "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "id": "46e7cecee360",
-      "title_ja": "NVIDIA、RTX Sparkノート発売イベントを開催",
-      "urls": [
-        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-        "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad"
-      ]
-    },
-    {
       "date": "2026-10-17",
       "id": "ad81c0b49307",
       "title_ja": "Reflection AI、オープンウェイトの501Bモデル「Beam」公開",
@@ -1116,6 +954,167 @@
       "title_ja": "エンタープライズAI、モデル選定より周辺構築が競争優位に",
       "urls": [
         "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "0e6b7b9249b2",
+      "title_ja": "OpenAI、評価額1.25兆ドルで300億ドル調達へ",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "92c1824269f4",
+      "title_ja": "Lightricks、画像・動画生成モデルLTX-2.5を公開",
+      "urls": [
+        "https://huggingface.co/Lightricks/LTX-2.5"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "8c177b37ece0",
+      "title_ja": "NVIDIA、軽量VLM「Nemotron 3.5 Bolt E4B」を公開",
+      "urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.10",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "6c5b89fb0ac8",
+      "title_ja": "Recursive、コーディング特化MoEモデルFlintを公開",
+      "urls": [
+        "https://huggingface.co/RecursiveSI/flint"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "b535efb45286",
+      "title_ja": "Bayer、Bedrock AgentCoreで農業分析AIエージェント構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "5eee804247a4",
+      "title_ja": "Canva、設計を事前計画する画像生成モデルCraftを発表",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "9e0308113d32",
+      "title_ja": "Moonshot、Kimi K3.1 ProをAPIで提供開始",
+      "urls": [
+        "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "17a3763d668e",
+      "title_ja": "Claude Opus 4.8、学術論文の査読実験で人間専門家を上回る",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3myjcs6g7zc2q"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "6ee455e9d355",
+      "title_ja": "Fish Audio、長編向けTTSモデルDrama 3を公開",
+      "urls": [
+        "https://huggingface.co/fishaudio/drama-3"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "f07d0bb3b14f",
+      "title_ja": "カザフスタン、AI向け計算基盤の整備を拡大",
+      "urls": [
+        "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "19dea22ac3c7",
+      "title_ja": "AIラボ内部モデルと公開モデルの差拡大を懸念する指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mykox5d5k22o"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "2b3f616d26d3",
+      "title_ja": "Hugging Face、AWS Trainium対応モデル検索ツールを公開",
+      "urls": [
+        "https://huggingface.co/blog/torch-neuronx-model-support"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "cf51e24baa15",
+      "title_ja": "inDrive、カザフスタンで2027年のロボタクシー試験を計画",
+      "urls": [
+        "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "f6a301346a05",
+      "title_ja": "LLMによる形式検証、大規模化が現実的にとの議論",
+      "urls": [
+        "https://www.anthropic.com/research/formal-verification"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "49cfabc61c2b",
+      "title_ja": "llama.cpp、Qwen向けにVRAM節約のQSA選択実装",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "51888f116f5b",
+      "title_ja": "ThinkingBox、DB採点をRL報酬に変換する手法を公開",
+      "urls": [
+        "https://huggingface.co/blog/microsoft/thinkingbox-training"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "f8a90ed57699",
+      "title_ja": "Anthropic、Python SDK v2.2.0をリリース",
+      "urls": [
+        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "ee4c22366ef7",
+      "title_ja": "OpenAI、ChatGPT向けオンラインストレージ基盤を解説",
+      "urls": [
+        "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "c6dba218462c",
+      "title_ja": "AWS、SageMakerでのマルチターン強化学習ガイドを公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": "6961cf70fece",
+      "title_ja": "スウェーデン政府、ChatGPTとClaudeの利用を禁止へ",
+      "urls": [
+        "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
       ]
     }
   ]

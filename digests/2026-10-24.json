@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T07:01:56+09:00",
+  "stats": {
+    "collected": 97,
+    "fresh": 89,
+    "selected": 32,
+    "published": 20
+  },
+  "highlights": [
+    "OpenAIが評価額1.25兆ドルで300億ドル調達を計画",
+    "Lightricks・NVIDIA・Recursiveなどから新モデルが相次いで公開",
+    "Anthropic Opus 4.8が査読実験で人間専門家を上回ったと報告"
+  ],
+  "items": [
+    {
+      "id": "0e6b7b9249b2",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "OpenAI、評価額1.25兆ドルで300億ドル調達へ",
+      "summary_ja": "OpenAIがIPOを見据え、評価額1.25兆ドルで新たに300億ドルを調達する計画を進めていると報じられた。この評価額が実現すれば、非上場企業として過去最高額となる。資金調達の規模と評価額は、AI業界の投資動向や競合他社との資金力比較の指標として注目される。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+        }
+      ]
+    },
+    {
+      "id": "92c1824269f4",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Lightricks、画像・動画生成モデルLTX-2.5を公開",
+      "summary_ja": "Lightricksが画像から動画、テキストから動画など複数タスクに対応する新モデル「LTX-2.5」をHugging Faceで公開し、短期間で200万件超のダウンロードを記録している。音声からの動画生成やテキストから音声生成にも対応しており、動画・音声系マルチモーダル案件での活用が期待できる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "8c177b37ece0",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "NVIDIA、軽量VLM「Nemotron 3.5 Bolt E4B」を公開",
+      "summary_ja": "NVIDIAがGemma 4ベースの軽量ビジョン言語モデル「Nemotron 3.5 Bolt E4B」を公開し、ollamaでも利用可能になった。128Kトークンのコンテキストと投機的デコード用のDFlashドラフトを備え、ローカル環境での音声アシスタントや画像理解、ツール利用に適しており、エッジ用途での低コスト推論に活用できる。",
+      "sources": [
+        {
+          "name": "GitHub ollama/ollama",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/"
+        }
+      ]
+    },
+    {
+      "id": "6c5b89fb0ac8",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Recursive、コーディング特化MoEモデルFlintを公開",
+      "summary_ja": "Recursiveがコーディングエージェント向けのMoE言語モデル「Flint」を公開した。総パラメータ398億（アクティブ約25億）で、SWE-bench Verifiedで74.2%、SWE-bench Pro v2で89.7%を記録しており、自律的なバグ修正・機能実装エージェントの構築に利用できる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/RecursiveSI/flint"
+        }
+      ]
+    },
+    {
+      "id": "b535efb45286",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Bayer、Bedrock AgentCoreで農業分析AIエージェント構築",
+      "summary_ja": "Bayer Crop ScienceがAmazon Bedrock AgentCore上に自然言語で問い合わせ可能なマルチエージェント分析基盤「ADE」を構築した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/"
+        }
+      ]
+    },
+    {
+      "id": "5eee804247a4",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Canva、設計を事前計画する画像生成モデルCraftを発表",
+      "summary_ja": "Canvaが2段階アーキテクチャでデザインを事前計画してから画像を生成する独自モデル「Canva Craft」を発表した。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+        }
+      ]
+    },
+    {
+      "id": "9e0308113d32",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "Moonshot、Kimi K3.1 ProをAPIで提供開始",
+      "summary_ja": "MoonshotがKimi K3.1 ProをAPIで公開し、重みは2026年11月4日までに公開予定とされている。",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+        }
+      ]
+    },
+    {
+      "id": "17a3763d668e",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Claude Opus 4.8、学術論文の査読実験で人間専門家を上回る",
+      "summary_ja": "ハーバード大学の社会科学論文124本を対象にした査読実験で、Claude Opus 4.8が全ての評価軸で人間の専門家査読者を上回ったと報告された。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3myjcs6g7zc2q"
+        }
+      ]
+    },
+    {
+      "id": "6ee455e9d355",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Fish Audio、長編向けTTSモデルDrama 3を公開",
+      "summary_ja": "Fish Audioが複数話者の長編音声生成に対応するMoE構成の音声合成モデル「Drama 3」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/fishaudio/drama-3"
+        }
+      ]
+    },
+    {
+      "id": "f07d0bb3b14f",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "カザフスタン、AI向け計算基盤の整備を拡大",
+      "summary_ja": "カザフスタンがNVIDIA CEOの訪問に合わせ、AIインフラからモデル、アプリケーションに至るまで計算基盤の拡大を発表した。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/"
+        }
+      ]
+    },
+    {
+      "id": "19dea22ac3c7",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AIラボ内部モデルと公開モデルの差拡大を懸念する指摘",
+      "summary_ja": "安全性や研究上の優位性を理由に、AIラボの内部モデルと公開モデルの性能差が拡大しており、金融・バイオ分野への直接参入の誘因になりうるとの指摘がなされた。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mykox5d5k22o"
+        }
+      ]
+    },
+    {
+      "id": "2b3f616d26d3",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Hugging Face、AWS Trainium対応モデル検索ツールを公開",
+      "summary_ja": "Hugging FaceがモデルがAWS Trainium上で動作するかを調べられる検索ツールを公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/torch-neuronx-model-support"
+        }
+      ]
+    },
+    {
+      "id": "cf51e24baa15",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "inDrive、カザフスタンで2027年のロボタクシー試験を計画",
+      "summary_ja": "UberのライバルinDriveが、Pony.aiとNVIDIAの協力のもと2027年前半にカザフスタンの首都でロボタクシーの試験を開始する計画だと報じられた。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+        }
+      ]
+    },
+    {
+      "id": "f6a301346a05",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "LLMによる形式検証、大規模化が現実的にとの議論",
+      "summary_ja": "LLMの活用により、ソフトウェアの形式的検証がより大規模に実施可能になりつつあるとの議論がHacker Newsで取り上げられた。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.anthropic.com/research/formal-verification"
+        }
+      ]
+    },
+    {
+      "id": "49cfabc61c2b",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "llama.cpp、Qwen向けにVRAM節約のQSA選択実装",
+      "summary_ja": "llama.cppにkq_maskを使わないQSA選択の実装が追加され、Qwen Flash NextでVRAM使用量を削減できるという。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/"
+        }
+      ]
+    },
+    {
+      "id": "51888f116f5b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ThinkingBox、DB採点をRL報酬に変換する手法を公開",
+      "summary_ja": "Hugging Faceのブログで、データベースによる採点結果を強化学習の報酬に変換してエージェントを後段学習する手法「ThinkingBox」が紹介された。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+        }
+      ]
+    },
+    {
+      "id": "f8a90ed57699",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Anthropic、Python SDK v2.2.0をリリース",
+      "summary_ja": "AnthropicがPython SDKのv2.2.0をリリースし、メッセージスレッド対応やツールランナーの挙動修正などが加えられた。",
+      "sources": [
+        {
+          "name": "GitHub anthropics/anthropic-sdk-python",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0"
+        }
+      ]
+    },
+    {
+      "id": "ee4c22366ef7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、ChatGPT向けオンラインストレージ基盤を解説",
+      "summary_ja": "OpenAIが10億人超のChatGPTユーザーを支えるオンラインストレージ基盤「Habitat」の拡張について、Azure Cosmos DB活用などを交えて解説した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+        }
+      ]
+    },
+    {
+      "id": "c6dba218462c",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AWS、SageMakerでのマルチターン強化学習ガイドを公開",
+      "summary_ja": "AWSがAmazon SageMaker AI上でWordleを題材にマルチターン強化学習を実施する実践ガイドを公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/"
+        }
+      ]
+    },
+    {
+      "id": "6961cf70fece",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "スウェーデン政府、ChatGPTとClaudeの利用を禁止へ",
+      "summary_ja": "スウェーデン政府機関がChatGPTとClaudeの業務利用を禁止する方針だと報じられた。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 8.3318,
+    "run_cost_usd": 0.1137,
+    "average_run_usd": 0.1054,
+    "runs_recorded": 85
+  }
+}
