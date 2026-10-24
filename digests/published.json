@@ -1,169 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-17",
-      "id": "ad81c0b49307",
-      "title_ja": "Reflection AI、オープンウェイトの501Bモデル「Beam」公開",
-      "urls": [
-        "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
-        "https://huggingface.co/blog/reflection-beam",
-        "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "ca580b1475b7",
-      "title_ja": "Meta新規約、提携サイトのAI学習利用を可能にする条項",
-      "urls": [
-        "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-        "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "4cb1432a55f2",
-      "title_ja": "Stanford等、隠れた内部思考で高速化する「ハイブリッド推論エージェント」提案",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "331a5588d0cf",
-      "title_ja": "AWS、Bedrock AgentCore向けエージェント評価フレームワークを公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "660063e865d4",
-      "title_ja": "Replit CEO、「自動運転型企業」の到来を展望",
-      "urls": [
-        "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "9e63539289a3",
-      "title_ja": "Stack Overflow for Agents、ChatGPTプラグインで登録者急増",
-      "urls": [
-        "https://openai.com/index/stack-overflow-chatgpt-plugin"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "5cea1aeddd4a",
-      "title_ja": "Elorian、画像で推論する新モデルGlimpseを発表",
-      "urls": [
-        "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "50c3267aa73a",
-      "title_ja": "中国、AI関連23技術を含む輸出規制案を公表",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "0d918f85309d",
-      "title_ja": "オープンウェイトモデル、一部ベンチマークでSonnet 5上回る",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "fdd4c6f578d6",
-      "title_ja": "Replit、Anthropicとの提携を終了",
-      "urls": [
-        "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "7ff2fab56ea7",
-      "title_ja": "VercelのAIモデル「Jev」、過去最速の採用ペースを記録",
-      "urls": [
-        "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "c7dfeeeb6dfb",
-      "title_ja": "Claude Codeチームのコードレビュー手法が公開",
-      "urls": [
-        "https://claude.dev/blog/solving-code-review-at-anthropic/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "c9b93292368a",
-      "title_ja": "論文、安価モデルへの単純な置き換えに懐疑的な見方を提示",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mxxj65qhac2t"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "f2bbffb158fe",
-      "title_ja": "OpenAI Python SDK v3.32.0リリース",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.32.0"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "eb0ac7f68c40",
-      "title_ja": "Cal AI、インフルエンサー活用で急成長しMyFitnessPalが買収",
-      "urls": [
-        "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "e07170025272",
-      "title_ja": "ChatGPTのChrome拡張、開いているタブを参照可能に",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "3a7946cd06e1",
-      "title_ja": "「Gemini 4 Argon」がStarCraftをプレイするベンチマークが更新",
-      "urls": [
-        "https://starskirmish.com/bench/v0-2/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "ec42443de449",
-      "title_ja": "拡散言語モデルORL、RTX 5090で毎秒2788トークンを達成",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "d2e0c42b1f67",
-      "title_ja": "Gemini 4エージェント群がMinecraftを攻略した論文が話題に",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mxzbegeels2t"
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "id": "8ffbbf24c13a",
-      "title_ja": "インドでも不正なAIエージェント活動が報告される",
-      "urls": [
-        "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
-      ]
-    },
-    {
       "date": "2026-10-18",
       "id": "cac24968e5aa",
       "title_ja": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能向上",
@@ -1115,6 +952,95 @@
       "title_ja": "スウェーデン政府、ChatGPTとClaudeの利用を禁止へ",
       "urls": [
         "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "eb79656c925c",
+      "title_ja": "Qwen3.8-Flash-Next公開、8GB GPUでも高速動作",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "4e50efa7abaa",
+      "title_ja": "Google、マルチモーダル埋め込みモデルEmbeddingGemma-2を公開",
+      "urls": [
+        "https://huggingface.co/google/embeddinggemma-2"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "dfe5fb536ca5",
+      "title_ja": "OpenAI、フロンティアモデルのライブインターネット学習を停止",
+      "urls": [
+        "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "f42b672aa831",
+      "title_ja": "上海AI研究所、科学タスク向けエージェントモデルSage-A1.5公開",
+      "urls": [
+        "https://huggingface.co/InternScience/Sage-A1.5"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "173b2ddf9d58",
+      "title_ja": "Ollama v0.40.11、macOSで音声生成機能を追加",
+      "urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.11"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "2eb678169a42",
+      "title_ja": "MiniMax-M3.1-Flash、1Mトークン対応のマルチモーダルMoE公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "61ceba6cfe49",
+      "title_ja": "Block、ローカル動作の音声モデルを発表",
+      "urls": [
+        "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "b234e52996fc",
+      "title_ja": "Altman氏、AIによるハードウェア脆弱性発見のリスクに言及",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1xe5i3d/altman_i_dont_even_know_a_dramatic_enough_word_to/"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "a54fd0e20dbb",
+      "title_ja": "テック業界外でAI導入効果が見られないとの報告",
+      "urls": [
+        "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "c635ed208db8",
+      "title_ja": "サムスン製テレビのリバースエンジニアリングでOpenAIアカウント停止",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1xduimx/hacker_reverse_engineers_his_samsung_tv_and_finds/"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": "3bc2cbb501cb",
+      "title_ja": "ある企業の財務指標、売上163億ドルに対し純損失807億ドル",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1xe02h6/revenue_163b_net_loss_807b_ipo_valuation_2t/"
       ]
     }
   ]

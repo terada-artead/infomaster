@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T06:32:07+09:00",
+  "stats": {
+    "collected": 77,
+    "fresh": 68,
+    "selected": 20,
+    "published": 11
+  },
+  "highlights": [
+    "Qwen3.8-Flash-NextやMiniMax-M3.1-Flashなど新モデルが相次ぎ公開",
+    "OpenAIがライブインターネットでの学習を停止すると発表",
+    "Google DeepMindがマルチモーダル埋め込みモデルEmbeddingGemma-2を公開"
+  ],
+  "items": [
+    {
+      "id": "eb79656c925c",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Qwen3.8-Flash-Next公開、8GB GPUでも高速動作",
+      "summary_ja": "Hugging FaceでQwen/Qwen3.8-Flash-Nextが公開され、ダウンロード数300万を超える人気モデルとなっている。r/LocalLLaMAでは、MoE構成を活用しVRAM8GB・RAM24GB構成でllama.cppを使い262Kコンテキスト・70T/sで動作させる手法が共有されており、アクティブパラメータ6Bという特性を生かしたメモリ配置の工夫が実用上のポイントとなる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/"
+        }
+      ]
+    },
+    {
+      "id": "4e50efa7abaa",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Google、マルチモーダル埋め込みモデルEmbeddingGemma-2を公開",
+      "summary_ja": "Google DeepMindがテキスト・画像・動画・音声を単一の768次元ベクトル空間に統合するEmbeddingGemma-2を公開した。総パラメータ740M（テキスト270M、視覚170M、音声300M）でオンデバイス動作を想定しており、モバイルやラップトップでの検索・RAG・分類タスクへの組み込みが容易になる。ライセンスはApache 2.0。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/google/embeddinggemma-2"
+        }
+      ]
+    },
+    {
+      "id": "dfe5fb536ca5",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "OpenAI、フロンティアモデルのライブインターネット学習を停止",
+      "summary_ja": "OpenAIは「重大なリスク」を理由に、今後AIモデルをライブインターネット上のデータで学習させないと発表した。同社のエンジニアがこの対策は機能しないと述べた数週間後の発表であり、学習データ管理方針の転換として注目される。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+        }
+      ]
+    },
+    {
+      "id": "f42b672aa831",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "上海AI研究所、科学タスク向けエージェントモデルSage-A1.5公開",
+      "summary_ja": "Qwen3.6とAgents-A1を基盤とした35BパラメータのMoEエージェントモデルSage-A1.5がHugging Faceで公開され、長期的な科学問題解決を目的としたタスク委任・並列協調・検証機能を備える。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/InternScience/Sage-A1.5"
+        }
+      ]
+    },
+    {
+      "id": "173b2ddf9d58",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "Ollama v0.40.11、macOSで音声生成機能を追加",
+      "summary_ja": "Ollama v0.40.11がmacOS向けに音声生成機能を追加し、`ollama run`でテキストやチャット応答を音声で再生できるようになった。OpenAI互換の`/v1/audio/speech`エンドポイントでもストリーミング対応し、vLLM Semantic Routerの判定モデル「d3」（2B〜27Bサイズ）も追加された。",
+      "sources": [
+        {
+          "name": "GitHub ollama/ollama",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11"
+        }
+      ]
+    },
+    {
+      "id": "2eb678169a42",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "MiniMax-M3.1-Flash、1Mトークン対応のマルチモーダルMoE公開",
+      "summary_ja": "MiniMaxAIがコーディングやエージェント作業、コンピュータ操作、サイバーセキュリティ向けのネイティブマルチモーダルMoEモデルMiniMax-M3.1-Flashを公開した。テキスト・画像・動画入力に対応し最大1Mトークンのコンテキストを持ち、スパースアテンションや量子化認識学習、投機的デコーディングにより推論効率を向上させている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        }
+      ]
+    },
+    {
+      "id": "61ceba6cfe49",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Block、ローカル動作の音声モデルを発表",
+      "summary_ja": "Blockが人間に近い音声を生成する新しい音声モデルを発表し、MacBook M4 Max上でローカル動作可能だとしている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+        }
+      ]
+    },
+    {
+      "id": "b234e52996fc",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Altman氏、AIによるハードウェア脆弱性発見のリスクに言及",
+      "summary_ja": "OpenAIのAltman氏が、AIモデルが従来の脅威モデルの範囲外にあるハードウェアレベルのバグを発見できるようになっており、すべてのバグを修正しきれなくなるかもしれないと述べたと報じられている。",
+      "sources": [
+        {
+          "name": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xe5i3d/altman_i_dont_even_know_a_dramatic_enough_word_to/"
+        }
+      ]
+    },
+    {
+      "id": "a54fd0e20dbb",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "テック業界外でAI導入効果が見られないとの報告",
+      "summary_ja": "Hacker Newsで、テック業界以外ではAI導入による明確な成果が見られないとする記事が取り上げられた。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+        }
+      ]
+    },
+    {
+      "id": "c635ed208db8",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "サムスン製テレビのリバースエンジニアリングでOpenAIアカウント停止",
+      "summary_ja": "あるハッカーがサムスン製テレビをリバースエンジニアリングし、オンデバイスAIが周辺音やテレビ視聴内容、サウンドバーのマイクまで利用して情報収集していることを発見したと報じられており、その後OpenAIはリバースエンジニアリングを理由に同氏のアカウントを停止したという。",
+      "sources": [
+        {
+          "name": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xduimx/hacker_reverse_engineers_his_samsung_tv_and_finds/"
+        }
+      ]
+    },
+    {
+      "id": "3bc2cbb501cb",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "ある企業の財務指標、売上163億ドルに対し純損失807億ドル",
+      "summary_ja": "r/singularityで、売上163億ドル・純損失807億ドル・IPO評価額2兆ドルという企業の財務指標が話題になった。",
+      "sources": [
+        {
+          "name": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xe02h6/revenue_163b_net_loss_807b_ipo_valuation_2t/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 8.4147,
+    "run_cost_usd": 0.0829,
+    "average_run_usd": 0.1058,
+    "runs_recorded": 86
+  }
+}
