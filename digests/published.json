@@ -1,71 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-18",
-      "id": "cac24968e5aa",
-      "title_ja": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング性能向上",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1x825su/deepseek_41_flash_1017_incoming_deepseek_users/"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "id": "16df95b107d5",
-      "title_ja": "OpenAIのモデルが仮想通貨ウォレットを不正操作",
-      "urls": [
-        "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "id": "b31543fcd7d1",
-      "title_ja": "AIエージェントへのアクセス拒否が広がる各サイト",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "id": "fcf73aabe3e3",
-      "title_ja": "ReplitがデフォルトモデルをOpenAIに変更",
-      "urls": [
-        "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "id": "12b904c1ef68",
-      "title_ja": "OpenAI Python SDK v3.34.0リリース",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.34.0"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "id": "097c2ef4d87a",
-      "title_ja": "AI文章を人間らしく書き換える「humanizer」モデル公開",
-      "urls": [
-        "https://huggingface.co/jialinyyzz/humanizer"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "id": "6b0405216431",
-      "title_ja": "無許可の連携アプリが秘密情報をスキャンと指摘",
-      "urls": [
-        "https://github.com/home-assistant/home-assistant.io/issues/49314"
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "id": "fd3979152c2e",
-      "title_ja": "Anthropic、社員構成がシニア化し会議時間増加",
-      "urls": [
-        "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
-      ]
-    },
-    {
       "date": "2026-10-19",
       "id": "35cd62faf12b",
       "title_ja": "Disney、Character.AI従業員の大半を採用へ",
@@ -1041,6 +976,118 @@
       "title_ja": "ある企業の財務指標、売上163億ドルに対し純損失807億ドル",
       "urls": [
         "https://www.reddit.com/r/singularity/comments/1xe02h6/revenue_163b_net_loss_807b_ipo_valuation_2t/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "e1545bcc45f4",
+      "title_ja": "Cerebras、兆パラメータ級AIモデルを展開",
+      "urls": [
+        "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "9a814be9eb36",
+      "title_ja": "AI投資、ほとんどの企業に財務的成果なしとApolloが指摘",
+      "urls": [
+        "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "ab1f7cff3772",
+      "title_ja": "GoogleのAI検索変更がオンライン出版業界を揺るがした",
+      "urls": [
+        "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "1b2c3ec648b1",
+      "title_ja": "OpenAI研究者、エアギャップAI同士の通信リスクに言及",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mynwzdkgwc2m"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "07395aaab74e",
+      "title_ja": "OpenMOSS-Team、text-to-imageモデル「MOSS-Image」を公開",
+      "urls": [
+        "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "b83204b7e9c1",
+      "title_ja": "10年前のCNN、皮膚がん診断で最新LLMを上回る",
+      "urls": [
+        "https://lynchlab.net/llm-skin-cancer"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "1993bf554f0e",
+      "title_ja": "Lean-QwenFlash、NVMe経由でQwen3.8-Flash-Nextを省メモリ動作",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "4f35d89c1a93",
+      "title_ja": "RTX 3080 20GBでP2P通信が解放、プロンプト処理70%高速化",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xf9kmd/rtx_3080_20gb_got_rebar_and_p2p_unlock_70_prompt/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "a4354fc53bb8",
+      "title_ja": "HuggingFaceBio、ゲノミクス向けモデル「Carbon-X」を公開",
+      "urls": [
+        "https://huggingface.co/HuggingFaceBio/Carbon-X"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "49e91ac8722e",
+      "title_ja": "Strata/Basalt、量子化Qwen3.8 Flash Nextのベンチマークを公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "653d82f9a295",
+      "title_ja": "Nanbeige、エージェント特化の33Bモデルを公開",
+      "urls": [
+        "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "1f6056f34e61",
+      "title_ja": "米メディア・映画・芸術分野で20万人の雇用減、AIの影響が焦点に",
+      "urls": [
+        "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "5c88b074ff08",
+      "title_ja": "3Dシーン生成も可能な4Bコーディングモデルが登場",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xeuo7t/a_4b_coding_model_that_can_generate_3d_scenes/"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": "de4b86f27846",
+      "title_ja": "AI導入で経営陣の監視・統制範囲が拡大と指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mypr5rwh4k2n"
       ]
     }
   ]

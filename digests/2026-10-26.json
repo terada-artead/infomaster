@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T06:40:39+09:00",
+  "stats": {
+    "collected": 63,
+    "fresh": 51,
+    "selected": 19,
+    "published": 14
+  },
+  "highlights": [
+    "AIは大半の企業に財務的成果なしとApollo社エコノミストが指摘",
+    "GoogleのAI検索変更がオンライン出版業界を揺るがした",
+    "米メディア・映画・芸術分野で20万人の雇用減、AIの影響が焦点に"
+  ],
+  "items": [
+    {
+      "id": "e1545bcc45f4",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Cerebras、兆パラメータ級AIモデルを展開",
+      "summary_ja": "CerebrasがトリリオンパラメータクラスのAIモデルをデプロイしたと報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+        }
+      ]
+    },
+    {
+      "id": "9a814be9eb36",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AI投資、ほとんどの企業に財務的成果なしとApolloが指摘",
+      "summary_ja": "Apolloのエコノミストが、巨額投資と喧伝にもかかわらずAIは米国企業にテック業界以外では財務的成果をもたらしていないと述べた。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+        }
+      ]
+    },
+    {
+      "id": "ab1f7cff3772",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "GoogleのAI検索変更がオンライン出版業界を揺るがした",
+      "summary_ja": "The VergeのニュースレターThe Stepbackが、GoogleのAI検索機能の変更がデジタル出版業界に与えた影響を取り上げた。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+        }
+      ]
+    },
+    {
+      "id": "1b2c3ec648b1",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "OpenAI研究者、エアギャップAI同士の通信リスクに言及",
+      "summary_ja": "OpenAIの研究者Noam Brownが以前、物理的に隔離されたAIモデル同士もCPU温度変化などを通じて通信し得ると述べて揶揄されたが、OpenAIの最新報告を受けてその指摘が現実味を帯びてきたとされる。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mynwzdkgwc2m"
+        }
+      ]
+    },
+    {
+      "id": "07395aaab74e",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenMOSS-Team、text-to-imageモデル「MOSS-Image」を公開",
+      "summary_ja": "OpenMOSS-TeamがHugging Faceに文章から画像を生成するMOSS-Image-BaseとそのSFT版MOSS-Image-SFTを公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base"
+        }
+      ]
+    },
+    {
+      "id": "b83204b7e9c1",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "10年前のCNN、皮膚がん診断で最新LLMを上回る",
+      "summary_ja": "10年前に作られた畳み込みニューラルネットワーク(CNN)が、皮膚がん診断タスクで最新のフロンティアLLMよりも高い性能を示したと報告されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://lynchlab.net/llm-skin-cancer"
+        }
+      ]
+    },
+    {
+      "id": "1993bf554f0e",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Lean-QwenFlash、NVMe経由でQwen3.8-Flash-Nextを省メモリ動作",
+      "summary_ja": "r/LocalLLaMAで、NVMe SSDへの直接オフロードによりQwen3.8-Flash-Next(125B)を16GB VRAMと8GB RAMで約20トークン/秒動作させる手法「Lean-QwenFlash」が紹介された。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/"
+        }
+      ]
+    },
+    {
+      "id": "4f35d89c1a93",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "RTX 3080 20GBでP2P通信が解放、プロンプト処理70%高速化",
+      "summary_ja": "RTX 3080 20GBでreBARとP2P通信のアンロックが実現し、テンソル並列モードのプロンプト処理速度が約70%向上したと報告されている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf9kmd/rtx_3080_20gb_got_rebar_and_p2p_unlock_70_prompt/"
+        }
+      ]
+    },
+    {
+      "id": "a4354fc53bb8",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "HuggingFaceBio、ゲノミクス向けモデル「Carbon-X」を公開",
+      "summary_ja": "HuggingFaceBioがDNA・ゲノミクス・変異効果予測向けのテキスト生成モデルCarbon-XをHugging Faceに公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/HuggingFaceBio/Carbon-X"
+        }
+      ]
+    },
+    {
+      "id": "49e91ac8722e",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Strata/Basalt、量子化Qwen3.8 Flash Nextのベンチマークを公開",
+      "summary_ja": "r/LocalLLaMAで、16GB VRAMと55GB RAM環境でQwen3.8 Flash Next(IQ3_S量子化)を最大250トークン/秒生成、5,600トークン/秒のプロンプト処理で動作させるStrata/Basaltのベンチマーク結果が共有された。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/"
+        }
+      ]
+    },
+    {
+      "id": "653d82f9a295",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Nanbeige、エージェント特化の33Bモデルを公開",
+      "summary_ja": "NanbeigeがコーディングやプロフェッショナルなCoworkタスクに強い33Bパラメータの教師モデル「Nanbeige4.3-33B」を公開し、小型モデルへの蒸留パイプラインの基盤とする方針を示した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        }
+      ]
+    },
+    {
+      "id": "1f6056f34e61",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "米メディア・映画・芸術分野で20万人の雇用減、AIの影響が焦点に",
+      "summary_ja": "米国のメディア、映画、芸術分野で20万人の雇用が失われており、その要因としてAIの影響がどの程度かが議論されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+        }
+      ]
+    },
+    {
+      "id": "5c88b074ff08",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "3Dシーン生成も可能な4Bコーディングモデルが登場",
+      "summary_ja": "Qwen3.5-4Bをファインチューニングした4Bパラメータのコーディングモデルが、3Dシーン生成にも対応する早期版としてr/LocalLLaMAで公開された。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuo7t/a_4b_coding_model_that_can_generate_3d_scenes/"
+        }
+      ]
+    },
+    {
+      "id": "de4b86f27846",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AI導入で経営陣の監視・統制範囲が拡大と指摘",
+      "summary_ja": "大規模組織においてAIの活用により経営陣が組織全体を直接監視できる役割と権限が拡大する傾向が見られると指摘されている。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mypr5rwh4k2n"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 8.4945,
+    "run_cost_usd": 0.0797,
+    "average_run_usd": 0.104,
+    "runs_recorded": 87
+  }
+}
