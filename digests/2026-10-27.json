@@ -1,0 +1,299 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T08:07:16+09:00",
+  "stats": {
+    "collected": 90,
+    "fresh": 78,
+    "selected": 28,
+    "published": 20
+  },
+  "highlights": [
+    "Anthropic、Claude開発元がIPO申請、Nasdaq上場へ",
+    "SpaceXがApolloと400億ドルのGPU融資契約を締結",
+    "OpenAIがGPT-6.1 Terraを発表、高速なコンピュータ操作機能を搭載"
+  ],
+  "items": [
+    {
+      "id": "b8eac1ac6e14",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "AnthropicがIPO申請を正式提出、Nasdaq上場目指す",
+      "summary_ja": "Anthropicが証券取引委員会にS-1目論見書を提出し、ティッカー「ANT」でNasdaq上場を目指すことが明らかになった。売上急増と損失拡大、企業導入の進展に加え、創業者の支配権とAI安全性ミッションを維持する独自のガバナンス構造が示されている。100,000ドル超の顧客の半数以上がClaude PlatformとファーストパーティアプリをクロスセルされていることやAIデータセンターの天然ガス依存の実態も開示されており、競合OpenAIへの動向と合わせ業界の資金調達環境を読む材料になる。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+        },
+        {
+          "name": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+        }
+      ]
+    },
+    {
+      "id": "d6e31d9e0fa6",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "SpaceX、Apolloと400億ドルのGPU融資契約",
+      "summary_ja": "SpaceXがApolloとの間で400億ドル規模のGPU融資契約を締結し、従来の債券市場に頼らずAI関連投資を拡大する資金調達手段を確保した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+        }
+      ]
+    },
+    {
+      "id": "1a7e953f3679",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAIとAnthropic、数カ月でLLM価格を最大80%値下げ",
+      "summary_ja": "OpenAIとAnthropicが数カ月のうちにLLM価格を最大80%引き下げた背景が議論されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://minimaxir.com/2026/10/cheap-llms/"
+        }
+      ]
+    },
+    {
+      "id": "cac24968e5aa",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "DeepSeek-V4.1-Flash-1017が公開、推論・コーディング強化",
+      "summary_ja": "DeepSeek-V4.1-Flashのマイナーアップデート版「DeepSeek-V4.1-Flash-1017」がHugging Faceで公開された。推論、コーディング、エージェントタスク、視覚ベンチマークで性能向上し、タスク実行時間と出力長を削減してコスト効率を高めている。複数のエージェントハーネスでパフォーマンス・コストのパレートフロンティアを前進させており、実運用コストの最適化を検討するエンジニアには有用な選択肢となる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        }
+      ]
+    },
+    {
+      "id": "35e334c19874",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "OpenAI、GPT-6.1 Terraを発表しコンピュータ操作を高速化",
+      "summary_ja": "OpenAIが「GPT-6.1 Terra」を発表した。高速かつ高精度なコンピュータ操作機能を誰でも利用できるようにするモデルで、openai-pythonライブラリv3.39.0でもモデル識別子「gpt-6.1-terra」が追加された。エージェント型のUI自動操作を実装する開発者にとって、新たなモデル選択肢として評価対象になる。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra"
+        },
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.39.0"
+        }
+      ]
+    },
+    {
+      "id": "a9c488820a62",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Greptile、GPT-6 Astraでバグ検出をコードレビュー超えに拡張",
+      "summary_ja": "GreptileがGPT-6 Astraを使いユーザーワークフローのテストまでカバーするバグ検出を実装している。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra"
+        }
+      ]
+    },
+    {
+      "id": "7d972df501d0",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "CodeRabbit、GPT-6.1 Solで複雑なコードベースのセキュリティ強化",
+      "summary_ja": "CodeRabbitがGPT-6.1 Solを活用し、複雑なコードベース全体のセキュリティリスク調査と修正提案を行うエージェントを構築した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+        }
+      ]
+    },
+    {
+      "id": "aa6a9e64ea8d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Tencent、同時通訳モデル「Hy-SimulMT-30B」を公開",
+      "summary_ja": "Tencent Hunyuanが中英双方向のリアルタイム音声同時通訳モデル「Hy-SimulMT-30B-A3B」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrgt5/tencenthysimulmt30ba3b_hugging_face/"
+        }
+      ]
+    },
+    {
+      "id": "742d30efdc40",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI社内、Codex Ultrafastでインシデント調査を時間単位から分単位に短縮",
+      "summary_ja": "OpenAIのエンジニアがCodex Ultrafastを使い、インシデント調査を数時間から数分に短縮した事例が紹介されている。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/openai-cut-incident-investigation"
+        }
+      ]
+    },
+    {
+      "id": "b090a744b1c3",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Amazon Bedrock、OpenAIモデルのプロンプトキャッシュ活用法を解説",
+      "summary_ja": "AWSがAmazon Bedrock上のOpenAIモデル向けプロンプトキャッシュのパターンを解説し、毎ステップの全文脈再送によるコストとレイテンシを削減する方法を紹介している。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "4d610e220c2d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、COBOLコード危機の解決にAI活用を提案",
+      "summary_ja": "OpenAIが最新モデルでCOBOLなど古い基幹システムのコード理解・保守における性能向上を発表し、銀行や政府インフラの技術的負債問題への応用を提案している。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
+        }
+      ]
+    },
+    {
+      "id": "d8e91abdba8c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Tesla、EV首位を譲り自動運転とサブスクで勝負へ",
+      "summary_ja": "TeslaがEV販売台数首位の座を譲る一方、自動運転サブスクリプションで利益率向上を狙う戦略にシフトしている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/"
+        }
+      ]
+    },
+    {
+      "id": "37ea901da6ec",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "オンデバイスエージェント向けモデル「Spark-X2.6-4B」公開",
+      "summary_ja": "XHTokenが実世界タスク向けのコンパクトなオンデバイスエージェントモデル「Spark-X2.6-4B」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
+        }
+      ]
+    },
+    {
+      "id": "82ca109e5205",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Hugging Face transformers v5.21.0リリース、MiniCPM-OCR追加",
+      "summary_ja": "Hugging Face transformersのv5.21.0がリリースされ、文書画像の読み取りに特化したMiniCPM-OCRモデルなどが新たに追加された。",
+      "sources": [
+        {
+          "name": "GitHub huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers/releases/tag/v5.21"
+        }
+      ]
+    },
+    {
+      "id": "329f4c2d77bd",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "NVIDIA、GPU1台あたり年間2000ドルのソフトウェア収益化を検討",
+      "summary_ja": "NVIDIAのJensen Huang氏が、GPU1台あたり年間2000ドル規模のソフトウェアライセンス収益を狙う方針を示したと報じられている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfhhm4/smh_seriously_nvidia_eyes_software_revenue_with_a/"
+        }
+      ]
+    },
+    {
+      "id": "7e73eebe3e90",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "FanaticsとOpenAI、試合観戦コーデ提案で連携",
+      "summary_ja": "FanaticsがOpenAIの技術を使い「Shop the Look」機能でファンの試合観戦コーデ提案を行い、約30,000のMLB商品でのテストでエンゲージメントが10%向上した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/fanatics-streamline-fan-experience"
+        }
+      ]
+    },
+    {
+      "id": "966584a0f435",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Mistral、時系列予測モデル「Timestral-209M」公開",
+      "summary_ja": "Mistral AIが時系列予測向けの基盤モデル「Timestral-209M」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/mistralai/Timestral-209M"
+        }
+      ]
+    },
+    {
+      "id": "1e78eb133dbb",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "vLLMのツール呼び出し精度を改善する取り組み",
+      "summary_ja": "vLLMにおけるツール呼び出し(tool-call)の精度問題を修正する取り組みが紹介されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm"
+        }
+      ]
+    },
+    {
+      "id": "addcc3560188",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "SageMaker SDK v3でエッジ向け大規模コンピュータビジョン運用を効率化",
+      "summary_ja": "AWSがSageMaker SDK v3を使い、カメラ台数分のモデルを個別に訓練・品質ゲート・圧縮・バージョン管理する大規模コンピュータビジョン運用のリファレンス構成を紹介している。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/"
+        }
+      ]
+    },
+    {
+      "id": "a85f2eed0230",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "スタンフォードとUC Berkeley、長文脈処理を最大11.3倍高速化する「TokenGate」を提案",
+      "summary_ja": "スタンフォード大学とUC Berkeleyの研究者が、トークンゲート型アテンションにより長文脈のプリフィル処理を最大11.3倍高速化する手法「TokenGate」を発表した。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 8.6047,
+    "run_cost_usd": 0.1102,
+    "average_run_usd": 0.104,
+    "runs_recorded": 88
+  }
+}

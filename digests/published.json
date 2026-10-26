@@ -1,86 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-19",
-      "id": "35cd62faf12b",
-      "title_ja": "Disney、Character.AI従業員の大半を採用へ",
-      "urls": [
-        "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "6a2fb93fe910",
-      "title_ja": "ClaudeがNSAの25年来の暗号謎を30分で解決",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1x8v3sn/claude_solved_a_25_year_old_nsa_cryptography/"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "16eddc2105cf",
-      "title_ja": "Anthropic、株式5%を公益基金に拠出へ",
-      "urls": [
-        "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "6b8c0419b4d7",
-      "title_ja": "エージェント型AIの急増、政府・企業の対応を問う議論",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3my47ihhocc2t"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "3e1bb6f4d902",
-      "title_ja": "NVIDIA RTX Spark搭載ノートPCが発売開始",
-      "urls": [
-        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "9be796475fd9",
-      "title_ja": "Claude、量子回路設計で既存比最大39倍のコスト削減",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1x956d5/claude_designed_quantum_circuits_up_to_39x/"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "8dcccf60fa01",
-      "title_ja": "NVIDIA、Qwen3.8ベースのFP4量子化モデルを公開",
-      "urls": [
-        "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "7657787479f7",
-      "title_ja": "ConwayResearch、27Bのツール呼び出し対応モデル公開",
-      "urls": [
-        "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "3e1df37b47bd",
-      "title_ja": "Odyssey、ハエの脳神経地図をAI生成世界内で再現",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3my4xspgnf22t"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "id": "5a9bda72c1d1",
-      "title_ja": "Black Forest Labs、画像生成モデルFlux-3を公開",
-      "urls": [
-        "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
-      ]
-    },
-    {
       "date": "2026-10-20",
       "id": "27312a297198",
       "title_ja": "vLLM、プッシュ型KV転送でTTFT最大3倍改善",
@@ -1088,6 +1008,170 @@
       "title_ja": "AI導入で経営陣の監視・統制範囲が拡大と指摘",
       "urls": [
         "https://bsky.app/profile/emollick.bsky.social/post/3mypr5rwh4k2n"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "b8eac1ac6e14",
+      "title_ja": "AnthropicがIPO申請を正式提出、Nasdaq上場目指す",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+        "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+        "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+        "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "d6e31d9e0fa6",
+      "title_ja": "SpaceX、Apolloと400億ドルのGPU融資契約",
+      "urls": [
+        "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "1a7e953f3679",
+      "title_ja": "OpenAIとAnthropic、数カ月でLLM価格を最大80%値下げ",
+      "urls": [
+        "https://minimaxir.com/2026/10/cheap-llms/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "cac24968e5aa",
+      "title_ja": "DeepSeek-V4.1-Flash-1017が公開、推論・コーディング強化",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "35e334c19874",
+      "title_ja": "OpenAI、GPT-6.1 Terraを発表しコンピュータ操作を高速化",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-6-1-terra",
+        "https://github.com/openai/openai-python/releases/tag/v3.39.0"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "a9c488820a62",
+      "title_ja": "Greptile、GPT-6 Astraでバグ検出をコードレビュー超えに拡張",
+      "urls": [
+        "https://openai.com/index/greptile-code-review-codex-astra"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "7d972df501d0",
+      "title_ja": "CodeRabbit、GPT-6.1 Solで複雑なコードベースのセキュリティ強化",
+      "urls": [
+        "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "aa6a9e64ea8d",
+      "title_ja": "Tencent、同時通訳モデル「Hy-SimulMT-30B」を公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xfrgt5/tencenthysimulmt30ba3b_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "742d30efdc40",
+      "title_ja": "OpenAI社内、Codex Ultrafastでインシデント調査を時間単位から分単位に短縮",
+      "urls": [
+        "https://openai.com/index/openai-cut-incident-investigation"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "b090a744b1c3",
+      "title_ja": "Amazon Bedrock、OpenAIモデルのプロンプトキャッシュ活用法を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "4d610e220c2d",
+      "title_ja": "OpenAI、COBOLコード危機の解決にAI活用を提案",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "d8e91abdba8c",
+      "title_ja": "Tesla、EV首位を譲り自動運転とサブスクで勝負へ",
+      "urls": [
+        "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "37ea901da6ec",
+      "title_ja": "オンデバイスエージェント向けモデル「Spark-X2.6-4B」公開",
+      "urls": [
+        "https://huggingface.co/XHToken/Spark-X2.6-4B"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "82ca109e5205",
+      "title_ja": "Hugging Face transformers v5.21.0リリース、MiniCPM-OCR追加",
+      "urls": [
+        "https://github.com/huggingface/transformers/releases/tag/v5.21"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "329f4c2d77bd",
+      "title_ja": "NVIDIA、GPU1台あたり年間2000ドルのソフトウェア収益化を検討",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xfhhm4/smh_seriously_nvidia_eyes_software_revenue_with_a/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "7e73eebe3e90",
+      "title_ja": "FanaticsとOpenAI、試合観戦コーデ提案で連携",
+      "urls": [
+        "https://openai.com/index/fanatics-streamline-fan-experience"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "966584a0f435",
+      "title_ja": "Mistral、時系列予測モデル「Timestral-209M」公開",
+      "urls": [
+        "https://huggingface.co/mistralai/Timestral-209M"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "1e78eb133dbb",
+      "title_ja": "vLLMのツール呼び出し精度を改善する取り組み",
+      "urls": [
+        "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "addcc3560188",
+      "title_ja": "SageMaker SDK v3でエッジ向け大規模コンピュータビジョン運用を効率化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": "a85f2eed0230",
+      "title_ja": "スタンフォードとUC Berkeley、長文脈処理を最大11.3倍高速化する「TokenGate」を提案",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/"
       ]
     }
   ]
