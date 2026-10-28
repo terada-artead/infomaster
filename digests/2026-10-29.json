@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T08:08:42+09:00",
+  "stats": {
+    "collected": 111,
+    "fresh": 97,
+    "selected": 31,
+    "published": 20
+  },
+  "highlights": [
+    "Google、新フロンティアモデルGemini 4 Carbonを発表",
+    "AnthropicがIPOに向け支出可視化ツールとガバナンス構造を公開",
+    "MicrosoftがOpenAIから四半期100億ドルの収益、Azureも330億ドル超"
+  ],
+  "items": [
+    {
+      "id": "e8e0cb1d0e68",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "Google、新フロンティアモデルGemini 4 Carbonを発表",
+      "summary_ja": "Googleはコーディング、エージェント的タスク、サイバーセキュリティで大幅な性能向上を謳う新フロンティアモデルGemini 4 Carbonを発表した。Artificial Analysis Intelligence Index（v5.0）でClaude Opus 5.5やGPT-6 Astraを上回り首位を獲得したとしている。コーディングやエージェント開発を行うエンジニアにとって、モデル選定の有力な候補となる。",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
+        }
+      ]
+    },
+    {
+      "id": "4ba4897dde9b",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "AnthropicのIPOで見えたAmazonの巨大な出資比率とガバナンス構造",
+      "summary_ja": "AnthropicのIPOに伴う大量のノート転換により、AmazonがVCをはるかに上回る規模の持分を保有していることが明らかになった。同時に、IPO後のAnthropicの複雑なガバナンス構造についても整理されている。資本構成や意思決定権の所在は、取引先としてAnthropicに依存する企業にとって重要な判断材料となる。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+        }
+      ]
+    },
+    {
+      "id": "a395c7da350b",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "OpenAIとServiceNowがエンタープライズ連携を拡大",
+      "summary_ja": "OpenAIとServiceNowは提携を拡大し、OpenAIのモデルとエージェントをServiceNowのワークフローに、ServiceNowの機能をChatGPTとCodexに組み込む。エンタープライズ業務にAIエージェントを導入する企業にとって、両プラットフォーム間の連携強化は実装の選択肢を広げる。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+        }
+      ]
+    },
+    {
+      "id": "020314ea17c3",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "MicrosoftがOpenAIから四半期100億ドルの収益を計上",
+      "summary_ja": "Microsoftは9月30日締めの四半期で、OpenAIとの商業契約（収益分配を含む）から100億ドルの収益を得たと発表した。同社の四半期売上は923億ドルで前年比19%増となり、10四半期連続で過去最高を更新した。OpenAIとMicrosoftの財務的な相互依存の大きさが改めて示された。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+        }
+      ]
+    },
+    {
+      "id": "0c8f9ce2d60c",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "MicrosoftがAzureの実売上を初めて330億ドルと開示",
+      "summary_ja": "Microsoftは四半期のAzure売上をドル建てで初めて開示し、332億ドルだったことが明らかになった。これにより、最大競合であるAWSとの差がどこまで縮まっているかが初めて具体的に把握できるようになった。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+        }
+      ]
+    },
+    {
+      "id": "3b6696291dbc",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "AnthropicがAI支出の可視化ツールを公開",
+      "summary_ja": "Anthropicは企業向けに、自社モデルへの支出が何に使われているかを示す新ツールを公開した。IPOを控え、利用実態の透明性を高める狙いがある。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+        }
+      ]
+    },
+    {
+      "id": "e9a7a10b5a66",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "GitHub Octoverse 2026、マージ済みPRが月220万件に急増",
+      "summary_ja": "GitHubのOctoverse 2026レポートによると、エージェント型開発の影響でマージ済みプルリクエスト数が1年足らずで3倍に増え、月間2億2000万件に達した。",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+        }
+      ]
+    },
+    {
+      "id": "dfe8f4ca2517",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "llama.cpp v0.8.0、LiquidAI LFM3対応とリアルタイム音声APIを追加",
+      "summary_ja": "llama.cppのv0.8.0がリリースされ、LiquidAIのLFM3ファミリー（テキスト・画像・音声・オムニ）対応と、mtmdの実験的ストリーミング音声APIが追加された。DeepSeek V4.1 FlashやSenseNova U1など新アーキテクチャも多数追加され、コアではスパースアテンションの刷新やMoE用キャッシュの改善が行われている。",
+      "sources": [
+        {
+          "name": "GitHub ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0"
+        }
+      ]
+    },
+    {
+      "id": "ec733f799e1a",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA、多言語音声文字起こしモデルNemotronを公開",
+      "summary_ja": "NVIDIAは最大40言語に対応する無料の音声文字起こしモデルNemotron 3.5 Transcribeを公開したが、録音済み音声のみ対応でリアルタイム処理には対応していない。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+        }
+      ]
+    },
+    {
+      "id": "e46d29680afe",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Google、AI検索広告を世界展開へ",
+      "summary_ja": "Googleは従来の広告成長鈍化を背景に、AI Search広告を世界的に拡大すると発表した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+        }
+      ]
+    },
+    {
+      "id": "709cc8e2bd46",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Legora、法務向けエージェント型OSを構築",
+      "summary_ja": "法務テック企業LegoraはOpenAIのモデル、ChatGPT、Codexを活用し、契約分析を拡張して弁護士の業務を支援するエージェント型オペレーティングシステムを構築している。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/legora"
+        }
+      ]
+    },
+    {
+      "id": "dc7790b3a03a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "GoogleがGeminiと検索を外部アプリに開放",
+      "summary_ja": "Googleは新たな開発者向けプラットフォームを通じて、企業がGeminiや検索のAI体験にサービスを組み込めるようにすると発表した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+        }
+      ]
+    },
+    {
+      "id": "f45c7980de26",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "デラウェア州、AIエージェントによる企業運営を容認へ",
+      "summary_ja": "デラウェア州の新たな計画では、AIエージェントが企業を運営することが認められ、所有者は「無謀な」AIの行為に対する責任を回避できる可能性がある。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
+        }
+      ]
+    },
+    {
+      "id": "9327e550d0f4",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Meta、米5大学と医療・科学研究で提携",
+      "summary_ja": "Metaは米国の5大学と提携し、Superintelligenceモデルや研究資金、研究者との直接協力を通じて医療・科学分野の研究を支援すると発表した。",
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
+        }
+      ]
+    },
+    {
+      "id": "6d6987e4078b",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Artificial Analysis Intelligence IndexがV5に刷新",
+      "summary_ja": "ベンチマークArtificial Analysis Intelligence IndexがV5に更新され、オープンウェイトモデルとクローズドモデルの性能差が従来より広がる結果となった。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/"
+        }
+      ]
+    },
+    {
+      "id": "8e0b9acadf5d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "LiquidAI、エッジ向けテキストモデルLFM3-1.7Bを公開",
+      "summary_ja": "LiquidAIはローカルエージェント向けの新テキストモデルLFM3-1.7Bを公開し、4bit精度で約1GBのメモリに収まりスマートフォンやノートPCでも動作する。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        }
+      ]
+    },
+    {
+      "id": "9fa8e4999dc5",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA RTX Spark搭載ノートPC、新モデルとエージェントツールに対応",
+      "summary_ja": "NVIDIA RTX Spark搭載のWindowsノートPCがASUSやDellなど各社から発売され、新モデルやエージェント向けツールへの対応が強化された。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+        }
+      ]
+    },
+    {
+      "id": "17a75de37df0",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "税務タスクでAIエージェントを評価する新ベンチマーク「Dayjob: Tax」",
+      "summary_ja": "50件の実務的な税務課題を用いてAIエージェントの性能を評価する新ベンチマーク「Dayjob: Tax」が公開された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://surgehq.ai/blog/dayjob-tax"
+        }
+      ]
+    },
+    {
+      "id": "dbcf45402f36",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "データセンター投資停滞でGPU価格急落の予測",
+      "summary_ja": "データセンターの建設計画の停止やNeocloud企業の資金調達難を背景に、今後数カ月でGPU価格が大幅に下落する可能性があるとの見方が示されている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/"
+        }
+      ]
+    },
+    {
+      "id": "7ab8aa47e894",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Artificial Analysis、非公開ベンチマークに移行しオープンモデルの遅れを指摘",
+      "summary_ja": "Artificial AnalysisはGDPval-AAを廃止して非公開ベンチマークに移行し、オープンウェイトモデルがクローズドモデルにこれまで考えられていた以上に遅れを取っているとの結果を示した。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mywnjrmkb22z"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 8.8323,
+    "run_cost_usd": 0.1156,
+    "average_run_usd": 0.1032,
+    "runs_recorded": 90
+  }
+}

@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-21",
-      "id": "1cfb6291fa15",
-      "title_ja": "OpenAI、創薬AI強化のためOrchestra Bioを買収",
-      "urls": [
-        "https://openai.com/index/openai-to-acquire-orchestra-bio",
-        "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "68a6b53f34de",
-      "title_ja": "AnthropicとNscale、450億ドル規模の計算資源契約を交渉中と報道",
-      "urls": [
-        "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "5ed7b4468bde",
-      "title_ja": "Google、TPU向けPyTorchバックエンド「TorchTPU」をオープンソース化",
-      "urls": [
-        "https://github.com/google-pytorch/torch_tpu"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "ca26bca182f6",
-      "title_ja": "Alibaba、新モデル「Qwen3.8-27B」をHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "cb0bf0e1617e",
-      "title_ja": "Mistral、音声エージェント向けSDK「Voxtral 3」を発表",
-      "urls": [
-        "https://mistral.ai/news/voxtral-3/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "f2bc736c0ee7",
-      "title_ja": "Meta、マスク生成モデル「SAM3」をHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/facebook/sam3"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "85ed69736e92",
-      "title_ja": "CoreWeaveの社債が投資不適格水準に、AI業界の資金調達リスクが表面化",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "be38b11f937c",
-      "title_ja": "DeepSeekモデル向け高速推論フレームワーク「DeepInfer」公開",
-      "urls": [
-        "https://github.com/deepseek-ai/DeepInfer"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "244c48fc443e",
-      "title_ja": "Anthropic、IPO前にクラウド事業者との提携で調達難航と報道",
-      "urls": [
-        "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "9124fc501335",
-      "title_ja": "米政府、連邦システムからのDeepSeek排除を指示",
-      "urls": [
-        "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "2bb6d52be702",
-      "title_ja": "Otter.ai、General Catalystから3.2億ドルを調達",
-      "urls": [
-        "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "1a1edc372155",
-      "title_ja": "偽の統計データがLLMに引用される問題",
-      "urls": [
-        "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "32cbb2d0e83e",
-      "title_ja": "Anthropic社内調査、Claudeエージェントの待機時間が8割と判明",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1xag7e5/anthropics_internal_report_80_of_claude_session/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "edff2445aa44",
-      "title_ja": "Meta、AIアシスタント「Muse」の会話共有機能を一時停止",
-      "urls": [
-        "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "4560d3830d9f",
-      "title_ja": "Samsung、AI向けメモリ半導体の新工場を韓国に建設",
-      "urls": [
-        "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "917b3e7bcec4",
-      "title_ja": "エッジ向けTTSモデル「Phonon」がオープンソース化",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xaw2vt/phonon_is_now_opensource_31m_and_40m_tts_models/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "b474f189b05d",
-      "title_ja": "Amazon Bedrock、Claudeモデルで構造化出力に対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "0d5cac5e3daf",
-      "title_ja": "NVIDIA、視覚言語モデル「Nemotron 3.5 Super VL」を公開",
-      "urls": [
-        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "da0915a1e152",
-      "title_ja": "線形アテンションモデルをAWS Trainium2上で学習・提供する事例を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "id": "d3749e6f0190",
-      "title_ja": "AWS、実行時にツールを検出する「Agent Registry」機能を発表",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/"
-      ]
-    },
-    {
       "date": "2026-10-22",
       "id": "b56a338ff1e7",
       "title_ja": "中国大手3社がNvidia製チップを350億ドル超発注",
@@ -1177,6 +1016,169 @@
       "title_ja": "Meta AI幹部、MicrosoftとGoogleの製品競合に参入",
       "urls": [
         "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "e8e0cb1d0e68",
+      "title_ja": "Google、新フロンティアモデルGemini 4 Carbonを発表",
+      "urls": [
+        "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+        "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "4ba4897dde9b",
+      "title_ja": "AnthropicのIPOで見えたAmazonの巨大な出資比率とガバナンス構造",
+      "urls": [
+        "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "a395c7da350b",
+      "title_ja": "OpenAIとServiceNowがエンタープライズ連携を拡大",
+      "urls": [
+        "https://openai.com/index/openai-servicenow-partnership-expansion"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "020314ea17c3",
+      "title_ja": "MicrosoftがOpenAIから四半期100億ドルの収益を計上",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "0c8f9ce2d60c",
+      "title_ja": "MicrosoftがAzureの実売上を初めて330億ドルと開示",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "3b6696291dbc",
+      "title_ja": "AnthropicがAI支出の可視化ツールを公開",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "e9a7a10b5a66",
+      "title_ja": "GitHub Octoverse 2026、マージ済みPRが月220万件に急増",
+      "urls": [
+        "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "dfe8f4ca2517",
+      "title_ja": "llama.cpp v0.8.0、LiquidAI LFM3対応とリアルタイム音声APIを追加",
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "ec733f799e1a",
+      "title_ja": "NVIDIA、多言語音声文字起こしモデルNemotronを公開",
+      "urls": [
+        "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+        "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "e46d29680afe",
+      "title_ja": "Google、AI検索広告を世界展開へ",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "709cc8e2bd46",
+      "title_ja": "Legora、法務向けエージェント型OSを構築",
+      "urls": [
+        "https://openai.com/index/legora"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "dc7790b3a03a",
+      "title_ja": "GoogleがGeminiと検索を外部アプリに開放",
+      "urls": [
+        "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "f45c7980de26",
+      "title_ja": "デラウェア州、AIエージェントによる企業運営を容認へ",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "9327e550d0f4",
+      "title_ja": "Meta、米5大学と医療・科学研究で提携",
+      "urls": [
+        "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "6d6987e4078b",
+      "title_ja": "Artificial Analysis Intelligence IndexがV5に刷新",
+      "urls": [
+        "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "8e0b9acadf5d",
+      "title_ja": "LiquidAI、エッジ向けテキストモデルLFM3-1.7Bを公開",
+      "urls": [
+        "https://huggingface.co/LiquidAI/LFM3-1.7B"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "9fa8e4999dc5",
+      "title_ja": "NVIDIA RTX Spark搭載ノートPC、新モデルとエージェントツールに対応",
+      "urls": [
+        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "17a75de37df0",
+      "title_ja": "税務タスクでAIエージェントを評価する新ベンチマーク「Dayjob: Tax」",
+      "urls": [
+        "https://surgehq.ai/blog/dayjob-tax"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "dbcf45402f36",
+      "title_ja": "データセンター投資停滞でGPU価格急落の予測",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": "7ab8aa47e894",
+      "title_ja": "Artificial Analysis、非公開ベンチマークに移行しオープンモデルの遅れを指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mywnjrmkb22z"
       ]
     }
   ]

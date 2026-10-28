@@ -1,303 +1,295 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T07:57:02+09:00",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T08:08:42+09:00",
   "stats": {
-    "collected": 104,
-    "fresh": 89,
-    "selected": 37,
+    "collected": 111,
+    "fresh": 97,
+    "selected": 31,
     "published": 20
   },
   "highlights": [
-    "Google DeepMindがリアルタイム世界モデルGenie 4を発表",
-    "OpenAIとOracleがChatGPT向けパートナーシップを拡大",
-    "Liquid AIが小型マルチモーダルモデル群LFM3を公開"
+    "Google、新フロンティアモデルGemini 4 Carbonを発表",
+    "AnthropicがIPOに向け支出可視化ツールとガバナンス構造を公開",
+    "MicrosoftがOpenAIから四半期100億ドルの収益、Azureも330億ドル超"
   ],
   "items": [
     {
-      "id": "393575ee7d83",
+      "id": "e8e0cb1d0e68",
       "importance": "high",
       "category": "new_model",
-      "title_ja": "Google DeepMind、新世代世界モデル「Genie 4」発表",
-      "summary_ja": "Google DeepMindはリアルタイムシミュレーションで高いリアリズムを実現する世界モデル「Genie 4」を発表した。自然言語プロンプトによるリアルタイム体験更新、音声生成、Gemini 3.8 Flashを内部で利用するなど4つの主要アップデートが含まれる。インタラクティブ体験生成の実装やデモ検証を検討するエンジニアにとって、プロンプトベースでの環境編集機能は注目に値する。",
+      "title_ja": "Google、新フロンティアモデルGemini 4 Carbonを発表",
+      "summary_ja": "Googleはコーディング、エージェント的タスク、サイバーセキュリティで大幅な性能向上を謳う新フロンティアモデルGemini 4 Carbonを発表した。Artificial Analysis Intelligence Index（v5.0）でClaude Opus 5.5やGPT-6 Astraを上回り首位を獲得したとしている。コーディングやエージェント開発を行うエンジニアにとって、モデル選定の有力な候補となる。",
       "sources": [
         {
           "name": "Google DeepMind Blog",
-          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
         },
         {
           "name": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
         }
       ]
     },
     {
-      "id": "c417f8e3d39d",
+      "id": "4ba4897dde9b",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "AnthropicのIPOで見えたAmazonの巨大な出資比率とガバナンス構造",
+      "summary_ja": "AnthropicのIPOに伴う大量のノート転換により、AmazonがVCをはるかに上回る規模の持分を保有していることが明らかになった。同時に、IPO後のAnthropicの複雑なガバナンス構造についても整理されている。資本構成や意思決定権の所在は、取引先としてAnthropicに依存する企業にとって重要な判断材料となる。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+        }
+      ]
+    },
+    {
+      "id": "a395c7da350b",
       "importance": "high",
       "category": "business",
-      "title_ja": "OpenAIとOracle、ChatGPT向け連携を拡大",
-      "summary_ja": "OpenAIとOracleは提携を拡大し、Oracleのビジネスアプリケーションやエージェントをchat GPT上に統合する。企業向けAIエージェント基盤を検討する実務者は、Oracle製品との連携強化によりChatGPT経由での業務アプリ利用が進む点に注目すべきだ。",
+      "title_ja": "OpenAIとServiceNowがエンタープライズ連携を拡大",
+      "summary_ja": "OpenAIとServiceNowは提携を拡大し、OpenAIのモデルとエージェントをServiceNowのワークフローに、ServiceNowの機能をChatGPTとCodexに組み込む。エンタープライズ業務にAIエージェントを導入する企業にとって、両プラットフォーム間の連携強化は実装の選択肢を広げる。",
       "sources": [
         {
           "name": "OpenAI News",
-          "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
         }
       ]
     },
     {
-      "id": "e77549dba84a",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "GLM-5.3のWorkers AIモデルでKVキャッシュ露出問題",
-      "summary_ja": "GLM-5.3のWorkers AIモデルにおいて、リクエストをまたいでKVキャッシュが露出する問題がHacker Newsで報告された。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
-        }
-      ]
-    },
-    {
-      "id": "e3fff8f98b61",
+      "id": "020314ea17c3",
       "importance": "high",
       "category": "business",
-      "title_ja": "Exowatt、SageMakerでフロンティアモデル超えの精度達成",
-      "summary_ja": "ExowattはAmazon SageMaker AIのサーバーレスモデルカスタマイズ機能を使い、エッジとクラウド向けにタスク特化のファインチューニング済みモデルを生成する再現可能なAIパイプラインを構築した。フロンティアモデルより高い精度を、最大49倍低いコストで達成しており、同様の用途でのモデルカスタマイズ検討の参考になる。",
+      "title_ja": "MicrosoftがOpenAIから四半期100億ドルの収益を計上",
+      "summary_ja": "Microsoftは9月30日締めの四半期で、OpenAIとの商業契約（収益分配を含む）から100億ドルの収益を得たと発表した。同社の四半期売上は923億ドルで前年比19%増となり、10四半期連続で過去最高を更新した。OpenAIとMicrosoftの財務的な相互依存の大きさが改めて示された。",
       "sources": [
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/"
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
         }
       ]
     },
     {
-      "id": "740c5733ca50",
+      "id": "0c8f9ce2d60c",
       "importance": "high",
-      "category": "product",
-      "title_ja": "Liquid AI、小型マルチモーダルモデル群LFM3を公開",
-      "summary_ja": "Liquid AIはローカルエージェントやツール呼び出し向けの新しいトライハイブリッドアーキテクチャに基づくLFM3シリーズを公開した。1.7Bのテキストモデルに加え、画像理解・音声認識・全モダリティ対応版があり、4bit精度で約1GBのメモリに収まるため、エッジデバイスでの利用やOllama経由でのローカル実行を検討する開発者に有用である。",
+      "category": "business",
+      "title_ja": "MicrosoftがAzureの実売上を初めて330億ドルと開示",
+      "summary_ja": "Microsoftは四半期のAzure売上をドル建てで初めて開示し、332億ドルだったことが明らかになった。これにより、最大競合であるAWSとの差がどこまで縮まっているかが初めて具体的に把握できるようになった。",
       "sources": [
         {
-          "name": "GitHub ollama/ollama",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12"
-        },
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+        }
+      ]
+    },
+    {
+      "id": "3b6696291dbc",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "AnthropicがAI支出の可視化ツールを公開",
+      "summary_ja": "Anthropicは企業向けに、自社モデルへの支出が何に使われているかを示す新ツールを公開した。IPOを控え、利用実態の透明性を高める狙いがある。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+        }
+      ]
+    },
+    {
+      "id": "e9a7a10b5a66",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "GitHub Octoverse 2026、マージ済みPRが月220万件に急増",
+      "summary_ja": "GitHubのOctoverse 2026レポートによると、エージェント型開発の影響でマージ済みプルリクエスト数が1年足らずで3倍に増え、月間2億2000万件に達した。",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+        }
+      ]
+    },
+    {
+      "id": "dfe8f4ca2517",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "llama.cpp v0.8.0、LiquidAI LFM3対応とリアルタイム音声APIを追加",
+      "summary_ja": "llama.cppのv0.8.0がリリースされ、LiquidAIのLFM3ファミリー（テキスト・画像・音声・オムニ）対応と、mtmdの実験的ストリーミング音声APIが追加された。DeepSeek V4.1 FlashやSenseNova U1など新アーキテクチャも多数追加され、コアではスパースアテンションの刷新やMoE用キャッシュの改善が行われている。",
+      "sources": [
+        {
+          "name": "GitHub ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0"
+        }
+      ]
+    },
+    {
+      "id": "ec733f799e1a",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA、多言語音声文字起こしモデルNemotronを公開",
+      "summary_ja": "NVIDIAは最大40言語に対応する無料の音声文字起こしモデルNemotron 3.5 Transcribeを公開したが、録音済み音声のみ対応でリアルタイム処理には対応していない。",
+      "sources": [
         {
           "name": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
         },
         {
-          "name": "Hacker News",
-          "url": "https://www.liquid.ai/blog/lfm3"
-        },
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy8s3/liquidailfm317b_hugging_face/"
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
         }
       ]
     },
     {
-      "id": "d5da004d8354",
+      "id": "e46d29680afe",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Property Finder、Bedrockで評価バイアスを修正",
-      "summary_ja": "Property FinderはビジョンAI評価ラベルの96.8%が既存モデルから継承されており真の精度が隠れていたことを発見し、Amazon Bedrock上でバイアスのないグラウンドトゥルースを構築してコストを86%削減した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/"
-        }
-      ]
-    },
-    {
-      "id": "0ba745f0c495",
-      "importance": "medium",
-      "category": "funding",
-      "title_ja": "General Compute、シリーズAで1億ドル調達",
-      "summary_ja": "推論チップスタートアップGeneral Computeは、Nvidia以外のエコシステムのチップに賭けるシリーズAで1億ドルを調達した。",
+      "title_ja": "Google、AI検索広告を世界展開へ",
+      "summary_ja": "Googleは従来の広告成長鈍化を背景に、AI Search広告を世界的に拡大すると発表した。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
         }
       ]
     },
     {
-      "id": "a17083d6bd14",
+      "id": "709cc8e2bd46",
       "importance": "medium",
-      "category": "business",
-      "title_ja": "Amazon、AI部門を失敗続きで再編",
-      "summary_ja": "Amazonは継続的な失敗を受けてAI部門の縮小・再編を進めていると報じられている。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova"
-        }
-      ]
-    },
-    {
-      "id": "1e3ebf94e41e",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Retell、OpenAIモデルで月1億件の通話を処理",
-      "summary_ja": "音声エージェント企業RetellはOpenAIのGPT-6 Astraモデルを採用し、月間1億件の通話処理を実現、Codexの活用により従業員1人あたり年間160万ドルの収益率を達成している。",
+      "category": "product",
+      "title_ja": "Legora、法務向けエージェント型OSを構築",
+      "summary_ja": "法務テック企業LegoraはOpenAIのモデル、ChatGPT、Codexを活用し、契約分析を拡張して弁護士の業務を支援するエージェント型オペレーティングシステムを構築している。",
       "sources": [
         {
           "name": "OpenAI News",
-          "url": "https://openai.com/index/retell-ai"
+          "url": "https://openai.com/index/legora"
         }
       ]
     },
     {
-      "id": "116569c86925",
+      "id": "dc7790b3a03a",
       "importance": "medium",
-      "category": "product",
-      "title_ja": "Ling-3.1-flashの重みがHugging Faceで公開",
-      "summary_ja": "560B総パラメータ・25Bアクティブの大規模モデルLing-3.1-flash-1019の重みとベースモデルがHugging Faceで公開され、ベンチマークスコアも向上した。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgrr8n/ling31flash1019_weights_are_out_and_they_released/"
-        }
-      ]
-    },
-    {
-      "id": "23f9cacadf78",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Baidu、超長文書対応OCRモデルUnlimited-OCR-2公開",
-      "summary_ja": "Baiduは無制限長の文書解析を可能にするOCRモデル「Unlimited-OCR-2」を公開し、新ベンチマークMarathonDocBenchも併せてリリースした。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
-        },
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnbtq/baiduunlimitedocr2_hugging_face/"
-        }
-      ]
-    },
-    {
-      "id": "9ac0f9c38b8f",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "AWS、SageMaker AI向けSOCIインデックス画像を発表",
-      "summary_ja": "AWSはコンテナイメージの完全ダウンロードをクリティカルパスから除去するSOCIインデックス機能をSageMaker AIに導入し、ジョブ起動時間を分単位から秒単位に短縮した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/"
-        }
-      ]
-    },
-    {
-      "id": "373a8b625d14",
-      "importance": "medium",
-      "category": "funding",
-      "title_ja": "Disruptive、AI企業向けに100億ドルファンド組成",
-      "summary_ja": "投資会社DisruptiveはAI関連企業少なくとも10社への大型投資を目的とした100億ドル規模のファンドを組成した。",
+      "category": "business",
+      "title_ja": "GoogleがGeminiと検索を外部アプリに開放",
+      "summary_ja": "Googleは新たな開発者向けプラットフォームを通じて、企業がGeminiや検索のAI体験にサービスを組み込めるようにすると発表した。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/"
+          "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
         }
       ]
     },
     {
-      "id": "7ded73819dc6",
+      "id": "f45c7980de26",
       "importance": "medium",
-      "category": "product",
-      "title_ja": "自然言語によるタンパク質・ゲノム設計ツール登場",
-      "summary_ja": "自然言語の指示でタンパク質やゲノムの設計を行えるAIツールが登場している。",
+      "category": "business",
+      "title_ja": "デラウェア州、AIエージェントによる企業運営を容認へ",
+      "summary_ja": "デラウェア州の新たな計画では、AIエージェントが企業を運営することが認められ、所有者は「無謀な」AIの行為に対する責任を回避できる可能性がある。",
       "sources": [
         {
           "name": "Ars Technica AI",
-          "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/"
+          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
         }
       ]
     },
     {
-      "id": "72e188139d84",
+      "id": "9327e550d0f4",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Nvidia、GPU効率化のSimplismartに出資",
-      "summary_ja": "NvidiaはAIモデルを少ないGPUで実行できるインドのスタートアップSimplismartに出資し、同社の年間売上は6カ月で14倍に成長した。",
+      "title_ja": "Meta、米5大学と医療・科学研究で提携",
+      "summary_ja": "Metaは米国の5大学と提携し、Superintelligenceモデルや研究資金、研究者との直接協力を通じて医療・科学分野の研究を支援すると発表した。",
       "sources": [
         {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
+          "name": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
         }
       ]
     },
     {
-      "id": "10a77ad2f686",
+      "id": "6d6987e4078b",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Artificial Analysis Intelligence IndexがV5に刷新",
+      "summary_ja": "ベンチマークArtificial Analysis Intelligence IndexがV5に更新され、オープンウェイトモデルとクローズドモデルの性能差が従来より広がる結果となった。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/"
+        }
+      ]
+    },
+    {
+      "id": "8e0b9acadf5d",
       "importance": "medium",
       "category": "product",
-      "title_ja": "KRAFTON、Raon-1-mini-previewモデルを公開",
-      "summary_ja": "KRAFTONはテキスト生成モデル「Raon-1-mini-preview」をHugging Faceで公開した。",
+      "title_ja": "LiquidAI、エッジ向けテキストモデルLFM3-1.7Bを公開",
+      "summary_ja": "LiquidAIはローカルエージェント向けの新テキストモデルLFM3-1.7Bを公開し、4bit精度で約1GBのメモリに収まりスマートフォンやノートPCでも動作する。",
       "sources": [
         {
           "name": "Hugging Face",
-          "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview"
+          "url": "https://huggingface.co/LiquidAI/LFM3-1.7B"
         }
       ]
     },
     {
-      "id": "110896d94e28",
+      "id": "9fa8e4999dc5",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Datalab、OCRモデルIndra-OCRを公開",
-      "summary_ja": "Datalab-toはPDFやレイアウト解析に対応したCPU向けOCRモデル「indra-ocr」をHugging Faceで公開した。",
+      "title_ja": "NVIDIA RTX Spark搭載ノートPC、新モデルとエージェントツールに対応",
+      "summary_ja": "NVIDIA RTX Spark搭載のWindowsノートPCがASUSやDellなど各社から発売され、新モデルやエージェント向けツールへの対応が強化された。",
       "sources": [
         {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/datalab-to/indra-ocr"
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
         }
       ]
     },
     {
-      "id": "840f2acb14a4",
+      "id": "17a75de37df0",
       "importance": "medium",
       "category": "tool",
-      "title_ja": "Opera、ブラウザ内ローカルAI標準「WebAI」提唱",
-      "summary_ja": "Operaは様々なAIモデルに対応し、ブラウザ内でローカルにAIを展開できる新標準「WebAI」を発表した。",
+      "title_ja": "税務タスクでAIエージェントを評価する新ベンチマーク「Dayjob: Tax」",
+      "summary_ja": "50件の実務的な税務課題を用いてAIエージェントの性能を評価する新ベンチマーク「Dayjob: Tax」が公開された。",
       "sources": [
         {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
+          "name": "Hacker News",
+          "url": "https://surgehq.ai/blog/dayjob-tax"
         }
       ]
     },
     {
-      "id": "c44dc9ed271f",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "Check Point、OpenAI Daybreakで脆弱性研究を加速",
-      "summary_ja": "Check PointはOpenAIのDaybreakを活用し、脆弱性インテリジェンスを顧客向け防御策へ迅速に変換する研究プロセスを高速化している。",
-      "sources": [
-        {
-          "name": "OpenAI News",
-          "url": "https://openai.com/index/check-point-daybreak"
-        }
-      ]
-    },
-    {
-      "id": "0fcf6f6c92fd",
+      "id": "dbcf45402f36",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Meta AI幹部、MicrosoftとGoogleの製品競合に参入",
-      "summary_ja": "Meta AI評価・強化学習担当だったRohit Patelが8年の勤務を経て退社し、自身のスタートアップNdocを通じてMicrosoft OfficeやGoogle Workspaceに対抗する事業を進めると報じられている。",
+      "title_ja": "データセンター投資停滞でGPU価格急落の予測",
+      "summary_ja": "データセンターの建設計画の停止やNeocloud企業の資金調達難を背景に、今後数カ月でGPU価格が大幅に下落する可能性があるとの見方が示されている。",
       "sources": [
         {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/"
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/"
+        }
+      ]
+    },
+    {
+      "id": "7ab8aa47e894",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Artificial Analysis、非公開ベンチマークに移行しオープンモデルの遅れを指摘",
+      "summary_ja": "Artificial AnalysisはGDPval-AAを廃止して非公開ベンチマークに移行し、オープンウェイトモデルがクローズドモデルにこれまで考えられていた以上に遅れを取っているとの結果を示した。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mywnjrmkb22z"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 8.7168,
-    "run_cost_usd": 0.1121,
-    "average_run_usd": 0.1033,
-    "runs_recorded": 89
+    "spent_usd": 8.8323,
+    "run_cost_usd": 0.1156,
+    "average_run_usd": 0.1032,
+    "runs_recorded": 90
   }
 }
