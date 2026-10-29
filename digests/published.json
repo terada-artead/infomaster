@@ -1,172 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-22",
-      "id": "b56a338ff1e7",
-      "title_ja": "中国大手3社がNvidia製チップを350億ドル超発注",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "cdc94824f023",
-      "title_ja": "Meta、AI投資資金調達へ新株式クラスを発行",
-      "urls": [
-        "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "1ef243007176",
-      "title_ja": "Mistral、新モデル「Mistral Large 4」を公開",
-      "urls": [
-        "https://mistral.ai/news/mistral-large-4/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "258d5ff776fa",
-      "title_ja": "Anthropic、AIエージェント「Claude Duet」を発表",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-        "https://claude.com/product/claude-duet"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "95dedf578de7",
-      "title_ja": "OpenAIのモデル群がGoogle Cloudに提供開始",
-      "urls": [
-        "https://openai.com/index/openai-models-google-cloud",
-        "https://openai.com/index/openai-models-google-cloud/",
-        "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "bb132bf741e1",
-      "title_ja": "Recursive、コーディングモデル「Flint」をOllamaに提供",
-      "urls": [
-        "https://github.com/ollama/ollama/releases/tag/v0.40.8",
-        "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "dd62bb078550",
-      "title_ja": "Walmart、AIエージェントによる購買を解禁",
-      "urls": [
-        "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "8eaa1a0c5360",
-      "title_ja": "OpenAIのエージェントが安全監視を無効化し虚偽報告",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "178f902415d1",
-      "title_ja": "推論高速化手法「Eagle-4」が公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xb6zds/eagle4_released_faster_than_dflash2_dspark/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "17ca5ebcc0e1",
-      "title_ja": "OpenAI Python SDK v3.36.0がリリース",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.36.0"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "8722385c6c33",
-      "title_ja": "NVIDIA、GTC Berlinでローカル向けAIハードウェアを展示",
-      "urls": [
-        "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "de9db6f384cb",
-      "title_ja": "脆弱性対応を調整する「Patch the Planet」始動",
-      "urls": [
-        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "e75bb6768e87",
-      "title_ja": "Samsung、2027年分HBM容量が完売、価格高騰の見通し",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xbfhxp/be_prepared_gpu_price_increase_incoming_samsung/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "10cc2c9d94e7",
-      "title_ja": "AIによる脆弱性発見増加で企業のパッチ対応が逼迫",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3myffkbheuc2e"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "b7884da985bf",
-      "title_ja": "Baidu、OCRモデル「Unlimited-OCR」をHugging Faceに公開",
-      "urls": [
-        "https://huggingface.co/baidu/Unlimited-OCR"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "ff933de51848",
-      "title_ja": "OpenBMB、35B規模MoEモデルをiPhoneで動作",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xbmsgf/35b_moe_running_at_205_toks_on_an_iphone_without/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "6bf82841932d",
-      "title_ja": "Mistral、NVIDIAとAIエンジニアリング分野で協業",
-      "urls": [
-        "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "12c1cb38a75e",
-      "title_ja": "Google CloudとNVIDIA、Vera Rubin基盤を一般提供開始",
-      "urls": [
-        "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "d46c8940730c",
-      "title_ja": "NVIDIA、欧州向けにオープンモデル群を拡充",
-      "urls": [
-        "https://blogs.nvidia.com/blog/open-models-europe-industry/"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "id": "64ddfb139fec",
-      "title_ja": "数千のAIエージェントで生物学研究データから新知見を発見",
-      "urls": [
-        "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-        "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
-      ]
-    },
-    {
       "date": "2026-10-23",
       "id": "891b7e0bbf66",
       "title_ja": "OpenAI、低コスト判断処理向けDecisions APIを発表",
@@ -1179,6 +1013,170 @@
       "title_ja": "Artificial Analysis、非公開ベンチマークに移行しオープンモデルの遅れを指摘",
       "urls": [
         "https://bsky.app/profile/emollick.bsky.social/post/3mywnjrmkb22z"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "da867975a5a8",
+      "title_ja": "Mistral Large 4公開、1兆パラメータのMoEモデル",
+      "urls": [
+        "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+        "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
+        "https://mistral.ai/news/mistral-large-4-oss/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "32d69d7e6fd5",
+      "title_ja": "OpenAIのエージェントがセキュリティテスト中に不正侵入",
+      "urls": [
+        "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "5f992c32f575",
+      "title_ja": "MicrosoftがAIを理由に6万人規模の希望退職募集",
+      "urls": [
+        "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "0306274c76ab",
+      "title_ja": "Alibaba、Apsara会議でQwen4を来週発表へ",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B公開、1Mコンテキストのホスト版も予定",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "c64d19fa0032",
+      "title_ja": "OpenAI出資のThrive、ADTを153億ドルで買収",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "f2bc736c0ee7",
+      "title_ja": "Meta、セグメンテーションモデルSAM3を公開",
+      "urls": [
+        "https://huggingface.co/facebook/sam3"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "fa73a25059b1",
+      "title_ja": "MoEngage、400件のAPIをAgentCoreでエージェント化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "3a644431de13",
+      "title_ja": "Anthropic、IPO申請書でAGI実現を前提に説明",
+      "urls": [
+        "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "070a86401333",
+      "title_ja": "GoogleのAI検索、収益性低下でキャッシュフロー悪化",
+      "urls": [
+        "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "8b5c8b217b9f",
+      "title_ja": "NVIDIA Nemotron 3.5、EKS・SageMakerでの展開手法公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+        "https://bsky.app/profile/danielvanstrien.bsky.social/post/3myz2mtg6b224"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "f21574bd1bc9",
+      "title_ja": "Amazon Nova Act活用のUIテストサービス",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "3eb958348088",
+      "title_ja": "Deepgram、Pipecat開発元のDailyを買収",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "94430ceaa839",
+      "title_ja": "Claude Code、バックグラウンドエージェントの履歴を送信",
+      "urls": [
+        "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "6394645bd510",
+      "title_ja": "Apple向け音声認識・意思決定モデルを公開",
+      "urls": [
+        "https://huggingface.co/blog/anydecisionmodel"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "f6a400e50dd5",
+      "title_ja": "AWS Batch、SageMaker向けクォータ管理機能追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "8dc21525d02f",
+      "title_ja": "元Palantir幹部、建設向けAI世界モデルのDream起業",
+      "urls": [
+        "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "d948735545c2",
+      "title_ja": "Ropes & Gray、OpenAIとM&Aデューデリジェンス向けAI開発",
+      "urls": [
+        "https://openai.com/index/ropes-gray-ai-diligence"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "718617961cab",
+      "title_ja": "Hugging Face、公的研究データのAI対応化プロジェクト始動",
+      "urls": [
+        "https://huggingface.co/blog/announcing-project-protostar"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": "5beef147a781",
+      "title_ja": "NVIDIA Omniverse、AIエージェントでシミュレーション構築",
+      "urls": [
+        "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
       ]
     }
   ]
