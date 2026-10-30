@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-23",
-      "id": "891b7e0bbf66",
-      "title_ja": "OpenAI、低コスト判断処理向けDecisions APIを発表",
-      "urls": [
-        "https://openai.com/index/decisions-api"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "812abe3aa79b",
-      "title_ja": "DeepSeek、米規制後に150億ドル調達と報道",
-      "urls": [
-        "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "c115ce57a51e",
-      "title_ja": "ClaudeがGoogle Docs・Sheets・Slidesに対応",
-      "urls": [
-        "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "c479324c7490",
-      "title_ja": "Amazon Polly、Generative音声エンジンを大幅刷新",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "f8df91dc1419",
-      "title_ja": "NVIDIA、世界モデル構築基盤Cosmosを拡張",
-      "urls": [
-        "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "8042c4cdf6b9",
-      "title_ja": "OpenAI、CLIツールを公開",
-      "urls": [
-        "https://github.com/openai/openai-cli"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "fe398319a3a9",
-      "title_ja": "1.58ビットの軽量TTS「Kitten-TTS 2」がオープンソース公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "84ed782f0df0",
-      "title_ja": "AIによる攻防の高速化、専門家が警鐘",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mygfwzgdc22g"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "af6b159eb6ea",
-      "title_ja": "NVIDIA、AIファクトリー向け観測基盤Minervaを発表",
-      "urls": [
-        "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "6af0fd42e696",
-      "title_ja": "中国系ハッカー、AIエージェントでConnectWiseを侵害",
-      "urls": [
-        "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "c456f043e53d",
-      "title_ja": "Meta、AI投資資金調達のため新株式クラス創設へ",
-      "urls": [
-        "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "2f38489938aa",
-      "title_ja": "Anthropic、Agent SkillsをAgentic AI Foundationに寄贈",
-      "urls": [
-        "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "08577d1558fa",
-      "title_ja": "AWS SageMaker、GPU管理不要のサーバーレス学習カスタマイズが一般提供",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "6f92d2956556",
-      "title_ja": "NVIDIA DSX、AIファクトリーの電力制約解消に活用",
-      "urls": [
-        "https://blogs.nvidia.com/blog/dsx-power/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "054347e9fabb",
-      "title_ja": "欧州各国、NVIDIA Earth-2の気象予測モデルを導入",
-      "urls": [
-        "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "6eb73169f84c",
-      "title_ja": "自律AIエージェント群向けランタイム「OpenShell」公開",
-      "urls": [
-        "https://github.com/NVIDIA/OpenShell"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "eda525050cea",
-      "title_ja": "Uber、全従業員3万人にChatGPT Workを展開",
-      "urls": [
-        "https://openai.com/index/uber-chatgpt-work-rollout",
-        "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "4ab186bcd5d9",
-      "title_ja": "欧州金融機関、独自知能基盤にオープンモデル採用",
-      "urls": [
-        "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "264af0525447",
-      "title_ja": "1Password、AIエージェントがパスワードを見ずにログインできる機能を発表",
-      "urls": [
-        "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
-      ]
-    },
-    {
-      "date": "2026-10-23",
-      "id": "c8127c2e5751",
-      "title_ja": "エンタープライズAI、モデル選定より周辺構築が競争優位に",
-      "urls": [
-        "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
-      ]
-    },
-    {
       "date": "2026-10-24",
       "id": "0e6b7b9249b2",
       "title_ja": "OpenAI、評価額1.25兆ドルで300億ドル調達へ",
@@ -1177,6 +1016,97 @@
       "title_ja": "NVIDIA Omniverse、AIエージェントでシミュレーション構築",
       "urls": [
         "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "820dfbe7b266",
+      "title_ja": "AI支出ブームの持続性に疑問、ハイテク株にも懸念広がる",
+      "urls": [
+        "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+        "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "f61d3e32ca00",
+      "title_ja": "Claude Code拡張機能にバックドア、約12時間検知されず",
+      "urls": [
+        "https://cyberplace.social/@GossiTheDog/117528831681803563",
+        "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "f7975896246f",
+      "title_ja": "Amazon Bedrockで物流自動化とコスト管理の実践事例公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "f9b3653194a2",
+      "title_ja": "Bedrock AgentCoreでコーディングエージェントのライブプレビューが可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "068409901120",
+      "title_ja": "軽量OCRモデルSurya 2.5、歴史的文書の読み取り精度向上",
+      "urls": [
+        "https://bsky.app/profile/danielvanstrien.bsky.social/post/3mz3lonmxv22a"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "49d99f09e516",
+      "title_ja": "OpenAI、ChatGPT加入者向けにAPIクレジット特典を導入",
+      "urls": [
+        "https://simonwillison.net/2026/Oct/29/api-credits/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "fae087618c97",
+      "title_ja": "LiquidAI、any-to-any対応の小型モデルLFM3-Omni-2Bを公開",
+      "urls": [
+        "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "5a9bda72c1d1",
+      "title_ja": "Black Forest Labs、画像生成モデルFlux-3を公開",
+      "urls": [
+        "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "baf2e8680ec9",
+      "title_ja": "DoorDash、AIエージェント経由の注文は「数百件」にとどまる",
+      "urls": [
+        "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "ee99048206ee",
+      "title_ja": "OpenBMB、文書解析向けOCRモデルMiniCPM-OCR-1.0を公開",
+      "urls": [
+        "https://huggingface.co/openbmb/MiniCPM-OCR-1.0"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": "b9ee8bb30716",
+      "title_ja": "GoogleのAI衛星搭載TPU、宇宙から初応答を地球に送信",
+      "urls": [
+        "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
       ]
     }
   ]
