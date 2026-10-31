@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-24",
-      "id": "0e6b7b9249b2",
-      "title_ja": "OpenAI、評価額1.25兆ドルで300億ドル調達へ",
-      "urls": [
-        "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricks、画像・動画生成モデルLTX-2.5を公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "8c177b37ece0",
-      "title_ja": "NVIDIA、軽量VLM「Nemotron 3.5 Bolt E4B」を公開",
-      "urls": [
-        "https://github.com/ollama/ollama/releases/tag/v0.40.10",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "6c5b89fb0ac8",
-      "title_ja": "Recursive、コーディング特化MoEモデルFlintを公開",
-      "urls": [
-        "https://huggingface.co/RecursiveSI/flint"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "b535efb45286",
-      "title_ja": "Bayer、Bedrock AgentCoreで農業分析AIエージェント構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "5eee804247a4",
-      "title_ja": "Canva、設計を事前計画する画像生成モデルCraftを発表",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "9e0308113d32",
-      "title_ja": "Moonshot、Kimi K3.1 ProをAPIで提供開始",
-      "urls": [
-        "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "17a3763d668e",
-      "title_ja": "Claude Opus 4.8、学術論文の査読実験で人間専門家を上回る",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3myjcs6g7zc2q"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "6ee455e9d355",
-      "title_ja": "Fish Audio、長編向けTTSモデルDrama 3を公開",
-      "urls": [
-        "https://huggingface.co/fishaudio/drama-3"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "f07d0bb3b14f",
-      "title_ja": "カザフスタン、AI向け計算基盤の整備を拡大",
-      "urls": [
-        "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "19dea22ac3c7",
-      "title_ja": "AIラボ内部モデルと公開モデルの差拡大を懸念する指摘",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mykox5d5k22o"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "2b3f616d26d3",
-      "title_ja": "Hugging Face、AWS Trainium対応モデル検索ツールを公開",
-      "urls": [
-        "https://huggingface.co/blog/torch-neuronx-model-support"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "cf51e24baa15",
-      "title_ja": "inDrive、カザフスタンで2027年のロボタクシー試験を計画",
-      "urls": [
-        "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "f6a301346a05",
-      "title_ja": "LLMによる形式検証、大規模化が現実的にとの議論",
-      "urls": [
-        "https://www.anthropic.com/research/formal-verification"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "49cfabc61c2b",
-      "title_ja": "llama.cpp、Qwen向けにVRAM節約のQSA選択実装",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "51888f116f5b",
-      "title_ja": "ThinkingBox、DB採点をRL報酬に変換する手法を公開",
-      "urls": [
-        "https://huggingface.co/blog/microsoft/thinkingbox-training"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "f8a90ed57699",
-      "title_ja": "Anthropic、Python SDK v2.2.0をリリース",
-      "urls": [
-        "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.2.0"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "ee4c22366ef7",
-      "title_ja": "OpenAI、ChatGPT向けオンラインストレージ基盤を解説",
-      "urls": [
-        "https://openai.com/index/scaling-storage-one-billion-users-part-two"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "c6dba218462c",
-      "title_ja": "AWS、SageMakerでのマルチターン強化学習ガイドを公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "id": "6961cf70fece",
-      "title_ja": "スウェーデン政府、ChatGPTとClaudeの利用を禁止へ",
-      "urls": [
-        "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
-      ]
-    },
-    {
       "date": "2026-10-25",
       "id": "eb79656c925c",
       "title_ja": "Qwen3.8-Flash-Next公開、8GB GPUでも高速動作",
@@ -1107,6 +946,95 @@
       "title_ja": "GoogleのAI衛星搭載TPU、宇宙から初応答を地球に送信",
       "urls": [
         "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "7a24eca35f77",
+      "title_ja": "OpenAIなど大手がWebスクレイピング拒否の共通規格を採用",
+      "urls": [
+        "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "f3e255de2b47",
+      "title_ja": "OpenAIが資金調達目標を下方修正、Anthropicは高めのジャンク格付け予想",
+      "urls": [
+        "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+        "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "0ae524ee7a4c",
+      "title_ja": "Pika Labs、画像から動画生成するPika-H3-Flexを公開",
+      "urls": [
+        "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "fe0e0eb72638",
+      "title_ja": "AWS、Bedrockコスト管理の運用手順を解説するブログを公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "27eb355cff2b",
+      "title_ja": "Microsoft、軽量な4Bビジョン言語モデルMage-VL-Coworkを公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "d35acc9f914a",
+      "title_ja": "OpenAI PythonライブラリがバージョンAPIを追加",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.42.0"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "420fd151ca6f",
+      "title_ja": "Nvidia、Nscaleのデータセンター計画への融資保証を検討",
+      "urls": [
+        "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "029f4f6cd793",
+      "title_ja": "Nvidia、40言語対応の音声認識モデルNemotron-3.5-Transcribeを公開",
+      "urls": [
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "8edfa603fa5e",
+      "title_ja": "Apple Intelligence、iOS 27.3で中国でも提供開始",
+      "urls": [
+        "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "1c640f88e053",
+      "title_ja": "ChatGPTアカウント乗っ取りの脆弱性に関する調査報告",
+      "urls": [
+        "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": "d0bffa67e51d",
+      "title_ja": "Liquid AI、エッジ向けビジョン言語モデルLFM3-VL-2Bを公開",
+      "urls": [
+        "https://huggingface.co/LiquidAI/LFM3-VL-2B"
       ]
     }
   ]

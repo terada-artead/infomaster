@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T07:26:28+09:00",
+  "stats": {
+    "collected": 77,
+    "fresh": 60,
+    "selected": 13,
+    "published": 11
+  },
+  "highlights": [
+    "OpenAIなど大手AI企業がスクレイピング拒否の共通規格を採用",
+    "OpenAIが新規資金調達目標を半分以下に下方修正",
+    "Anthropicのクレジット格付けが高めのジャンク級と予想される"
+  ],
+  "items": [
+    {
+      "id": "7a24eca35f77",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "OpenAIなど大手がWebスクレイピング拒否の共通規格を採用",
+      "summary_ja": "OpenAI、Google、Microsoft、Anthropicは、パブリッシャーがAIによるスクレイピングを拒否できる新しい共通規格を採用すると表明した。これにより、パブリッシャーは各AI企業ごとに個別設定する代わりに、共通の「ポリシートークン」信号でAI学習利用の可否を一括指定できるようになる。実装が進めば、コンテンツ提供側の権利管理コストが下がり、AI企業側もデータ取得方針の整合を取りやすくなる。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+        }
+      ]
+    },
+    {
+      "id": "f3e255de2b47",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "OpenAIが資金調達目標を下方修正、Anthropicは高めのジャンク格付け予想",
+      "summary_ja": "OpenAIは最新の資金調達ラウンドで目標の300億ドルの半分未満しか集められなかったと報じられ、Blackstoneの予測ではAnthropicはIPO後に格付け機関から比較的高めのジャンク級評価を受けると見られている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
+        }
+      ]
+    },
+    {
+      "id": "0ae524ee7a4c",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Pika Labs、画像から動画生成するPika-H3-Flexを公開",
+      "summary_ja": "Pika Labsは、MiniMax-H3をベースに後学習した画像→動画生成モデル「Pika-H3-Flex」をHugging Faceで公開した。6ステップで音声同期付き動画を生成でき、最大12枚の参照画像によるショット制御に対応する。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
+        }
+      ]
+    },
+    {
+      "id": "fe0e0eb72638",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AWS、Bedrockコスト管理の運用手順を解説するブログを公開",
+      "summary_ja": "AWSはFinOpsとプラットフォームチーム向けに、Amazon Bedrockのコストを可視化・統制する5段階の運用モデルを紹介するブログ記事を公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/"
+        }
+      ]
+    },
+    {
+      "id": "27eb355cff2b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Microsoft、軽量な4Bビジョン言語モデルMage-VL-Coworkを公開",
+      "summary_ja": "Microsoftは、少ないモデル呼び出し回数でOSWorld-Verifiedベンチマーク66.0%を達成する4B規模のビジョン言語モデル「Mage-VL-Cowork」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/"
+        }
+      ]
+    },
+    {
+      "id": "d35acc9f914a",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "OpenAI PythonライブラリがバージョンAPIを追加",
+      "summary_ja": "OpenAIのPythonライブラリv3.42.0がリリースされ、エージェントのコンテキスト圧縮設定やセッションレビュー・時間認識などの機能が追加された。",
+      "sources": [
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.42.0"
+        }
+      ]
+    },
+    {
+      "id": "420fd151ca6f",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Nvidia、Nscaleのデータセンター計画への融資保証を検討",
+      "summary_ja": "Nvidiaは、ウェストバージニア州でのNscaleのAIデータセンター建設に対し、融資の保証人役を担うことを検討していると報じられた。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+        }
+      ]
+    },
+    {
+      "id": "029f4f6cd793",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Nvidia、40言語対応の音声認識モデルNemotron-3.5-Transcribeを公開",
+      "summary_ja": "Nvidiaは、40言語対応でオフライン動作可能な音声認識モデル「Nemotron-3.5-Transcribe-30B-A4B」を公開し、混合エキスパート構造で約43億パラメータを活性化する設計とした。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+        }
+      ]
+    },
+    {
+      "id": "8edfa603fa5e",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Apple Intelligence、iOS 27.3で中国でも提供開始",
+      "summary_ja": "Appleは中国向けにiOS 27.3でApple Intelligenceを提供開始すると発表し、11月4日のベータ版を経て12月に正式リリースする予定である。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+        }
+      ]
+    },
+    {
+      "id": "1c640f88e053",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "ChatGPTアカウント乗っ取りの脆弱性に関する調査報告",
+      "summary_ja": "セキュリティ研究者がChatGPTアカウントを乗っ取る手法について調査結果を公開した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+        }
+      ]
+    },
+    {
+      "id": "d0bffa67e51d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Liquid AI、エッジ向けビジョン言語モデルLFM3-VL-2Bを公開",
+      "summary_ja": "Liquid AIは、エッジデバイス向けに設計された小型ビジョン言語モデル「LFM3-VL-2B」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 9.1355,
+    "run_cost_usd": 0.0755,
+    "average_run_usd": 0.1055,
+    "runs_recorded": 93
+  }
+}
