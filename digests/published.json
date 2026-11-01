@@ -1,95 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-25",
-      "id": "eb79656c925c",
-      "title_ja": "Qwen3.8-Flash-Next公開、8GB GPUでも高速動作",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "4e50efa7abaa",
-      "title_ja": "Google、マルチモーダル埋め込みモデルEmbeddingGemma-2を公開",
-      "urls": [
-        "https://huggingface.co/google/embeddinggemma-2"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "dfe5fb536ca5",
-      "title_ja": "OpenAI、フロンティアモデルのライブインターネット学習を停止",
-      "urls": [
-        "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "f42b672aa831",
-      "title_ja": "上海AI研究所、科学タスク向けエージェントモデルSage-A1.5公開",
-      "urls": [
-        "https://huggingface.co/InternScience/Sage-A1.5"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "173b2ddf9d58",
-      "title_ja": "Ollama v0.40.11、macOSで音声生成機能を追加",
-      "urls": [
-        "https://github.com/ollama/ollama/releases/tag/v0.40.11"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "2eb678169a42",
-      "title_ja": "MiniMax-M3.1-Flash、1Mトークン対応のマルチモーダルMoE公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "61ceba6cfe49",
-      "title_ja": "Block、ローカル動作の音声モデルを発表",
-      "urls": [
-        "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "b234e52996fc",
-      "title_ja": "Altman氏、AIによるハードウェア脆弱性発見のリスクに言及",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1xe5i3d/altman_i_dont_even_know_a_dramatic_enough_word_to/"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "a54fd0e20dbb",
-      "title_ja": "テック業界外でAI導入効果が見られないとの報告",
-      "urls": [
-        "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "c635ed208db8",
-      "title_ja": "サムスン製テレビのリバースエンジニアリングでOpenAIアカウント停止",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1xduimx/hacker_reverse_engineers_his_samsung_tv_and_finds/"
-      ]
-    },
-    {
-      "date": "2026-10-25",
-      "id": "3bc2cbb501cb",
-      "title_ja": "ある企業の財務指標、売上163億ドルに対し純損失807億ドル",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1xe02h6/revenue_163b_net_loss_807b_ipo_valuation_2t/"
-      ]
-    },
-    {
       "date": "2026-10-26",
       "id": "e1545bcc45f4",
       "title_ja": "Cerebras、兆パラメータ級AIモデルを展開",
@@ -1035,6 +946,87 @@
       "title_ja": "Liquid AI、エッジ向けビジョン言語モデルLFM3-VL-2Bを公開",
       "urls": [
         "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "9dbca9dfa76c",
+      "title_ja": "OpenAI、300億ドル調達目標の半分未満にとどまる",
+      "urls": [
+        "https://www.reddit.com/r/OpenAI/comments/1xkvwj8/openai_raises_less_than_half_of_30_billion_target/"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "6c5b89fb0ac8",
+      "title_ja": "Recursive、コーディングエージェント向けMoEモデルFlintを公開",
+      "urls": [
+        "https://huggingface.co/RecursiveSI/flint"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "92c1824269f4",
+      "title_ja": "Lightricks、画像・動画・音声対応の生成モデルLTX-2.5を公開",
+      "urls": [
+        "https://huggingface.co/Lightricks/LTX-2.5"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "6725a773cbcf",
+      "title_ja": "小型モデル5体の合議制がLiveCodeBench Hardで高スコア",
+      "urls": [
+        "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "123eac3bddd1",
+      "title_ja": "DNA特化LLM学習用データセット「FineDNA」が公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "76e5846926c6",
+      "title_ja": "64GBメモリでも27Bモデルのエージェント運用が可能に",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "4211346245fb",
+      "title_ja": "109Mパラメータモデルが画像テキスト整合で大規模モデルを上回る",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "c86602350e43",
+      "title_ja": "RTX 3090tiと128GB RAMで大型モデルの高速推論を実現",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "50a561c320a6",
+      "title_ja": "単一画像から3Dガウシアンスプラットを生成する「Idol」公開",
+      "urls": [
+        "https://huggingface.co/speridlabs/idol"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": "7e9f318174ec",
+      "title_ja": "JavaScriptフレームワークのAIコスト比較記事が話題に",
+      "urls": [
+        "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
       ]
     }
   ]

@@ -1,170 +1,157 @@
 {
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T07:26:28+09:00",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:44:27+09:00",
   "stats": {
-    "collected": 77,
-    "fresh": 60,
-    "selected": 13,
-    "published": 11
+    "collected": 69,
+    "fresh": 55,
+    "selected": 12,
+    "published": 10
   },
   "highlights": [
-    "OpenAIなど大手AI企業がスクレイピング拒否の共通規格を採用",
-    "OpenAIが新規資金調達目標を半分以下に下方修正",
-    "Anthropicのクレジット格付けが高めのジャンク級と予想される"
+    "OpenAIの新規資金調達、目標300億ドルに対し110億ドルにとどまる",
+    "Recursiveがコーディングエージェント向けMoEモデルFlintを公開",
+    "64GBメモリでもローカルLLMエージェントが実用域という報告"
   ],
   "items": [
     {
-      "id": "7a24eca35f77",
-      "importance": "high",
-      "category": "business",
-      "title_ja": "OpenAIなど大手がWebスクレイピング拒否の共通規格を採用",
-      "summary_ja": "OpenAI、Google、Microsoft、Anthropicは、パブリッシャーがAIによるスクレイピングを拒否できる新しい共通規格を採用すると表明した。これにより、パブリッシャーは各AI企業ごとに個別設定する代わりに、共通の「ポリシートークン」信号でAI学習利用の可否を一括指定できるようになる。実装が進めば、コンテンツ提供側の権利管理コストが下がり、AI企業側もデータ取得方針の整合を取りやすくなる。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
-        }
-      ]
-    },
-    {
-      "id": "f3e255de2b47",
+      "id": "9dbca9dfa76c",
       "importance": "medium",
       "category": "funding",
-      "title_ja": "OpenAIが資金調達目標を下方修正、Anthropicは高めのジャンク格付け予想",
-      "summary_ja": "OpenAIは最新の資金調達ラウンドで目標の300億ドルの半分未満しか集められなかったと報じられ、Blackstoneの予測ではAnthropicはIPO後に格付け機関から比較的高めのジャンク級評価を受けると見られている。",
+      "title_ja": "OpenAI、300億ドル調達目標の半分未満にとどまる",
+      "summary_ja": "OpenAIの最新資金調達ラウンドで、目標の300億ドルに対しこれまでに約110億ドルの出資確約にとどまっていると報じられている。WSJによれば、OpenAIはファミリーオフィスや富裕個人からの追加出資を模索しているという。",
       "sources": [
         {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
-        },
-        {
-          "name": "Hacker News",
-          "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
+          "name": "r/OpenAI",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1xkvwj8/openai_raises_less_than_half_of_30_billion_target/"
         }
       ]
     },
     {
-      "id": "0ae524ee7a4c",
-      "importance": "medium",
+      "id": "6c5b89fb0ac8",
+      "importance": "high",
       "category": "product",
-      "title_ja": "Pika Labs、画像から動画生成するPika-H3-Flexを公開",
-      "summary_ja": "Pika Labsは、MiniMax-H3をベースに後学習した画像→動画生成モデル「Pika-H3-Flex」をHugging Faceで公開した。6ステップで音声同期付き動画を生成でき、最大12枚の参照画像によるショット制御に対応する。",
+      "title_ja": "Recursive、コーディングエージェント向けMoEモデルFlintを公開",
+      "summary_ja": "Recursiveが総パラメータ398億（アクティブ約25億）のMixture-of-Expertsモデル「Flint」をHugging Faceで公開した。コードベース調査やバグ修正、テスト作成を想定し、SWE-bench Verifiedで74.2%、SWE-bench Pro v2で89.7%、Terminal-Bench 2.1で54.9%を記録している。BF16チェックポイントに加え、NVIDIAおよびApple Silicon向けの量子化版やSGLang用サービングキットも用意されている。",
       "sources": [
         {
           "name": "Hugging Face",
-          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
+          "url": "https://huggingface.co/RecursiveSI/flint"
         }
       ]
     },
     {
-      "id": "fe0e0eb72638",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "AWS、Bedrockコスト管理の運用手順を解説するブログを公開",
-      "summary_ja": "AWSはFinOpsとプラットフォームチーム向けに、Amazon Bedrockのコストを可視化・統制する5段階の運用モデルを紹介するブログ記事を公開した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/"
-        }
-      ]
-    },
-    {
-      "id": "27eb355cff2b",
+      "id": "92c1824269f4",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Microsoft、軽量な4Bビジョン言語モデルMage-VL-Coworkを公開",
-      "summary_ja": "Microsoftは、少ないモデル呼び出し回数でOSWorld-Verifiedベンチマーク66.0%を達成する4B規模のビジョン言語モデル「Mage-VL-Cowork」をHugging Faceで公開した。",
+      "title_ja": "Lightricks、画像・動画・音声対応の生成モデルLTX-2.5を公開",
+      "summary_ja": "Lightricksが画像からの動画生成をはじめ、テキスト・音声を含む複数モダリティに対応する生成モデル「LTX-2.5」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "6725a773cbcf",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "小型モデル5体の合議制がLiveCodeBench Hardで高スコア",
+      "summary_ja": "Qwen3.8-27Bを5体組み合わせたチーム「Memdoor」が、LiveCodeBench Hardベンチマークで大規模モデル「Fable 5」を上回るスコアを記録したと報告されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/"
+        }
+      ]
+    },
+    {
+      "id": "123eac3bddd1",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "DNA特化LLM学習用データセット「FineDNA」が公開",
+      "summary_ja": "Qwen3-14BをDNA特化モデル「Carbon-X」に転換するために使われた中間学習・SFT・RL用データ一式「FineDNA」がHugging Faceで公開された。",
       "sources": [
         {
           "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/"
         }
       ]
     },
     {
-      "id": "d35acc9f914a",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "OpenAI PythonライブラリがバージョンAPIを追加",
-      "summary_ja": "OpenAIのPythonライブラリv3.42.0がリリースされ、エージェントのコンテキスト圧縮設定やセッションレビュー・時間認識などの機能が追加された。",
-      "sources": [
-        {
-          "name": "GitHub openai/openai-python",
-          "url": "https://github.com/openai/openai-python/releases/tag/v3.42.0"
-        }
-      ]
-    },
-    {
-      "id": "420fd151ca6f",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Nvidia、Nscaleのデータセンター計画への融資保証を検討",
-      "summary_ja": "Nvidiaは、ウェストバージニア州でのNscaleのAIデータセンター建設に対し、融資の保証人役を担うことを検討していると報じられた。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
-        }
-      ]
-    },
-    {
-      "id": "029f4f6cd793",
+      "id": "76e5846926c6",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Nvidia、40言語対応の音声認識モデルNemotron-3.5-Transcribeを公開",
-      "summary_ja": "Nvidiaは、40言語対応でオフライン動作可能な音声認識モデル「Nemotron-3.5-Transcribe-30B-A4B」を公開し、混合エキスパート構造で約43億パラメータを活性化する設計とした。",
+      "title_ja": "64GBメモリでも27Bモデルのエージェント運用が可能に",
+      "summary_ja": "M4 Max搭載64GB環境で27Bモデルを10日間エージェント用途に運用したところ、メモリ使用量は約50GBに収まり、従来「中途半端」とされた64GB構成が実用的だったという報告がある。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/"
+        }
+      ]
+    },
+    {
+      "id": "4211346245fb",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "109Mパラメータモデルが画像テキスト整合で大規模モデルを上回る",
+      "summary_ja": "わずか1億900万パラメータのモデルが、72Bまでの大規模モデルを画像テキスト整合タスクで上回り、学習データ量も42分の1に抑えられたとする研究が報告されている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/"
+        }
+      ]
+    },
+    {
+      "id": "c86602350e43",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "RTX 3090tiと128GB RAMで大型モデルの高速推論を実現",
+      "summary_ja": "単一のRTX 3090tiと128GBのRAMという構成で、DeepSeek-V4.1-Flashを35トークン/秒、Qwen3.8-Flash-Nextを130トークン/秒で動作させたという報告があり、数カ月前より大幅に高速化しているという。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/"
+        }
+      ]
+    },
+    {
+      "id": "50a561c320a6",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "単一画像から3Dガウシアンスプラットを生成する「Idol」公開",
+      "summary_ja": "speridlabsが、1枚の画像から最大約105万個の3Dガウシアンを生成し標準的な3DGS形式で出力するモデル「Idol」を公開した。7.2GBのVRAMを使い、消費者向けGPU上で2秒未満で処理できるという。",
       "sources": [
         {
           "name": "Hugging Face",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+          "url": "https://huggingface.co/speridlabs/idol"
         }
       ]
     },
     {
-      "id": "8edfa603fa5e",
+      "id": "7e9f318174ec",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Apple Intelligence、iOS 27.3で中国でも提供開始",
-      "summary_ja": "Appleは中国向けにiOS 27.3でApple Intelligenceを提供開始すると発表し、11月4日のベータ版を経て12月に正式リリースする予定である。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
-        }
-      ]
-    },
-    {
-      "id": "1c640f88e053",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "ChatGPTアカウント乗っ取りの脆弱性に関する調査報告",
-      "summary_ja": "セキュリティ研究者がChatGPTアカウントを乗っ取る手法について調査結果を公開した。",
+      "title_ja": "JavaScriptフレームワークのAIコスト比較記事が話題に",
+      "summary_ja": "JavaScriptフレームワークごとのAI処理コストを分析した記事がHacker Newsで取り上げられた。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
-        }
-      ]
-    },
-    {
-      "id": "d0bffa67e51d",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Liquid AI、エッジ向けビジョン言語モデルLFM3-VL-2Bを公開",
-      "summary_ja": "Liquid AIは、エッジデバイス向けに設計された小型ビジョン言語モデル「LFM3-VL-2B」をHugging Faceで公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 9.1355,
-    "run_cost_usd": 0.0755,
-    "average_run_usd": 0.1055,
-    "runs_recorded": 93
+    "spent_usd": 9.2049,
+    "run_cost_usd": 0.0693,
+    "average_run_usd": 0.1038,
+    "runs_recorded": 94
   }
 }

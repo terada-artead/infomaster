@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:44:27+09:00",
+  "stats": {
+    "collected": 69,
+    "fresh": 55,
+    "selected": 12,
+    "published": 10
+  },
+  "highlights": [
+    "OpenAIの新規資金調達、目標300億ドルに対し110億ドルにとどまる",
+    "Recursiveがコーディングエージェント向けMoEモデルFlintを公開",
+    "64GBメモリでもローカルLLMエージェントが実用域という報告"
+  ],
+  "items": [
+    {
+      "id": "9dbca9dfa76c",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "OpenAI、300億ドル調達目標の半分未満にとどまる",
+      "summary_ja": "OpenAIの最新資金調達ラウンドで、目標の300億ドルに対しこれまでに約110億ドルの出資確約にとどまっていると報じられている。WSJによれば、OpenAIはファミリーオフィスや富裕個人からの追加出資を模索しているという。",
+      "sources": [
+        {
+          "name": "r/OpenAI",
+          "url": "https://www.reddit.com/r/OpenAI/comments/1xkvwj8/openai_raises_less_than_half_of_30_billion_target/"
+        }
+      ]
+    },
+    {
+      "id": "6c5b89fb0ac8",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Recursive、コーディングエージェント向けMoEモデルFlintを公開",
+      "summary_ja": "Recursiveが総パラメータ398億（アクティブ約25億）のMixture-of-Expertsモデル「Flint」をHugging Faceで公開した。コードベース調査やバグ修正、テスト作成を想定し、SWE-bench Verifiedで74.2%、SWE-bench Pro v2で89.7%、Terminal-Bench 2.1で54.9%を記録している。BF16チェックポイントに加え、NVIDIAおよびApple Silicon向けの量子化版やSGLang用サービングキットも用意されている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/RecursiveSI/flint"
+        }
+      ]
+    },
+    {
+      "id": "92c1824269f4",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Lightricks、画像・動画・音声対応の生成モデルLTX-2.5を公開",
+      "summary_ja": "Lightricksが画像からの動画生成をはじめ、テキスト・音声を含む複数モダリティに対応する生成モデル「LTX-2.5」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "6725a773cbcf",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "小型モデル5体の合議制がLiveCodeBench Hardで高スコア",
+      "summary_ja": "Qwen3.8-27Bを5体組み合わせたチーム「Memdoor」が、LiveCodeBench Hardベンチマークで大規模モデル「Fable 5」を上回るスコアを記録したと報告されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/"
+        }
+      ]
+    },
+    {
+      "id": "123eac3bddd1",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "DNA特化LLM学習用データセット「FineDNA」が公開",
+      "summary_ja": "Qwen3-14BをDNA特化モデル「Carbon-X」に転換するために使われた中間学習・SFT・RL用データ一式「FineDNA」がHugging Faceで公開された。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/"
+        }
+      ]
+    },
+    {
+      "id": "76e5846926c6",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "64GBメモリでも27Bモデルのエージェント運用が可能に",
+      "summary_ja": "M4 Max搭載64GB環境で27Bモデルを10日間エージェント用途に運用したところ、メモリ使用量は約50GBに収まり、従来「中途半端」とされた64GB構成が実用的だったという報告がある。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/"
+        }
+      ]
+    },
+    {
+      "id": "4211346245fb",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "109Mパラメータモデルが画像テキスト整合で大規模モデルを上回る",
+      "summary_ja": "わずか1億900万パラメータのモデルが、72Bまでの大規模モデルを画像テキスト整合タスクで上回り、学習データ量も42分の1に抑えられたとする研究が報告されている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/"
+        }
+      ]
+    },
+    {
+      "id": "c86602350e43",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "RTX 3090tiと128GB RAMで大型モデルの高速推論を実現",
+      "summary_ja": "単一のRTX 3090tiと128GBのRAMという構成で、DeepSeek-V4.1-Flashを35トークン/秒、Qwen3.8-Flash-Nextを130トークン/秒で動作させたという報告があり、数カ月前より大幅に高速化しているという。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/"
+        }
+      ]
+    },
+    {
+      "id": "50a561c320a6",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "単一画像から3Dガウシアンスプラットを生成する「Idol」公開",
+      "summary_ja": "speridlabsが、1枚の画像から最大約105万個の3Dガウシアンを生成し標準的な3DGS形式で出力するモデル「Idol」を公開した。7.2GBのVRAMを使い、消費者向けGPU上で2秒未満で処理できるという。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/speridlabs/idol"
+        }
+      ]
+    },
+    {
+      "id": "7e9f318174ec",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "JavaScriptフレームワークのAIコスト比較記事が話題に",
+      "summary_ja": "JavaScriptフレームワークごとのAI処理コストを分析した記事がHacker Newsで取り上げられた。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 9.2049,
+    "run_cost_usd": 0.0693,
+    "average_run_usd": 0.1038,
+    "runs_recorded": 94
+  }
+}
