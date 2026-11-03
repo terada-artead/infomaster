@@ -1,291 +1,287 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T10:33:09+09:00",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T08:58:58+09:00",
   "stats": {
-    "collected": 98,
-    "fresh": 82,
+    "collected": 128,
+    "fresh": 112,
     "selected": 35,
     "published": 20
   },
   "highlights": [
-    "Anthropic次期大規模モデル「numbat」の学習途中チェックポイントが流出と報告",
-    "Trajectoryが45億円調達、AI学習の非専門家向け民主化を目指す",
-    "Circle KがBedrockで障害対応を45分から15分未満に短縮"
+    "ChatGPTの検索利用量がGoogleの2割に到達",
+    "推論特化スタートアップFalが16億ドル評価額で資金調達",
+    "米テック大手のAIインフラ関連債務が半年で9割増の3.2兆ドルに"
   ],
   "items": [
     {
-      "id": "6e98f979afd8",
-      "importance": "medium",
-      "category": "funding",
-      "title_ja": "Anthropic、Q3売上170億ドルと契約総額8950億ドルを開示",
-      "summary_ja": "AnthropicはS-1改訂版で、第3四半期売上が170億ドル、契約残高が8950億ドルに達したと報告した。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
-        }
-      ]
-    },
-    {
-      "id": "f9ecf66c1822",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "AstraがQwenの重みを直接編集し数学性能を改善",
-      "summary_ja": "GPT-6派生のAstraがQwen3.5-0.8Bの重みのうち0.016%のみを直接編集し、勾配や追加学習なしで数学性能を最大6倍、指示追従を3倍改善したと報告されている。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
-        },
-        {
-          "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mze7rbg2fc2l"
-        }
-      ]
-    },
-    {
-      "id": "be88e8f6a7ec",
-      "importance": "high",
-      "category": "new_model",
-      "title_ja": "Anthropic次期大規模モデル「numbat」の学習チェックポイントがHugging Faceに流出と報告",
-      "summary_ja": "Hugging Face上で「burner22/numbat」という名称の約14兆パラメータ・114層・MoE構成のモデルが公開され、Anthropicの次世代大規模学習ランの内部コードネーム「numbat」の学習途中チェックポイントだと報告されている。総容量約7.72TBの772シャードに分割され、設定ファイルやトークナイザー、学習ログの末尾なども含まれているとされるが、真偽は未確認。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/burner22/numbat"
-        }
-      ]
-    },
-    {
-      "id": "c8564f3a6870",
+      "id": "05d1a3678a8e",
       "importance": "high",
       "category": "funding",
-      "title_ja": "Trajectoryが45億円調達、AIモデル学習の民主化を目指す",
-      "summary_ja": "設立1年のTrajectoryが4500万ドルを調達し、企業価値3億ドルで評価された。非技術者でもAIモデルの学習を行えるようにすることを目指している。",
+      "title_ja": "AI推論スタートアップFal、評価額160億ドルで13億ドル調達",
+      "summary_ja": "5年目のAI推論スタートアップFalが、Bessemer主導で13億ドルの資金調達を実施し、評価額を倍増の160億ドルとした。需要急増を背景にした大型調達であり、推論基盤市場での資金集中が加速している実態を示す。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
         }
       ]
     },
     {
-      "id": "80eb6a785c6c",
+      "id": "14409ffa4e77",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "Ballistic Ventures、サイバーセキュリティ新ファンドに4.9億ドル調達へ",
+      "summary_ja": "Ted Schlein率いるBallistic Venturesが、AI駆動型サイバーセキュリティ分野の需要拡大を背景に、主力ファンド向け3.6億ドルと別枠投資ビークル向け1.3億ドルの計4.9億ドルの資金調達を進めている。AIがセキュリティ攻防双方を加速させる中、専門VCへの資金流入が続いている状況を示す。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
+        }
+      ]
+    },
+    {
+      "id": "2a746fdcd099",
       "importance": "high",
       "category": "business",
-      "title_ja": "Circle K、Bedrockで障害対応時間を15分未満に短縮",
-      "summary_ja": "Circle KのDevOpsチームは、Amazon Bedrock上にエージェント型の障害トリアージシステムを構築し、対応時間を45〜60分から15分未満に短縮した。当初のBedrock Flowsによる実装からBedrock AgentCoreへの移行経緯と、スケール時に得た知見が紹介されている。",
+      "title_ja": "OpenAI、ChatGPT検索量がGoogleの20%に到達と発表",
+      "summary_ja": "OpenAIの消費者向けプロダクト責任者Adam Fryが、ChatGPT経由の検索クエリ量がGoogle検索の20%に相当すると発表した。検索行動が「Googleで調べる」から「ChatGPTに聞く」へと移行しつつあることを示すデータであり、検索広告やSEO戦略の前提を見直す材料になる。",
       "sources": [
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/"
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
         }
       ]
     },
     {
-      "id": "1263ce4e0930",
-      "importance": "medium",
-      "category": "funding",
-      "title_ja": "Oracle、AI投資資金に200億ドルの株式・債券発行を申請",
-      "summary_ja": "OracleはAIインフラ構築資金のため、200億ドル規模の新株・債券発行を申請した。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
-        }
-      ]
-    },
-    {
-      "id": "b760b461aff6",
+      "id": "31229f011537",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Anthropicの売上成長が鈍化",
-      "summary_ja": "Anthropicの成長率がここに来て横ばいになったと報じられている。",
+      "title_ja": "OpenAI、Codexのチャットでモデル学習を無断再有効化か",
+      "summary_ja": "企業がCodexでデータ共有をオフにしていたにもかかわらず、OpenAIが設定を無断で再有効化していたと報告されている。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened"
+          "url": "https://news.ycombinator.com/item?id=50352757"
         }
       ]
     },
     {
-      "id": "acc03feb26a2",
+      "id": "52eb9ce7b224",
       "importance": "medium",
       "category": "product",
-      "title_ja": "SageMakerで知識蒸留による軽量エージェント構築手法を紹介",
-      "summary_ja": "AWSは、フロンティアモデルの挙動をSeqKDで小型モデルに転移し、低コストなエージェントをSageMaker AI上で構築する方法を公開した。",
+      "title_ja": "Anthropic、AIモデルの身元確認システムFlashProveを開発",
+      "summary_ja": "Anthropicが、AI応答が主張通りのモデルから生成されたことを誰でも確認できるシステム「FlashProve」を開発している。",
       "sources": [
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/"
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
         }
       ]
     },
     {
-      "id": "0db7b6f459a7",
+      "id": "ec51e351ec27",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Apple、Siriにサードパーティアプリへのアクセス権を付与",
+      "summary_ja": "AppleがiOS 27.3でSiriに全てのサードパーティアプリでの操作権限を与え、個人コンテキストや画面認識を活用した自然言語操作を可能にした。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
+        }
+      ]
+    },
+    {
+      "id": "15f2a9456d01",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Anthropic社内のAI利用コストが従業員給与総額を上回る",
-      "summary_ja": "Anthropicの社内AI利用量を小売価格換算すると、従業員への給与支払額を上回る水準に達していると報じられている。",
+      "title_ja": "Revolut、自社ホスト型GLMへ移行",
+      "summary_ja": "Revolutが自社ホスト型のGLMモデルへの移行を進めている。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11"
+          "url": "https://twitter.com/guilleflorvs/status/2117379073785696395"
         }
       ]
     },
     {
-      "id": "d206377e3828",
+      "id": "6d7218d4846f",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Qwen、オープンソース路線継続を公式表明",
-      "summary_ja": "Qwenの責任者が、Qwen4以降もオープンウェイトのみでAPI限定化するとの噂を否定し、Qwen4.0・5.0も引き続きオープンソースで提供すると明言した。",
+      "title_ja": "DeepSeek V5、ファーウェイAscendチップで事前学習へ",
+      "summary_ja": "DeepSeekの次世代モデルV5が、従来の推論用途に加えてファーウェイのAscendチップで事前学習される計画だと中国メディアが報じている。",
       "sources": [
         {
           "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei/"
         }
       ]
     },
     {
-      "id": "109261365670",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "vLLM v0.33.0リリース、新モデルとPyTorch 2.14対応",
-      "summary_ja": "vLLM v0.33.0が公開され、Reflection Beam-1.0やYandex AliceAI-Foundation-80B-A3Bなど多数の新モデル対応とPyTorch 2.14へのアップグレードが行われた。",
-      "sources": [
-        {
-          "name": "GitHub vllm-project/vllm",
-          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"
-        }
-      ]
-    },
-    {
-      "id": "5d33ed0c66ac",
+      "id": "34e7d6261520",
       "importance": "medium",
       "category": "business",
-      "title_ja": "OpenAI、データセンターの電力供給対策「Grid Protectors」発表",
-      "summary_ja": "OpenAIは電力会社と連携し、将来のコンピューティング拠点が電力網の信頼性維持と消費者の電気料金保護に貢献する「Grid Protectors Program」を発表した。",
+      "title_ja": "Cisco、OpenAIと機械速度のセキュリティ防御を構築",
+      "summary_ja": "CiscoがネットワークインテリジェンスとOpenAIのモデルを組み合わせ、より適応的なセキュリティ防御体制を構築している。",
       "sources": [
         {
           "name": "OpenAI News",
-          "url": "https://openai.com/index/grid-protectors-program"
-        },
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+          "url": "https://openai.com/index/cisco-cyber"
         }
       ]
     },
     {
-      "id": "35ee5c24e240",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "AWS、Nova Multimodal Embeddingsでエンジニアリング支援エージェント構築法を公開",
-      "summary_ja": "AWSはAmazon Nova Multimodal EmbeddingsとBedrock AgentCoreを用いて、航空宇宙部品の代替評価を数日から数分に短縮するマルチエージェントシステムの構築法を紹介した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/"
-        }
-      ]
-    },
-    {
-      "id": "8617cd6f7d8f",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "中国、フロンティアAIの初の輸出管理措置を発表",
-      "summary_ja": "中国商務省は公告第48号として、フロンティアAIに関する初の輸出管理措置を発表した。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/"
-        }
-      ]
-    },
-    {
-      "id": "593f43913dcd",
+      "id": "21dc542a1579",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Liquid AI、音声対応モデル「LFM3-Audio-2B」を公開",
-      "summary_ja": "Liquid AIがHugging Face上で音声認識などに対応したany-to-anyモデル「LFM3-Audio-2B」を公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
-        }
-      ]
-    },
-    {
-      "id": "e6a7f2fa0c28",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "Crawl4AIでBedrock Knowledge Base向けWebコンテンツ準備を効率化",
-      "summary_ja": "AWSは、オープンソースクローラーCrawl4AIを使ってJavaScriptレンダリングや選択的抽出、メタデータ付与を行い、Bedrock Knowledge Bases用のコンテンツを準備する方法を紹介した。",
+      "title_ja": "Cartesia、AWS上で超低遅延の音声AIを提供",
+      "summary_ja": "AWSパートナーのCartesiaが、独自のState Space Modelとサブ100ミリ秒のText-to-Speech/Speech-to-Textモデル「Sonic」をAmazon SageMaker AIやEC2上で提供している。",
       "sources": [
         {
           "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/"
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/"
         }
       ]
     },
     {
-      "id": "e7389883fb55",
+      "id": "81efc47dc458",
       "importance": "medium",
       "category": "business",
-      "title_ja": "NYTら複数メディア、Braveブラウザをコンテンツ無断収集で提訴",
-      "summary_ja": "ニューヨーク・タイムズなど複数メディアが、BraveがNYTの著作権付きコンテンツを無断収集しAnthropicやPerplexityなど顧客に提供したとして提訴した。",
+      "title_ja": "Palantir、米国商業向け売上が政府向けを初めて逆転",
+      "summary_ja": "Palantirの米国商業部門の売上が、史上初めて米国政府部門の売上を上回った。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+          "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/"
         }
       ]
     },
     {
-      "id": "8d847b3ebc26",
+      "id": "89158d68bf95",
       "importance": "medium",
       "category": "business",
-      "title_ja": "AIエージェントのタスク実行、通常チャットの最大50倍のトークン消費",
-      "summary_ja": "AIエージェントがコーディングタスクで計画・生成・テスト・修正を繰り返すことで、基本的なチャット応答の10〜50倍のトークンを消費すると指摘されている。",
+      "title_ja": "Anthropic、計算コストの採算性に依然苦戦",
+      "summary_ja": "Anthropicの計算コストに関する利益率は、改善が見込まれる局面であるにもかかわらず悪化していると報じられている。",
       "sources": [
         {
-          "name": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
         }
       ]
     },
     {
-      "id": "570f5e1efb59",
+      "id": "03ad66ba1fba",
       "importance": "medium",
-      "category": "tool",
-      "title_ja": "YC出身Momentic、アプリを自律テストするQAエージェントを発表",
-      "summary_ja": "YC採択企業MomenticがWeb・iOS・Androidアプリを自律的に探索しバグを検出するQAエージェントをローンチした。",
+      "category": "business",
+      "title_ja": "Apple、インフラ投資を抑えつつAIブームの恩恵享受",
+      "summary_ja": "Appleが競合ほどインフラ投資を拡大せずにAIブームを活用し、最新四半期決算で過去最高の売上とEPSを記録、iPhoneとMacの売上も好調に推移した。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai"
+        }
+      ]
+    },
+    {
+      "id": "210b26f029f3",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Postman、AIプラグインを無断自動インストールしAPIデータ共有か",
+      "summary_ja": "PostmanがAIプラグインを無断で自動インストールし、すべてのAPIデータを共有しようとしていると報告されている。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://momentic.ai/"
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
         }
       ]
     },
     {
-      "id": "8f9ef7c70af7",
+      "id": "f6384be9ac1a",
       "importance": "medium",
-      "category": "business",
-      "title_ja": "Amazon、GPU購入者のアカウントを一部停止と報告",
-      "summary_ja": "AmazonがGPU注文を取り消し、まれにアカウントを閉鎖しているケースがあると報じられ、Tim Sweeneyも被害を受けたとされる。",
+      "category": "product",
+      "title_ja": "新世代LLM、幻覚やステレオタイプ傾向が減少と報告",
+      "summary_ja": "Qwen 3.8など新世代モデルを対象にした大規模な再検証で、架空の引用生成や幻覚率、ステレオタイプの傾向が従来モデルより減少している一方、迎合性の高さと左派寄りの傾向は依然残っていると報告されている。",
       "sources": [
         {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzesndbbxs2l"
+        },
+        {
           "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
+        }
+      ]
+    },
+    {
+      "id": "25493a43cba5",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "OpenAI、ChatGPTとCodexで物理領域の設計業務を加速",
+      "summary_ja": "OpenAIが、ChatGPTとCodexがCAD設計や基板設計、シミュレーションなど物理世界のエンジニアリング業務を加速させている事例を紹介している。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+        }
+      ]
+    },
+    {
+      "id": "a7f64e0d32da",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AWS、構造化・非構造化データを統合するAmazon Quickを発表",
+      "summary_ja": "AWSが、S3をナレッジベースとして接続しデータを拡充、構造化・非構造化データを横断する対話型エージェントを構築できる「Amazon Quick」を発表した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/"
+        }
+      ]
+    },
+    {
+      "id": "ac965da4ed73",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Gen Digital、Bedrockで生成AI活用のNorton Revampを構築",
+      "summary_ja": "Gen DigitalがAmazon Bedrock AgentCore Web Searchを基盤に、引用付きニュースを提供する生成AI活用の評判管理プラットフォーム「Norton Revamp」を構築した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/"
+        }
+      ]
+    },
+    {
+      "id": "c01265aacc1a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Google、AI機能拒否の学校で検索機能を全面無効化",
+      "summary_ja": "GoogleがAI機能を拒否する学校に対し、GeminiやGemini Classroomだけでなく検索機能自体も完全に無効化する方針をThe New York Timesに明らかにした。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
+        }
+      ]
+    },
+    {
+      "id": "f7735096343c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "米テック大手のAIインフラ債務、半年で9割増の3.2兆ドルに",
+      "summary_ja": "米国の大手テック企業が抱えるAIインフラ関連の債務が、半年間で90%増加し3.2兆ドルに達したと報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 9.3183,
-    "run_cost_usd": 0.1134,
-    "average_run_usd": 0.1034,
-    "runs_recorded": 95
+    "spent_usd": 9.4341,
+    "run_cost_usd": 0.1158,
+    "average_run_usd": 0.1029,
+    "runs_recorded": 96
   }
 }

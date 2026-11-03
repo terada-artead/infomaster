@@ -1,170 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-27",
-      "id": "b8eac1ac6e14",
-      "title_ja": "AnthropicがIPO申請を正式提出、Nasdaq上場目指す",
-      "urls": [
-        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-        "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-        "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
-        "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "d6e31d9e0fa6",
-      "title_ja": "SpaceX、Apolloと400億ドルのGPU融資契約",
-      "urls": [
-        "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "1a7e953f3679",
-      "title_ja": "OpenAIとAnthropic、数カ月でLLM価格を最大80%値下げ",
-      "urls": [
-        "https://minimaxir.com/2026/10/cheap-llms/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "cac24968e5aa",
-      "title_ja": "DeepSeek-V4.1-Flash-1017が公開、推論・コーディング強化",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "35e334c19874",
-      "title_ja": "OpenAI、GPT-6.1 Terraを発表しコンピュータ操作を高速化",
-      "urls": [
-        "https://openai.com/index/introducing-gpt-6-1-terra",
-        "https://github.com/openai/openai-python/releases/tag/v3.39.0"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "a9c488820a62",
-      "title_ja": "Greptile、GPT-6 Astraでバグ検出をコードレビュー超えに拡張",
-      "urls": [
-        "https://openai.com/index/greptile-code-review-codex-astra"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "7d972df501d0",
-      "title_ja": "CodeRabbit、GPT-6.1 Solで複雑なコードベースのセキュリティ強化",
-      "urls": [
-        "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "aa6a9e64ea8d",
-      "title_ja": "Tencent、同時通訳モデル「Hy-SimulMT-30B」を公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xfrgt5/tencenthysimulmt30ba3b_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "742d30efdc40",
-      "title_ja": "OpenAI社内、Codex Ultrafastでインシデント調査を時間単位から分単位に短縮",
-      "urls": [
-        "https://openai.com/index/openai-cut-incident-investigation"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "b090a744b1c3",
-      "title_ja": "Amazon Bedrock、OpenAIモデルのプロンプトキャッシュ活用法を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "4d610e220c2d",
-      "title_ja": "OpenAI、COBOLコード危機の解決にAI活用を提案",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "d8e91abdba8c",
-      "title_ja": "Tesla、EV首位を譲り自動運転とサブスクで勝負へ",
-      "urls": [
-        "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "37ea901da6ec",
-      "title_ja": "オンデバイスエージェント向けモデル「Spark-X2.6-4B」公開",
-      "urls": [
-        "https://huggingface.co/XHToken/Spark-X2.6-4B"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "82ca109e5205",
-      "title_ja": "Hugging Face transformers v5.21.0リリース、MiniCPM-OCR追加",
-      "urls": [
-        "https://github.com/huggingface/transformers/releases/tag/v5.21"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "329f4c2d77bd",
-      "title_ja": "NVIDIA、GPU1台あたり年間2000ドルのソフトウェア収益化を検討",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xfhhm4/smh_seriously_nvidia_eyes_software_revenue_with_a/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "7e73eebe3e90",
-      "title_ja": "FanaticsとOpenAI、試合観戦コーデ提案で連携",
-      "urls": [
-        "https://openai.com/index/fanatics-streamline-fan-experience"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "966584a0f435",
-      "title_ja": "Mistral、時系列予測モデル「Timestral-209M」公開",
-      "urls": [
-        "https://huggingface.co/mistralai/Timestral-209M"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "1e78eb133dbb",
-      "title_ja": "vLLMのツール呼び出し精度を改善する取り組み",
-      "urls": [
-        "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "addcc3560188",
-      "title_ja": "SageMaker SDK v3でエッジ向け大規模コンピュータビジョン運用を効率化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "id": "a85f2eed0230",
-      "title_ja": "スタンフォードとUC Berkeley、長文脈処理を最大11.3倍高速化する「TokenGate」を提案",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/"
-      ]
-    },
-    {
       "date": "2026-10-28",
       "id": "393575ee7d83",
       "title_ja": "Google DeepMind、新世代世界モデル「Genie 4」発表",
@@ -1077,6 +913,167 @@
       "title_ja": "Amazon、GPU購入者のアカウントを一部停止と報告",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "05d1a3678a8e",
+      "title_ja": "AI推論スタートアップFal、評価額160億ドルで13億ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "14409ffa4e77",
+      "title_ja": "Ballistic Ventures、サイバーセキュリティ新ファンドに4.9億ドル調達へ",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "2a746fdcd099",
+      "title_ja": "OpenAI、ChatGPT検索量がGoogleの20%に到達と発表",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "31229f011537",
+      "title_ja": "OpenAI、Codexのチャットでモデル学習を無断再有効化か",
+      "urls": [
+        "https://news.ycombinator.com/item?id=50352757"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "52eb9ce7b224",
+      "title_ja": "Anthropic、AIモデルの身元確認システムFlashProveを開発",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "ec51e351ec27",
+      "title_ja": "Apple、Siriにサードパーティアプリへのアクセス権を付与",
+      "urls": [
+        "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "15f2a9456d01",
+      "title_ja": "Revolut、自社ホスト型GLMへ移行",
+      "urls": [
+        "https://twitter.com/guilleflorvs/status/2117379073785696395"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "6d7218d4846f",
+      "title_ja": "DeepSeek V5、ファーウェイAscendチップで事前学習へ",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "34e7d6261520",
+      "title_ja": "Cisco、OpenAIと機械速度のセキュリティ防御を構築",
+      "urls": [
+        "https://openai.com/index/cisco-cyber"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "21dc542a1579",
+      "title_ja": "Cartesia、AWS上で超低遅延の音声AIを提供",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "81efc47dc458",
+      "title_ja": "Palantir、米国商業向け売上が政府向けを初めて逆転",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "89158d68bf95",
+      "title_ja": "Anthropic、計算コストの採算性に依然苦戦",
+      "urls": [
+        "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "03ad66ba1fba",
+      "title_ja": "Apple、インフラ投資を抑えつつAIブームの恩恵享受",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "210b26f029f3",
+      "title_ja": "Postman、AIプラグインを無断自動インストールしAPIデータ共有か",
+      "urls": [
+        "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "f6384be9ac1a",
+      "title_ja": "新世代LLM、幻覚やステレオタイプ傾向が減少と報告",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mzesndbbxs2l",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "25493a43cba5",
+      "title_ja": "OpenAI、ChatGPTとCodexで物理領域の設計業務を加速",
+      "urls": [
+        "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "a7f64e0d32da",
+      "title_ja": "AWS、構造化・非構造化データを統合するAmazon Quickを発表",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "ac965da4ed73",
+      "title_ja": "Gen Digital、Bedrockで生成AI活用のNorton Revampを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "c01265aacc1a",
+      "title_ja": "Google、AI機能拒否の学校で検索機能を全面無効化",
+      "urls": [
+        "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": "f7735096343c",
+      "title_ja": "米テック大手のAIインフラ債務、半年で9割増の3.2兆ドルに",
+      "urls": [
+        "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
       ]
     }
   ]
