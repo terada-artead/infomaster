@@ -1,118 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-26",
-      "id": "e1545bcc45f4",
-      "title_ja": "Cerebras、兆パラメータ級AIモデルを展開",
-      "urls": [
-        "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "9a814be9eb36",
-      "title_ja": "AI投資、ほとんどの企業に財務的成果なしとApolloが指摘",
-      "urls": [
-        "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "ab1f7cff3772",
-      "title_ja": "GoogleのAI検索変更がオンライン出版業界を揺るがした",
-      "urls": [
-        "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "1b2c3ec648b1",
-      "title_ja": "OpenAI研究者、エアギャップAI同士の通信リスクに言及",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mynwzdkgwc2m"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "07395aaab74e",
-      "title_ja": "OpenMOSS-Team、text-to-imageモデル「MOSS-Image」を公開",
-      "urls": [
-        "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "b83204b7e9c1",
-      "title_ja": "10年前のCNN、皮膚がん診断で最新LLMを上回る",
-      "urls": [
-        "https://lynchlab.net/llm-skin-cancer"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "1993bf554f0e",
-      "title_ja": "Lean-QwenFlash、NVMe経由でQwen3.8-Flash-Nextを省メモリ動作",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "4f35d89c1a93",
-      "title_ja": "RTX 3080 20GBでP2P通信が解放、プロンプト処理70%高速化",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xf9kmd/rtx_3080_20gb_got_rebar_and_p2p_unlock_70_prompt/"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "a4354fc53bb8",
-      "title_ja": "HuggingFaceBio、ゲノミクス向けモデル「Carbon-X」を公開",
-      "urls": [
-        "https://huggingface.co/HuggingFaceBio/Carbon-X"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "49e91ac8722e",
-      "title_ja": "Strata/Basalt、量子化Qwen3.8 Flash Nextのベンチマークを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "653d82f9a295",
-      "title_ja": "Nanbeige、エージェント特化の33Bモデルを公開",
-      "urls": [
-        "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "1f6056f34e61",
-      "title_ja": "米メディア・映画・芸術分野で20万人の雇用減、AIの影響が焦点に",
-      "urls": [
-        "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "5c88b074ff08",
-      "title_ja": "3Dシーン生成も可能な4Bコーディングモデルが登場",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xeuo7t/a_4b_coding_model_that_can_generate_3d_scenes/"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "id": "de4b86f27846",
-      "title_ja": "AI導入で経営陣の監視・統制範囲が拡大と指摘",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mypr5rwh4k2n"
-      ]
-    },
-    {
       "date": "2026-10-27",
       "id": "b8eac1ac6e14",
       "title_ja": "AnthropicがIPO申請を正式提出、Nasdaq上場目指す",
@@ -1027,6 +915,168 @@
       "title_ja": "JavaScriptフレームワークのAIコスト比較記事が話題に",
       "urls": [
         "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "6e98f979afd8",
+      "title_ja": "Anthropic、Q3売上170億ドルと契約総額8950億ドルを開示",
+      "urls": [
+        "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "f9ecf66c1822",
+      "title_ja": "AstraがQwenの重みを直接編集し数学性能を改善",
+      "urls": [
+        "https://rikiyat.github.io/blog/weight-space-programming/",
+        "https://bsky.app/profile/emollick.bsky.social/post/3mze7rbg2fc2l"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "be88e8f6a7ec",
+      "title_ja": "Anthropic次期大規模モデル「numbat」の学習チェックポイントがHugging Faceに流出と報告",
+      "urls": [
+        "https://huggingface.co/burner22/numbat"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "c8564f3a6870",
+      "title_ja": "Trajectoryが45億円調達、AIモデル学習の民主化を目指す",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "80eb6a785c6c",
+      "title_ja": "Circle K、Bedrockで障害対応時間を15分未満に短縮",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "1263ce4e0930",
+      "title_ja": "Oracle、AI投資資金に200億ドルの株式・債券発行を申請",
+      "urls": [
+        "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "b760b461aff6",
+      "title_ja": "Anthropicの売上成長が鈍化",
+      "urls": [
+        "https://www.regenerator1.com/p/anthropics-growth-just-flattened"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "acc03feb26a2",
+      "title_ja": "SageMakerで知識蒸留による軽量エージェント構築手法を紹介",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "0db7b6f459a7",
+      "title_ja": "Anthropic社内のAI利用コストが従業員給与総額を上回る",
+      "urls": [
+        "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "d206377e3828",
+      "title_ja": "Qwen、オープンソース路線継続を公式表明",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "109261365670",
+      "title_ja": "vLLM v0.33.0リリース、新モデルとPyTorch 2.14対応",
+      "urls": [
+        "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "5d33ed0c66ac",
+      "title_ja": "OpenAI、データセンターの電力供給対策「Grid Protectors」発表",
+      "urls": [
+        "https://openai.com/index/grid-protectors-program",
+        "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "35ee5c24e240",
+      "title_ja": "AWS、Nova Multimodal Embeddingsでエンジニアリング支援エージェント構築法を公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "8617cd6f7d8f",
+      "title_ja": "中国、フロンティアAIの初の輸出管理措置を発表",
+      "urls": [
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "593f43913dcd",
+      "title_ja": "Liquid AI、音声対応モデル「LFM3-Audio-2B」を公開",
+      "urls": [
+        "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "e6a7f2fa0c28",
+      "title_ja": "Crawl4AIでBedrock Knowledge Base向けWebコンテンツ準備を効率化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "e7389883fb55",
+      "title_ja": "NYTら複数メディア、Braveブラウザをコンテンツ無断収集で提訴",
+      "urls": [
+        "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "8d847b3ebc26",
+      "title_ja": "AIエージェントのタスク実行、通常チャットの最大50倍のトークン消費",
+      "urls": [
+        "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "570f5e1efb59",
+      "title_ja": "YC出身Momentic、アプリを自律テストするQAエージェントを発表",
+      "urls": [
+        "https://momentic.ai/"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "id": "8f9ef7c70af7",
+      "title_ja": "Amazon、GPU購入者のアカウントを一部停止と報告",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/"
       ]
     }
   ]

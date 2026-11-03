@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T10:33:09+09:00",
+  "stats": {
+    "collected": 98,
+    "fresh": 82,
+    "selected": 35,
+    "published": 20
+  },
+  "highlights": [
+    "Anthropic次期大規模モデル「numbat」の学習途中チェックポイントが流出と報告",
+    "Trajectoryが45億円調達、AI学習の非専門家向け民主化を目指す",
+    "Circle KがBedrockで障害対応を45分から15分未満に短縮"
+  ],
+  "items": [
+    {
+      "id": "6e98f979afd8",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "Anthropic、Q3売上170億ドルと契約総額8950億ドルを開示",
+      "summary_ja": "AnthropicはS-1改訂版で、第3四半期売上が170億ドル、契約残高が8950億ドルに達したと報告した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+        }
+      ]
+    },
+    {
+      "id": "f9ecf66c1822",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "AstraがQwenの重みを直接編集し数学性能を改善",
+      "summary_ja": "GPT-6派生のAstraがQwen3.5-0.8Bの重みのうち0.016%のみを直接編集し、勾配や追加学習なしで数学性能を最大6倍、指示追従を3倍改善したと報告されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+        },
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mze7rbg2fc2l"
+        }
+      ]
+    },
+    {
+      "id": "be88e8f6a7ec",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "Anthropic次期大規模モデル「numbat」の学習チェックポイントがHugging Faceに流出と報告",
+      "summary_ja": "Hugging Face上で「burner22/numbat」という名称の約14兆パラメータ・114層・MoE構成のモデルが公開され、Anthropicの次世代大規模学習ランの内部コードネーム「numbat」の学習途中チェックポイントだと報告されている。総容量約7.72TBの772シャードに分割され、設定ファイルやトークナイザー、学習ログの末尾なども含まれているとされるが、真偽は未確認。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/burner22/numbat"
+        }
+      ]
+    },
+    {
+      "id": "c8564f3a6870",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "Trajectoryが45億円調達、AIモデル学習の民主化を目指す",
+      "summary_ja": "設立1年のTrajectoryが4500万ドルを調達し、企業価値3億ドルで評価された。非技術者でもAIモデルの学習を行えるようにすることを目指している。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+        }
+      ]
+    },
+    {
+      "id": "80eb6a785c6c",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Circle K、Bedrockで障害対応時間を15分未満に短縮",
+      "summary_ja": "Circle KのDevOpsチームは、Amazon Bedrock上にエージェント型の障害トリアージシステムを構築し、対応時間を45〜60分から15分未満に短縮した。当初のBedrock Flowsによる実装からBedrock AgentCoreへの移行経緯と、スケール時に得た知見が紹介されている。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "1263ce4e0930",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "Oracle、AI投資資金に200億ドルの株式・債券発行を申請",
+      "summary_ja": "OracleはAIインフラ構築資金のため、200億ドル規模の新株・債券発行を申請した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+        }
+      ]
+    },
+    {
+      "id": "b760b461aff6",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropicの売上成長が鈍化",
+      "summary_ja": "Anthropicの成長率がここに来て横ばいになったと報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened"
+        }
+      ]
+    },
+    {
+      "id": "acc03feb26a2",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SageMakerで知識蒸留による軽量エージェント構築手法を紹介",
+      "summary_ja": "AWSは、フロンティアモデルの挙動をSeqKDで小型モデルに転移し、低コストなエージェントをSageMaker AI上で構築する方法を公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/"
+        }
+      ]
+    },
+    {
+      "id": "0db7b6f459a7",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic社内のAI利用コストが従業員給与総額を上回る",
+      "summary_ja": "Anthropicの社内AI利用量を小売価格換算すると、従業員への給与支払額を上回る水準に達していると報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11"
+        }
+      ]
+    },
+    {
+      "id": "d206377e3828",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Qwen、オープンソース路線継続を公式表明",
+      "summary_ja": "Qwenの責任者が、Qwen4以降もオープンウェイトのみでAPI限定化するとの噂を否定し、Qwen4.0・5.0も引き続きオープンソースで提供すると明言した。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/"
+        }
+      ]
+    },
+    {
+      "id": "109261365670",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "vLLM v0.33.0リリース、新モデルとPyTorch 2.14対応",
+      "summary_ja": "vLLM v0.33.0が公開され、Reflection Beam-1.0やYandex AliceAI-Foundation-80B-A3Bなど多数の新モデル対応とPyTorch 2.14へのアップグレードが行われた。",
+      "sources": [
+        {
+          "name": "GitHub vllm-project/vllm",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"
+        }
+      ]
+    },
+    {
+      "id": "5d33ed0c66ac",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "OpenAI、データセンターの電力供給対策「Grid Protectors」発表",
+      "summary_ja": "OpenAIは電力会社と連携し、将来のコンピューティング拠点が電力網の信頼性維持と消費者の電気料金保護に貢献する「Grid Protectors Program」を発表した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/grid-protectors-program"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+        }
+      ]
+    },
+    {
+      "id": "35ee5c24e240",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AWS、Nova Multimodal Embeddingsでエンジニアリング支援エージェント構築法を公開",
+      "summary_ja": "AWSはAmazon Nova Multimodal EmbeddingsとBedrock AgentCoreを用いて、航空宇宙部品の代替評価を数日から数分に短縮するマルチエージェントシステムの構築法を紹介した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "8617cd6f7d8f",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "中国、フロンティアAIの初の輸出管理措置を発表",
+      "summary_ja": "中国商務省は公告第48号として、フロンティアAIに関する初の輸出管理措置を発表した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/"
+        }
+      ]
+    },
+    {
+      "id": "593f43913dcd",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Liquid AI、音声対応モデル「LFM3-Audio-2B」を公開",
+      "summary_ja": "Liquid AIがHugging Face上で音声認識などに対応したany-to-anyモデル「LFM3-Audio-2B」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        }
+      ]
+    },
+    {
+      "id": "e6a7f2fa0c28",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Crawl4AIでBedrock Knowledge Base向けWebコンテンツ準備を効率化",
+      "summary_ja": "AWSは、オープンソースクローラーCrawl4AIを使ってJavaScriptレンダリングや選択的抽出、メタデータ付与を行い、Bedrock Knowledge Bases用のコンテンツを準備する方法を紹介した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/"
+        }
+      ]
+    },
+    {
+      "id": "e7389883fb55",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "NYTら複数メディア、Braveブラウザをコンテンツ無断収集で提訴",
+      "summary_ja": "ニューヨーク・タイムズなど複数メディアが、BraveがNYTの著作権付きコンテンツを無断収集しAnthropicやPerplexityなど顧客に提供したとして提訴した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+        }
+      ]
+    },
+    {
+      "id": "8d847b3ebc26",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AIエージェントのタスク実行、通常チャットの最大50倍のトークン消費",
+      "summary_ja": "AIエージェントがコーディングタスクで計画・生成・テスト・修正を繰り返すことで、基本的なチャット応答の10〜50倍のトークンを消費すると指摘されている。",
+      "sources": [
+        {
+          "name": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
+        }
+      ]
+    },
+    {
+      "id": "570f5e1efb59",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "YC出身Momentic、アプリを自律テストするQAエージェントを発表",
+      "summary_ja": "YC採択企業MomenticがWeb・iOS・Androidアプリを自律的に探索しバグを検出するQAエージェントをローンチした。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://momentic.ai/"
+        }
+      ]
+    },
+    {
+      "id": "8f9ef7c70af7",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Amazon、GPU購入者のアカウントを一部停止と報告",
+      "summary_ja": "AmazonがGPU注文を取り消し、まれにアカウントを閉鎖しているケースがあると報じられ、Tim Sweeneyも被害を受けたとされる。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 9.3183,
+    "run_cost_usd": 0.1134,
+    "average_run_usd": 0.1034,
+    "runs_recorded": 95
+  }
+}
