@@ -1,287 +1,299 @@
 {
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T08:58:58+09:00",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T09:19:53+09:00",
   "stats": {
-    "collected": 128,
-    "fresh": 112,
-    "selected": 35,
+    "collected": 115,
+    "fresh": 102,
+    "selected": 38,
     "published": 20
   },
   "highlights": [
-    "ChatGPTの検索利用量がGoogleの2割に到達",
-    "推論特化スタートアップFalが16億ドル評価額で資金調達",
-    "米テック大手のAIインフラ関連債務が半年で9割増の3.2兆ドルに"
+    "OpenAIがPierre Computerを買収、Codexのコード理解機能を拡張",
+    "DeepSeek-V4.1-Flash更新でコーディング・エージェント性能が向上",
+    "UberのAIエージェント経由配車は四半期でわずか4件"
   ],
   "items": [
     {
-      "id": "05d1a3678a8e",
-      "importance": "high",
-      "category": "funding",
-      "title_ja": "AI推論スタートアップFal、評価額160億ドルで13億ドル調達",
-      "summary_ja": "5年目のAI推論スタートアップFalが、Bessemer主導で13億ドルの資金調達を実施し、評価額を倍増の160億ドルとした。需要急増を背景にした大型調達であり、推論基盤市場での資金集中が加速している実態を示す。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
-        }
-      ]
-    },
-    {
-      "id": "14409ffa4e77",
-      "importance": "high",
-      "category": "funding",
-      "title_ja": "Ballistic Ventures、サイバーセキュリティ新ファンドに4.9億ドル調達へ",
-      "summary_ja": "Ted Schlein率いるBallistic Venturesが、AI駆動型サイバーセキュリティ分野の需要拡大を背景に、主力ファンド向け3.6億ドルと別枠投資ビークル向け1.3億ドルの計4.9億ドルの資金調達を進めている。AIがセキュリティ攻防双方を加速させる中、専門VCへの資金流入が続いている状況を示す。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
-        }
-      ]
-    },
-    {
-      "id": "2a746fdcd099",
+      "id": "1be4fdd8e6ca",
       "importance": "high",
       "category": "business",
-      "title_ja": "OpenAI、ChatGPT検索量がGoogleの20%に到達と発表",
-      "summary_ja": "OpenAIの消費者向けプロダクト責任者Adam Fryが、ChatGPT経由の検索クエリ量がGoogle検索の20%に相当すると発表した。検索行動が「Googleで調べる」から「ChatGPTに聞く」へと移行しつつあることを示すデータであり、検索広告やSEO戦略の前提を見直す材料になる。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
-        }
-      ]
-    },
-    {
-      "id": "31229f011537",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "OpenAI、Codexのチャットでモデル学習を無断再有効化か",
-      "summary_ja": "企業がCodexでデータ共有をオフにしていたにもかかわらず、OpenAIが設定を無断で再有効化していたと報告されている。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50352757"
-        }
-      ]
-    },
-    {
-      "id": "52eb9ce7b224",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Anthropic、AIモデルの身元確認システムFlashProveを開発",
-      "summary_ja": "Anthropicが、AI応答が主張通りのモデルから生成されたことを誰でも確認できるシステム「FlashProve」を開発している。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
-        }
-      ]
-    },
-    {
-      "id": "ec51e351ec27",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Apple、Siriにサードパーティアプリへのアクセス権を付与",
-      "summary_ja": "AppleがiOS 27.3でSiriに全てのサードパーティアプリでの操作権限を与え、個人コンテキストや画面認識を活用した自然言語操作を可能にした。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
-        }
-      ]
-    },
-    {
-      "id": "15f2a9456d01",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Revolut、自社ホスト型GLMへ移行",
-      "summary_ja": "Revolutが自社ホスト型のGLMモデルへの移行を進めている。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://twitter.com/guilleflorvs/status/2117379073785696395"
-        }
-      ]
-    },
-    {
-      "id": "6d7218d4846f",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "DeepSeek V5、ファーウェイAscendチップで事前学習へ",
-      "summary_ja": "DeepSeekの次世代モデルV5が、従来の推論用途に加えてファーウェイのAscendチップで事前学習される計画だと中国メディアが報じている。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei/"
-        }
-      ]
-    },
-    {
-      "id": "34e7d6261520",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Cisco、OpenAIと機械速度のセキュリティ防御を構築",
-      "summary_ja": "CiscoがネットワークインテリジェンスとOpenAIのモデルを組み合わせ、より適応的なセキュリティ防御体制を構築している。",
+      "title_ja": "OpenAI、Pierre Computerを買収しCodex強化へ",
+      "summary_ja": "OpenAIはPierre Computer Company, Inc.を買収すると発表した。買収によりCodexのコード構築・理解・レビュー機能が拡張される。Codexを使う開発者にとっては、コードレビュー支援ツールの統合強化が今後のアップデートで見込まれる。",
       "sources": [
         {
           "name": "OpenAI News",
-          "url": "https://openai.com/index/cisco-cyber"
-        }
-      ]
-    },
-    {
-      "id": "21dc542a1579",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Cartesia、AWS上で超低遅延の音声AIを提供",
-      "summary_ja": "AWSパートナーのCartesiaが、独自のState Space Modelとサブ100ミリ秒のText-to-Speech/Speech-to-Textモデル「Sonic」をAmazon SageMaker AIやEC2上で提供している。",
-      "sources": [
+          "url": "https://openai.com/index/openai-to-acquire-pierre"
+        },
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/"
+          "name": "Hacker News",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/"
         }
       ]
     },
     {
-      "id": "81efc47dc458",
-      "importance": "medium",
+      "id": "9a66a9476221",
+      "importance": "high",
       "category": "business",
-      "title_ja": "Palantir、米国商業向け売上が政府向けを初めて逆転",
-      "summary_ja": "Palantirの米国商業部門の売上が、史上初めて米国政府部門の売上を上回った。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/"
-        }
-      ]
-    },
-    {
-      "id": "89158d68bf95",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Anthropic、計算コストの採算性に依然苦戦",
-      "summary_ja": "Anthropicの計算コストに関する利益率は、改善が見込まれる局面であるにもかかわらず悪化していると報じられている。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
-        }
-      ]
-    },
-    {
-      "id": "03ad66ba1fba",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Apple、インフラ投資を抑えつつAIブームの恩恵享受",
-      "summary_ja": "Appleが競合ほどインフラ投資を拡大せずにAIブームを活用し、最新四半期決算で過去最高の売上とEPSを記録、iPhoneとMacの売上も好調に推移した。",
+      "title_ja": "Google、AI収益化は検索ほど稼げず",
+      "summary_ja": "Alphabetの決算によると検索クエリ数は5年で最速の伸びを示した一方、検索売上の成長率は前年同期比12%と前四半期の約17%から鈍化した。広告クリック単価の伸びも鈍く、AI機能の収益化が検索ビジネスのような収益モデルに至っていないことが示された。",
       "sources": [
         {
           "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3"
         }
       ]
     },
     {
-      "id": "210b26f029f3",
+      "id": "a3433e936d2c",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Daybreak Red、AWS GovCloudで提供開始",
+      "summary_ja": "GPT-5.6 Cyberを搭載したDaybreak Redが、Amazon Bedrock経由でAWS GovCloud（US-East）の承認顧客向けに提供開始された。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud"
+        }
+      ]
+    },
+    {
+      "id": "9b89acc964d0",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "U Mobile、Bedrock AgentCoreでエージェント型通信運用基盤構築",
+      "summary_ja": "マレーシアのU MobileはAmazon Bedrock AgentCore上に自律行動型AI運用基盤「AiDaH」を構築した。本番稼働から9か月で6部門にわたる150以上の運用シナリオに対応し、トラブルチケットを最大84.5%削減した。Bedrock AgentCoreを使った大規模エージェント運用の具体的な導入事例として、同様の基盤構築を検討する実務者の参考になる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "34beab957f96",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Postman、AIプラグインを無断自動インストールしAPIデータ共有か",
-      "summary_ja": "PostmanがAIプラグインを無断で自動インストールし、すべてのAPIデータを共有しようとしていると報告されている。",
+      "title_ja": "Tencent、新モデルHy4を発表",
+      "summary_ja": "TencentがオープンウェイトモデルHy4を発表し、近く重みを公開する予定。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
-        }
-      ]
-    },
-    {
-      "id": "f6384be9ac1a",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "新世代LLM、幻覚やステレオタイプ傾向が減少と報告",
-      "summary_ja": "Qwen 3.8など新世代モデルを対象にした大規模な再検証で、架空の引用生成や幻覚率、ステレオタイプの傾向が従来モデルより減少している一方、迎合性の高さと左派寄りの傾向は依然残っていると報告されている。",
-      "sources": [
-        {
-          "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzesndbbxs2l"
+          "url": "https://hy.tencent.ai/research/hy4"
         },
         {
           "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/"
         }
       ]
     },
     {
-      "id": "25493a43cba5",
+      "id": "dfa876a54a2d",
       "importance": "medium",
-      "category": "business",
-      "title_ja": "OpenAI、ChatGPTとCodexで物理領域の設計業務を加速",
-      "summary_ja": "OpenAIが、ChatGPTとCodexがCAD設計や基板設計、シミュレーションなど物理世界のエンジニアリング業務を加速させている事例を紹介している。",
-      "sources": [
-        {
-          "name": "OpenAI News",
-          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
-        }
-      ]
-    },
-    {
-      "id": "a7f64e0d32da",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "AWS、構造化・非構造化データを統合するAmazon Quickを発表",
-      "summary_ja": "AWSが、S3をナレッジベースとして接続しデータを拡充、構造化・非構造化データを横断する対話型エージェントを構築できる「Amazon Quick」を発表した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/"
-        }
-      ]
-    },
-    {
-      "id": "ac965da4ed73",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Gen Digital、Bedrockで生成AI活用のNorton Revampを構築",
-      "summary_ja": "Gen DigitalがAmazon Bedrock AgentCore Web Searchを基盤に、引用付きニュースを提供する生成AI活用の評判管理プラットフォーム「Norton Revamp」を構築した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/"
-        }
-      ]
-    },
-    {
-      "id": "c01265aacc1a",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Google、AI機能拒否の学校で検索機能を全面無効化",
-      "summary_ja": "GoogleがAI機能を拒否する学校に対し、GeminiやGemini Classroomだけでなく検索機能自体も完全に無効化する方針をThe New York Timesに明らかにした。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
-        }
-      ]
-    },
-    {
-      "id": "f7735096343c",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "米テック大手のAIインフラ債務、半年で9割増の3.2兆ドルに",
-      "summary_ja": "米国の大手テック企業が抱えるAIインフラ関連の債務が、半年間で90%増加し3.2兆ドルに達したと報じられている。",
+      "category": "new_model",
+      "title_ja": "Ripple-65B、エージェント型コーディングで米国産SOTA主張",
+      "summary_ja": "オープンウェイトモデルRipple-65B Previewが、エージェント型コーディングタスクで米国製として最高性能を主張している。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+          "url": "https://www.ricursive.com/ripple"
+        }
+      ]
+    },
+    {
+      "id": "cac24968e5aa",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "DeepSeek-V4.1-Flash更新版公開、コーディング性能向上",
+      "summary_ja": "DeepSeek-V4.1-Flash-1017が公開され、推論・コーディング・エージェントタスク・視覚ベンチマークで前バージョンから性能が向上した。Terminal-Bench 4.0やDeepSWE v1.1などのベンチマークで改善が見られ、出力トークン数と実行時間を削減しつつ性能対コストの効率も向上している。コーディングエージェントを運用するエンジニアにとって、低コストで高速なモデル選択肢が増えたことになる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        }
+      ]
+    },
+    {
+      "id": "295354ff422b",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "OpenAI、Images 2.6でGIF生成機能を追加",
+      "summary_ja": "OpenAIはImages 2.6を発表し、ChatGPT・Codex・APIで高速な画像生成、GIF作成、精密な編集、新しいAPI制御が可能になった。ChatGPTではプロンプトや写真アップロードからGIFを生成でき、アニメーション速度の調整やフレーム単位の編集もできるようになった。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/introducing-images-2-6"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+        }
+      ]
+    },
+    {
+      "id": "eef47e2f46ab",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Uber、AIエージェント経由の配車は四半期で4件のみ",
+      "summary_ja": "Uberの決算発表によると、2026年第3四半期にサードパーティAIエージェント経由で成立した配車はわずか4件だった。Uber Eatsの注文は約500件とやや多かったが、いずれもAIエージェントによる需要代替が現時点では限定的であることを示している。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+        }
+      ]
+    },
+    {
+      "id": "fbaa86a829ad",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "OpenAI、Linuxカーネルの脆弱性948件にパッチ生成",
+      "summary_ja": "OpenAIは自律パイプラインを構築し、Linuxカーネルのローカル権限昇格脆弱性948件を発見・検証しパッチを生成した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+        }
+      ]
+    },
+    {
+      "id": "8d6f6c8bc49c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Meta、AIコーディングスタートアップConductorを買収",
+      "summary_ja": "Metaは複数のエージェントチームに同時にプロジェクト作業を分担させるツールを提供するAIコーディングスタートアップConductorを買収した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+        }
+      ]
+    },
+    {
+      "id": "d5eecd06151a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Gemini、個人向けでもチャット履歴を既定で学習に利用",
+      "summary_ja": "Google AIの個人向けサブスクリプションでは、チャット履歴の保存を無効にするか一時チャットを使わない限り、オプトアウトできずに学習データとして利用され、人間のレビュアーが閲覧する可能性があると指摘されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50363461"
+        }
+      ]
+    },
+    {
+      "id": "f4a904d03d80",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "Moonshot AI、Kimi-K3.1-Proをオープンウェイト公開",
+      "summary_ja": "Moonshot AIはマルチモーダルなエージェント型モデルKimi-K3.1-Proをオープンウェイトで公開した。総パラメータ2.8TのMoE構成で、100万トークンのコンテキスト窓を持ち、コーディングや3D生成、財務調査などで性能向上を実現している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/"
+        }
+      ]
+    },
+    {
+      "id": "981785a01550",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "DevRev、GPT-6.1 Solで自律型顧客対応を提供",
+      "summary_ja": "DevRevはGPT-6.1 Solを活用し、推論力・速度・コストのバランスを取った自律型顧客対応ツール「Computer」と「Operator」を企業向けに提供している。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/devrev-enterprise-self-service"
+        }
+      ]
+    },
+    {
+      "id": "0beed25ab06a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "中間選挙でデータセンター拡張に逆風",
+      "summary_ja": "米中間選挙でデータセンターの建設凍結や規制強化を支持する候補者・住民投票が各地で可決され、AI業界を支えるインフラ拡張が制約を受ける見通しとなった。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+        }
+      ]
+    },
+    {
+      "id": "3a41f9480808",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Qualcomm、150W AIアクセラレータカード発表",
+      "summary_ja": "QualcommがCloud AI 100 Ultraという、128GBメモリと548GB/s帯域を持つ150WのAIアクセラレータカードを発表した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra"
+        }
+      ]
+    },
+    {
+      "id": "014d0f8ff9b1",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "データセンター電源確保に中古ジェットエンジン活用",
+      "summary_ja": "送電網接続や新型タービン導入の長期待ちを避けるため、データセンター建設業者が効率や環境面で劣る廃棄ジェットエンジンを電源として採用し始めている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+        }
+      ]
+    },
+    {
+      "id": "6b7703dbdfd1",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "オープンなエージェント基盤モデルAxion 1.0公開",
+      "summary_ja": "Hugging Faceに公開されたAxion 1.0は、2段階の軽量な教師あり微調整と強化学習のみという簡素な手法で訓練された、完全オープンなエージェント基盤モデル（35B）である。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face/"
+        }
+      ]
+    },
+    {
+      "id": "6fbaab12e7dc",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Indegene、AWSでデータ品質エージェントを構築",
+      "summary_ja": "ライフサイエンス企業IndegeneはAWS上にLLM搭載のデータ品質エージェントを構築し、人間参加型のガバナンスのもとでデータ品質ルールの生成・検証やSQL/Pythonコードの出力を自動化している。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences/"
+        }
+      ]
+    },
+    {
+      "id": "56101ee27fee",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Nothing、画面なしAIデバイスを12月発売予告",
+      "summary_ja": "NothingのCEOカール・ペイが、画面を持たない初のAIデバイスを12月に発売すると予告した。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 9.4341,
-    "run_cost_usd": 0.1158,
-    "average_run_usd": 0.1029,
-    "runs_recorded": 96
+    "spent_usd": 9.5528,
+    "run_cost_usd": 0.1187,
+    "average_run_usd": 0.1027,
+    "runs_recorded": 97
   }
 }
