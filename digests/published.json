@@ -1,169 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-29",
-      "id": "e8e0cb1d0e68",
-      "title_ja": "Google、新フロンティアモデルGemini 4 Carbonを発表",
-      "urls": [
-        "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-        "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "4ba4897dde9b",
-      "title_ja": "AnthropicのIPOで見えたAmazonの巨大な出資比率とガバナンス構造",
-      "urls": [
-        "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "a395c7da350b",
-      "title_ja": "OpenAIとServiceNowがエンタープライズ連携を拡大",
-      "urls": [
-        "https://openai.com/index/openai-servicenow-partnership-expansion"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "020314ea17c3",
-      "title_ja": "MicrosoftがOpenAIから四半期100億ドルの収益を計上",
-      "urls": [
-        "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "0c8f9ce2d60c",
-      "title_ja": "MicrosoftがAzureの実売上を初めて330億ドルと開示",
-      "urls": [
-        "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "3b6696291dbc",
-      "title_ja": "AnthropicがAI支出の可視化ツールを公開",
-      "urls": [
-        "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "e9a7a10b5a66",
-      "title_ja": "GitHub Octoverse 2026、マージ済みPRが月220万件に急増",
-      "urls": [
-        "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "dfe8f4ca2517",
-      "title_ja": "llama.cpp v0.8.0、LiquidAI LFM3対応とリアルタイム音声APIを追加",
-      "urls": [
-        "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "ec733f799e1a",
-      "title_ja": "NVIDIA、多言語音声文字起こしモデルNemotronを公開",
-      "urls": [
-        "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-        "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "e46d29680afe",
-      "title_ja": "Google、AI検索広告を世界展開へ",
-      "urls": [
-        "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "709cc8e2bd46",
-      "title_ja": "Legora、法務向けエージェント型OSを構築",
-      "urls": [
-        "https://openai.com/index/legora"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "dc7790b3a03a",
-      "title_ja": "GoogleがGeminiと検索を外部アプリに開放",
-      "urls": [
-        "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "f45c7980de26",
-      "title_ja": "デラウェア州、AIエージェントによる企業運営を容認へ",
-      "urls": [
-        "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "9327e550d0f4",
-      "title_ja": "Meta、米5大学と医療・科学研究で提携",
-      "urls": [
-        "https://about.fb.com/news/2026/10/meta-partners-with-five-us-universities-to-accelerate-medical-and-scientific-breakthroughs/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "6d6987e4078b",
-      "title_ja": "Artificial Analysis Intelligence IndexがV5に刷新",
-      "urls": [
-        "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "8e0b9acadf5d",
-      "title_ja": "LiquidAI、エッジ向けテキストモデルLFM3-1.7Bを公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/LFM3-1.7B"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "9fa8e4999dc5",
-      "title_ja": "NVIDIA RTX Spark搭載ノートPC、新モデルとエージェントツールに対応",
-      "urls": [
-        "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "17a75de37df0",
-      "title_ja": "税務タスクでAIエージェントを評価する新ベンチマーク「Dayjob: Tax」",
-      "urls": [
-        "https://surgehq.ai/blog/dayjob-tax"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "dbcf45402f36",
-      "title_ja": "データセンター投資停滞でGPU価格急落の予測",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "id": "7ab8aa47e894",
-      "title_ja": "Artificial Analysis、非公開ベンチマークに移行しオープンモデルの遅れを指摘",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mywnjrmkb22z"
-      ]
-    },
-    {
       "date": "2026-10-30",
       "id": "da867975a5a8",
       "title_ja": "Mistral Large 4公開、1兆パラメータのMoEモデル",
@@ -1073,6 +910,168 @@
       "title_ja": "Nothing、画面なしAIデバイスを12月発売予告",
       "urls": [
         "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "14e90e72d340",
+      "title_ja": "OpenAI、サイバーセキュリティ特化モデルGPT-6 Cyberを公開",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-6-cyber",
+        "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "9c6e67cc6514",
+      "title_ja": "Dropbox、AI基盤強化へTigris Dataを350億円で買収",
+      "urls": [
+        "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "297ad0409d7d",
+      "title_ja": "Anthropic未発表モデル「Model 4」、能力指数で大幅躍進と報告",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1xorf5c/metr_reveals_anthropics_unreleased_model_4/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "788aca0b86fe",
+      "title_ja": "Big TechのAIデータセンター投資、依然として拡大続く",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "17b57e465570",
+      "title_ja": "Airbnb、2027年前半にAI旅行エージェントを投入へ",
+      "urls": [
+        "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "27b87d65d3f9",
+      "title_ja": "Google、Gemini Omni 1.2 Flashを公開",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+        "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "2165b65a40c2",
+      "title_ja": "Perplexity、業務向けAIエージェント「Teammates」を公開",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "ec8f45e10a43",
+      "title_ja": "Zhipu、GLM-5.5の訓練パイプラインを公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "2a8256897722",
+      "title_ja": "OpenAI社長、2027年のIPO準備可能性に言及",
+      "urls": [
+        "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "f5a829f9a8eb",
+      "title_ja": "Box、NvidiaのNemotronを使った新コンテンツ検索システムを統合",
+      "urls": [
+        "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "0a9fff5e2640",
+      "title_ja": "300B規模の長期エージェントRLモデル「FireFlash」公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xomst7/paper_fireflash_an_open_recipe_for_longhorizon/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "e6d6c85b3eb3",
+      "title_ja": "Claude、銀行口座と連携する個人資産管理機能を追加",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "88ab2eaf1c2e",
+      "title_ja": "GPT-6 Astra、安全性研究タスクで性能を意図的に抑制と指摘",
+      "urls": [
+        "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "55ffde0d65a1",
+      "title_ja": "Microsoft、視覚言語モデルMage-VL-Cowork公開",
+      "urls": [
+        "https://huggingface.co/microsoft/Mage-VL-Cowork"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "f25b9201ad6b",
+      "title_ja": "NVIDIA、世界シミュレーション向けCosmos 3をオープン公開",
+      "urls": [
+        "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "d6f90cb0462c",
+      "title_ja": "AWS、Bedrock AgentCoreに単発応答機能「Web Answer」追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "2442dea1774d",
+      "title_ja": "Ricursive、65BパラメータのプレビューモデルRippleを公開",
+      "urls": [
+        "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "850ffbfc56c1",
+      "title_ja": "Mistral、企業向けエージェント基盤「Le Chonk」と「Studio」を発表",
+      "urls": [
+        "https://mistral.ai/news/build-with-studio/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "b1feafc8620e",
+      "title_ja": "NVIDIA、エージェント処理向けCPU「Vera」を発表",
+      "urls": [
+        "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": "b531b56f4ce7",
+      "title_ja": "Qualcomm、スマホ不振でデータセンター事業に注力",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
       ]
     }
   ]
