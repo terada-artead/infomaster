@@ -1,97 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-10-31",
-      "id": "820dfbe7b266",
-      "title_ja": "AI支出ブームの持続性に疑問、ハイテク株にも懸念広がる",
-      "urls": [
-        "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-        "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "f61d3e32ca00",
-      "title_ja": "Claude Code拡張機能にバックドア、約12時間検知されず",
-      "urls": [
-        "https://cyberplace.social/@GossiTheDog/117528831681803563",
-        "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "f7975896246f",
-      "title_ja": "Amazon Bedrockで物流自動化とコスト管理の実践事例公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "f9b3653194a2",
-      "title_ja": "Bedrock AgentCoreでコーディングエージェントのライブプレビューが可能に",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "068409901120",
-      "title_ja": "軽量OCRモデルSurya 2.5、歴史的文書の読み取り精度向上",
-      "urls": [
-        "https://bsky.app/profile/danielvanstrien.bsky.social/post/3mz3lonmxv22a"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "49d99f09e516",
-      "title_ja": "OpenAI、ChatGPT加入者向けにAPIクレジット特典を導入",
-      "urls": [
-        "https://simonwillison.net/2026/Oct/29/api-credits/"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "fae087618c97",
-      "title_ja": "LiquidAI、any-to-any対応の小型モデルLFM3-Omni-2Bを公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "5a9bda72c1d1",
-      "title_ja": "Black Forest Labs、画像生成モデルFlux-3を公開",
-      "urls": [
-        "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "baf2e8680ec9",
-      "title_ja": "DoorDash、AIエージェント経由の注文は「数百件」にとどまる",
-      "urls": [
-        "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "ee99048206ee",
-      "title_ja": "OpenBMB、文書解析向けOCRモデルMiniCPM-OCR-1.0を公開",
-      "urls": [
-        "https://huggingface.co/openbmb/MiniCPM-OCR-1.0"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "id": "b9ee8bb30716",
-      "title_ja": "GoogleのAI衛星搭載TPU、宇宙から初応答を地球に送信",
-      "urls": [
-        "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
-      ]
-    },
-    {
       "date": "2026-11-01",
       "id": "7a24eca35f77",
       "title_ja": "OpenAIなど大手がWebスクレイピング拒否の共通規格を採用",
@@ -1069,6 +978,86 @@
       "title_ja": "Underdog、32MBの音声生成モデルをデモ公開",
       "urls": [
         "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B、Hugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "eecad6fef1da",
+      "title_ja": "AnthropicのAI自動開発、性能向上速度が加速と報告",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "f2bc736c0ee7",
+      "title_ja": "Meta、SAM3モデルをHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/facebook/sam3"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "b521172828d6",
+      "title_ja": "米、実態不明の中国企業へNvidiaチップ販売を許可",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "da867975a5a8",
+      "title_ja": "Mistral、1TパラメータのMistral-Large-4公開",
+      "urls": [
+        "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "ec2480d446f6",
+      "title_ja": "Crusoe、ワイオミング州データセンター計画をGoogleに売却",
+      "urls": [
+        "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "c82cf38d41cc",
+      "title_ja": "Anthropic、AIの科学研究への影響を分野別に分析",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mzomjgktvd2h"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "c198424dfc3b",
+      "title_ja": "ローカルLLMでホームラボ管理するOSSツール「Valet」",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "5b5f4925f1b3",
+      "title_ja": "ChatGPTのコネクタ間データ受け渡しに懸念",
+      "urls": [
+        "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": "4e392e0aaa87",
+      "title_ja": "Nvidia CEO監視目的で中国側が幹部を勧誘と米情報機関メモ",
+      "urls": [
+        "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
       ]
     }
   ]
