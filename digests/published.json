@@ -1,95 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-01",
-      "id": "7a24eca35f77",
-      "title_ja": "OpenAIなど大手がWebスクレイピング拒否の共通規格を採用",
-      "urls": [
-        "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "f3e255de2b47",
-      "title_ja": "OpenAIが資金調達目標を下方修正、Anthropicは高めのジャンク格付け予想",
-      "urls": [
-        "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-        "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "0ae524ee7a4c",
-      "title_ja": "Pika Labs、画像から動画生成するPika-H3-Flexを公開",
-      "urls": [
-        "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "fe0e0eb72638",
-      "title_ja": "AWS、Bedrockコスト管理の運用手順を解説するブログを公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams/"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "27eb355cff2b",
-      "title_ja": "Microsoft、軽量な4Bビジョン言語モデルMage-VL-Coworkを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "d35acc9f914a",
-      "title_ja": "OpenAI PythonライブラリがバージョンAPIを追加",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.42.0"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "420fd151ca6f",
-      "title_ja": "Nvidia、Nscaleのデータセンター計画への融資保証を検討",
-      "urls": [
-        "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "029f4f6cd793",
-      "title_ja": "Nvidia、40言語対応の音声認識モデルNemotron-3.5-Transcribeを公開",
-      "urls": [
-        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "8edfa603fa5e",
-      "title_ja": "Apple Intelligence、iOS 27.3で中国でも提供開始",
-      "urls": [
-        "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "1c640f88e053",
-      "title_ja": "ChatGPTアカウント乗っ取りの脆弱性に関する調査報告",
-      "urls": [
-        "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "id": "d0bffa67e51d",
-      "title_ja": "Liquid AI、エッジ向けビジョン言語モデルLFM3-VL-2Bを公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/LFM3-VL-2B"
-      ]
-    },
-    {
       "date": "2026-11-02",
       "id": "9dbca9dfa76c",
       "title_ja": "OpenAI、300億ドル調達目標の半分未満にとどまる",
@@ -1058,6 +969,95 @@
       "title_ja": "Nvidia CEO監視目的で中国側が幹部を勧誘と米情報機関メモ",
       "urls": [
         "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "fe5fdb83e1ea",
+      "title_ja": "ゴールドマン・サックスがClaude Codeを廃止",
+      "urls": [
+        "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "55858f2b4ca7",
+      "title_ja": "GPUなしで284B DeepSeekを動かすLlama-modchip",
+      "urls": [
+        "https://github.com/synchopate/llama-modchip"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "b9c0dd474c98",
+      "title_ja": "AppleがSiriのエージェント化を急いでいると報道",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "9451b5123beb",
+      "title_ja": "人型ロボットTheoがチューリッヒのスーパーに配置",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1xqjk2e/theo_a_wheeled_humanoid_robot_now_works_at_a/"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "c36ad27ce824",
+      "title_ja": "Tencentが新しい投機的デコード手法を公開",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "2abafaba6346",
+      "title_ja": "Apple研究者がQwenでUnitree G1ロボットを制御",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1xr6w6w/apple_researchers_use_a_mac_mini_running_qwen/"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "390422e1a2c2",
+      "title_ja": "推論特化モデルTwIL-8Bが公開",
+      "urls": [
+        "https://huggingface.co/webAI-Official/TwIL-8B"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "f4e8ce6220df",
+      "title_ja": "Nous ResearchがArete-27Bを公開",
+      "urls": [
+        "https://huggingface.co/NousResearch/Arete-27B"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "96571aa39f8d",
+      "title_ja": "エージェントメモリの標準化が議論に",
+      "urls": [
+        "https://www.lorekit.io/blog/open-agent-memory-format"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "584207642c0b",
+      "title_ja": "DeepSWEベンチマークが微小変更に敏感と判明",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xqmr2i/saw_this_benchmark_where_small_changes_to_coding/",
+        "https://bsky.app/profile/emollick.bsky.social/post/3mzsyjxxrsk2l"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": "1549a63baf38",
+      "title_ja": "Qwen3.8-Flash-NextのGGUF量子化版が公開",
+      "urls": [
+        "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
       ]
     }
   ]

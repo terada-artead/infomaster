@@ -1,153 +1,170 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T07:40:35+09:00",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T07:47:49+09:00",
   "stats": {
-    "collected": 63,
-    "fresh": 53,
-    "selected": 12,
-    "published": 10
+    "collected": 68,
+    "fresh": 56,
+    "selected": 16,
+    "published": 11
   },
   "highlights": [
-    "AnthropicのAI自動化で性能向上速度が加速と研究機関METRが報告",
-    "Qwen3.8やSAM3などHugging Faceで新モデル公開が相次ぐ",
-    "米国がNvidia製AIチップの中国向け販売審査の甘さを指摘される"
+    "ゴールドマン・サックス等でClaude Code利用中止の動き",
+    "AppleがSiriのAIエージェント化を急いでいると報道",
+    "コーディングベンチマークDeepSWEが微小な変更に敏感と判明"
   ],
   "items": [
     {
-      "id": "ca26bca182f6",
-      "importance": "high",
-      "category": "new_model",
-      "title_ja": "Qwen3.8-27B、Hugging Faceで公開",
-      "summary_ja": "Qwen3.5・Qwen3.6シリーズに続き、Qwenファミリー最新世代となるQwen3.8-27Bが公開された。Transformers・vLLM・SGLang等に対応し、Qwen Cloud経由では1Mトークンのコンテキスト長をデフォルトで提供するホスト版サービスも近日開始予定とされている。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
-        }
-      ]
-    },
-    {
-      "id": "eecad6fef1da",
-      "importance": "high",
-      "category": "business",
-      "title_ja": "AnthropicのAI自動開発、性能向上速度が加速と報告",
-      "summary_ja": "AI安全性研究機関METRが11週間の調査を経て発表した報告書によると、AnthropicはAIを使ってより強力なAIを開発しており、モデルの性能向上速度は1年前の約2倍に達し、鈍化の兆候はほとんど見られないという。自動化による開発サイクルの加速は、今後のモデル競争のペースに直結するため注視が必要だ。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
-        }
-      ]
-    },
-    {
-      "id": "f2bc736c0ee7",
-      "importance": "high",
-      "category": "new_model",
-      "title_ja": "Meta、SAM3モデルをHugging Faceで公開",
-      "summary_ja": "Facebook（Meta）がマスク生成モデル「sam3」をHugging Faceで公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/facebook/sam3"
-        }
-      ]
-    },
-    {
-      "id": "b521172828d6",
-      "importance": "high",
-      "category": "business",
-      "title_ja": "米、実態不明の中国企業へNvidiaチップ販売を許可",
-      "summary_ja": "New York Timesの報道によると、Nvidiaのh200 AIチップ取扱いを承認された中国企業「New Matrix」のオフィスは実際には空っぽで、商務省もNvidiaも十分な審査を行っていない疑いが指摘されている。輸出規制の実効性に疑問が生じており、今後の規制運用強化につながる可能性がある。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
-        }
-      ]
-    },
-    {
-      "id": "da867975a5a8",
-      "importance": "high",
-      "category": "new_model",
-      "title_ja": "Mistral、1TパラメータのMistral-Large-4公開",
-      "summary_ja": "MistralAIがimage-text-to-text対応の新モデル「Mistral-Large-4-1T-A52B」をHugging Faceで公開した。vLLM・SGLang・llama.cppなど主要推論基盤に対応する。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
-        }
-      ]
-    },
-    {
-      "id": "ec2480d446f6",
+      "id": "fe5fdb83e1ea",
       "importance": "medium",
       "category": "business",
-      "title_ja": "Crusoe、ワイオミング州データセンター計画をGoogleに売却",
-      "summary_ja": "Crusoeが問題を抱えていたワイオミング州の大規模データセンター計画をGoogleに売却した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
-        }
-      ]
-    },
-    {
-      "id": "c82cf38d41cc",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Anthropic、AIの科学研究への影響を分野別に分析",
-      "summary_ja": "Anthropicの新データによると、現状のAI能力が広く導入された場合、研究に必要な時間の27〜52%（分野ごとの中央値38%）をAIが代替できる可能性があるという。",
-      "sources": [
-        {
-          "name": "Bluesky @emollick.bsky.social",
-          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzomjgktvd2h"
-        }
-      ]
-    },
-    {
-      "id": "c198424dfc3b",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "ローカルLLMでホームラボ管理するOSSツール「Valet」",
-      "summary_ja": "ローカルまたはホスト型LLMで動くチャットエージェントを備え、185以上のサービス連携とカスタムプラグインに対応するホームラボ管理ツール「Valet」がオープンソースで公開された。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/"
-        }
-      ]
-    },
-    {
-      "id": "5b5f4925f1b3",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "ChatGPTのコネクタ間データ受け渡しに懸念",
-      "summary_ja": "ChatGPTがコネクタ間で密かにデータを受け渡しているとの指摘があり、バグ報奨金対応では身分証明書の提示が求められている問題がHacker Newsで話題になった。",
+      "title_ja": "ゴールドマン・サックスがClaude Codeを廃止",
+      "summary_ja": "ゴールドマン・サックスがバンカーやトレーダー向けにClaude Codeの利用を停止したと報じられている。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
+          "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
         }
       ]
     },
     {
-      "id": "4e392e0aaa87",
+      "id": "55858f2b4ca7",
       "importance": "medium",
-      "category": "business",
-      "title_ja": "Nvidia CEO監視目的で中国側が幹部を勧誘と米情報機関メモ",
-      "summary_ja": "米情報機関のメモによると、中国国家安全部がMegaspeed幹部の女性技術者をNvidia CEOの監視目的で勧誘したと報じられている。",
+      "category": "tool",
+      "title_ja": "GPUなしで284B DeepSeekを動かすLlama-modchip",
+      "summary_ja": "64GBのRAMのみでGPUなしに284B規模のDeepSeekモデルを動作させるプロジェクトLlama-modchipが公開された。",
       "sources": [
         {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+          "name": "Hacker News",
+          "url": "https://github.com/synchopate/llama-modchip"
+        }
+      ]
+    },
+    {
+      "id": "b9c0dd474c98",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AppleがSiriのエージェント化を急いでいると報道",
+      "summary_ja": "BloombergのMark Gurman氏によると、AppleのCEO John Ternus氏がAI責任者Craig Federighi氏に対し、OpenAIのDotsやMetaのMuseに対抗できる強力なAIエージェント機能をSiriに搭載するよう開発加速を求めている。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+        }
+      ]
+    },
+    {
+      "id": "9451b5123beb",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "人型ロボットTheoがチューリッヒのスーパーに配置",
+      "summary_ja": "車輪型ヒューマノイドロボットTheoがチューリッヒのスーパーマーケットに導入され、夜間に1時間あたり400点の品出しを行い、昼間はオンライン注文対応などもこなしている。",
+      "sources": [
+        {
+          "name": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xqjk2e/theo_a_wheeled_humanoid_robot_now_works_at_a/"
+        }
+      ]
+    },
+    {
+      "id": "c36ad27ce824",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Tencentが新しい投機的デコード手法を公開",
+      "summary_ja": "Tencentが開発した新しい投機的デコード手法により、27B規模モデルで最大3倍の高速化を実現したと報告されている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/"
+        }
+      ]
+    },
+    {
+      "id": "2abafaba6346",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Apple研究者がQwenでUnitree G1ロボットを制御",
+      "summary_ja": "Apple研究者はMac mini上でQwenをローカル実行し、Unitree G1ヒューマノイドロボットを制御した。1000の模擬住宅環境で訓練し、360回の実世界試行で91%の成功率で着座・卓下潜行・未知部屋の移動を自律的に行った。",
+      "sources": [
+        {
+          "name": "r/singularity",
+          "url": "https://www.reddit.com/r/singularity/comments/1xr6w6w/apple_researchers_use_a_mac_mini_running_qwen/"
+        }
+      ]
+    },
+    {
+      "id": "390422e1a2c2",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "推論特化モデルTwIL-8Bが公開",
+      "summary_ja": "IBMのgranite-4.2-8bをベースにSFTとGRPO/DAPOで後処理訓練した推論モデルTwIL-8Bが公開され、MATH-500とLiveCodeBenchで同クラス最高スコアを記録したとされている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/webAI-Official/TwIL-8B"
+        }
+      ]
+    },
+    {
+      "id": "f4e8ce6220df",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Nous ResearchがArete-27Bを公開",
+      "summary_ja": "Nous Researchは中国で訓練されたQwen3.8-27Bに西洋的価値観を反映させる後処理訓練を施したArete-27Bを公開し、政治的に敏感な話題での拒否や中国共産党的な回答の傾向を低減したと説明している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/NousResearch/Arete-27B"
+        }
+      ]
+    },
+    {
+      "id": "96571aa39f8d",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "エージェントメモリの標準化が議論に",
+      "summary_ja": "AIエージェントのメモリ管理について、OpenTelemetryのような業界標準が必要との議論がHacker Newsで行われている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.lorekit.io/blog/open-agent-memory-format"
+        }
+      ]
+    },
+    {
+      "id": "584207642c0b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "DeepSWEベンチマークが微小変更に敏感と判明",
+      "summary_ja": "DeepSWEの89タスクに対しファイル名の大文字小文字など小さな変更を加えたところ、同程度の74%前後だったモデル間のスコアが最大23ポイント開く結果となったと報告されている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqmr2i/saw_this_benchmark_where_small_changes_to_coding/"
+        },
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzsyjxxrsk2l"
+        }
+      ]
+    },
+    {
+      "id": "1549a63baf38",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Qwen3.8-Flash-NextのGGUF量子化版が公開",
+      "summary_ja": "UnslothがQwen3.8-Flash-NextのDynamic v3.1 GGUF量子化版を公開し、従来比で精度15%向上、トークン使用量50%減、推論速度5%向上を謳っている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 9.8436,
-    "run_cost_usd": 0.0686,
-    "average_run_usd": 0.1057,
-    "runs_recorded": 100
+    "spent_usd": 9.9142,
+    "run_cost_usd": 0.0706,
+    "average_run_usd": 0.1036,
+    "runs_recorded": 101
   }
 }
