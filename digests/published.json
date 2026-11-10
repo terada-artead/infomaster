@@ -1,87 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-02",
-      "id": "9dbca9dfa76c",
-      "title_ja": "OpenAI、300億ドル調達目標の半分未満にとどまる",
-      "urls": [
-        "https://www.reddit.com/r/OpenAI/comments/1xkvwj8/openai_raises_less_than_half_of_30_billion_target/"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "6c5b89fb0ac8",
-      "title_ja": "Recursive、コーディングエージェント向けMoEモデルFlintを公開",
-      "urls": [
-        "https://huggingface.co/RecursiveSI/flint"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricks、画像・動画・音声対応の生成モデルLTX-2.5を公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "6725a773cbcf",
-      "title_ja": "小型モデル5体の合議制がLiveCodeBench Hardで高スコア",
-      "urls": [
-        "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "123eac3bddd1",
-      "title_ja": "DNA特化LLM学習用データセット「FineDNA」が公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "76e5846926c6",
-      "title_ja": "64GBメモリでも27Bモデルのエージェント運用が可能に",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "4211346245fb",
-      "title_ja": "109Mパラメータモデルが画像テキスト整合で大規模モデルを上回る",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "c86602350e43",
-      "title_ja": "RTX 3090tiと128GB RAMで大型モデルの高速推論を実現",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "50a561c320a6",
-      "title_ja": "単一画像から3Dガウシアンスプラットを生成する「Idol」公開",
-      "urls": [
-        "https://huggingface.co/speridlabs/idol"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "id": "7e9f318174ec",
-      "title_ja": "JavaScriptフレームワークのAIコスト比較記事が話題に",
-      "urls": [
-        "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
-      ]
-    },
-    {
       "date": "2026-11-03",
       "id": "6e98f979afd8",
       "title_ja": "Anthropic、Q3売上170億ドルと契約総額8950億ドルを開示",
@@ -1058,6 +977,169 @@
       "title_ja": "Qwen3.8-Flash-NextのGGUF量子化版が公開",
       "urls": [
         "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "a98326b09f6f",
+      "title_ja": "GeminiがDriveやメールの個人データを人間の注釈者に送信",
+      "urls": [
+        "https://github.com/thisisme6598/gemini_files/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "8a35af252b32",
+      "title_ja": "Anthropic、IPO計画を前進させると報道",
+      "urls": [
+        "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "730323ba6c06",
+      "title_ja": "Meta、軽量モデルMuse Emberをエージェント実行向けに公開",
+      "urls": [
+        "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+        "https://research.meta.ai/blog/muse-ember"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "681da721508d",
+      "title_ja": "H100レンタル料金、提供元で時給2.69〜12.29ドルと差",
+      "urls": [
+        "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "cb6eb90ca74f",
+      "title_ja": "AWS、業務特化型AIワークスペース「AWS Quick」を発表",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "2b44002238d6",
+      "title_ja": "決定木系モデル専用推論エンジンFlideが公開",
+      "urls": [
+        "https://github.com/OmniJev/Flide"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "caa9073cefb4",
+      "title_ja": "ChatGPT Enterprise、AWS Marketplaceで提供開始",
+      "urls": [
+        "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "f5185885b03c",
+      "title_ja": "CrossnoKaye、Bedrock AgentCoreで産業用物理AIを展開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "58580c03fbdd",
+      "title_ja": "Anthropic、新モデルMythosとFableを公開",
+      "urls": [
+        "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+        "https://bsky.app/profile/emollick.bsky.social/post/3mzvn2smcwk2h"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "389a3fd204fb",
+      "title_ja": "DeepX、5W未満で最大1000億パラメータ推論と主張",
+      "urls": [
+        "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "029f4f6cd793",
+      "title_ja": "NVIDIA、Nemotron 3.5の音声・視覚言語モデルを公開",
+      "urls": [
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "a1d6a1e656f4",
+      "title_ja": "ディズニーとAdobe、生成AIツールで提携",
+      "urls": [
+        "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "02e9abf47eaf",
+      "title_ja": "CodeRabbit、Codexでエージェント型開発を20倍に拡大",
+      "urls": [
+        "https://openai.com/index/coderabbit-codex-daybreak"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "26d5ef23a3f3",
+      "title_ja": "Bedrock、エージェント型検索と参照アーキテクチャを拡充",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "e9950a58c892",
+      "title_ja": "Google、TPU 8txとTPU 8i Maxを発表",
+      "urls": [
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "2f05eab281f5",
+      "title_ja": "Anthropic、34億ドル規模の天然ガスタービンを購入",
+      "urls": [
+        "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "2e34e84f0999",
+      "title_ja": "Kuken Industries、OpenAI APIで70年分の図面検索を高速化",
+      "urls": [
+        "https://openai.com/index/kuken"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "1d980cecae4c",
+      "title_ja": "NVIDIA、韓国製オープンモデル向けDynamoレシピを公開",
+      "urls": [
+        "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "b245671c29a5",
+      "title_ja": "Apple、エンジニアのAI利用予算を1日200ドルに制限",
+      "urls": [
+        "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": "9e6aebddb26b",
+      "title_ja": "Ollama v0.40.16、65BモデルRipple Previewを追加",
+      "urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.16"
       ]
     }
   ]

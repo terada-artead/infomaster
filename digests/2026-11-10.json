@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T11:01:10+09:00",
+  "stats": {
+    "collected": 126,
+    "fresh": 116,
+    "selected": 34,
+    "published": 20
+  },
+  "highlights": [
+    "Anthropicが今週中にIPOの評価額レンジを設定すると報じられている",
+    "Metaが低価格エージェント向け軽量モデルMuse Emberを公開",
+    "AWS Quickが業務特化型AIワークスペースとして正式発表"
+  ],
+  "items": [
+    {
+      "id": "a98326b09f6f",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "GeminiがDriveやメールの個人データを人間の注釈者に送信",
+      "summary_ja": "Google GeminiがDriveファイルやメールなどの個人データを人間の注釈者にルーティングしていることが報じられた。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/thisisme6598/gemini_files/"
+        }
+      ]
+    },
+    {
+      "id": "8a35af252b32",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "Anthropic、IPO計画を前進させると報道",
+      "summary_ja": "Anthropicがウォール・ストリート・ジャーナルの報道によりIPO計画を進めている。今週中に評価額レンジを設定する見込みで、AI企業として大型上場となれば資金調達環境や競合各社の動向にも影響し得る。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+        }
+      ]
+    },
+    {
+      "id": "730323ba6c06",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Meta、軽量モデルMuse Emberをエージェント実行向けに公開",
+      "summary_ja": "Metaが新たな軽量モデルMuse Emberを公開した。入力トークン100万あたり10セントとHaikuやLunaなどの主要モデルより大幅に安価で、エージェント実行用途でのコスト削減に直結するため、推論コストを重視するプロダクト設計の選択肢が広がる。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://research.meta.ai/blog/muse-ember"
+        }
+      ]
+    },
+    {
+      "id": "681da721508d",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "H100レンタル料金、提供元で時給2.69〜12.29ドルと差",
+      "summary_ja": "同一のH100 GPUでも、レンタル先によって時給が2.69ドルから12.29ドルまで大きく異なることが示された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing"
+        }
+      ]
+    },
+    {
+      "id": "cb6eb90ca74f",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "AWS、業務特化型AIワークスペース「AWS Quick」を発表",
+      "summary_ja": "AWSがAmazon QuickをAWS Quickとして刷新し、エージェントを使って既存のデータやアプリ横断で調査・分析・実行を行う業務専用AIワークスペースとして発表した。ステータス更新やチケット作成などの定型業務をエージェントやスキルとしてエンコードできるため、既存のAWS環境を使うチームは導入コストを抑えつつ業務自動化を進められる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/"
+        }
+      ]
+    },
+    {
+      "id": "2b44002238d6",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "決定木系モデル専用推論エンジンFlideが公開",
+      "summary_ja": "Jev系決定モデル向けの高性能推論エンジンFlideが公開され、vLLMやSGLangと比べ最大9.5倍の高速化を実現したとしている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/OmniJev/Flide"
+        }
+      ]
+    },
+    {
+      "id": "caa9073cefb4",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "ChatGPT Enterprise、AWS Marketplaceで提供開始",
+      "summary_ja": "ChatGPT EnterpriseがAWS Marketplaceで利用可能になり、既存のAWS調達・課金契約を通じた導入が簡素化された。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+        }
+      ]
+    },
+    {
+      "id": "f5185885b03c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "CrossnoKaye、Bedrock AgentCoreで産業用物理AIを展開",
+      "summary_ja": "CrossnoKayeがAmazon Bedrock AgentCoreを使い、プラントデータに基づく推論と隔離サンドボックス内での検証可能なPython実行を組み合わせた物理AIシステムATLAS/AURAを構築した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "58580c03fbdd",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Anthropic、新モデルMythosとFableを公開",
+      "summary_ja": "AnthropicがMythosとFableという新モデルを公開し、コーディングや推論、視覚理解の改善を示しているとしている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+        },
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzvn2smcwk2h"
+        }
+      ]
+    },
+    {
+      "id": "389a3fd204fb",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "DeepX、5W未満で最大1000億パラメータ推論と主張",
+      "summary_ja": "DeepXが消費電力5W未満で最大1000億パラメータ規模のモデル推論が可能だと主張している。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/"
+        }
+      ]
+    },
+    {
+      "id": "029f4f6cd793",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA、Nemotron 3.5の音声・視覚言語モデルを公開",
+      "summary_ja": "NVIDIAがオープンウェイトの音声認識モデルNemotron 3.5 Transcribeと120B規模の視覚言語モデルNemotron 3.5 Super VLを公開し、後者はAmazon SageMaker JumpStartでも利用可能になった。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/"
+        }
+      ]
+    },
+    {
+      "id": "a1d6a1e656f4",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "ディズニーとAdobe、生成AIツールで提携",
+      "summary_ja": "ディズニーとAdobeが制作パイプライン支援のための独自生成AIモデル開発で複数年にわたる提携を発表した。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership"
+        }
+      ]
+    },
+    {
+      "id": "02e9abf47eaf",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "CodeRabbit、Codexでエージェント型開発を20倍に拡大",
+      "summary_ja": "CodeRabbitがOpenAIのモデルとCodexを活用し、同じエンジニアリング体制で開発量を20倍に拡大したとしている。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak"
+        }
+      ]
+    },
+    {
+      "id": "26d5ef23a3f3",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Bedrock、エージェント型検索と参照アーキテクチャを拡充",
+      "summary_ja": "Amazon Bedrock Managed Knowledge BaseがRAGと検索専用リクエストに対応し、AgentCore上のエージェント型AI向け7層参照アーキテクチャも公開された。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/"
+        }
+      ]
+    },
+    {
+      "id": "e9950a58c892",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google、TPU 8txとTPU 8i Maxを発表",
+      "summary_ja": "GoogleがTPUの新モデルTPU 8txとTPU 8i Maxを発表した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+        }
+      ]
+    },
+    {
+      "id": "2f05eab281f5",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic、34億ドル規模の天然ガスタービンを購入",
+      "summary_ja": "Anthropicが天然ガスタービンを34億ドル相当購入し、AI業界の電力確保競争に加わった。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
+        }
+      ]
+    },
+    {
+      "id": "2e34e84f0999",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Kuken Industries、OpenAI APIで70年分の図面検索を高速化",
+      "summary_ja": "Kuken IndustriesがOpenAI APIを使い、70年分の冷却塔図面検索時間を約1時間から4.5分に短縮した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/kuken"
+        }
+      ]
+    },
+    {
+      "id": "1d980cecae4c",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIA、韓国製オープンモデル向けDynamoレシピを公開",
+      "summary_ja": "NVIDIAがSK TelecomのA.X K2やLG AI ResearchのK-EXAONE 2.0など韓国の主要オープンモデル向けにDynamo最適化デプロイレシピを公開した。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/"
+        }
+      ]
+    },
+    {
+      "id": "b245671c29a5",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Apple、エンジニアのAI利用予算を1日200ドルに制限",
+      "summary_ja": "Appleがエンジニア向けAI利用の日次予算を200ドルに上限設定していることが報じられた。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget"
+        }
+      ]
+    },
+    {
+      "id": "9e6aebddb26b",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Ollama v0.40.16、65BモデルRipple Previewを追加",
+      "summary_ja": "Ollamaがv0.40.16をリリースし、エージェント型コーディング向け65B高密度モデルRipple Previewの追加やメモリ使用量削減などの改善を行った。",
+      "sources": [
+        {
+          "name": "GitHub ollama/ollama",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 10.0307,
+    "run_cost_usd": 0.1166,
+    "average_run_usd": 0.1032,
+    "runs_recorded": 102
+  }
+}
