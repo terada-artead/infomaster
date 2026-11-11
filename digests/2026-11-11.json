@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T09:01:08+09:00",
+  "stats": {
+    "collected": 128,
+    "fresh": 119,
+    "selected": 49,
+    "published": 20
+  },
+  "highlights": [
+    "AnthropicがIPO価格を発表、評価額は最大1.4兆ドル規模",
+    "Google Gemini 4 Carbonが一般公開、Opus 5.5級の性能と価格",
+    "DeepMindがAlphaProof Codeを発表、Signalの暗号実装を形式検証"
+  ],
+  "items": [
+    {
+      "id": "1a56c99530dd",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Anthropic、IPO価格帯を1株70〜78ドルに設定",
+      "summary_ja": "Anthropicは新規株式公開の価格帯を1株70〜78ドルに設定した。完全希薄化ベースで価格帯上限なら評価額は最大1兆4040億ドルに達する。AI企業の資金調達・株式市場への影響を見る指標として注目される。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        }
+      ]
+    },
+    {
+      "id": "f321c904268b",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "DeepMind、Lean証明でソフト検証するAlphaProof Code発表",
+      "summary_ja": "Google DeepMindはLean形式証明を用いて複雑なソフトウェアを検証するAlphaProof Codeを発表した。AlphaProof Codeエージェントは300万行に及ぶLean証明を書き、Signalの中核暗号実装を検証した。形式検証の自動化が実用レベルに近づいたことを示す事例で、セキュリティクリティカルなコードの検証コスト削減に直結する可能性がある。",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+        }
+      ]
+    },
+    {
+      "id": "8658a0744e2c",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Google、Gemini 4 Carbonを一般公開",
+      "summary_ja": "GoogleはGemini 4 Carbonを一般公開した。2週間前に一部のサイバーセキュリティ防御者向けに先行提供されていたモデルで、Googleは自社史上最強のモデルとし、AnthropicやOpenAIの最上位モデルに匹敵すると説明している。価格は入力100万トークンあたり2ドル、出力10ドルでGPT-6.1 SolやClaude Sonnet 5.5と同水準だが、12月1日に2倍に値上げ予定であり、API利用コストの見直しが必要になる。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+        },
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzxw7q2jgs2r"
+        }
+      ]
+    },
+    {
+      "id": "92c1824269f4",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Lightricks、画像to動画モデルLTX-2.5をHugging Faceで公開",
+      "summary_ja": "LightricksがHugging Face上で画像から動画を生成するLTX-2.5モデルを公開し、280万回近いダウンロードを記録している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "001cd33c9652",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Anthropic、Claude Meetingsなどオフィス向けツール群を発表",
+      "summary_ja": "Anthropicは会議内容を計画やタスクに変換するClaude Meetingsを含む、ホワイトボードやシート機能などのオフィス向けAI製品群を発表した。会議中にClaudeが議論内容からプランを作成し、タイムラインの作図や連携アプリからの情報取得まで行う。これまでコーディングツールで存在感を示してきたAnthropicがオフィス全般への展開を本格化させる動きで、競合他社の反応も注目される。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+        }
+      ]
+    },
+    {
+      "id": "76165dd7fb3f",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "DeepMind、Gemini Robotics 2.5と安全性ベンチマークを公開",
+      "summary_ja": "Google DeepMindはロボット向けモデルGemini Robotics 2.5と、オープンな安全性ベンチマーク「ASIMOV-jailbreak」を発表した。新モデルは一部タスクで従来比最大2倍の成功率を示している。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+        }
+      ]
+    },
+    {
+      "id": "c7d3010a8bcc",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Fireworks AIでセキュリティ侵害、Notionなど影響",
+      "summary_ja": "Fireworks AIでセキュリティ侵害が発生し、Notionを含む顧客に影響が及んだ。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+        }
+      ]
+    },
+    {
+      "id": "d568435d5b7e",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "TCS、Bedrock AgentCoreでエージェント型テスト基盤を構築",
+      "summary_ja": "Tata Consultancy ServicesはAmazon Bedrock AgentCore上に、要件を実行可能なガバナンス付きテストへ変換するエージェント型テストオーケストレーターを構築した。専用エージェント、テナントごとの分離、ワークロードに応じた実行制御により、社内ベンチマークでテスト工数を88%削減した。BFSI領域のテスト自動化における具体的な効果指標として実務者の参考になる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "1a4283d06286",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Fable 5.2、主要ベンチマークでトレンドライン上回る",
+      "summary_ja": "Fable 5.2が複合指標ECIやリモートレーバー、RoboDojoなど複数の未飽和ベンチマークで既存のトレンドラインを上回る性能を示した。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3mzwjwceb622e"
+        }
+      ]
+    },
+    {
+      "id": "e7d9d1552b0e",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "CoreWeaveの社債利回りが16%超、AI向け与信に警戒感",
+      "summary_ja": "CoreWeaveの社債利回りが16%を超え、AI関連企業の信用リスクへの懸念が強まっている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+        }
+      ]
+    },
+    {
+      "id": "82a14163210c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Trovata、Bedrockで自律型財務エージェントを構築",
+      "summary_ja": "TrovataはAmazon BedrockとAgentCoreを用い、RBACで保護された銀行ブランド向け自律型財務エージェントを構築し、企業の資金管理をリアルタイム意思決定型に移行させた。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "3ec8add99452",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ChatGPT、認証済み「ビジネスエージェント」機能を開始",
+      "summary_ja": "ChatGPTは企業ブランドを代表する認証済み「ビジネスエージェント」とチャットできる機能を米国のEコマース・サービス事業者向けにベータ提供開始した。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
+        }
+      ]
+    },
+    {
+      "id": "50a561c320a6",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Hugging Face新モデル、1枚画像から3Dガウシアン生成の「Idol」",
+      "summary_ja": "speridlabsが公開したIdolは1枚の画像から最大104万個の3Dガウシアンを生成し、標準的な3DGS形式で出力する、消費者向けGPUで2秒未満で動作するモデルである。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/speridlabs/idol"
+        }
+      ]
+    },
+    {
+      "id": "ef83b8dc18b1",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google Cloud、医療向けGemini製品を発表",
+      "summary_ja": "Google Cloudは臨床データ統合とワークフロー自動化を目的とした医療向けGemini製品を発表した。",
+      "sources": [
+        {
+          "name": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+        }
+      ]
+    },
+    {
+      "id": "43aaed481000",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Grok Buildのコーディングエージェントが機密情報を大量流出",
+      "summary_ja": "研究者がGrok Buildで作成された3万5000件のアプリが無防備に公開されており、SpaceXSI関連の機密情報を含む大量の情報漏洩が発覚した。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
+        }
+      ]
+    },
+    {
+      "id": "9c469f442896",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Qwen3.6・GLM-5.3、希少プログラミング言語で性能比較",
+      "summary_ja": "Elixir、OCaml、Haskellなど13の希少言語を対象に202件の実タスクでQwen3.6/3.8とGLM-5.3 Flashを比較したベンチマークで、Qwen3.8が43%のタスクを解決した。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsorsx/we_tested_qwen36_27b_qwen38_27b_and_glm53_flash/"
+        }
+      ]
+    },
+    {
+      "id": "59a8a5dd3afc",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "GoogleとAdobe、創作・生産性ツールで連携強化",
+      "summary_ja": "GoogleとAdobeはGoogle Driveでのpdf編集やGeminiでのAdobe AI利用など、創作・生産性ツールの統合を進めている。",
+      "sources": [
+        {
+          "name": "Google AI Blog",
+          "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+        }
+      ]
+    },
+    {
+      "id": "612bc333be17",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "OpenAI、旅行スタートアップOdessiaを買収",
+      "summary_ja": "OpenAIはSonder創業者Francis Davidsonが設立した旅行スタートアップOdessiaを買収した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+        }
+      ]
+    },
+    {
+      "id": "1f23ddb43e5f",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Oura、AIプライマリケアのCounsel Healthを625百万ドルで買収",
+      "summary_ja": "OuraはAIネイティブなプライマリケアスタートアップCounsel Healthを625百万ドルで買収すると発表した。最大22億ドル規模のIPOを無期限延期した数週間後の動きである。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+        }
+      ]
+    },
+    {
+      "id": "697debda975c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Hugging Face幹部、サイバー攻撃がオープンソースAIの開放性を脅かすと警告",
+      "summary_ja": "Hugging Face幹部Irene Solaimanは、オープンAIプラットフォームへのサイバー攻撃増加がセキュリティ強化を招き、開発者コミュニティの価値であるアクセスのしやすさを損ないかねないと警告した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 10.161,
+    "run_cost_usd": 0.1302,
+    "average_run_usd": 0.1035,
+    "runs_recorded": 103
+  }
+}

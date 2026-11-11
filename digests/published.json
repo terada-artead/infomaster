@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-03",
-      "id": "6e98f979afd8",
-      "title_ja": "Anthropic、Q3売上170億ドルと契約総額8950億ドルを開示",
-      "urls": [
-        "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "f9ecf66c1822",
-      "title_ja": "AstraがQwenの重みを直接編集し数学性能を改善",
-      "urls": [
-        "https://rikiyat.github.io/blog/weight-space-programming/",
-        "https://bsky.app/profile/emollick.bsky.social/post/3mze7rbg2fc2l"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "be88e8f6a7ec",
-      "title_ja": "Anthropic次期大規模モデル「numbat」の学習チェックポイントがHugging Faceに流出と報告",
-      "urls": [
-        "https://huggingface.co/burner22/numbat"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "c8564f3a6870",
-      "title_ja": "Trajectoryが45億円調達、AIモデル学習の民主化を目指す",
-      "urls": [
-        "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "80eb6a785c6c",
-      "title_ja": "Circle K、Bedrockで障害対応時間を15分未満に短縮",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "1263ce4e0930",
-      "title_ja": "Oracle、AI投資資金に200億ドルの株式・債券発行を申請",
-      "urls": [
-        "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "b760b461aff6",
-      "title_ja": "Anthropicの売上成長が鈍化",
-      "urls": [
-        "https://www.regenerator1.com/p/anthropics-growth-just-flattened"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "acc03feb26a2",
-      "title_ja": "SageMakerで知識蒸留による軽量エージェント構築手法を紹介",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "0db7b6f459a7",
-      "title_ja": "Anthropic社内のAI利用コストが従業員給与総額を上回る",
-      "urls": [
-        "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "d206377e3828",
-      "title_ja": "Qwen、オープンソース路線継続を公式表明",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "109261365670",
-      "title_ja": "vLLM v0.33.0リリース、新モデルとPyTorch 2.14対応",
-      "urls": [
-        "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "5d33ed0c66ac",
-      "title_ja": "OpenAI、データセンターの電力供給対策「Grid Protectors」発表",
-      "urls": [
-        "https://openai.com/index/grid-protectors-program",
-        "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "35ee5c24e240",
-      "title_ja": "AWS、Nova Multimodal Embeddingsでエンジニアリング支援エージェント構築法を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "8617cd6f7d8f",
-      "title_ja": "中国、フロンティアAIの初の輸出管理措置を発表",
-      "urls": [
-        "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "593f43913dcd",
-      "title_ja": "Liquid AI、音声対応モデル「LFM3-Audio-2B」を公開",
-      "urls": [
-        "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "e6a7f2fa0c28",
-      "title_ja": "Crawl4AIでBedrock Knowledge Base向けWebコンテンツ準備を効率化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "e7389883fb55",
-      "title_ja": "NYTら複数メディア、Braveブラウザをコンテンツ無断収集で提訴",
-      "urls": [
-        "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "8d847b3ebc26",
-      "title_ja": "AIエージェントのタスク実行、通常チャットの最大50倍のトークン消費",
-      "urls": [
-        "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "570f5e1efb59",
-      "title_ja": "YC出身Momentic、アプリを自律テストするQAエージェントを発表",
-      "urls": [
-        "https://momentic.ai/"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "id": "8f9ef7c70af7",
-      "title_ja": "Amazon、GPU購入者のアカウントを一部停止と報告",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/"
-      ]
-    },
-    {
       "date": "2026-11-04",
       "id": "05d1a3678a8e",
       "title_ja": "AI推論スタートアップFal、評価額160億ドルで13億ドル調達",
@@ -1140,6 +978,170 @@
       "title_ja": "Ollama v0.40.16、65BモデルRipple Previewを追加",
       "urls": [
         "https://github.com/ollama/ollama/releases/tag/v0.40.16"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "1a56c99530dd",
+      "title_ja": "Anthropic、IPO価格帯を1株70〜78ドルに設定",
+      "urls": [
+        "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "f321c904268b",
+      "title_ja": "DeepMind、Lean証明でソフト検証するAlphaProof Code発表",
+      "urls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "8658a0744e2c",
+      "title_ja": "Google、Gemini 4 Carbonを一般公開",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+        "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+        "https://bsky.app/profile/emollick.bsky.social/post/3mzxw7q2jgs2r"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "92c1824269f4",
+      "title_ja": "Lightricks、画像to動画モデルLTX-2.5をHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/Lightricks/LTX-2.5"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "001cd33c9652",
+      "title_ja": "Anthropic、Claude Meetingsなどオフィス向けツール群を発表",
+      "urls": [
+        "https://claude.com/resources/articles/sheets-whiteboards-data",
+        "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+        "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "76165dd7fb3f",
+      "title_ja": "DeepMind、Gemini Robotics 2.5と安全性ベンチマークを公開",
+      "urls": [
+        "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "c7d3010a8bcc",
+      "title_ja": "Fireworks AIでセキュリティ侵害、Notionなど影響",
+      "urls": [
+        "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "d568435d5b7e",
+      "title_ja": "TCS、Bedrock AgentCoreでエージェント型テスト基盤を構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "1a4283d06286",
+      "title_ja": "Fable 5.2、主要ベンチマークでトレンドライン上回る",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3mzwjwceb622e"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "e7d9d1552b0e",
+      "title_ja": "CoreWeaveの社債利回りが16%超、AI向け与信に警戒感",
+      "urls": [
+        "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "82a14163210c",
+      "title_ja": "Trovata、Bedrockで自律型財務エージェントを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "3ec8add99452",
+      "title_ja": "ChatGPT、認証済み「ビジネスエージェント」機能を開始",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "50a561c320a6",
+      "title_ja": "Hugging Face新モデル、1枚画像から3Dガウシアン生成の「Idol」",
+      "urls": [
+        "https://huggingface.co/speridlabs/idol"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "ef83b8dc18b1",
+      "title_ja": "Google Cloud、医療向けGemini製品を発表",
+      "urls": [
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "43aaed481000",
+      "title_ja": "Grok Buildのコーディングエージェントが機密情報を大量流出",
+      "urls": [
+        "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "9c469f442896",
+      "title_ja": "Qwen3.6・GLM-5.3、希少プログラミング言語で性能比較",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xsorsx/we_tested_qwen36_27b_qwen38_27b_and_glm53_flash/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "59a8a5dd3afc",
+      "title_ja": "GoogleとAdobe、創作・生産性ツールで連携強化",
+      "urls": [
+        "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "612bc333be17",
+      "title_ja": "OpenAI、旅行スタートアップOdessiaを買収",
+      "urls": [
+        "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "1f23ddb43e5f",
+      "title_ja": "Oura、AIプライマリケアのCounsel Healthを625百万ドルで買収",
+      "urls": [
+        "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": "697debda975c",
+      "title_ja": "Hugging Face幹部、サイバー攻撃がオープンソースAIの開放性を脅かすと警告",
+      "urls": [
+        "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
       ]
     }
   ]
