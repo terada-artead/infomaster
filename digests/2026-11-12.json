@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T10:29:34+09:00",
+  "stats": {
+    "collected": 124,
+    "fresh": 114,
+    "selected": 48,
+    "published": 20
+  },
+  "highlights": [
+    "OpenAIの四半期売上が初めて100億ドル突破、前四半期比約50%増",
+    "FractileがAIチップ開発に720億円超を調達、TSMCはAnthropicとOpenAIに10億ドル出資",
+    "Bedrock AgentCoreにWeb Search API追加、エージェント開発が容易に"
+  ],
+  "items": [
+    {
+      "id": "f31248890af4",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "OpenAIの四半期売上、初の100億ドル突破と報じられる",
+      "summary_ja": "OpenAIの四半期売上が初めて100億ドルを超えたと報じられている。前四半期の67億ドルから約50%の増加となる。急成長を続けるOpenAIの収益規模が、競合他社との比較や投資判断の材料として注目される。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+        }
+      ]
+    },
+    {
+      "id": "6e96a802abbc",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic、IPOロードショー動画を公開",
+      "summary_ja": "AnthropicがIPOロードショーを開始し、共同創業者Tom Brownが計算基盤について語る動画で、AWS Trainium・Google TPU・NVIDIA GPU・AMD GPUを組み合わせたClaudeの訓練・提供体制の一端が明らかになった。",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+        }
+      ]
+    },
+    {
+      "id": "159c28074b6c",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Bedrock AgentCoreにWeb Search API追加",
+      "summary_ja": "AWSがAmazon Bedrock AgentCoreにWeb Search APIを追加し、署名済みAPI呼び出し1回でコードからWeb検索が可能になった。ゲートウェイやリソース作成が不要で、AWS SDKやCLIからエージェントループやデータパイプラインに組み込める。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "22d6799f13a3",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "英Fractile、AIチップ開発に720億円超を調達",
+      "summary_ja": "英国のFractileが720百万ドルの資金調達を実施し、専用AIチップ開発企業として最も資金調達額の大きい企業の一つとなった。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+        }
+      ]
+    },
+    {
+      "id": "5fb859151deb",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "TSMC、AnthropicとOpenAIに各10億ドル出資",
+      "summary_ja": "台湾TSMCがAnthropicとOpenAIに合計10億ドルを出資する。AIブームを支える循環的な資金の流れの一例とされ、AI関連取引の不安定さが指摘される中での動きとなる。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+        }
+      ]
+    },
+    {
+      "id": "8996fa580837",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Claude、Asana・CanvaなどアプリをCHAT内で操作可能に",
+      "summary_ja": "Anthropicがインタラクティブコネクタを発表し、Asana・Canva・Dropbox・Vercelなどのアプリがチャット内で開き、Claudeが利用者と共に操作できるようになった。",
+      "sources": [
+        {
+          "name": "r/ClaudeAI",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xt7krc/claude_can_now_open_apps_like_asana_canva_and/"
+        }
+      ]
+    },
+    {
+      "id": "8be14bb33dc3",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Bedrock×Spring AIで自律型エージェント構築手順公開",
+      "summary_ja": "AWSがAmazon BedrockとSpring AIを使ったJava向け自律型AIエージェントの構築方法を解説する記事を公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/"
+        }
+      ]
+    },
+    {
+      "id": "e7b7fb1e9e26",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "SageMaker AIストリーミングに従量課金制導入",
+      "summary_ja": "AWS MarketplaceがAmazon SageMaker AIの双方向ストリーミング推論向けに従量課金制を導入し、Deepgramがローンチパートナーとして参加した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/"
+        }
+      ]
+    },
+    {
+      "id": "351392b31b9f",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "データセンター建設、許認可や電力不足で頓挫のケースも",
+      "summary_ja": "AI向けデータセンター建設計画が地元の反対や許認可の遅れ、電力確保の難航により実現しない例が相次いでいると報じられている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
+        }
+      ]
+    },
+    {
+      "id": "e4e9565de9f6",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "CoreWeave、前払いや短期契約で成長資金を確保",
+      "summary_ja": "CoreWeaveが第3四半期決算で、顧客からの前払い要請や契約を担保にした借入、短期契約の活用を進めていることを明らかにした。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+        }
+      ]
+    },
+    {
+      "id": "78b8986836f7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AWS、自律型AIエージェントによるエミュレータ構築を公開",
+      "summary_ja": "AWSが自律型AIエージェントを用いてAWSエミュレータを構築した事例を公開した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/aws/aws-emulator"
+        }
+      ]
+    },
+    {
+      "id": "2da044a0a21c",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "百度、Ernie 5.5 Flashを2週間後にリリースへ",
+      "summary_ja": "百度がErnie 5.5 Flashモデルを2週間以内にリリースすると発表した。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xted8w/ernie_55_flash_will_be_released_in_two_weeks/"
+        }
+      ]
+    },
+    {
+      "id": "1874828f3b75",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "オープンOCRモデルで大量文書処理が低コスト化",
+      "summary_ja": "0.8BパラメータのオープンOCRモデルを使い、14,483ページの文書をGPU1台・31分・1.67ドルで処理できたと報告されている。",
+      "sources": [
+        {
+          "name": "Bluesky @danielvanstrien.bsky.social",
+          "url": "https://bsky.app/profile/danielvanstrien.bsky.social/post/3mzzs6msegc25"
+        }
+      ]
+    },
+    {
+      "id": "bb6e58f54894",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Qwen3.8-27BのGGUF量子化版が公開",
+      "summary_ja": "Hugging FaceにQwen3.8-27Bの量子化版GGUFモデルが公開された。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+        }
+      ]
+    },
+    {
+      "id": "df4c427209a3",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI Codex、Amazon Bedrockで利用可能に",
+      "summary_ja": "AWSがAmazon Bedrockをバックエンドに企業向けOpenAI Codex導入を解説するガイドを公開した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "4b6be27b0866",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "DXC、Bedrock上でマルチモデルAI基盤を構築",
+      "summary_ja": "DXC TechnologyがAmazon Bedrock上にガバナンス機能を備えたマルチモデルAI基盤「DCX OASIS」を構築した事例が紹介された。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "edde9887c7bc",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Moonshot AIのKimi K3.1 Pro、Bedrockで提供開始",
+      "summary_ja": "Moonshot AIのKimi K3.1 ProがAmazon Bedrockで利用可能になった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "c06fca3b9549",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google、Gemini Decisions APIを発表",
+      "summary_ja": "GoogleがGemini Decision 1モデルを用いた意思決定特化のAPI「Gemini Decisions API」を発表し、イエス/ノー・選択・ルーブリック採点の3種の質問形式に対応した。",
+      "sources": [
+        {
+          "name": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+        }
+      ]
+    },
+    {
+      "id": "d7e36b40a0da",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AIによるコーディング職の変化、1年で急速に進行との指摘",
+      "summary_ja": "AIがこの1年でコーディングという職業を大きく変えたとの指摘がSNS上で投稿されている。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i"
+        }
+      ]
+    },
+    {
+      "id": "f841d7a6d6b4",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "MiniMax、画像生成モデル「MiniMax-H3-Image」公開",
+      "summary_ja": "MiniMaxAIがテキストから画像生成・編集を統一的に行えるオープンモデル「MiniMax-H3-Image」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 10.2778,
+    "run_cost_usd": 0.1168,
+    "average_run_usd": 0.103,
+    "runs_recorded": 104
+  }
+}

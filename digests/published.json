@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-04",
-      "id": "05d1a3678a8e",
-      "title_ja": "AI推論スタートアップFal、評価額160億ドルで13億ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "14409ffa4e77",
-      "title_ja": "Ballistic Ventures、サイバーセキュリティ新ファンドに4.9億ドル調達へ",
-      "urls": [
-        "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "2a746fdcd099",
-      "title_ja": "OpenAI、ChatGPT検索量がGoogleの20%に到達と発表",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "31229f011537",
-      "title_ja": "OpenAI、Codexのチャットでモデル学習を無断再有効化か",
-      "urls": [
-        "https://news.ycombinator.com/item?id=50352757"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "52eb9ce7b224",
-      "title_ja": "Anthropic、AIモデルの身元確認システムFlashProveを開発",
-      "urls": [
-        "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "ec51e351ec27",
-      "title_ja": "Apple、Siriにサードパーティアプリへのアクセス権を付与",
-      "urls": [
-        "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "15f2a9456d01",
-      "title_ja": "Revolut、自社ホスト型GLMへ移行",
-      "urls": [
-        "https://twitter.com/guilleflorvs/status/2117379073785696395"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "6d7218d4846f",
-      "title_ja": "DeepSeek V5、ファーウェイAscendチップで事前学習へ",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "34e7d6261520",
-      "title_ja": "Cisco、OpenAIと機械速度のセキュリティ防御を構築",
-      "urls": [
-        "https://openai.com/index/cisco-cyber"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "21dc542a1579",
-      "title_ja": "Cartesia、AWS上で超低遅延の音声AIを提供",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "81efc47dc458",
-      "title_ja": "Palantir、米国商業向け売上が政府向けを初めて逆転",
-      "urls": [
-        "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "89158d68bf95",
-      "title_ja": "Anthropic、計算コストの採算性に依然苦戦",
-      "urls": [
-        "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "03ad66ba1fba",
-      "title_ja": "Apple、インフラ投資を抑えつつAIブームの恩恵享受",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "210b26f029f3",
-      "title_ja": "Postman、AIプラグインを無断自動インストールしAPIデータ共有か",
-      "urls": [
-        "https://github.com/postmanlabs/postman-app-support/issues/14370"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "f6384be9ac1a",
-      "title_ja": "新世代LLM、幻覚やステレオタイプ傾向が減少と報告",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mzesndbbxs2l",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "25493a43cba5",
-      "title_ja": "OpenAI、ChatGPTとCodexで物理領域の設計業務を加速",
-      "urls": [
-        "https://openai.com/index/accelerating-engineering-for-the-physical-world"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "a7f64e0d32da",
-      "title_ja": "AWS、構造化・非構造化データを統合するAmazon Quickを発表",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "ac965da4ed73",
-      "title_ja": "Gen Digital、Bedrockで生成AI活用のNorton Revampを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "c01265aacc1a",
-      "title_ja": "Google、AI機能拒否の学校で検索機能を全面無効化",
-      "urls": [
-        "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "id": "f7735096343c",
-      "title_ja": "米テック大手のAIインフラ債務、半年で9割増の3.2兆ドルに",
-      "urls": [
-        "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
-      ]
-    },
-    {
       "date": "2026-11-05",
       "id": "1be4fdd8e6ca",
       "title_ja": "OpenAI、Pierre Computerを買収しCodex強化へ",
@@ -1142,6 +981,167 @@
       "title_ja": "Hugging Face幹部、サイバー攻撃がオープンソースAIの開放性を脅かすと警告",
       "urls": [
         "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "f31248890af4",
+      "title_ja": "OpenAIの四半期売上、初の100億ドル突破と報じられる",
+      "urls": [
+        "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "6e96a802abbc",
+      "title_ja": "Anthropic、IPOロードショー動画を公開",
+      "urls": [
+        "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "159c28074b6c",
+      "title_ja": "Bedrock AgentCoreにWeb Search API追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "22d6799f13a3",
+      "title_ja": "英Fractile、AIチップ開発に720億円超を調達",
+      "urls": [
+        "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "5fb859151deb",
+      "title_ja": "TSMC、AnthropicとOpenAIに各10億ドル出資",
+      "urls": [
+        "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "8996fa580837",
+      "title_ja": "Claude、Asana・CanvaなどアプリをCHAT内で操作可能に",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1xt7krc/claude_can_now_open_apps_like_asana_canva_and/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "8be14bb33dc3",
+      "title_ja": "Bedrock×Spring AIで自律型エージェント構築手順公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "e7b7fb1e9e26",
+      "title_ja": "SageMaker AIストリーミングに従量課金制導入",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "351392b31b9f",
+      "title_ja": "データセンター建設、許認可や電力不足で頓挫のケースも",
+      "urls": [
+        "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "e4e9565de9f6",
+      "title_ja": "CoreWeave、前払いや短期契約で成長資金を確保",
+      "urls": [
+        "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "78b8986836f7",
+      "title_ja": "AWS、自律型AIエージェントによるエミュレータ構築を公開",
+      "urls": [
+        "https://github.com/aws/aws-emulator"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "2da044a0a21c",
+      "title_ja": "百度、Ernie 5.5 Flashを2週間後にリリースへ",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xted8w/ernie_55_flash_will_be_released_in_two_weeks/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "1874828f3b75",
+      "title_ja": "オープンOCRモデルで大量文書処理が低コスト化",
+      "urls": [
+        "https://bsky.app/profile/danielvanstrien.bsky.social/post/3mzzs6msegc25"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "bb6e58f54894",
+      "title_ja": "Qwen3.8-27BのGGUF量子化版が公開",
+      "urls": [
+        "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "df4c427209a3",
+      "title_ja": "OpenAI Codex、Amazon Bedrockで利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "4b6be27b0866",
+      "title_ja": "DXC、Bedrock上でマルチモデルAI基盤を構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "edde9887c7bc",
+      "title_ja": "Moonshot AIのKimi K3.1 Pro、Bedrockで提供開始",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "c06fca3b9549",
+      "title_ja": "Google、Gemini Decisions APIを発表",
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "d7e36b40a0da",
+      "title_ja": "AIによるコーディング職の変化、1年で急速に進行との指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": "f841d7a6d6b4",
+      "title_ja": "MiniMax、画像生成モデル「MiniMax-H3-Image」公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
       ]
     }
   ]
