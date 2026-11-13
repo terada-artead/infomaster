@@ -1,170 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-05",
-      "id": "1be4fdd8e6ca",
-      "title_ja": "OpenAI、Pierre Computerを買収しCodex強化へ",
-      "urls": [
-        "https://openai.com/index/openai-to-acquire-pierre",
-        "https://openai.com/index/openai-to-acquire-pierre/"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "9a66a9476221",
-      "title_ja": "Google、AI収益化は検索ほど稼げず",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "a3433e936d2c",
-      "title_ja": "Daybreak Red、AWS GovCloudで提供開始",
-      "urls": [
-        "https://openai.com/index/daybreak-red-aws-govcloud"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "9b89acc964d0",
-      "title_ja": "U Mobile、Bedrock AgentCoreでエージェント型通信運用基盤構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "34beab957f96",
-      "title_ja": "Tencent、新モデルHy4を発表",
-      "urls": [
-        "https://hy.tencent.ai/research/hy4",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "dfa876a54a2d",
-      "title_ja": "Ripple-65B、エージェント型コーディングで米国産SOTA主張",
-      "urls": [
-        "https://www.ricursive.com/ripple"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "cac24968e5aa",
-      "title_ja": "DeepSeek-V4.1-Flash更新版公開、コーディング性能向上",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "295354ff422b",
-      "title_ja": "OpenAI、Images 2.6でGIF生成機能を追加",
-      "urls": [
-        "https://openai.com/index/introducing-images-2-6",
-        "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "eef47e2f46ab",
-      "title_ja": "Uber、AIエージェント経由の配車は四半期で4件のみ",
-      "urls": [
-        "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "fbaa86a829ad",
-      "title_ja": "OpenAI、Linuxカーネルの脆弱性948件にパッチ生成",
-      "urls": [
-        "https://openai.com/index/a-thousand-fewer-paths-to-root"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "8d6f6c8bc49c",
-      "title_ja": "Meta、AIコーディングスタートアップConductorを買収",
-      "urls": [
-        "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "d5eecd06151a",
-      "title_ja": "Gemini、個人向けでもチャット履歴を既定で学習に利用",
-      "urls": [
-        "https://news.ycombinator.com/item?id=50363461"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "f4a904d03d80",
-      "title_ja": "Moonshot AI、Kimi-K3.1-Proをオープンウェイト公開",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "981785a01550",
-      "title_ja": "DevRev、GPT-6.1 Solで自律型顧客対応を提供",
-      "urls": [
-        "https://openai.com/index/devrev-enterprise-self-service"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "0beed25ab06a",
-      "title_ja": "中間選挙でデータセンター拡張に逆風",
-      "urls": [
-        "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "3a41f9480808",
-      "title_ja": "Qualcomm、150W AIアクセラレータカード発表",
-      "urls": [
-        "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "014d0f8ff9b1",
-      "title_ja": "データセンター電源確保に中古ジェットエンジン活用",
-      "urls": [
-        "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "6b7703dbdfd1",
-      "title_ja": "オープンなエージェント基盤モデルAxion 1.0公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "6fbaab12e7dc",
-      "title_ja": "Indegene、AWSでデータ品質エージェントを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences/"
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "id": "56101ee27fee",
-      "title_ja": "Nothing、画面なしAIデバイスを12月発売予告",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
-      ]
-    },
-    {
       "date": "2026-11-06",
       "id": "14e90e72d340",
       "title_ja": "OpenAI、サイバーセキュリティ特化モデルGPT-6 Cyberを公開",
@@ -1142,6 +978,168 @@
       "title_ja": "MiniMax、画像生成モデル「MiniMax-H3-Image」公開",
       "urls": [
         "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "c7a410ad3b86",
+      "title_ja": "Google、新モデル「Gemini 4 Hydrogen」を公開",
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+        "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "a16cf66c04ab",
+      "title_ja": "AnthropicがIPOを検討と話題に",
+      "urls": [
+        "https://ipo.anthropic.com/us/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "eb79656c925c",
+      "title_ja": "Qwen3.8-Flash-Next、Hugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "9f9ef1f7c9cc",
+      "title_ja": "Nebius、400億ドル規模のAIインフラ投資計画",
+      "urls": [
+        "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "f421fadbe0ea",
+      "title_ja": "Amazon Bedrock AgentCore、新ランタイムと事例が公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "3ac86b283842",
+      "title_ja": "Meta、画像特徴抽出モデル「DINOv3」公開",
+      "urls": [
+        "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "0039716ebb4a",
+      "title_ja": "SoftBank、天然ガスタービン発注で30億ドル超の損失",
+      "urls": [
+        "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "02821ceaa4ab",
+      "title_ja": "Amazon Bedrock、推論コストを左右する4つの設定を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "ad0ce528b805",
+      "title_ja": "Bedrockエージェントの真のコストとROI算出法を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "dcc3893e53f4",
+      "title_ja": "AWS、エージェント開発向け「Agent DLC」を解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "ca2f28331a6d",
+      "title_ja": "AIエージェント「Muse」、米国企業への発信通話に対応",
+      "urls": [
+        "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "24dc8700d0d6",
+      "title_ja": "量子化モデル「GLM-5.3-SLIM-GGUF」公開",
+      "urls": [
+        "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "7c091be54b73",
+      "title_ja": "Norwest、AI投資向け40億ドルファンドを設立",
+      "urls": [
+        "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "7eb26c45e4d2",
+      "title_ja": "AWS Trainium、SGLang-Neuronでのモデル配備が可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "b20123057cbe",
+      "title_ja": "Bedrock利用料をIAM単位で追跡・上限設定する手法を公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "c1e0d9c67afc",
+      "title_ja": "AWSでA2Aプロトコルによるマルチエージェント構築例を公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "f79d311f2581",
+      "title_ja": "教育向けオープンソースエージェント「Primer」公開",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n25jpzcdtk2p"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "67672a694e38",
+      "title_ja": "Amplitude、OpenAI活用の製品エージェント「Wave」を導入",
+      "urls": [
+        "https://openai.com/business/customer-stories/amplitude"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "43871841ab87",
+      "title_ja": "Bedrock向けLiteLLMゲートウェイの構築例を公開",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": "475ac78efec3",
+      "title_ja": "Bedrock Managed Knowledge BaseのMCP連携に細粒度アクセス制御",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/"
       ]
     }
   ]

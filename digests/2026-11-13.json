@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T09:09:25+09:00",
+  "stats": {
+    "collected": 129,
+    "fresh": 115,
+    "selected": 41,
+    "published": 20
+  },
+  "highlights": [
+    "Google、Gemini 4 Hydrogenを発表し検索AIモードも強化",
+    "Qwen3.8-Flash-NextがHugging Faceで公開、ダウンロード数300万超",
+    "Nebius、顧客前払いと融資で4兆円規模のAIインフラ投資へ"
+  ],
+  "items": [
+    {
+      "id": "c7a410ad3b86",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "Google、新モデル「Gemini 4 Hydrogen」を公開",
+      "summary_ja": "GoogleはGemini 4 Hydrogenを発表し、従来の3.8 Flashを置き換える形で提供を開始した。CarbonやArgonのような段階的な限定公開ではなく、通常のロールアウト方式で展開されている。検索のAIモードにも搭載され、複雑なクエリの理解や関連リンクの提示、視覚的な回答の質が向上している。",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+        },
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+        }
+      ]
+    },
+    {
+      "id": "a16cf66c04ab",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AnthropicがIPOを検討と話題に",
+      "summary_ja": "AnthropicのIPOがHacker Newsで話題になっている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://ipo.anthropic.com/us/"
+        }
+      ]
+    },
+    {
+      "id": "eb79656c925c",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "Qwen3.8-Flash-Next、Hugging Faceで公開",
+      "summary_ja": "アリババ系QwenチームがQwen3.8-Flash-Nextをimage-text-to-textタスク対応モデルとしてHugging Faceに公開した。ダウンロード数は300万を超え、既にコミュニティで広く利用されている。評価結果も公開されており、実運用での性能検証が可能な状態にある。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        }
+      ]
+    },
+    {
+      "id": "9f9ef1f7c9cc",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Nebius、400億ドル規模のAIインフラ投資計画",
+      "summary_ja": "NebiusはAIインフラ拡張のため400億ドル規模の投資計画を、顧客からの前払い金と融資で賄う方針を示した。一方でMicrosoftのデータセンター建設の遅延が、この資金調達モデルへの懸念材料として指摘されている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+        }
+      ]
+    },
+    {
+      "id": "f421fadbe0ea",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Amazon Bedrock AgentCore、新ランタイムと事例が公開",
+      "summary_ja": "NateraはAmazon Bedrock AgentCore上でエージェント型AIシステム「SWARM」を構築し、初動対応を約130倍高速化、サポートチケットの96.2%を自動対応可能にした。また次世代のAgentCoreランタイムではハードウェア分離セッション、高速起動、従量課金、データ分離強化が提供される。マルチステップで長時間稼働するエージェント運用を安全かつ効率的に行いたいチームにとって、具体的な設計指針として参考になる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "3ac86b283842",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "Meta、画像特徴抽出モデル「DINOv3」公開",
+      "summary_ja": "Facebook（Meta）はDINOv3ベースの画像特徴抽出モデルdinov3-vitl16-pretrain-lvd1689mをHugging Faceで公開し、70万件超のダウンロードを記録している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m"
+        }
+      ]
+    },
+    {
+      "id": "0039716ebb4a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "SoftBank、天然ガスタービン発注で30億ドル超の損失",
+      "summary_ja": "SoftBankはAIデータセンター向け電力確保のために天然ガスタービンを先行発注し、30億ドルを超える損失を被った。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+        }
+      ]
+    },
+    {
+      "id": "02821ceaa4ab",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Amazon Bedrock、推論コストを左右する4つの設定を解説",
+      "summary_ja": "AWSは、キャッシュ保持時間・サービスティア・reasoning effort・maxTokensという4つのリクエストレベルの設定がBedrockの推論コストに与える影響を解説し、検証方法を示した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/"
+        }
+      ]
+    },
+    {
+      "id": "ad0ce528b805",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Bedrockエージェントの真のコストとROI算出法を解説",
+      "summary_ja": "AWSはトークン単価比較だけでは見えないBedrockエージェント運用の隠れたコスト要因4点を示し、キャッシュ・ルーティング・出力制約による削減方法と、人間ベースラインやホールドアウト実験を用いたROI検証手法を解説した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "dcc3893e53f4",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AWS、エージェント開発向け「Agent DLC」を解説",
+      "summary_ja": "AWSは、従来のCI/CDでは対応しにくいエージェント特有の3つの性質を踏まえ、プロトタイプから本番運用への移行を支える「Agent DLC」というライフサイクル手法を紹介した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/"
+        }
+      ]
+    },
+    {
+      "id": "ca2f28331a6d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AIエージェント「Muse」、米国企業への発信通話に対応",
+      "summary_ja": "Museが米国内の企業に対して有料でAIによる発信通話を行える機能を追加した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+        }
+      ]
+    },
+    {
+      "id": "24dc8700d0d6",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "量子化モデル「GLM-5.3-SLIM-GGUF」公開",
+      "summary_ja": "ScantistがGLM-5.3-SLIM-GGUFをHugging Faceで公開し、llama.cpp向けのMoEアーキテクチャ量子化モデルとして提供している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF"
+        }
+      ]
+    },
+    {
+      "id": "7c091be54b73",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "Norwest、AI投資向け40億ドルファンドを設立",
+      "summary_ja": "投資会社Norwestは、同社として過去最大規模となる40億ドルのAI投資ファンドを立ち上げた。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
+        }
+      ]
+    },
+    {
+      "id": "7eb26c45e4d2",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AWS Trainium、SGLang-Neuronでのモデル配備が可能に",
+      "summary_ja": "AWSはSGLang-NeuronをDeep Learning Containerとして公開し、既存のSGLangインターフェースのままAWS Trainium上でモデル提供や強化学習ロールアウト生成ができるようにした。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
+        }
+      ]
+    },
+    {
+      "id": "b20123057cbe",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Bedrock利用料をIAM単位で追跡・上限設定する手法を公開",
+      "summary_ja": "AWSはCUR 2.0とAWS Budgetsを用いて、IAMプリンシパル単位でBedrockの利用コストを可視化し、閾値超過時にDenyポリシーを適用する仕組みをコード不要で構築する方法を紹介した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/"
+        }
+      ]
+    },
+    {
+      "id": "c1e0d9c67afc",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AWSでA2Aプロトコルによるマルチエージェント構築例を公開",
+      "summary_ja": "AWSはAgent-to-Agent（A2A）プロトコルを用い、LangChainオーケストレーターとBedrock AgentCore上のStrandsエージェントが組織境界を越えてOAuth認証付きで連携する構成例を示した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/"
+        }
+      ]
+    },
+    {
+      "id": "f79d311f2581",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "教育向けオープンソースエージェント「Primer」公開",
+      "summary_ja": "Wharton校のGenerative AI Labが、教師の説明から教育学に基づくシミュレーションを生成するオープンソースのエージェントシステム「Primer」を公開した。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n25jpzcdtk2p"
+        }
+      ]
+    },
+    {
+      "id": "67672a694e38",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Amplitude、OpenAI活用の製品エージェント「Wave」を導入",
+      "summary_ja": "AmplitudeはOpenAIのモデルを基盤とした製品エージェント「Wave」を用いて、開発すべき機能の特定からコーディングエージェントによる実装、効果測定までを1〜2日で行えるようにした。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/amplitude"
+        }
+      ]
+    },
+    {
+      "id": "43871841ab87",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Bedrock向けLiteLLMゲートウェイの構築例を公開",
+      "summary_ja": "AWSはAmazon Bedrockの基盤モデルをOpenAI互換APIとして公開するLiteLLMゲートウェイをFargate上に構築する方法を示し、ユーザー単位のコスト管理や利用量の分離、可観測性を実現できるとした。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/"
+        }
+      ]
+    },
+    {
+      "id": "475ac78efec3",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Bedrock Managed Knowledge BaseのMCP連携に細粒度アクセス制御",
+      "summary_ja": "AWSは、Bedrock Managed Knowledge BaseをAgentCore Gateway経由でMCPツールとして公開しつつ、ユーザー単位のアクセス制御を維持する方法を解説した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 10.3996,
+    "run_cost_usd": 0.1218,
+    "average_run_usd": 0.1034,
+    "runs_recorded": 105
+  }
+}
