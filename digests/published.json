@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-07",
-      "id": "b19a52adc818",
-      "title_ja": "OpenAI、評価額1.25兆ドルで追加110億ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "98f2cdcbd959",
-      "title_ja": "米中間選挙、データセンター拡張に逆風か",
-      "urls": [
-        "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "c822924fc1f2",
-      "title_ja": "Palo Alto NetworksがAIセキュリティのClutchを500億円で買収交渉",
-      "urls": [
-        "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "0a5391d7db4b",
-      "title_ja": "Anthropic IPO、評価額巡り投資家間で見方分かれる",
-      "urls": [
-        "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "291e476bb867",
-      "title_ja": "AI支出の伸び鈍化、Anthropic上場前に浮上",
-      "urls": [
-        "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "2bae9b1f767d",
-      "title_ja": "Facebook、AIディープフェイク詐欺広告巡り批判",
-      "urls": [
-        "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "90a0ba046a4d",
-      "title_ja": "未公開Anthropicモデル、量子計算の未解決予想を証明",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1xpgl2k/an_unreleased_anthropic_ai_model_reportedly/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "1e3b4849f46e",
-      "title_ja": "Greenlight、Bedrockで自律型SOCを構築し9割自動解決",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "60724c835de1",
-      "title_ja": "JevがOpusに支援要求、精度維持しコスト4分の1に",
-      "urls": [
-        "https://hightouch.com/blog/llm-judges-identity-resolution"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "c20d6a1d550d",
-      "title_ja": "Stanford、16トークンで会話全体を記憶するAI手法を開発",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1xpabzx/stanford_researchers_develop_a_new_ai_memory/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "5f721228af36",
-      "title_ja": "OpenAI、ウェットラボ実験評価ベンチマークを発表",
-      "urls": [
-        "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "1eb7d3c82b7f",
-      "title_ja": "Taxbit、Bedrockで根拠提示型AIエージェントを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "ad929875c5a7",
-      "title_ja": "OpenAI、データセンター契約のNDA撤廃へ",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "a8f7d4fc38a6",
-      "title_ja": "22MBの視覚言語モデル「Mirage」、エッジ端末向けに公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xpm8mw/mirage_a_22_mb_visuallanguage_model_that_runs/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "189563f1d6f7",
-      "title_ja": "SageMaker推論、Multi-Instance GPUに対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "a09a329aea37",
-      "title_ja": "Okta連携でAIエージェントのアクセス権限を統制",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "e5707d4ca802",
-      "title_ja": "MoEモデル「Inkling 2 Small」、総パラメータ594Bで公開",
-      "urls": [
-        "https://thinkingmachines.ai/news/inkling-2-small/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xp32od/introducing_inkling_2_small/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "a0a44ed09dc9",
-      "title_ja": "OpenAI、HacktronとセキュリティテストでPartnership",
-      "urls": [
-        "https://openai.com/index/partnering-with-hacktron"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "3f022a3e7690",
-      "title_ja": "ECS Fargate上のサーバーレスMCPサーバーでデータレイク連携",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "id": "76d77f901fa0",
-      "title_ja": "Underdog、32MBの音声生成モデルをデモ公開",
-      "urls": [
-        "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
-      ]
-    },
-    {
       "date": "2026-11-08",
       "id": "ca26bca182f6",
       "title_ja": "Qwen3.8-27B、Hugging Faceで公開",
@@ -1141,6 +980,86 @@
       "title_ja": "FAA、航空交通管理向けAI活用を全米に拡大",
       "urls": [
         "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "41586052132a",
+      "title_ja": "Bedrock AgentCore、セッション起動高速化の設計パターン解説",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "3c59ab578501",
+      "title_ja": "Meta、3D人体メッシュ推定モデルSAM-3D-Body-DinoV3を公開",
+      "urls": [
+        "https://huggingface.co/facebook/sam-3d-body-dinov3"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "7e81db885b5d",
+      "title_ja": "OpenAI Python SDK v3.51.0がリリース",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.51.0"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "60e5719ddad5",
+      "title_ja": "Claude Code Projects、並列AIワーカー実行に対応",
+      "urls": [
+        "https://claude.com/resources/articles/projects-redesigned"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "25b629867bd0",
+      "title_ja": "Zyphra、軽量TTSモデルZONOS3-Miniをオープンソース公開",
+      "urls": [
+        "https://huggingface.co/Zyphra/ZONOS3-Mini"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "a3da8b1260a4",
+      "title_ja": "Meituan、マルチモーダルMoEモデルLongCat-2.5を公開",
+      "urls": [
+        "https://huggingface.co/meituan-longcat/LongCat-2.5"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "a17ef475e2c8",
+      "title_ja": "GLM-5.3、vLLMでDGX2台構成の推論性能をベンチマーク",
+      "urls": [
+        "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "8b981141b769",
+      "title_ja": "Unsloth、Qwen3.8-27Bの量子化を更新",
+      "urls": [
+        "https://unsloth.ai/docs/models/qwen3.8"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "af7f8d8cd385",
+      "title_ja": "AIエージェント向けブラウザ「Agweb」が公開",
+      "urls": [
+        "https://github.com/paul-nameless/agweb"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": "2fdb5e2d367b",
+      "title_ja": "SenseNova-Loop-9B-Preview、9Bで27B級性能と話題に",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/"
       ]
     }
   ]

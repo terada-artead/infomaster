@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T07:56:48+09:00",
+  "stats": {
+    "collected": 77,
+    "fresh": 60,
+    "selected": 15,
+    "published": 10
+  },
+  "highlights": [
+    "ZyphraがTTSモデルZONOS3-Miniをオープンソース公開",
+    "AnthropicがClaude Code Projectsに並列AIワーカー機能を追加",
+    "MetaがSAM-3D-Body-DinoV3モデルを公開"
+  ],
+  "items": [
+    {
+      "id": "41586052132a",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Bedrock AgentCore、セッション起動高速化の設計パターン解説",
+      "summary_ja": "Amazon Bedrock AgentCore runtime V2は初期化済み環境をスナップショットして各セッションで復元するため、セッション開始時間がイメージサイズに依存しなくなる。測定方法と初回リクエスト前に処理を済ませる4つのパターンが紹介されている。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/"
+        }
+      ]
+    },
+    {
+      "id": "3c59ab578501",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Meta、3D人体メッシュ推定モデルSAM-3D-Body-DinoV3を公開",
+      "summary_ja": "MetaがHugging Face上で3D人体メッシュ復元・姿勢推定向けモデルSAM-3D-Body-DinoV3を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/facebook/sam-3d-body-dinov3"
+        }
+      ]
+    },
+    {
+      "id": "7e81db885b5d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI Python SDK v3.51.0がリリース",
+      "summary_ja": "openai-pythonのv3.51.0が公開され、エージェント・画像・Live・外部キー対応のAPIが拡張された。",
+      "sources": [
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.51.0"
+        }
+      ]
+    },
+    {
+      "id": "60e5719ddad5",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Claude Code Projects、並列AIワーカー実行に対応",
+      "summary_ja": "AnthropicがClaude Code Projectsをアップグレードし、複数のAIワーカーを並列実行できるようにした。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://claude.com/resources/articles/projects-redesigned"
+        }
+      ]
+    },
+    {
+      "id": "25b629867bd0",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Zyphra、軽量TTSモデルZONOS3-Miniをオープンソース公開",
+      "summary_ja": "Zyphraが1億アクティブパラメータの軽量音声合成モデルZONOS3-MiniをApache 2.0で公開した。スマホやブラウザ上でリアルタイム動作し、音声クローニングや感情・話速の制御、43言語に対応している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+        }
+      ]
+    },
+    {
+      "id": "a3da8b1260a4",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Meituan、マルチモーダルMoEモデルLongCat-2.5を公開",
+      "summary_ja": "美団がエージェント対応のマルチモーダル（画像テキスト入出力）MoEモデルLongCat-2.5をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/meituan-longcat/LongCat-2.5"
+        }
+      ]
+    },
+    {
+      "id": "a17ef475e2c8",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "GLM-5.3、vLLMでDGX2台構成の推論性能をベンチマーク",
+      "summary_ja": "vLLMを使いNvidia DGXステーション2台でGLM-5.3を607.8トークン/秒で稼働させたベンチマーク結果が報告された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
+        }
+      ]
+    },
+    {
+      "id": "8b981141b769",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Unsloth、Qwen3.8-27Bの量子化を更新",
+      "summary_ja": "UnslothがQwen3.8-27Bの動的量子化手法「v3.1」を更新公開した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://unsloth.ai/docs/models/qwen3.8"
+        }
+      ]
+    },
+    {
+      "id": "af7f8d8cd385",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AIエージェント向けブラウザ「Agweb」が公開",
+      "summary_ja": "ユーザー操作を妨げない設計のAIエージェント向けブラウザ「Agweb」がShow HNで公開された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/paul-nameless/agweb"
+        }
+      ]
+    },
+    {
+      "id": "2fdb5e2d367b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SenseNova-Loop-9B-Preview、9Bで27B級性能と話題に",
+      "summary_ja": "SenseNovaの新モデルSenseNova-Loop-9B-Previewが、9Bパラメータながら27B級モデルに匹敵する性能とRedditで注目されている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 10.5782,
+    "run_cost_usd": 0.0643,
+    "average_run_usd": 0.1042,
+    "runs_recorded": 107
+  }
+}
