@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T09:19:06+09:00",
+  "stats": {
+    "collected": 98,
+    "fresh": 85,
+    "selected": 34,
+    "published": 20
+  },
+  "highlights": [
+    "Jensen Huang氏のNvidia退任、AI業界全体に波紋",
+    "LangChainが評価額30億ドルに到達",
+    "中国の最先端AIモデル、禁輸対象Nvidiaチップで訓練と判明"
+  ],
+  "items": [
+    {
+      "id": "a53b6d6797d1",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Jensen Huang氏のNvidia退任、AIスタートアップ資金調達に影響",
+      "summary_ja": "NvidiaはHuang氏の下でAIスタートアップに数百億ドルを投じてきたが、同氏の退任を受けVCや創業者は資金調達の縮小や評価額の低下を懸念している。イスラエルのVCも同様の懸念を示す一方、競合にとっては好機になり得るとの見方もある。また同氏退任の背景には、Nvidiaの中国事業や米政府との関係を巡るより大きな問題が控えていると報じられている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+        }
+      ]
+    },
+    {
+      "id": "c7c1adfef40b",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "OpenFold3、Amazon SageMaker JumpStartで利用可能に",
+      "summary_ja": "OpenFold3-previewをSageMaker JumpStartからデプロイし、自社AWS環境内でタンパク質・DNA・RNA・リガンド複合体の立体構造を予測できるようになった。非同期推論やマルチGPU並列処理、独自MSAの持ち込みによる精度・プライバシー確保、ゼロスケーリングによるコスト削減に対応している。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/"
+        }
+      ]
+    },
+    {
+      "id": "b96c8f1ce3ea",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "AIエージェントのLangChain、評価額30億ドルに",
+      "summary_ja": "AIエージェントスタートアップのLangChainが評価額30億ドルに達し、モデル・プラットフォーム非依存のエージェント管理ツールLangSmithは7000社の顧客を抱えると主張している。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+        }
+      ]
+    },
+    {
+      "id": "1a09f77a4836",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Claude関連サービスでエラー増加",
+      "summary_ja": "claude.ai、Claude Code、platform.claude.comでエラー率が上昇する障害が発生した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://status.claude.com/incidents/nn11wk485zfn"
+        }
+      ]
+    },
+    {
+      "id": "7bd2e8e7a52e",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "OpenAI、ロボティクスチームを解散",
+      "summary_ja": "OpenAIは汎用モデルがロボットを動かせるようになってきたことを受け、ロボティクス専門チームを解散した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+        }
+      ]
+    },
+    {
+      "id": "1f0e60fded5c",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "MiniMax-H3、Hugging Faceで公開",
+      "summary_ja": "MiniMaxAIが画像・テキストから動画生成に対応するMiniMax-H3をHugging Faceで公開し、既に650万件以上ダウンロードされている。video-to-videoやtext-to-audio-videoなど複数モダリティに対応している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+        }
+      ]
+    },
+    {
+      "id": "762061e9584c",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "NVIDIA NeMo Switchyard、Amazon Bedrockでコーディングエージェントのルーティングを最適化",
+      "summary_ja": "AWS CDKでLiteLLMとNVIDIA NeMo Switchyardルーティングプラグインをamazon Bedrock上にデプロイし、単一モデル構成と比較して「解決タスクあたりコスト」を測定する手法が紹介された。コーディングエージェントではトークン単価ではなく解決タスクあたりコストが重要指標となるため、複数モデルへのルーティング最適化は実運用コスト削減に直結する。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"
+        }
+      ]
+    },
+    {
+      "id": "6669a4d19d8d",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "中国の最先端AIモデル、禁輸対象のNvidiaチップで訓練と判明",
+      "summary_ja": "新たな調査により、中国の最も高性能なAIモデルが輸出禁止対象のNvidia製チップを用いて訓練されていたことが明らかになった。これは米国の輸出規制の実効性に疑問を投げかける結果であり、今後の規制強化や企業のコンプライアンス対応に影響を与える可能性がある。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        }
+      ]
+    },
+    {
+      "id": "96048276e5de",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Amazon、世界中のネット通販データを統合する「World Product Graph」計画",
+      "summary_ja": "Reutersの報道によると、Amazonは自社で扱わない商品も含め、インターネット上で販売されるあらゆる商品のデータを集約する「World Product Graph」を構築し、自社サイトを通じて情報提供する計画を進めている。狙いは、ユーザーが商品検索のために他サイトへ離脱するのを防ぐことにある。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+        }
+      ]
+    },
+    {
+      "id": "4e10e32134f8",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "Edge0-145B、ローカル実行可能なフロンティアAIモデルとして公開",
+      "summary_ja": "自分のコンピュータ上でフロンティア級のAI性能を実現するというEdge0-145Bが公開された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+        }
+      ]
+    },
+    {
+      "id": "f4a904d03d80",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Kimi-K3.1-Pro、Hugging Faceで公開",
+      "summary_ja": "Moonshot AIが、100万トークンのコンテキストウィンドウを持つオープンウェイトのマルチモーダルエージェントモデルKimi K3.1 Proを公開した。コーディングや財務調査、事実精度などエージェント能力が大幅に向上しているとされる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+        }
+      ]
+    },
+    {
+      "id": "7d4d71d056da",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、ChatGPT Walletを発表",
+      "summary_ja": "OpenAIは、ChatGPT Work、Codex、dots内のエージェントがユーザー承認と既存のカード保護を用いて購入を完了できる仕組み「ChatGPT Wallet」を発表した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+        }
+      ]
+    },
+    {
+      "id": "bb4deecac7ca",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "llama.cpp、v1.0をリリース",
+      "summary_ja": "llama.cppがv1.0.0をリリースし、非推奨の公開APIを削除してNextN/投機的デコードAPIをllama.hに昇格させたほか、OCP FP8のKVキャッシュやホストメモリ上のMoEエキスパートキャッシュなどを追加した。Kimi-K3.1-ProやRippleなど新規アーキテクチャにも対応し、llama-serverのセキュリティも強化されている。",
+      "sources": [
+        {
+          "name": "GitHub ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+        },
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/"
+        }
+      ]
+    },
+    {
+      "id": "cac24968e5aa",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "DeepSeek-V4.1-Flash、Hugging Faceで公開",
+      "summary_ja": "DeepSeek AIが画像・テキスト対応モデルDeepSeek-V4.1-Flash-1017をMITライセンスでHugging Faceに公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        }
+      ]
+    },
+    {
+      "id": "91ab97e44683",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "GS Caltex、SageMakerでMLOpsを本番運用",
+      "summary_ja": "GS CaltexはAmazon SageMaker CanvasとSageMaker Pipelinesを連携させ、現場のプロセスエンジニアが作成したノーコードモデルを本番運用している。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/"
+        }
+      ]
+    },
+    {
+      "id": "a0730e6c360a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "医療現場でAI活用が拡大",
+      "summary_ja": "小児研究からスマート病院まで、医療システムやスタートアップが臨床試験のマッチングや放射線科医支援などにAIを活用し、臨床医がルーチン業務を減らして患者対応に時間を割けるようにしている。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
+        }
+      ]
+    },
+    {
+      "id": "b6c6cdb45a03",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Perplexity、Decider v1.3を公開",
+      "summary_ja": "Perplexityが訓練・評価手法とユースケースをまとめたDecider v1.3を公開した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.perplexity.ai/hub/blog/perplexity-decider"
+        }
+      ]
+    },
+    {
+      "id": "091099d846f6",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AssemblyAI、AWS上で音声認識推論のコストを最適化",
+      "summary_ja": "AssemblyAIはAmazon ECSとEC2 Spot GPUインスタンス、SQSベースの再試行アーキテクチャを用い、欧州リージョン全体でSLAを維持しながら音声認識推論コストを70%削減した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/"
+        }
+      ]
+    },
+    {
+      "id": "1a853c465762",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "SageMaker HyperPod、モデル改善フライホイール構築ツールを提供",
+      "summary_ja": "Amazon SageMaker HyperPod Data Captureは本番推論の入出力をS3に記録し、Athenaでの分析やHyperPod training operatorでのファインチューニングを通じてモデル改善サイクルを回す仕組みを提供する。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/"
+        }
+      ]
+    },
+    {
+      "id": "d594c39e9773",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "FAA、航空交通管理向けAI活用を全米に拡大",
+      "summary_ja": "FAAは米国全土の空域における交通渋滞管理のためAI活用を拡大し、航空会社から好評を得ているが、航空管制官労組は導入に関与していなかった。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 10.5139,
+    "run_cost_usd": 0.1143,
+    "average_run_usd": 0.105,
+    "runs_recorded": 106
+  }
+}

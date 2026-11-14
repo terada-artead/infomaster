@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-06",
-      "id": "14e90e72d340",
-      "title_ja": "OpenAI、サイバーセキュリティ特化モデルGPT-6 Cyberを公開",
-      "urls": [
-        "https://openai.com/index/introducing-gpt-6-cyber",
-        "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "9c6e67cc6514",
-      "title_ja": "Dropbox、AI基盤強化へTigris Dataを350億円で買収",
-      "urls": [
-        "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "297ad0409d7d",
-      "title_ja": "Anthropic未発表モデル「Model 4」、能力指数で大幅躍進と報告",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1xorf5c/metr_reveals_anthropics_unreleased_model_4/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "788aca0b86fe",
-      "title_ja": "Big TechのAIデータセンター投資、依然として拡大続く",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "17b57e465570",
-      "title_ja": "Airbnb、2027年前半にAI旅行エージェントを投入へ",
-      "urls": [
-        "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "27b87d65d3f9",
-      "title_ja": "Google、Gemini Omni 1.2 Flashを公開",
-      "urls": [
-        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-        "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "2165b65a40c2",
-      "title_ja": "Perplexity、業務向けAIエージェント「Teammates」を公開",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "ec8f45e10a43",
-      "title_ja": "Zhipu、GLM-5.5の訓練パイプラインを公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "2a8256897722",
-      "title_ja": "OpenAI社長、2027年のIPO準備可能性に言及",
-      "urls": [
-        "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "f5a829f9a8eb",
-      "title_ja": "Box、NvidiaのNemotronを使った新コンテンツ検索システムを統合",
-      "urls": [
-        "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "0a9fff5e2640",
-      "title_ja": "300B規模の長期エージェントRLモデル「FireFlash」公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xomst7/paper_fireflash_an_open_recipe_for_longhorizon/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "e6d6c85b3eb3",
-      "title_ja": "Claude、銀行口座と連携する個人資産管理機能を追加",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "88ab2eaf1c2e",
-      "title_ja": "GPT-6 Astra、安全性研究タスクで性能を意図的に抑制と指摘",
-      "urls": [
-        "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "55ffde0d65a1",
-      "title_ja": "Microsoft、視覚言語モデルMage-VL-Cowork公開",
-      "urls": [
-        "https://huggingface.co/microsoft/Mage-VL-Cowork"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "f25b9201ad6b",
-      "title_ja": "NVIDIA、世界シミュレーション向けCosmos 3をオープン公開",
-      "urls": [
-        "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "d6f90cb0462c",
-      "title_ja": "AWS、Bedrock AgentCoreに単発応答機能「Web Answer」追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "2442dea1774d",
-      "title_ja": "Ricursive、65BパラメータのプレビューモデルRippleを公開",
-      "urls": [
-        "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "850ffbfc56c1",
-      "title_ja": "Mistral、企業向けエージェント基盤「Le Chonk」と「Studio」を発表",
-      "urls": [
-        "https://mistral.ai/news/build-with-studio/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "b1feafc8620e",
-      "title_ja": "NVIDIA、エージェント処理向けCPU「Vera」を発表",
-      "urls": [
-        "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "id": "b531b56f4ce7",
-      "title_ja": "Qualcomm、スマホ不振でデータセンター事業に注力",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
-      ]
-    },
-    {
       "date": "2026-11-07",
       "id": "b19a52adc818",
       "title_ja": "OpenAI、評価額1.25兆ドルで追加110億ドル調達",
@@ -1140,6 +978,169 @@
       "title_ja": "Bedrock Managed Knowledge BaseのMCP連携に細粒度アクセス制御",
       "urls": [
         "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "a53b6d6797d1",
+      "title_ja": "Jensen Huang氏のNvidia退任、AIスタートアップ資金調達に影響",
+      "urls": [
+        "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+        "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "c7c1adfef40b",
+      "title_ja": "OpenFold3、Amazon SageMaker JumpStartで利用可能に",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "b96c8f1ce3ea",
+      "title_ja": "AIエージェントのLangChain、評価額30億ドルに",
+      "urls": [
+        "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "1a09f77a4836",
+      "title_ja": "Claude関連サービスでエラー増加",
+      "urls": [
+        "https://status.claude.com/incidents/nn11wk485zfn"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "7bd2e8e7a52e",
+      "title_ja": "OpenAI、ロボティクスチームを解散",
+      "urls": [
+        "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "1f0e60fded5c",
+      "title_ja": "MiniMax-H3、Hugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "762061e9584c",
+      "title_ja": "NVIDIA NeMo Switchyard、Amazon Bedrockでコーディングエージェントのルーティングを最適化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "6669a4d19d8d",
+      "title_ja": "中国の最先端AIモデル、禁輸対象のNvidiaチップで訓練と判明",
+      "urls": [
+        "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "96048276e5de",
+      "title_ja": "Amazon、世界中のネット通販データを統合する「World Product Graph」計画",
+      "urls": [
+        "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "4e10e32134f8",
+      "title_ja": "Edge0-145B、ローカル実行可能なフロンティアAIモデルとして公開",
+      "urls": [
+        "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "f4a904d03d80",
+      "title_ja": "Kimi-K3.1-Pro、Hugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "7d4d71d056da",
+      "title_ja": "OpenAI、ChatGPT Walletを発表",
+      "urls": [
+        "https://openai.com/index/introducing-chatgpt-wallet"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "bb4deecac7ca",
+      "title_ja": "llama.cpp、v1.0をリリース",
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+        "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "cac24968e5aa",
+      "title_ja": "DeepSeek-V4.1-Flash、Hugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "91ab97e44683",
+      "title_ja": "GS Caltex、SageMakerでMLOpsを本番運用",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "a0730e6c360a",
+      "title_ja": "医療現場でAI活用が拡大",
+      "urls": [
+        "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "b6c6cdb45a03",
+      "title_ja": "Perplexity、Decider v1.3を公開",
+      "urls": [
+        "https://www.perplexity.ai/hub/blog/perplexity-decider"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "091099d846f6",
+      "title_ja": "AssemblyAI、AWS上で音声認識推論のコストを最適化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "1a853c465762",
+      "title_ja": "SageMaker HyperPod、モデル改善フライホイール構築ツールを提供",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": "d594c39e9773",
+      "title_ja": "FAA、航空交通管理向けAI活用を全米に拡大",
+      "urls": [
+        "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
       ]
     }
   ]
