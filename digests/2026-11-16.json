@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T08:22:43+09:00",
+  "stats": {
+    "collected": 67,
+    "fresh": 53,
+    "selected": 12,
+    "published": 10
+  },
+  "highlights": [
+    "AIベンチマークの63%が飽和、評価手法の限界露呈",
+    "NvidiaのGPU価格操作疑惑と対中輸出規制強化の動き",
+    "full-duplex音声対話モデルHaru-4BやSophon-Realtime-v1が相次ぎ公開"
+  ],
+  "items": [
+    {
+      "id": "4eabd814d88a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "主要AIベンチマークの63%が既に飽和状態に",
+      "summary_ja": "2023年以降に主要AI研究所が引用した173のベンチマークのうち63%が既に飽和（実質的に解決済み）していることが、新たに作成されたSatBenchの分析で明らかになった。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2cotuxdvk22"
+        }
+      ]
+    },
+    {
+      "id": "d79f9fce1979",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ClaudeがStarship捕獲動画を3Dレンダリング再現",
+      "summary_ja": "ClaudeとFable 5.2を使い、スターシップ捕獲の動画から最後の約40秒を3js上で高精細3Dレンダリングし視点操作できるデモが公開された。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2eo3wirl22g"
+        }
+      ]
+    },
+    {
+      "id": "5419a8b213cd",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "全二重音声対話基盤モデルHaru-4Bが公開",
+      "summary_ja": "higurashi-aiが、電話のように聞きながら同時に話せる低遅延・多言語対応の全二重音声対話基盤モデルHaru-4Bを研究用に公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/higurashi-ai/Haru-4B"
+        },
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xww5o2/higurashiaiharu4b_hugging_face/"
+        }
+      ]
+    },
+    {
+      "id": "3c6f8fad3dbe",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "EU、約1兆パラメータのオープンAIモデルEUROPA計画",
+      "summary_ja": "欧州連合がEUROPAと呼ばれるオープンAIモデルの開発を目指しており、パラメータ数は約1兆規模になる見込みだと報じられている。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/"
+        }
+      ]
+    },
+    {
+      "id": "a5b5b4e52d94",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "音声エージェントモデルSophon-Realtime-v1が公開",
+      "summary_ja": "adventists-aiが、全二重・感情表現対応の音声エージェントモデルSophon-Realtime-v1をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/adventists-ai/Sophon-Realtime-v1"
+        }
+      ]
+    },
+    {
+      "id": "d5d8547e961a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Nvidiaの循環融資によるGPU価格維持疑惑が浮上",
+      "summary_ja": "Nvidiaが循環的な融資取引を通じて意図的にGPU価格を高水準に維持していたとする疑惑が報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
+        }
+      ]
+    },
+    {
+      "id": "5dde58615fc9",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "推論フレームワークBasalt 0.4.0、DeepSeek V4.1対応",
+      "summary_ja": "推論フレームワークBasaltの新版0.4.0が公開され、DeepSeek V4.1 Flashへのマルチモデル・ルーター対応や動画入力サポートなどが追加された。",
+      "sources": [
+        {
+          "name": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx1cu9/basalt_040_more_models_still_as_fast_qwen_27b_up/"
+        }
+      ]
+    },
+    {
+      "id": "0679810bb8b1",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "マルチモーダルモデルInkling-2-Smallが公開",
+      "summary_ja": "Thinking Machinesが、テキストと画像入力に対応する汎用マルチモーダルモデルInkling 2 Smallをオープンウェイトで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+        }
+      ]
+    },
+    {
+      "id": "6c2c64409dfb",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "議会、Nvidiaスパイ疑惑受けAIチップ輸出規制強化へ",
+      "summary_ja": "Nvidiaの元CEOジェンセン・フアンを巡るスパイ疑惑を受け、米議会がAIチップの輸出規制強化を検討していると報じられている。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+        }
+      ]
+    },
+    {
+      "id": "a70e6e6d0125",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "視覚言語モデルMirageが公開",
+      "summary_ja": "Cactus-Computeが、画像分類・物体検出・セグメンテーションなど複数タスクに対応する視覚言語モデルMirageを公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Cactus-Compute/mirage"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 10.6413,
+    "run_cost_usd": 0.0631,
+    "average_run_usd": 0.1018,
+    "runs_recorded": 108
+  }
+}

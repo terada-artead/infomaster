@@ -1,86 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-08",
-      "id": "ca26bca182f6",
-      "title_ja": "Qwen3.8-27B、Hugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "eecad6fef1da",
-      "title_ja": "AnthropicのAI自動開発、性能向上速度が加速と報告",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "f2bc736c0ee7",
-      "title_ja": "Meta、SAM3モデルをHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/facebook/sam3"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "b521172828d6",
-      "title_ja": "米、実態不明の中国企業へNvidiaチップ販売を許可",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "da867975a5a8",
-      "title_ja": "Mistral、1TパラメータのMistral-Large-4公開",
-      "urls": [
-        "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "ec2480d446f6",
-      "title_ja": "Crusoe、ワイオミング州データセンター計画をGoogleに売却",
-      "urls": [
-        "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "c82cf38d41cc",
-      "title_ja": "Anthropic、AIの科学研究への影響を分野別に分析",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mzomjgktvd2h"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "c198424dfc3b",
-      "title_ja": "ローカルLLMでホームラボ管理するOSSツール「Valet」",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "5b5f4925f1b3",
-      "title_ja": "ChatGPTのコネクタ間データ受け渡しに懸念",
-      "urls": [
-        "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "id": "4e392e0aaa87",
-      "title_ja": "Nvidia CEO監視目的で中国側が幹部を勧誘と米情報機関メモ",
-      "urls": [
-        "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
-      ]
-    },
-    {
       "date": "2026-11-09",
       "id": "fe5fdb83e1ea",
       "title_ja": "ゴールドマン・サックスがClaude Codeを廃止",
@@ -1060,6 +980,87 @@
       "title_ja": "SenseNova-Loop-9B-Preview、9Bで27B級性能と話題に",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "4eabd814d88a",
+      "title_ja": "主要AIベンチマークの63%が既に飽和状態に",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n2cotuxdvk22"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "d79f9fce1979",
+      "title_ja": "ClaudeがStarship捕獲動画を3Dレンダリング再現",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n2eo3wirl22g"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "5419a8b213cd",
+      "title_ja": "全二重音声対話基盤モデルHaru-4Bが公開",
+      "urls": [
+        "https://huggingface.co/higurashi-ai/Haru-4B",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xww5o2/higurashiaiharu4b_hugging_face/"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "3c6f8fad3dbe",
+      "title_ja": "EU、約1兆パラメータのオープンAIモデルEUROPA計画",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "a5b5b4e52d94",
+      "title_ja": "音声エージェントモデルSophon-Realtime-v1が公開",
+      "urls": [
+        "https://huggingface.co/adventists-ai/Sophon-Realtime-v1"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "d5d8547e961a",
+      "title_ja": "Nvidiaの循環融資によるGPU価格維持疑惑が浮上",
+      "urls": [
+        "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "5dde58615fc9",
+      "title_ja": "推論フレームワークBasalt 0.4.0、DeepSeek V4.1対応",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xx1cu9/basalt_040_more_models_still_as_fast_qwen_27b_up/"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "0679810bb8b1",
+      "title_ja": "マルチモーダルモデルInkling-2-Smallが公開",
+      "urls": [
+        "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "6c2c64409dfb",
+      "title_ja": "議会、Nvidiaスパイ疑惑受けAIチップ輸出規制強化へ",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": "a70e6e6d0125",
+      "title_ja": "視覚言語モデルMirageが公開",
+      "urls": [
+        "https://huggingface.co/Cactus-Compute/mirage"
       ]
     }
   ]
