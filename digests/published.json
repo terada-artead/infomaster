@@ -1,95 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-09",
-      "id": "fe5fdb83e1ea",
-      "title_ja": "ゴールドマン・サックスがClaude Codeを廃止",
-      "urls": [
-        "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "55858f2b4ca7",
-      "title_ja": "GPUなしで284B DeepSeekを動かすLlama-modchip",
-      "urls": [
-        "https://github.com/synchopate/llama-modchip"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "b9c0dd474c98",
-      "title_ja": "AppleがSiriのエージェント化を急いでいると報道",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "9451b5123beb",
-      "title_ja": "人型ロボットTheoがチューリッヒのスーパーに配置",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1xqjk2e/theo_a_wheeled_humanoid_robot_now_works_at_a/"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "c36ad27ce824",
-      "title_ja": "Tencentが新しい投機的デコード手法を公開",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "2abafaba6346",
-      "title_ja": "Apple研究者がQwenでUnitree G1ロボットを制御",
-      "urls": [
-        "https://www.reddit.com/r/singularity/comments/1xr6w6w/apple_researchers_use_a_mac_mini_running_qwen/"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "390422e1a2c2",
-      "title_ja": "推論特化モデルTwIL-8Bが公開",
-      "urls": [
-        "https://huggingface.co/webAI-Official/TwIL-8B"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "f4e8ce6220df",
-      "title_ja": "Nous ResearchがArete-27Bを公開",
-      "urls": [
-        "https://huggingface.co/NousResearch/Arete-27B"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "96571aa39f8d",
-      "title_ja": "エージェントメモリの標準化が議論に",
-      "urls": [
-        "https://www.lorekit.io/blog/open-agent-memory-format"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "584207642c0b",
-      "title_ja": "DeepSWEベンチマークが微小変更に敏感と判明",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xqmr2i/saw_this_benchmark_where_small_changes_to_coding/",
-        "https://bsky.app/profile/emollick.bsky.social/post/3mzsyjxxrsk2l"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "id": "1549a63baf38",
-      "title_ja": "Qwen3.8-Flash-NextのGGUF量子化版が公開",
-      "urls": [
-        "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF"
-      ]
-    },
-    {
       "date": "2026-11-10",
       "id": "a98326b09f6f",
       "title_ja": "GeminiがDriveやメールの個人データを人間の注釈者に送信",
@@ -1061,6 +972,167 @@
       "title_ja": "視覚言語モデルMirageが公開",
       "urls": [
         "https://huggingface.co/Cactus-Compute/mirage"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "df9d92008ad6",
+      "title_ja": "DucoがBedrock AgentCoreで金融データ自動化を刷新",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "b696bf684c37",
+      "title_ja": "NVIDIA Vera RubinがMLPerfで首位性能を記録",
+      "urls": [
+        "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "756563a41449",
+      "title_ja": "Qwen4-Maxモデルがリリース",
+      "urls": [
+        "https://qwen.ai/blog?id=qwen4-max"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27Bモデルがハギングフェイスに登場",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "4d97827545be",
+      "title_ja": "米国がAI半導体の対中遠隔アクセス規制を強化",
+      "urls": [
+        "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+        "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "b18ea8ba2455",
+      "title_ja": "Bedrock Managed Knowledge Baseが長期記憶機能を強化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "a3459596641f",
+      "title_ja": "マルチエージェント設計のパターンと落とし穴を体系化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "eaa1baf8a18e",
+      "title_ja": "MoEngageがAgentCoreでマーケティングAIエージェントを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "3641439a5ff1",
+      "title_ja": "Novo NordiskがAgentCoreで製造文書を刷新",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "fc3a56c14a55",
+      "title_ja": "LambdaがNVIDIA光学スイッチでAIファクトリーを強化",
+      "urls": [
+        "https://blogs.nvidia.com/blog/lambda-photonics/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "dac4b4571980",
+      "title_ja": "Hy4 flashモデルが登場、低価格・疎構成が特徴",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "ac2c23e19056",
+      "title_ja": "Anthropicが常時稼働エージェントの設計ガイドを公開",
+      "urls": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1xxdzcf/anthropic_published_a_guide_on_building_alwayson/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "f2bc736c0ee7",
+      "title_ja": "Meta SAM3モデルがハギングフェイスに公開",
+      "urls": [
+        "https://huggingface.co/facebook/sam3"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "24baf68da2c1",
+      "title_ja": "サイバーセキュリティAIのCormaが評価額10億ドルに",
+      "urls": [
+        "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "c87649611876",
+      "title_ja": "vLLM v0.34.0がリリース、新モデル10種に対応",
+      "urls": [
+        "https://github.com/vllm-project/vllm/releases/tag/v0.34.0"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "21e886491b30",
+      "title_ja": "OpenAIが医療向けChatGPTにコンピュータ操作エージェント追加",
+      "urls": [
+        "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "4f7ffd1cc71f",
+      "title_ja": "メインフレームのAssemblerをBedrockでJavaに移行",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "405b15531065",
+      "title_ja": "Bedrock Managed Knowledge Baseが表形式データ検索に対応",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "970d377277e3",
+      "title_ja": "NVIDIA CUDA-Xライブラリが科学研究向けAIエージェントを支援",
+      "urls": [
+        "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": "473e368302be",
+      "title_ja": "企業利用の30%がオープンウェイトモデルに",
+      "urls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/"
       ]
     }
   ]
