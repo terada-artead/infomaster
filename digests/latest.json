@@ -1,287 +1,291 @@
 {
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T11:27:44+09:00",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T10:35:48+09:00",
   "stats": {
-    "collected": 125,
-    "fresh": 113,
-    "selected": 47,
+    "collected": 109,
+    "fresh": 97,
+    "selected": 45,
     "published": 20
   },
   "highlights": [
-    "AWSがBedrock AgentCoreの金融・製薬企業導入事例を複数公開",
-    "NVIDIAがVera Rubinプラットフォームの性能とRubin HPC GPUを発表",
-    "米国がAI半導体の中国向け遠隔アクセス規制を強化"
+    "OpenAIがGPT-6.2 AstraとSolを発表、コストと性能を改善",
+    "Isomorphic Labsが50億ドルを調達、臨床試験へ前進",
+    "AmazonとGoogleがIPO後にAnthropic株合計約30%を保有"
   ],
   "items": [
     {
-      "id": "df9d92008ad6",
+      "id": "8f6af8c44a4a",
       "importance": "high",
       "category": "product",
-      "title_ja": "DucoがBedrock AgentCoreで金融データ自動化を刷新",
-      "summary_ja": "大手銀行向けデータ自動化基盤のDucoが、Amazon BedrockとBedrock AgentCore上でエージェント型AIスタックを再構築した。テナントごとの厳格な分離、複数モデル戦略、コンテキストオーバーヘッドを90%削減するMCPスキル構成により、照合処理のデプロイ時間を10倍、オンボーディングコストを70%削減した。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/"
-        }
-      ]
-    },
-    {
-      "id": "b696bf684c37",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "NVIDIA Vera RubinがMLPerfで首位性能を記録",
-      "summary_ja": "NVIDIAのVera RubinプラットフォームがMLPerf初参加でトレーニング・ポストトレーニング・エージェント型推論の全ベンチマークを席巻し、初のMLPerf Endpoints提出でワットあたりスループットが世代比10倍超となった。同日発表のRubin HPCは科学・エンジニアリング・分析向けシミュレーションを加速する新GPUで、エージェントによる材料・分子探索の支援を想定している。",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
-        }
-      ]
-    },
-    {
-      "id": "756563a41449",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "Qwen4-Maxモデルがリリース",
-      "summary_ja": "Qwenシリーズの新モデル「Qwen4-Max」が公開された。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://qwen.ai/blog?id=qwen4-max"
-        }
-      ]
-    },
-    {
-      "id": "ca26bca182f6",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "Qwen3.8-27Bモデルがハギングフェイスに登場",
-      "summary_ja": "Qwenファミリー最新の事後学習済みモデル「Qwen3.8-27B」がHugging Face Transformers形式で公開され、vLLMやSGLangなど既存フレームワークと互換性を持つ。Qwen Cloudではデフォルトで100万トークンのコンテキスト長や組み込みツールを備えたホスティング版の提供が予定されている。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
-        }
-      ]
-    },
-    {
-      "id": "4d97827545be",
-      "importance": "high",
-      "category": "business",
-      "title_ja": "米国がAI半導体の対中遠隔アクセス規制を強化",
-      "summary_ja": "米国は暫定規則の下、中国など規制対象国に計算資源を提供しうるAI半導体の輸出に許可取得を義務付ける。中国企業によるクラウド経由の遠隔アクセスを通じた計算資源利用を阻止する狙いがあると報じられている。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
-        },
-        {
-          "name": "Ars Technica AI",
-          "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/"
-        }
-      ]
-    },
-    {
-      "id": "b18ea8ba2455",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "Bedrock Managed Knowledge Baseが長期記憶機能を強化",
-      "summary_ja": "Amazon Bedrock Managed Knowledge BaseとAgentCoreメモリが会話の保存・事実抽出・長期記憶を単一のAgenticRetrieveStream呼び出しに統合し、ユーザーごとにアクセス権と記憶を分離したマルチユーザー対応アシスタントを構築できるようになった。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/"
-        }
-      ]
-    },
-    {
-      "id": "a3459596641f",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "マルチエージェント設計のパターンと落とし穴を体系化",
-      "summary_ja": "AWSは、マルチエージェント協調は分散システムの課題でありモデルの課題ではないとした上で、設計パターンとアンチパターンの実証済み分類、複数エージェント採用の判断基準、AWS上でコスト効率よく信頼性の高いシステムを構築する方法をまとめた。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/"
-        }
-      ]
-    },
-    {
-      "id": "eaa1baf8a18e",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "MoEngageがAgentCoreでマーケティングAIエージェントを構築",
-      "summary_ja": "顧客エンゲージメント企業MoEngageは、Amazon BedrockとAgentCore上に「Merlin AI」というエージェント群を構築し、マーケティング・プロダクトチームが1つの会話でキャンペーンの作成・分析・調整を行えるようにした。既存APIをMCPツール化しつつ、テナントごとのデータ分離とライブデータへの安全なアクセスを両立させている。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/"
-        }
-      ]
-    },
-    {
-      "id": "3641439a5ff1",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "Novo NordiskがAgentCoreで製造文書を刷新",
-      "summary_ja": "Novo Nordiskの製造技術チームは、Amazon BedrockとAgentCore上にGraphRAG構成のプロセスインテリジェンス・アシスタントを構築した。Amazon NeptuneのナレッジグラフとOpenSearch Serverlessのハイブリッド検索を組み合わせ、大量の管理対象製造文書から根拠付きの回答を得られるようにした。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/"
-        }
-      ]
-    },
-    {
-      "id": "fc3a56c14a55",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "LambdaがNVIDIA光学スイッチでAIファクトリーを強化",
-      "summary_ja": "クラウド事業者Lambdaは、NVIDIA Photonicsの共パッケージ光学（CPO）スイッチを用いて、1万基超のGPUを搭載するGB300 NVL72ラックを接続し、ネットワークの速度・効率・耐障害性を高めている。",
-      "sources": [
-        {
-          "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/lambda-photonics/"
-        }
-      ]
-    },
-    {
-      "id": "dac4b4571980",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "Hy4 flashモデルが登場、低価格・疎構成が特徴",
-      "summary_ja": "総パラメータ224B（うちEngram64B）でトークンあたり活性パラメータ12Bの新モデル「Hy4 flash」が発表され、100万トークンのコンテキスト長とマルチモーダル対応、低いAPI価格を特徴とする。",
-      "sources": [
-        {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/"
-        }
-      ]
-    },
-    {
-      "id": "ac2c23e19056",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "Anthropicが常時稼働エージェントの設計ガイドを公開",
-      "summary_ja": "Anthropicは11月13日、常時稼働するAIエージェントの設計ガイドを公開し、イベント受信・タイマー・記憶・権限管理・出力の5つの構成要素に分けて解説した。",
-      "sources": [
-        {
-          "name": "r/ClaudeAI",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxdzcf/anthropic_published_a_guide_on_building_alwayson/"
-        }
-      ]
-    },
-    {
-      "id": "f2bc736c0ee7",
-      "importance": "high",
-      "category": "product",
-      "title_ja": "Meta SAM3モデルがハギングフェイスに公開",
-      "summary_ja": "Facebook（Meta）のセグメンテーションモデル「SAM3」がHugging Faceで公開された。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/facebook/sam3"
-        }
-      ]
-    },
-    {
-      "id": "24baf68da2c1",
-      "importance": "medium",
-      "category": "funding",
-      "title_ja": "サイバーセキュリティAIのCormaが評価額10億ドルに",
-      "summary_ja": "AIサイバーセキュリティ企業Cormaが、製品発表から約3カ月でNEA主導のシリーズAにより1.25億ドルを調達し、評価額10億ドルに達した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
-        }
-      ]
-    },
-    {
-      "id": "c87649611876",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "vLLM v0.34.0がリリース、新モデル10種に対応",
-      "summary_ja": "vLLM v0.34.0がリリースされ、Mistral Large 4などの新モデル10種への対応やKVキャッシュのデフォルト拡張、Model Runner V2への一本化などが行われた。",
-      "sources": [
-        {
-          "name": "GitHub vllm-project/vllm",
-          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0"
-        }
-      ]
-    },
-    {
-      "id": "21e886491b30",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "OpenAIが医療向けChatGPTにコンピュータ操作エージェント追加",
-      "summary_ja": "OpenAIは「ChatGPT for Healthcare」に、医療ソフトウェア間で実作業を行うコンピュータ操作エージェントや臨床回答の改善、新しい医療向けプラグインを追加した。",
+      "title_ja": "OpenAI、GPT-6.2 AstraとSolを発表",
+      "summary_ja": "OpenAIはChatGPT Work、Codex、APIにわたり、プロフェッショナル用途やコーディング、コンピュータ操作、効率を改善した新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表した。Astraは従来のGPT-6 Astraの80%の価格（入力8ドル/MTok、出力40ドル/MTok）で利用でき、APIではgpt-6.2-astraおよびgpt-6.2-solとして提供される。コスト効率が改善されたため、既存ワークロードの移行検討材料になる。",
       "sources": [
         {
           "name": "OpenAI News",
-          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
         }
       ]
     },
     {
-      "id": "4f7ffd1cc71f",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "メインフレームのAssemblerをBedrockでJavaに移行",
-      "summary_ja": "AWSは、レガシーなメインフレームAssemblerアプリケーションをBedrockとAWS Transform、Kiro IDEを用いてCOBOL経由でJava Spring Bootに変換する多段階のAI活用手法を紹介した。",
+      "id": "c4b7e80cb786",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "Isomorphic Labsが50億ドルのシリーズCを調達",
+      "summary_ja": "GoogleのDeepMindから2021年にスピンオフしたAI創薬プラットフォームのIsomorphic Labsが、シリーズCで50億ドルを調達した。同社はこの資金を基に創薬候補を臨床試験段階へ進める計画で、AI創薬分野への大規模投資の継続を示す動きとなる。",
       "sources": [
         {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/"
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
         }
       ]
     },
     {
-      "id": "405b15531065",
-      "importance": "medium",
+      "id": "49e988fe9449",
+      "importance": "high",
       "category": "product",
-      "title_ja": "Bedrock Managed Knowledge Baseが表形式データ検索に対応",
-      "summary_ja": "Amazon Bedrock Managed Knowledge Baseが表形式検索に対応し、CSVやExcelファイルに対する値の参照や行をまたぐ計算を行い、文書内の事実と組み合わせた多段階の分析質問に回答できるようになった。",
-      "sources": [
-        {
-          "name": "AWS Machine Learning Blog",
-          "url": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/"
-        }
-      ]
-    },
-    {
-      "id": "970d377277e3",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "NVIDIA CUDA-Xライブラリが科学研究向けAIエージェントを支援",
-      "summary_ja": "NVIDIAはcuPhotonやcuPotential、cuSpaなどCUDA-Xライブラリを拡張し、天体物理学から単一細胞生物学まで大規模データ解析を高速化してAIエージェントによる研究支援を強化した。",
+      "title_ja": "NVIDIA、SC26でAIエージェント向け新ツールを発表",
+      "summary_ja": "NVIDIAのIan BuckがSC26（シカゴ）で、研究者自身のシステム上で実験計画・コード実行・結果検証を行えるAIエージェント向けソフトウェアを発表した。同時にNemotron for Science、Rubin HPC GPU、拡張版Vera CPUプラットフォームも公開され、科学計算分野でのエージェント活用を後押しする。研究インフラにAIエージェントを組み込む際の具体的な選択肢が増えたことになる。",
       "sources": [
         {
           "name": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/"
+          "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/"
         }
       ]
     },
     {
-      "id": "473e368302be",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "企業利用の30%がオープンウェイトモデルに",
-      "summary_ja": "企業における利用の中でオープンウェイトモデルの割合が7月以降ほぼゼロから30%に伸び、主にコスト削減目的の大量バッチ処理やコーディング用途で使われている。",
+      "id": "9c3c49db7f13",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Bedrock AgentCoreのJSON処理でトークン削減",
+      "summary_ja": "Amazon Bedrock AgentCore上でマルチメガバイトのJSONペイロードを扱う本番エージェントに向け、S3へのアーティファクト退避、オンデマンドのページング、辞書圧縮という3つの組み合わせ可能な手法が提案された。これらを併用することでターン当たりのトークン使用量を最大71%、レイテンシを最大80%削減できる。大規模JSONを扱うエージェント基盤を運用する開発者にとって、即座に適用可能なコスト削減策となる。",
       "sources": [
         {
-          "name": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/"
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/"
+        }
+      ]
+    },
+    {
+      "id": "c55f92969fc4",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "AmazonとGoogle、Anthropic株を合計約30%保有へ",
+      "summary_ja": "AnthropicのIPO後、AmazonがAnthropic株の15%弱を保有し、さらに持株比率を大きく引き上げるオプションを持つ。Googleもほぼ14%を保有し2位につけており、両社合わせてほぼ30%の持分となる。大手クラウド事業者によるAIラボへの出資構造が明確になり、今後のクラウド提供戦略への影響が注目される。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+        }
+      ]
+    },
+    {
+      "id": "2e3049c8fb9c",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Microsoftとセールスフォース、Copilotforceを発表",
+      "summary_ja": "MicrosoftとSalesforceは、信頼できる顧客コンテキストとアクションをMicrosoft AI体験に組み込む新連携「Copilotforce」を発表した。企業向けAIエージェントに顧客データを統合する動きとして、両社のエコシステムを利用する企業の業務設計に影響する可能性がある。",
+      "sources": [
+        {
+          "name": "Microsoft Source AI",
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+        }
+      ]
+    },
+    {
+      "id": "91acaa948be0",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "SageMakerがKVキャッシュ認識ルーティングに対応",
+      "summary_ja": "Amazon SageMaker AIのリアルタイムエンドポイントが、プロンプトに対する最長キャッシュ一致を持つインスタンスへリクエストを振り分ける「KVキャッシュ認識ルーティング」に対応した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/"
+        }
+      ]
+    },
+    {
+      "id": "4b9641119bce",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "LoanProがBedrockで融資サービスAIアシスタント構築",
+      "summary_ja": "LoanProはAWSパートナーと共同でAmazon Bedrock AgentCore上にマルチエージェント型AIアシスタントを構築し、通話対応時間を最大15%削減した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "372bb734ba1d",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Model MLが投資銀行業務自動化で2.5億ドル調達",
+      "summary_ja": "投資銀行の定型業務を自動化するModel MLが2.5億ドルを調達し、案件の文脈を理解して財務モデルや資料を自動更新するエージェントを提供する。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+        }
+      ]
+    },
+    {
+      "id": "f01bbd0ac296",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SageMaker HyperPodがNVIDIA Dynamoに対応",
+      "summary_ja": "Amazon SageMaker HyperPod Inferenceが分散推論向けNVIDIA Dynamoに対応し、マルチノード処理やKV認識ルーティング、自動障害復旧を利用できるようになった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/"
+        }
+      ]
+    },
+    {
+      "id": "87bf4382e457",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SageMakerにAIデータ準備機能が追加",
+      "summary_ja": "Amazon SageMaker AIに合成データ生成やデータセット評価・改善、自動ラベリング、専門家レビューを可能にするAIデータ準備機能が追加された。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/"
+        }
+      ]
+    },
+    {
+      "id": "c6508b38273a",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ArisGlobalがBedrockで推論コストを大幅削減",
+      "summary_ja": "生命科学AIエンジンNavaXを運用するArisGlobalは、プロンプトの共通部分をキャッシュする手法で入力コストを約50%、月間推論費用を約40%削減した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "9818d892a2fa",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "NVIDIA、Jensen Huang退任後に中国向け販売停止",
+      "summary_ja": "Nvidiaの暫定CEOは、中国向けチップ販売を停止すると表明した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+        }
+      ]
+    },
+    {
+      "id": "26a444a0aabf",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "MicrosoftのOfficeがCopilot内で動作開始",
+      "summary_ja": "Word、Excel、PowerPointがCopilot内で直接利用できるようになり、Microsoftはこれを「仕事の新しいOS」と位置づけている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+        }
+      ]
+    },
+    {
+      "id": "e9039490fe49",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "Science Corporationが4億ドル調達、評価額35億ドルに",
+      "summary_ja": "失明治療技術を手がけるScience Corporationがシリーズdで4億ドルを調達し、企業評価額は35億ドルとなった。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/"
+        }
+      ]
+    },
+    {
+      "id": "b43ef08ac3ed",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、法律特化モデル「Astra for Law」を発表",
+      "summary_ja": "OpenAIは法律分野に特化した「Astra for Law」を発表し、24分野にわたる評価で首位となり、全てのChatGPT Enterprise顧客が利用申請可能になった。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/astra-law-6-2"
+        }
+      ]
+    },
+    {
+      "id": "d061b4901aae",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "生成AIのコスト最適化、判断にのみモデルを使う設計指針",
+      "summary_ja": "生成AIシステムの最大のコスト要因はモデル呼び出しの有無であり、各処理ステップで確定的なコード、制約付き判断呼び出し、適切なサイズのBedrockモデルのいずれを使うべきか判断する方法が示された。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/"
+        }
+      ]
+    },
+    {
+      "id": "06249f67b6e8",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Bedrock AgentCoreでWhatsApp AIエージェント構築",
+      "summary_ja": "オープンソースSDK「SMART」を使うと、WhatsAppチャネル層をAWSアカウントに一括デプロイし、Bedrock AgentCore上の任意のエージェントと連携できる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "837c136c3245",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Pedestal AIがサプライチェーン向けに470万ドル調達",
+      "summary_ja": "エージェント型AIでサプライチェーンの高速化と信頼性向上を目指すPedestal AIが470万ドルを調達した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/"
+        }
+      ]
+    },
+    {
+      "id": "6ca6a1ab86c2",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "百度と小米のCEO、AI期待と実利の乖離に警鐘",
+      "summary_ja": "百度と小米のCEOが、AIへの期待値と実際の収益との間に広がるギャップについて警告した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 10.7713,
-    "run_cost_usd": 0.1301,
-    "average_run_usd": 0.1027,
-    "runs_recorded": 109
+    "spent_usd": 10.8878,
+    "run_cost_usd": 0.1164,
+    "average_run_usd": 0.1028,
+    "runs_recorded": 110
   }
 }

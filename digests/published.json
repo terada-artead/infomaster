@@ -1,169 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-10",
-      "id": "a98326b09f6f",
-      "title_ja": "GeminiがDriveやメールの個人データを人間の注釈者に送信",
-      "urls": [
-        "https://github.com/thisisme6598/gemini_files/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "8a35af252b32",
-      "title_ja": "Anthropic、IPO計画を前進させると報道",
-      "urls": [
-        "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "730323ba6c06",
-      "title_ja": "Meta、軽量モデルMuse Emberをエージェント実行向けに公開",
-      "urls": [
-        "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-        "https://research.meta.ai/blog/muse-ember"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "681da721508d",
-      "title_ja": "H100レンタル料金、提供元で時給2.69〜12.29ドルと差",
-      "urls": [
-        "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "cb6eb90ca74f",
-      "title_ja": "AWS、業務特化型AIワークスペース「AWS Quick」を発表",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "2b44002238d6",
-      "title_ja": "決定木系モデル専用推論エンジンFlideが公開",
-      "urls": [
-        "https://github.com/OmniJev/Flide"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "caa9073cefb4",
-      "title_ja": "ChatGPT Enterprise、AWS Marketplaceで提供開始",
-      "urls": [
-        "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "f5185885b03c",
-      "title_ja": "CrossnoKaye、Bedrock AgentCoreで産業用物理AIを展開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "58580c03fbdd",
-      "title_ja": "Anthropic、新モデルMythosとFableを公開",
-      "urls": [
-        "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-        "https://bsky.app/profile/emollick.bsky.social/post/3mzvn2smcwk2h"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "389a3fd204fb",
-      "title_ja": "DeepX、5W未満で最大1000億パラメータ推論と主張",
-      "urls": [
-        "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "029f4f6cd793",
-      "title_ja": "NVIDIA、Nemotron 3.5の音声・視覚言語モデルを公開",
-      "urls": [
-        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-        "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "a1d6a1e656f4",
-      "title_ja": "ディズニーとAdobe、生成AIツールで提携",
-      "urls": [
-        "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "02e9abf47eaf",
-      "title_ja": "CodeRabbit、Codexでエージェント型開発を20倍に拡大",
-      "urls": [
-        "https://openai.com/index/coderabbit-codex-daybreak"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "26d5ef23a3f3",
-      "title_ja": "Bedrock、エージェント型検索と参照アーキテクチャを拡充",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "e9950a58c892",
-      "title_ja": "Google、TPU 8txとTPU 8i Maxを発表",
-      "urls": [
-        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "2f05eab281f5",
-      "title_ja": "Anthropic、34億ドル規模の天然ガスタービンを購入",
-      "urls": [
-        "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "2e34e84f0999",
-      "title_ja": "Kuken Industries、OpenAI APIで70年分の図面検索を高速化",
-      "urls": [
-        "https://openai.com/index/kuken"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "1d980cecae4c",
-      "title_ja": "NVIDIA、韓国製オープンモデル向けDynamoレシピを公開",
-      "urls": [
-        "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "b245671c29a5",
-      "title_ja": "Apple、エンジニアのAI利用予算を1日200ドルに制限",
-      "urls": [
-        "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "id": "9e6aebddb26b",
-      "title_ja": "Ollama v0.40.16、65BモデルRipple Previewを追加",
-      "urls": [
-        "https://github.com/ollama/ollama/releases/tag/v0.40.16"
-      ]
-    },
-    {
       "date": "2026-11-11",
       "id": "1a56c99530dd",
       "title_ja": "Anthropic、IPO価格帯を1株70〜78ドルに設定",
@@ -1133,6 +970,168 @@
       "title_ja": "企業利用の30%がオープンウェイトモデルに",
       "urls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "8f6af8c44a4a",
+      "title_ja": "OpenAI、GPT-6.2 AstraとSolを発表",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "c4b7e80cb786",
+      "title_ja": "Isomorphic Labsが50億ドルのシリーズCを調達",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "49e988fe9449",
+      "title_ja": "NVIDIA、SC26でAIエージェント向け新ツールを発表",
+      "urls": [
+        "https://blogs.nvidia.com/blog/ian-buck-sc26/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "9c3c49db7f13",
+      "title_ja": "Bedrock AgentCoreのJSON処理でトークン削減",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "c55f92969fc4",
+      "title_ja": "AmazonとGoogle、Anthropic株を合計約30%保有へ",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "2e3049c8fb9c",
+      "title_ja": "Microsoftとセールスフォース、Copilotforceを発表",
+      "urls": [
+        "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "91acaa948be0",
+      "title_ja": "SageMakerがKVキャッシュ認識ルーティングに対応",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "4b9641119bce",
+      "title_ja": "LoanProがBedrockで融資サービスAIアシスタント構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "372bb734ba1d",
+      "title_ja": "Model MLが投資銀行業務自動化で2.5億ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "f01bbd0ac296",
+      "title_ja": "SageMaker HyperPodがNVIDIA Dynamoに対応",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "87bf4382e457",
+      "title_ja": "SageMakerにAIデータ準備機能が追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "c6508b38273a",
+      "title_ja": "ArisGlobalがBedrockで推論コストを大幅削減",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "9818d892a2fa",
+      "title_ja": "NVIDIA、Jensen Huang退任後に中国向け販売停止",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "26a444a0aabf",
+      "title_ja": "MicrosoftのOfficeがCopilot内で動作開始",
+      "urls": [
+        "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "e9039490fe49",
+      "title_ja": "Science Corporationが4億ドル調達、評価額35億ドルに",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "b43ef08ac3ed",
+      "title_ja": "OpenAI、法律特化モデル「Astra for Law」を発表",
+      "urls": [
+        "https://openai.com/index/astra-law-6-2"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "d061b4901aae",
+      "title_ja": "生成AIのコスト最適化、判断にのみモデルを使う設計指針",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "06249f67b6e8",
+      "title_ja": "Bedrock AgentCoreでWhatsApp AIエージェント構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "837c136c3245",
+      "title_ja": "Pedestal AIがサプライチェーン向けに470万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": "6ca6a1ab86c2",
+      "title_ja": "百度と小米のCEO、AI期待と実利の乖離に警鐘",
+      "urls": [
+        "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns"
       ]
     }
   ]

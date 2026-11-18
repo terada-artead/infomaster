@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T10:35:48+09:00",
+  "stats": {
+    "collected": 109,
+    "fresh": 97,
+    "selected": 45,
+    "published": 20
+  },
+  "highlights": [
+    "OpenAIがGPT-6.2 AstraとSolを発表、コストと性能を改善",
+    "Isomorphic Labsが50億ドルを調達、臨床試験へ前進",
+    "AmazonとGoogleがIPO後にAnthropic株合計約30%を保有"
+  ],
+  "items": [
+    {
+      "id": "8f6af8c44a4a",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "OpenAI、GPT-6.2 AstraとSolを発表",
+      "summary_ja": "OpenAIはChatGPT Work、Codex、APIにわたり、プロフェッショナル用途やコーディング、コンピュータ操作、効率を改善した新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表した。Astraは従来のGPT-6 Astraの80%の価格（入力8ドル/MTok、出力40ドル/MTok）で利用でき、APIではgpt-6.2-astraおよびgpt-6.2-solとして提供される。コスト効率が改善されたため、既存ワークロードの移行検討材料になる。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+        }
+      ]
+    },
+    {
+      "id": "c4b7e80cb786",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "Isomorphic Labsが50億ドルのシリーズCを調達",
+      "summary_ja": "GoogleのDeepMindから2021年にスピンオフしたAI創薬プラットフォームのIsomorphic Labsが、シリーズCで50億ドルを調達した。同社はこの資金を基に創薬候補を臨床試験段階へ進める計画で、AI創薬分野への大規模投資の継続を示す動きとなる。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
+        }
+      ]
+    },
+    {
+      "id": "49e988fe9449",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "NVIDIA、SC26でAIエージェント向け新ツールを発表",
+      "summary_ja": "NVIDIAのIan BuckがSC26（シカゴ）で、研究者自身のシステム上で実験計画・コード実行・結果検証を行えるAIエージェント向けソフトウェアを発表した。同時にNemotron for Science、Rubin HPC GPU、拡張版Vera CPUプラットフォームも公開され、科学計算分野でのエージェント活用を後押しする。研究インフラにAIエージェントを組み込む際の具体的な選択肢が増えたことになる。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/"
+        }
+      ]
+    },
+    {
+      "id": "9c3c49db7f13",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Bedrock AgentCoreのJSON処理でトークン削減",
+      "summary_ja": "Amazon Bedrock AgentCore上でマルチメガバイトのJSONペイロードを扱う本番エージェントに向け、S3へのアーティファクト退避、オンデマンドのページング、辞書圧縮という3つの組み合わせ可能な手法が提案された。これらを併用することでターン当たりのトークン使用量を最大71%、レイテンシを最大80%削減できる。大規模JSONを扱うエージェント基盤を運用する開発者にとって、即座に適用可能なコスト削減策となる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/"
+        }
+      ]
+    },
+    {
+      "id": "c55f92969fc4",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "AmazonとGoogle、Anthropic株を合計約30%保有へ",
+      "summary_ja": "AnthropicのIPO後、AmazonがAnthropic株の15%弱を保有し、さらに持株比率を大きく引き上げるオプションを持つ。Googleもほぼ14%を保有し2位につけており、両社合わせてほぼ30%の持分となる。大手クラウド事業者によるAIラボへの出資構造が明確になり、今後のクラウド提供戦略への影響が注目される。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+        }
+      ]
+    },
+    {
+      "id": "2e3049c8fb9c",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Microsoftとセールスフォース、Copilotforceを発表",
+      "summary_ja": "MicrosoftとSalesforceは、信頼できる顧客コンテキストとアクションをMicrosoft AI体験に組み込む新連携「Copilotforce」を発表した。企業向けAIエージェントに顧客データを統合する動きとして、両社のエコシステムを利用する企業の業務設計に影響する可能性がある。",
+      "sources": [
+        {
+          "name": "Microsoft Source AI",
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+        }
+      ]
+    },
+    {
+      "id": "91acaa948be0",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "SageMakerがKVキャッシュ認識ルーティングに対応",
+      "summary_ja": "Amazon SageMaker AIのリアルタイムエンドポイントが、プロンプトに対する最長キャッシュ一致を持つインスタンスへリクエストを振り分ける「KVキャッシュ認識ルーティング」に対応した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/"
+        }
+      ]
+    },
+    {
+      "id": "4b9641119bce",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "LoanProがBedrockで融資サービスAIアシスタント構築",
+      "summary_ja": "LoanProはAWSパートナーと共同でAmazon Bedrock AgentCore上にマルチエージェント型AIアシスタントを構築し、通話対応時間を最大15%削減した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "372bb734ba1d",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Model MLが投資銀行業務自動化で2.5億ドル調達",
+      "summary_ja": "投資銀行の定型業務を自動化するModel MLが2.5億ドルを調達し、案件の文脈を理解して財務モデルや資料を自動更新するエージェントを提供する。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+        }
+      ]
+    },
+    {
+      "id": "f01bbd0ac296",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SageMaker HyperPodがNVIDIA Dynamoに対応",
+      "summary_ja": "Amazon SageMaker HyperPod Inferenceが分散推論向けNVIDIA Dynamoに対応し、マルチノード処理やKV認識ルーティング、自動障害復旧を利用できるようになった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/"
+        }
+      ]
+    },
+    {
+      "id": "87bf4382e457",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SageMakerにAIデータ準備機能が追加",
+      "summary_ja": "Amazon SageMaker AIに合成データ生成やデータセット評価・改善、自動ラベリング、専門家レビューを可能にするAIデータ準備機能が追加された。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/"
+        }
+      ]
+    },
+    {
+      "id": "c6508b38273a",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "ArisGlobalがBedrockで推論コストを大幅削減",
+      "summary_ja": "生命科学AIエンジンNavaXを運用するArisGlobalは、プロンプトの共通部分をキャッシュする手法で入力コストを約50%、月間推論費用を約40%削減した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "9818d892a2fa",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "NVIDIA、Jensen Huang退任後に中国向け販売停止",
+      "summary_ja": "Nvidiaの暫定CEOは、中国向けチップ販売を停止すると表明した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+        }
+      ]
+    },
+    {
+      "id": "26a444a0aabf",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "MicrosoftのOfficeがCopilot内で動作開始",
+      "summary_ja": "Word、Excel、PowerPointがCopilot内で直接利用できるようになり、Microsoftはこれを「仕事の新しいOS」と位置づけている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
+        }
+      ]
+    },
+    {
+      "id": "e9039490fe49",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "Science Corporationが4億ドル調達、評価額35億ドルに",
+      "summary_ja": "失明治療技術を手がけるScience Corporationがシリーズdで4億ドルを調達し、企業評価額は35億ドルとなった。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/"
+        }
+      ]
+    },
+    {
+      "id": "b43ef08ac3ed",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、法律特化モデル「Astra for Law」を発表",
+      "summary_ja": "OpenAIは法律分野に特化した「Astra for Law」を発表し、24分野にわたる評価で首位となり、全てのChatGPT Enterprise顧客が利用申請可能になった。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/astra-law-6-2"
+        }
+      ]
+    },
+    {
+      "id": "d061b4901aae",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "生成AIのコスト最適化、判断にのみモデルを使う設計指針",
+      "summary_ja": "生成AIシステムの最大のコスト要因はモデル呼び出しの有無であり、各処理ステップで確定的なコード、制約付き判断呼び出し、適切なサイズのBedrockモデルのいずれを使うべきか判断する方法が示された。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/"
+        }
+      ]
+    },
+    {
+      "id": "06249f67b6e8",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Bedrock AgentCoreでWhatsApp AIエージェント構築",
+      "summary_ja": "オープンソースSDK「SMART」を使うと、WhatsAppチャネル層をAWSアカウントに一括デプロイし、Bedrock AgentCore上の任意のエージェントと連携できる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/"
+        }
+      ]
+    },
+    {
+      "id": "837c136c3245",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Pedestal AIがサプライチェーン向けに470万ドル調達",
+      "summary_ja": "エージェント型AIでサプライチェーンの高速化と信頼性向上を目指すPedestal AIが470万ドルを調達した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/"
+        }
+      ]
+    },
+    {
+      "id": "6ca6a1ab86c2",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "百度と小米のCEO、AI期待と実利の乖離に警鐘",
+      "summary_ja": "百度と小米のCEOが、AIへの期待値と実際の収益との間に広がるギャップについて警告した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 10.8878,
+    "run_cost_usd": 0.1164,
+    "average_run_usd": 0.1028,
+    "runs_recorded": 110
+  }
+}
