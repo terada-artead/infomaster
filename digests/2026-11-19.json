@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T10:06:23+09:00",
+  "stats": {
+    "collected": 119,
+    "fresh": 106,
+    "selected": 53,
+    "published": 20
+  },
+  "highlights": [
+    "Anthropic、IPO価格を1株83ドルに設定し評価額1.5兆ドルと報道",
+    "OpenAIモデルがGPT-6 Astraでチップ設計を支援し実用成果",
+    "Google DeepMindがGemini 4 NeonとGenie 4を発表"
+  ],
+  "items": [
+    {
+      "id": "95da0fde7d56",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "Google DeepMind、Gemini 4 Neonを発表",
+      "summary_ja": "Google DeepMindが新モデル「Gemini 4 Neon」を発表した。詳細な性能データは公開情報からは明らかになっていないが、Geminiシリーズの新バージョンとして投入された。",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+        }
+      ]
+    },
+    {
+      "id": "aed3ea0dfc61",
+      "importance": "high",
+      "category": "funding",
+      "title_ja": "Anthropic、IPO価格を1株83ドルに設定と報道",
+      "summary_ja": "Anthropicが新規株式公開（IPO）の価格を1株83ドルに設定したと報じられており、これは事前予想レンジを上回る水準。完全希薄化ベースでの評価額は1.5兆ドルとされ、長く注目されてきたIPOがついに実現する。エンジニアにとっては、Anthropicの財務基盤強化がClaude関連製品やAPIの開発投資にどう波及するか注視すべき材料となる。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+        }
+      ]
+    },
+    {
+      "id": "71d333ab8e8f",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Exa、AWS AI チップで埋め込み処理速度を50%向上",
+      "summary_ja": "ニューラル検索エンジンのExaが、AWSのInferentia2とTrainium2向けにカスタムNKIカーネルを用いて埋め込み推論を最適化し、数十億件規模のドキュメントインデックス作成において100万ドキュメントあたりの性能・コストを47%改善した。自社ベクトルデータベースを使う大規模検索基盤の単位経済性改善の具体策として、同様の大規模埋め込み処理を行うエンジニアに参考になる事例。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/"
+        }
+      ]
+    },
+    {
+      "id": "c2c536427a66",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Airbnb、Bedrockでコーディングエージェントのタスク単価を管理",
+      "summary_ja": "Airbnbは実際のエンジニアリングタスクで評価を行い、Amazon Bedrockの可観測性機能を使ってコーディングエージェント向けモデルを選定し、本番運用コストを管理している。タスク単価（cost per task）を指標にしたモデル選定方法や、評価結果と本番コストの乖離への対処、レイテンシ監視・クォータ管理・コスト帰属の実践例が示されており、社内でAIエージェントを運用するチームの参考になる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "id": "a565b29408b4",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Social Department、文化的文脈を理解する動画検索を構築",
+      "summary_ja": "エンターテインメントマーケティング向けAI基盤のSocial Departmentが、TrackItおよびAWSと協力し、TwelveLabsのモデルとAmazon Bedrock、OpenSearch Serverlessを用いた動画検索機能「QuickSearch」を構築した。大規模な動画ライブラリから共有向けシーンや名言、ミーム化できるフレーム、トレンドに合った瞬間を単一のクエリで抽出できる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/"
+        }
+      ]
+    },
+    {
+      "id": "68ddb817fe40",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "OpenAIのモデル、半導体チップ設計を支援",
+      "summary_ja": "OpenAIのモデルがJalapeñoシリコンで使われる回路の最適化やRISC-Vコア設計の改善に活用され、GPT-6 AstraによるAI支援チップ設計の進展を示した。ハードウェア開発にAIを組み込む動きが具体化しつつあることを示す事例であり、半導体・EDA領域のエンジニアにとって今後のワークフロー変化を示唆する。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+        }
+      ]
+    },
+    {
+      "id": "cac57b5217ba",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Google DeepMind、Genie 4を一般提供開始",
+      "summary_ja": "Google DeepMindが「Genie 4」の提供を開始した。",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/genie-4-is-now-available/"
+        }
+      ]
+    },
+    {
+      "id": "5b89a2db7f60",
+      "importance": "high",
+      "category": "new_model",
+      "title_ja": "Hugging Face、40言語対応のオープン音声モデルRumble-2-Flashを公開",
+      "summary_ja": "Hugging Faceが、40以上の言語に対応したパラメータ数5億のオープン音声モデル「Rumble-2-Flash」を公開した。軽量ながら多言語対応という特徴から、音声認識・合成アプリケーションを開発するエンジニアが低コストで試せる選択肢となる。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/rumble-2-flash"
+        }
+      ]
+    },
+    {
+      "id": "a2e412e5953e",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "AWS、SageMaker JumpStart モデルリーダーボードを導入",
+      "summary_ja": "AWSがAmazon SageMaker Studio上で70以上の基盤モデルを品質・速度・コストで比較できる「SageMaker JumpStart Model Leaderboard」を発表した。ベンチマーク手法と、候補モデルの絞り込みからデプロイまでの流れが示されており、モデル選定プロセスを効率化したいエンジニアに役立つ。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/"
+        }
+      ]
+    },
+    {
+      "id": "ee3431af9f19",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AI監査エージェント、KPMG会計士より質問力で上回ると報告",
+      "summary_ja": "監査の試験導入で、AIエージェントがKPMGの会計士よりも的確な質問をしたと報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/"
+        }
+      ]
+    },
+    {
+      "id": "dbede62d4d71",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "Qwen3.8-27B向けLoRAアダプター、思考なしで高精度を達成",
+      "summary_ja": "Hugging Faceに公開されたQwen/Qwen3.8-27B向けLoRAアダプターが、強化学習でコーディングエージェント用に訓練され、思考モードをオフにした状態でベースモデルの最高推論努力時と同等の精度（SWE-bench Proで64.7%）を、生成トークン数を約4.5分の1に抑えつつ達成したと報告されている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
+        }
+      ]
+    },
+    {
+      "id": "02983c5deae4",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Stretto、Amazon Nova 2 SonicでAI音声エージェントを構築",
+      "summary_ja": "破産手続き企業のStrettoが、Amazon Nova 2 Sonicを用いたAI音声エージェント「Tara」を構築し、電話でのリード獲得インタビューを自動化した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/"
+        }
+      ]
+    },
+    {
+      "id": "53d809d7420a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "住友生命、ChatGPT Enterpriseを全社導入",
+      "summary_ja": "住友生命が保険会社調査や提案書作成、投資分析向けコード作成にChatGPT Enterpriseを活用しており、経営幹部の早期利用が社内普及を後押しした。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life"
+        }
+      ]
+    },
+    {
+      "id": "ec56b5eff9af",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "Transformersで1800億パラメータMoEを32GBメモリで推論",
+      "summary_ja": "Hugging Faceが、1800億パラメータのMoEモデルを32GBのメモリでTransformersライブラリを使って推論させる手法を紹介した。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/moe-expert-streaming"
+        }
+      ]
+    },
+    {
+      "id": "89626dbace3a",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Google AI回答、検索トラフィックを40%減少させたと報道",
+      "summary_ja": "GoogleのAI回答機能が検索トラフィックを40%減少させていると報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://revscope.co/blog/search-seo-geo-2026/"
+        }
+      ]
+    },
+    {
+      "id": "31d0562891dc",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "MoE言語モデルMaxwell-V1-Flash、Hugging Faceに公開",
+      "summary_ja": "総パラメータ350億・有効パラメータ30億のMoEモデル「Maxwell-V1-Flash」がHugging Faceで公開され、最大25.6万トークンの長文コンテキストに対応する。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash"
+        }
+      ]
+    },
+    {
+      "id": "53453b71f99b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Snapchat、AIアシスタントでARレンズ開発を可能に",
+      "summary_ja": "SnapchatがClaude CodeやCursorなどのAIアシスタントを使って開発者が自然言語でARレンズを作成できる機能を提供開始した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+        }
+      ]
+    },
+    {
+      "id": "108d95f37681",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "MicrosoftのCEO、6万人への退職勧奨の理由を説明",
+      "summary_ja": "Microsoftのナデラ氏が、10月に6万人の従業員へ自主退職を促す買収提案を行った理由をAIに関連づけて説明した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+        }
+      ]
+    },
+    {
+      "id": "663072a23757",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "銀行、AIエージェント利用時の被害は自己責任と表明",
+      "summary_ja": "Citiなど複数の銀行が、個人がAIエージェントを使って取引を行いハッキング被害に遭っても銀行は責任を負わないとの方針を示していると報じられている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
+        }
+      ]
+    },
+    {
+      "id": "f0b81ce3c146",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "DaisyRose-27B、post-training効率の新手法を発表",
+      "summary_ja": "Hugging Faceが、post-training効率を高めた新モデル「DaisyRose-27B」を発表した。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.01,
+    "run_cost_usd": 0.1222,
+    "average_run_usd": 0.1023,
+    "runs_recorded": 111
+  }
+}

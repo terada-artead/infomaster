@@ -1,170 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-11",
-      "id": "1a56c99530dd",
-      "title_ja": "Anthropic、IPO価格帯を1株70〜78ドルに設定",
-      "urls": [
-        "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "f321c904268b",
-      "title_ja": "DeepMind、Lean証明でソフト検証するAlphaProof Code発表",
-      "urls": [
-        "https://deepmind.google/blog/introducing-alphaproof-code/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "8658a0744e2c",
-      "title_ja": "Google、Gemini 4 Carbonを一般公開",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-        "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-        "https://bsky.app/profile/emollick.bsky.social/post/3mzxw7q2jgs2r"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricks、画像to動画モデルLTX-2.5をHugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "001cd33c9652",
-      "title_ja": "Anthropic、Claude Meetingsなどオフィス向けツール群を発表",
-      "urls": [
-        "https://claude.com/resources/articles/sheets-whiteboards-data",
-        "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-        "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "76165dd7fb3f",
-      "title_ja": "DeepMind、Gemini Robotics 2.5と安全性ベンチマークを公開",
-      "urls": [
-        "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "c7d3010a8bcc",
-      "title_ja": "Fireworks AIでセキュリティ侵害、Notionなど影響",
-      "urls": [
-        "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "d568435d5b7e",
-      "title_ja": "TCS、Bedrock AgentCoreでエージェント型テスト基盤を構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "1a4283d06286",
-      "title_ja": "Fable 5.2、主要ベンチマークでトレンドライン上回る",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3mzwjwceb622e"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "e7d9d1552b0e",
-      "title_ja": "CoreWeaveの社債利回りが16%超、AI向け与信に警戒感",
-      "urls": [
-        "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "82a14163210c",
-      "title_ja": "Trovata、Bedrockで自律型財務エージェントを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "3ec8add99452",
-      "title_ja": "ChatGPT、認証済み「ビジネスエージェント」機能を開始",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "50a561c320a6",
-      "title_ja": "Hugging Face新モデル、1枚画像から3Dガウシアン生成の「Idol」",
-      "urls": [
-        "https://huggingface.co/speridlabs/idol"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "ef83b8dc18b1",
-      "title_ja": "Google Cloud、医療向けGemini製品を発表",
-      "urls": [
-        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "43aaed481000",
-      "title_ja": "Grok Buildのコーディングエージェントが機密情報を大量流出",
-      "urls": [
-        "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "9c469f442896",
-      "title_ja": "Qwen3.6・GLM-5.3、希少プログラミング言語で性能比較",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xsorsx/we_tested_qwen36_27b_qwen38_27b_and_glm53_flash/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "59a8a5dd3afc",
-      "title_ja": "GoogleとAdobe、創作・生産性ツールで連携強化",
-      "urls": [
-        "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "612bc333be17",
-      "title_ja": "OpenAI、旅行スタートアップOdessiaを買収",
-      "urls": [
-        "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "1f23ddb43e5f",
-      "title_ja": "Oura、AIプライマリケアのCounsel Healthを625百万ドルで買収",
-      "urls": [
-        "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "id": "697debda975c",
-      "title_ja": "Hugging Face幹部、サイバー攻撃がオープンソースAIの開放性を脅かすと警告",
-      "urls": [
-        "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
-      ]
-    },
-    {
       "date": "2026-11-12",
       "id": "f31248890af4",
       "title_ja": "OpenAIの四半期売上、初の100億ドル突破と報じられる",
@@ -1132,6 +968,167 @@
       "title_ja": "百度と小米のCEO、AI期待と実利の乖離に警鐘",
       "urls": [
         "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "95da0fde7d56",
+      "title_ja": "Google DeepMind、Gemini 4 Neonを発表",
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-4-neon/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "aed3ea0dfc61",
+      "title_ja": "Anthropic、IPO価格を1株83ドルに設定と報道",
+      "urls": [
+        "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "71d333ab8e8f",
+      "title_ja": "Exa、AWS AI チップで埋め込み処理速度を50%向上",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "c2c536427a66",
+      "title_ja": "Airbnb、Bedrockでコーディングエージェントのタスク単価を管理",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "a565b29408b4",
+      "title_ja": "Social Department、文化的文脈を理解する動画検索を構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "68ddb817fe40",
+      "title_ja": "OpenAIのモデル、半導体チップ設計を支援",
+      "urls": [
+        "https://openai.com/index/advancing-chip-design-with-our-models",
+        "https://openai.com/index/advancing-chip-design-with-our-models/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "cac57b5217ba",
+      "title_ja": "Google DeepMind、Genie 4を一般提供開始",
+      "urls": [
+        "https://deepmind.google/blog/genie-4-is-now-available/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "5b89a2db7f60",
+      "title_ja": "Hugging Face、40言語対応のオープン音声モデルRumble-2-Flashを公開",
+      "urls": [
+        "https://huggingface.co/blog/rumble-2-flash"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "a2e412e5953e",
+      "title_ja": "AWS、SageMaker JumpStart モデルリーダーボードを導入",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "ee3431af9f19",
+      "title_ja": "AI監査エージェント、KPMG会計士より質問力で上回ると報告",
+      "urls": [
+        "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "dbede62d4d71",
+      "title_ja": "Qwen3.8-27B向けLoRAアダプター、思考なしで高精度を達成",
+      "urls": [
+        "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "02983c5deae4",
+      "title_ja": "Stretto、Amazon Nova 2 SonicでAI音声エージェントを構築",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "53d809d7420a",
+      "title_ja": "住友生命、ChatGPT Enterpriseを全社導入",
+      "urls": [
+        "https://openai.com/business/customer-stories/sumitomo-life"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "ec56b5eff9af",
+      "title_ja": "Transformersで1800億パラメータMoEを32GBメモリで推論",
+      "urls": [
+        "https://huggingface.co/blog/moe-expert-streaming"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "89626dbace3a",
+      "title_ja": "Google AI回答、検索トラフィックを40%減少させたと報道",
+      "urls": [
+        "https://revscope.co/blog/search-seo-geo-2026/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "31d0562891dc",
+      "title_ja": "MoE言語モデルMaxwell-V1-Flash、Hugging Faceに公開",
+      "urls": [
+        "https://huggingface.co/maxwell-model/Maxwell-V1-Flash"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "53453b71f99b",
+      "title_ja": "Snapchat、AIアシスタントでARレンズ開発を可能に",
+      "urls": [
+        "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "108d95f37681",
+      "title_ja": "MicrosoftのCEO、6万人への退職勧奨の理由を説明",
+      "urls": [
+        "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "663072a23757",
+      "title_ja": "銀行、AIエージェント利用時の被害は自己責任と表明",
+      "urls": [
+        "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "id": "f0b81ce3c146",
+      "title_ja": "DaisyRose-27B、post-training効率の新手法を発表",
+      "urls": [
+        "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
       ]
     }
   ]
