@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T10:12:45+09:00",
+  "stats": {
+    "collected": 110,
+    "fresh": 97,
+    "selected": 45,
+    "published": 20
+  },
+  "highlights": [
+    "AnthropicがNasdaqに上場、株価は初値から上昇",
+    "Google GeminiがMacのコンピュータ操作に対応",
+    "MetaのAIエージェントMuseが会話混線・情報漏えいの懸念"
+  ],
+  "items": [
+    {
+      "id": "294f494c3d9f",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Anthropicがナスダック上場、時価総額1.5兆ドル規模に",
+      "summary_ja": "Anthropicがナスダックに「ANT」として上場し、初値83ドルから111.50ドルまで上昇した。創業者7人は1人あたり280億円相当（2.8億ドル）を現金化し、会社全体では約1050億ドルを調達した。AmazonやGoogleなどインフラ提供側は、Anthropicの優位性が崩れても利益を得られる構造になっており、AI業界の循環的な資金調達モデルが試されている。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
+        }
+      ]
+    },
+    {
+      "id": "92c1824269f4",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Lightricksが画像から動画生成するLTX-2.5を公開",
+      "summary_ja": "Lightricksが画像・テキストからの動画生成に対応するマルチモーダルモデル「LTX-2.5」をHugging Faceで公開し、短期間で1万件超のいいねと290万件超のダウンロードを集めている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "4eab3c1f90fe",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Bedrock AgentCore、AWSマーケットプレイス決済に対応",
+      "summary_ja": "Amazon Bedrock AgentCore paymentsがAWSマーケットプレイスに対応し、エージェントがx402対応のAPIやデータを発見・購入し、ステーブルコインウォレットやAPIキーなしでAWS請求に組み込んで米ドル決済できるようになった。これにより、開発者はエージェント経由の自動課金フローを既存のAWS請求基盤上で構築できる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/"
+        }
+      ]
+    },
+    {
+      "id": "42d26b1d4ca7",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "BMWグループ、数百のAIエージェントを統治する実践例を公開",
+      "summary_ja": "BMWグループが、数千人の開発者が利用する数百のAIエージェントを、速度・品質・コンプライアンスを損なわずに構築・統治・運用するための実践とパターンを公開した。大規模組織でのエージェント運用ガバナンスの具体例として参考になる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/"
+        }
+      ]
+    },
+    {
+      "id": "fe28edf5c5c5",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "SageMaker AI、リージョン間推論ルーティングに対応",
+      "summary_ja": "Amazon SageMaker AIがクロスリージョン推論ルーティングに対応し、複数リージョン・アカウントにまたがるエンドポイントを単一の呼び出し経路で扱えるようになった。ルーターは自リージョンを優先しつつ、障害時のみ他リージョンへ新規リクエストを振り分けるため、リージョン単位の容量不足時にもサービス継続がしやすくなる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/"
+        }
+      ]
+    },
+    {
+      "id": "36bc207225e9",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "NVIDIAとMicrosoft、AzureからWindows PCまで連携拡大",
+      "summary_ja": "NVIDIAとMicrosoftがMicrosoft Igniteで協業を拡大し、Vera Rubin NVL72搭載のAzure仮想マシンの提供拡大や、Windows PC・産業システムへのアクセラレーテッドコンピューティング展開を発表した。クラウドからエッジ・クライアントまで一貫したインフラ基盤を狙う動きで、今後のAI基盤選定の選択肢が広がる。",
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/"
+        }
+      ]
+    },
+    {
+      "id": "7fdd41f0ffe8",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SageMaker推論、2026年の新機能まとめ第2弾",
+      "summary_ja": "Amazon SageMaker AIの2026年推論関連の新機能13件をまとめた第2弾記事が公開され、年間合計で26件となった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/"
+        }
+      ]
+    },
+    {
+      "id": "7c0429e1122f",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SageMaker、推論エンドポイントのレイテンシ劣化を自動検知",
+      "summary_ja": "Amazon SageMaker AIが推論エンドポイントのレイテンシ劣化やGPUの遊休、最適化漏れをデフォルトで検知し、AWS Health経由で改善提案を通知するようになった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/"
+        }
+      ]
+    },
+    {
+      "id": "6b554c20d6c6",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Accenture、Bedrock上のAIコスト最適化手法を公開",
+      "summary_ja": "AccentureがAmazon Bedrock上でのトークンコスト削減のため、6つの最適化手法とその適用順序を4件の顧客事例とともに解説した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/"
+        }
+      ]
+    },
+    {
+      "id": "0e00fe4c4281",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SkyflowとBedrock AgentCore、ツール呼び出しのデータ保護を連携",
+      "summary_ja": "SkyflowがAmazon Bedrock AgentCore Gatewayのインターセプターとして、エージェントのツール呼び出し前に機密データを匿名化し、認可された呼び出し元にのみ復元する仕組みを提供する。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/"
+        }
+      ]
+    },
+    {
+      "id": "543c99d1a39c",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "SageMakerサーバーレス、フルファインチューニングに対応",
+      "summary_ja": "Amazon SageMaker AI Serverless Model CustomizationがFull Fine-Tuning（FFT）に対応し、LoRAとの性能差やハイパーパラメータ調整の指針を解説した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/"
+        }
+      ]
+    },
+    {
+      "id": "3a850c903b02",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Gemini、Mac上でのコンピュータ操作機能に対応",
+      "summary_ja": "GoogleのGeminiアプリがmacOS向けにコンピュータ操作機能を追加し、ファイル整理やフォーム入力、複数ステップの作業をローカルアプリやWeb上で代行できるようになった。業務の定型作業自動化に使える機能として、ワークフロー効率化や資料作成支援などが想定用途として挙げられている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+        },
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+        }
+      ]
+    },
+    {
+      "id": "0f2a3986db5a",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Apple、高速テキスト動画生成モデルFastFramesを公開",
+      "summary_ja": "Appleが対話的な低遅延で480p動画を生成できる自己回帰型の2ステップ拡散モデル「FastFrames」（1.3B/14B）をオープンソースで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/apple/FastFrames-L"
+        }
+      ]
+    },
+    {
+      "id": "50a561c320a6",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "画像から3Dモデル生成するidolが人気に",
+      "summary_ja": "Speridlabsが画像から3Dガウシアンスプラッティングを生成するモデル「idol」をHugging Faceで公開し、多数のダウンロードを集めている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/speridlabs/idol"
+        }
+      ]
+    },
+    {
+      "id": "1b3aafed7dd5",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Gemini APIに「Tool Retrieval」機能が追加",
+      "summary_ja": "Google AIがGemini APIに、利用可能なツールを検索・取得する「Tool Retrieval」機能を導入した。",
+      "sources": [
+        {
+          "name": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+        }
+      ]
+    },
+    {
+      "id": "fe1eb0476877",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Bedrock AgentCore harness、Strandsベースに刷新",
+      "summary_ja": "Amazon Bedrock AgentCore harnessがオープンソースのStrands harnessを基盤に刷新され、プロンプトキャッシュの自動化やライフサイクルフックによる許可・拒否判定などが追加された。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/"
+        }
+      ]
+    },
+    {
+      "id": "5fe21d2b4eca",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "Claude、ブラックホール物理学の未解決問題を解決と報告",
+      "summary_ja": "Hacker Newsで、AnthropicのClaudeがブラックホール物理学の未解決問題を2件解決したと報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+        }
+      ]
+    },
+    {
+      "id": "ec44c275a2ce",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Amazon Polly、音声クローン機能が正式提供開始",
+      "summary_ja": "Amazon Pollyの音声クローン機能が一般提供開始され、数分間の録音データから7言語対応のカスタム音声を生成できるようになった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/"
+        }
+      ]
+    },
+    {
+      "id": "0d2941971ec8",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Cisco、AWS AI Leagueで1200人のエージェントAI教育を実施",
+      "summary_ja": "CiscoがAWSと連携し、Transformation FestとAWS AI Leagueを通じて1200人の技術者にエージェント型AIの実践教育を行った。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/"
+        }
+      ]
+    },
+    {
+      "id": "ee20d352f0da",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "MetaのAIエージェントMuse、会話混線と情報漏えいが報告",
+      "summary_ja": "Metaの社内AIエージェント「Muse」が、従業員が送っていない育児関連の会話や注文履歴、他人の口座残高などを誤って表示する事例が報告されている。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.1262,
+    "run_cost_usd": 0.1163,
+    "average_run_usd": 0.1033,
+    "runs_recorded": 112
+  }
+}
