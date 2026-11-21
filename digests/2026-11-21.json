@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T09:47:05+09:00",
+  "stats": {
+    "collected": 79,
+    "fresh": 65,
+    "selected": 35,
+    "published": 20
+  },
+  "highlights": [
+    "MiniMax-H3-ImageとTencent Hy4がHugging Faceで公開",
+    "AWSがKVキャッシュとHyperPod新機能で推論コスト削減",
+    "Amazon Textract Insightsが生成AI文書抽出をGA"
+  ],
+  "items": [
+    {
+      "id": "f841d7a6d6b4",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "MiniMax、画像生成・編集統合モデル「H3-Image」を公開",
+      "summary_ja": "MiniMaxがHugging Face上でMiniMax-H3-Imageをオープンソース公開した。テキストから画像生成と複数参照画像の編集を1つのチェックポイントで統一しており、指示追従性の高い画像生成とAPI/アプリ経由での利用が可能。エンジニアはAPI経由で既存パイプラインに画像生成・編集機能を組み込める。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+        }
+      ]
+    },
+    {
+      "id": "8ece5e32cabe",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "AWS、文書向け生成AI機能「Textract Insights」をGA提供開始",
+      "summary_ja": "AWSはAmazon Textractの新機能Textract Insightsを一般提供開始した。自然言語でフィールドを指定するだけで、モデル学習不要で文書から構造化データを抽出でき、各値に信頼度スコアとページ単位の根拠情報が付与される。文書処理パイプラインの検証コストを下げられる点が実務上の利点となる。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/"
+        }
+      ]
+    },
+    {
+      "id": "364859f834c8",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Tencent、Hunyuan系MoEモデル「Hy4」「Hy4-flash」を公開",
+      "summary_ja": "TencentがHugging Face上でHy4およびHy4-flashをオープンソース公開した。Hy4-flashは総パラメータ220B（Engram部64B含む）に対し活性化パラメータわずか12Bという高コスト効率設計で、Transformers/vLLM/SGLang等の既存推論フレームワークで利用できる。コスト重視でマルチモーダルLLMを自前運用したいチームにとって選択肢が増える。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/tencent/Hy4-flash"
+        }
+      ]
+    },
+    {
+      "id": "756bd32258a5",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "AWS、分散KVキャッシュでLLM推論のコストと遅延を削減",
+      "summary_ja": "AWSはAmazon ElastiCacheを使った分散KVキャッシュにより、自前運用LLMの推論コストを最大40%、初回トークン生成時間を最大80%削減できると発表した。AWS向けAgent Toolkitのスキルとしてコーディングエージェントからキャッシュの評価・構築が可能で、既存の自己ホスト型LLM環境に組み込みやすい。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/"
+        }
+      ]
+    },
+    {
+      "id": "48003ca6dcdc",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "SageMaker HyperPodに複数リージョン対応の推論ゲートウェイ",
+      "summary_ja": "AWSはAmazon SageMaker HyperPodの新機能「Global Inference Gateway」を発表した。単一の管理エンドポイントで複数クラスタ・複数リージョンへの推論リクエストを最適ルーティングし、自動フェイルオーバーとSigV4/IAM認証をPrivateLink経由で提供する。大規模推論基盤の可用性向上とマルチリージョン運用の簡素化に直結する。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/"
+        }
+      ]
+    },
+    {
+      "id": "3381c1b46b2b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AIが設計・検証した新CPUアーキテクチャ「Frostbite」",
+      "summary_ja": "AIによって発見・設計・検証された新しいCPUアーキテクチャ「Frostbite」がHacker Newsで話題になった。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://architectlabs.com/blog/frostbite"
+        }
+      ]
+    },
+    {
+      "id": "a3fed7d591a7",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "35研究室のAIエージェントが協働する「AI科学コミュニティ」実験",
+      "summary_ja": "35の人間研究室がAIエージェントを展開し互いに協働して研究を行い、936本の論文を発表した初期的な取り組みが報告されている。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2pqcy4cbs2g"
+        }
+      ]
+    },
+    {
+      "id": "1e52228e1c5c",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Thinking Machines、軽量マルチモーダルモデル「Inkling 2 Mini」公開",
+      "summary_ja": "Thinking Machines LabがマルチモーダルLLM「Inkling 2 Mini」をApache 2.0ライセンスでオープンウェイト公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
+        },
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/inkling2mini"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+        }
+      ]
+    },
+    {
+      "id": "8145fefb47ff",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Hebbia、GPT-6 Astraで金融リサーチの精度向上を確認",
+      "summary_ja": "HebbiaがGPT-6 Astraを金融リサーチ用途でテストし、情報源カバレッジや引用関連性、提示品質の向上を事前評価で確認したとOpenAIが発表した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/hebbia"
+        }
+      ]
+    },
+    {
+      "id": "8332904eb70b",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Standard Bank、生成AIのリスク評価プロセスを自動化",
+      "summary_ja": "Standard Bank GroupがAWSプロフェッショナルサービスと共同で、LLM-as-a-judgeを用いた生成AIユースケースのリスク評価自動化システムをAmazon Bedrock上に構築した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/"
+        }
+      ]
+    },
+    {
+      "id": "845fd769a93f",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "SageMaker HyperPod Slurmに観測性・ユーザー管理の拡張機能",
+      "summary_ja": "AWSはSageMaker HyperPod Slurm向けに、観測性とユーザー管理を宣言的に構成できる管理クラスタ拡張機能を発表した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/"
+        }
+      ]
+    },
+    {
+      "id": "8288c457eabd",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Apple、Mac操作を担うAIエージェントを開発中か",
+      "summary_ja": "AppleがMacを操作できる独自AIエージェントを開発していると報じられており、Meta MuseやClaude、OpenAI Dots等と競合する可能性がある。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+        }
+      ]
+    },
+    {
+      "id": "478ea25aeed3",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AI製品ChatPRDでトークン詐欺被害が深刻化と報告",
+      "summary_ja": "ChatPRD運営者がYouTube動画で、サービスを悪用したトークン詐欺の被害が急増していると報告した。",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+        }
+      ]
+    },
+    {
+      "id": "f808ee90f673",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "OpenAI Python SDK v3.57.0がリリース",
+      "summary_ja": "openai-pythonのv3.57.0がリリースされ、Live WebRTCのスタンバイ機能がAPIでサポートされた。",
+      "sources": [
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.57.0"
+        }
+      ]
+    },
+    {
+      "id": "536d4386c711",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google Duplex、Geminiで企業への自動電話機能に進化",
+      "summary_ja": "Googleは電話予約代行機能「Duplex」をGeminiに統合し、ユーザーに代わって企業へ電話をかける機能として進化させたと発表した。",
+      "sources": [
+        {
+          "name": "Google Research Blog",
+          "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/"
+        }
+      ]
+    },
+    {
+      "id": "701a571706ec",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Hugging Face、モデルを実行環境に適応させる「harnessアダプタ」発表",
+      "summary_ja": "Hugging Faceが、好みのモデルを特定の実行ハーネスに適応させて性能とコストを改善する「harness adapters」を発表した。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/harness-adapters-at-scale"
+        }
+      ]
+    },
+    {
+      "id": "9a9f7eafdd9b",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "SageMaker HyperPod、GPU訓練障害診断の観測性機能を強化",
+      "summary_ja": "AWSはSageMaker HyperPodの拡張インフラ観測性機能を発表し、EKSとSlurm両方のオーケストレーターでGPU・ネットワーク・ホスト層の訓練問題を迅速に診断できるようにした。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/"
+        }
+      ]
+    },
+    {
+      "id": "ae5a204aaba7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google検索、AIチャット履歴表示のホームページに刷新",
+      "summary_ja": "Googleが検索ホームページを刷新し、AIチャット履歴表示を追加して検索ボタンを廃止するなどAIツールへのアクセスを容易にした。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+        }
+      ]
+    },
+    {
+      "id": "c15425f0c7f1",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "OpenAI・Anthropicの蒸留規制強化がオープンモデル停滞の一因か",
+      "summary_ja": "OpenAIやAnthropicのモデルからの容易な蒸留が事実上終わったことが、オープンウェイトモデルの進歩鈍化の一因である可能性が指摘されている。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2req7quy225"
+        }
+      ]
+    },
+    {
+      "id": "a9abc0070a7c",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "LongCat、音声駆動動画生成モデル「Avatar 1.6」を公開",
+      "summary_ja": "Meituanが音声駆動の人物動画生成フレームワーク「LongCat-Video-Avatar 1.6」をオープンソース公開し、口唇同期や長時間生成時の一貫性を改善した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.2303,
+    "run_cost_usd": 0.1041,
+    "average_run_usd": 0.1047,
+    "runs_recorded": 113
+  }
+}

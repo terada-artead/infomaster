@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-13",
-      "id": "c7a410ad3b86",
-      "title_ja": "Google、新モデル「Gemini 4 Hydrogen」を公開",
-      "urls": [
-        "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-        "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
-        "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "a16cf66c04ab",
-      "title_ja": "AnthropicがIPOを検討と話題に",
-      "urls": [
-        "https://ipo.anthropic.com/us/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "eb79656c925c",
-      "title_ja": "Qwen3.8-Flash-Next、Hugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "9f9ef1f7c9cc",
-      "title_ja": "Nebius、400億ドル規模のAIインフラ投資計画",
-      "urls": [
-        "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "f421fadbe0ea",
-      "title_ja": "Amazon Bedrock AgentCore、新ランタイムと事例が公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "3ac86b283842",
-      "title_ja": "Meta、画像特徴抽出モデル「DINOv3」公開",
-      "urls": [
-        "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "0039716ebb4a",
-      "title_ja": "SoftBank、天然ガスタービン発注で30億ドル超の損失",
-      "urls": [
-        "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "02821ceaa4ab",
-      "title_ja": "Amazon Bedrock、推論コストを左右する4つの設定を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "ad0ce528b805",
-      "title_ja": "Bedrockエージェントの真のコストとROI算出法を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "dcc3893e53f4",
-      "title_ja": "AWS、エージェント開発向け「Agent DLC」を解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "ca2f28331a6d",
-      "title_ja": "AIエージェント「Muse」、米国企業への発信通話に対応",
-      "urls": [
-        "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "24dc8700d0d6",
-      "title_ja": "量子化モデル「GLM-5.3-SLIM-GGUF」公開",
-      "urls": [
-        "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "7c091be54b73",
-      "title_ja": "Norwest、AI投資向け40億ドルファンドを設立",
-      "urls": [
-        "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "7eb26c45e4d2",
-      "title_ja": "AWS Trainium、SGLang-Neuronでのモデル配備が可能に",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "b20123057cbe",
-      "title_ja": "Bedrock利用料をIAM単位で追跡・上限設定する手法を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "c1e0d9c67afc",
-      "title_ja": "AWSでA2Aプロトコルによるマルチエージェント構築例を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "f79d311f2581",
-      "title_ja": "教育向けオープンソースエージェント「Primer」公開",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3n25jpzcdtk2p"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "67672a694e38",
-      "title_ja": "Amplitude、OpenAI活用の製品エージェント「Wave」を導入",
-      "urls": [
-        "https://openai.com/business/customer-stories/amplitude"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "43871841ab87",
-      "title_ja": "Bedrock向けLiteLLMゲートウェイの構築例を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/"
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "id": "475ac78efec3",
-      "title_ja": "Bedrock Managed Knowledge BaseのMCP連携に細粒度アクセス制御",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/"
-      ]
-    },
-    {
       "date": "2026-11-14",
       "id": "a53b6d6797d1",
       "title_ja": "Jensen Huang氏のNvidia退任、AIスタートアップ資金調達に影響",
@@ -1130,6 +968,168 @@
       "title_ja": "MetaのAIエージェントMuse、会話混線と情報漏えいが報告",
       "urls": [
         "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "f841d7a6d6b4",
+      "title_ja": "MiniMax、画像生成・編集統合モデル「H3-Image」を公開",
+      "urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "8ece5e32cabe",
+      "title_ja": "AWS、文書向け生成AI機能「Textract Insights」をGA提供開始",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "364859f834c8",
+      "title_ja": "Tencent、Hunyuan系MoEモデル「Hy4」「Hy4-flash」を公開",
+      "urls": [
+        "https://huggingface.co/tencent/Hy4-flash"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "756bd32258a5",
+      "title_ja": "AWS、分散KVキャッシュでLLM推論のコストと遅延を削減",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "48003ca6dcdc",
+      "title_ja": "SageMaker HyperPodに複数リージョン対応の推論ゲートウェイ",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "3381c1b46b2b",
+      "title_ja": "AIが設計・検証した新CPUアーキテクチャ「Frostbite」",
+      "urls": [
+        "https://architectlabs.com/blog/frostbite"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "a3fed7d591a7",
+      "title_ja": "35研究室のAIエージェントが協働する「AI科学コミュニティ」実験",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n2pqcy4cbs2g"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "1e52228e1c5c",
+      "title_ja": "Thinking Machines、軽量マルチモーダルモデル「Inkling 2 Mini」公開",
+      "urls": [
+        "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+        "https://huggingface.co/blog/inkling2mini",
+        "https://thinkingmachines.ai/news/inkling-2-mini/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "8145fefb47ff",
+      "title_ja": "Hebbia、GPT-6 Astraで金融リサーチの精度向上を確認",
+      "urls": [
+        "https://openai.com/business/customer-stories/hebbia"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "8332904eb70b",
+      "title_ja": "Standard Bank、生成AIのリスク評価プロセスを自動化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "845fd769a93f",
+      "title_ja": "SageMaker HyperPod Slurmに観測性・ユーザー管理の拡張機能",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "8288c457eabd",
+      "title_ja": "Apple、Mac操作を担うAIエージェントを開発中か",
+      "urls": [
+        "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "478ea25aeed3",
+      "title_ja": "AI製品ChatPRDでトークン詐欺被害が深刻化と報告",
+      "urls": [
+        "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "f808ee90f673",
+      "title_ja": "OpenAI Python SDK v3.57.0がリリース",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.57.0"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "536d4386c711",
+      "title_ja": "Google Duplex、Geminiで企業への自動電話機能に進化",
+      "urls": [
+        "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "701a571706ec",
+      "title_ja": "Hugging Face、モデルを実行環境に適応させる「harnessアダプタ」発表",
+      "urls": [
+        "https://huggingface.co/blog/harness-adapters-at-scale"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "9a9f7eafdd9b",
+      "title_ja": "SageMaker HyperPod、GPU訓練障害診断の観測性機能を強化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "ae5a204aaba7",
+      "title_ja": "Google検索、AIチャット履歴表示のホームページに刷新",
+      "urls": [
+        "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "c15425f0c7f1",
+      "title_ja": "OpenAI・Anthropicの蒸留規制強化がオープンモデル停滞の一因か",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n2req7quy225"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": "a9abc0070a7c",
+      "title_ja": "LongCat、音声駆動動画生成モデル「Avatar 1.6」を公開",
+      "urls": [
+        "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6"
       ]
     }
   ]
