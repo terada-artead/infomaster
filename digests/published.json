@@ -1,169 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-14",
-      "id": "a53b6d6797d1",
-      "title_ja": "Jensen Huang氏のNvidia退任、AIスタートアップ資金調達に影響",
-      "urls": [
-        "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-        "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "c7c1adfef40b",
-      "title_ja": "OpenFold3、Amazon SageMaker JumpStartで利用可能に",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "b96c8f1ce3ea",
-      "title_ja": "AIエージェントのLangChain、評価額30億ドルに",
-      "urls": [
-        "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "1a09f77a4836",
-      "title_ja": "Claude関連サービスでエラー増加",
-      "urls": [
-        "https://status.claude.com/incidents/nn11wk485zfn"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "7bd2e8e7a52e",
-      "title_ja": "OpenAI、ロボティクスチームを解散",
-      "urls": [
-        "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "1f0e60fded5c",
-      "title_ja": "MiniMax-H3、Hugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/MiniMaxAI/MiniMax-H3"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "762061e9584c",
-      "title_ja": "NVIDIA NeMo Switchyard、Amazon Bedrockでコーディングエージェントのルーティングを最適化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "6669a4d19d8d",
-      "title_ja": "中国の最先端AIモデル、禁輸対象のNvidiaチップで訓練と判明",
-      "urls": [
-        "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "96048276e5de",
-      "title_ja": "Amazon、世界中のネット通販データを統合する「World Product Graph」計画",
-      "urls": [
-        "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "4e10e32134f8",
-      "title_ja": "Edge0-145B、ローカル実行可能なフロンティアAIモデルとして公開",
-      "urls": [
-        "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "f4a904d03d80",
-      "title_ja": "Kimi-K3.1-Pro、Hugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "7d4d71d056da",
-      "title_ja": "OpenAI、ChatGPT Walletを発表",
-      "urls": [
-        "https://openai.com/index/introducing-chatgpt-wallet"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "bb4deecac7ca",
-      "title_ja": "llama.cpp、v1.0をリリース",
-      "urls": [
-        "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
-        "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "cac24968e5aa",
-      "title_ja": "DeepSeek-V4.1-Flash、Hugging Faceで公開",
-      "urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "91ab97e44683",
-      "title_ja": "GS Caltex、SageMakerでMLOpsを本番運用",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "a0730e6c360a",
-      "title_ja": "医療現場でAI活用が拡大",
-      "urls": [
-        "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "b6c6cdb45a03",
-      "title_ja": "Perplexity、Decider v1.3を公開",
-      "urls": [
-        "https://www.perplexity.ai/hub/blog/perplexity-decider"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "091099d846f6",
-      "title_ja": "AssemblyAI、AWS上で音声認識推論のコストを最適化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "1a853c465762",
-      "title_ja": "SageMaker HyperPod、モデル改善フライホイール構築ツールを提供",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "id": "d594c39e9773",
-      "title_ja": "FAA、航空交通管理向けAI活用を全米に拡大",
-      "urls": [
-        "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
-      ]
-    },
-    {
       "date": "2026-11-15",
       "id": "41586052132a",
       "title_ja": "Bedrock AgentCore、セッション起動高速化の設計パターン解説",
@@ -1130,6 +967,62 @@
       "title_ja": "LongCat、音声駆動動画生成モデル「Avatar 1.6」を公開",
       "urls": [
         "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "6b1a37a3501d",
+      "title_ja": "AWS Quickが複数エージェント連携やフロー機能を強化",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "4bdb6d39f683",
+      "title_ja": "Transformers v5.24.0にThinking Machines製マルチモーダルモデル追加",
+      "urls": [
+        "https://github.com/huggingface/transformers/releases/tag/v5.24.0"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "85d0c5a4a983",
+      "title_ja": "Metaが2030年ネットゼロ目標を再検討",
+      "urls": [
+        "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "1376e40b20c3",
+      "title_ja": "Apple、単眼深度推定モデルDepth Pro 2を公開",
+      "urls": [
+        "https://huggingface.co/apple/DepthPro2"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "be21ba74d256",
+      "title_ja": "NVIDIAが軽量モデルNemotron-3.5-Bolt-E4Bを公開",
+      "urls": [
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "bf485886c9d7",
+      "title_ja": "リーマン予想のLean形式検証が話題に",
+      "urls": [
+        "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": "552aaf9e3350",
+      "title_ja": "Inworld、音声分離モデルVoice Isolatorを公開",
+      "urls": [
+        "https://huggingface.co/inworld/voice-isolator"
       ]
     }
   ]

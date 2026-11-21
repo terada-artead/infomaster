@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T08:46:15+09:00",
+  "stats": {
+    "collected": 54,
+    "fresh": 34,
+    "selected": 8,
+    "published": 7
+  },
+  "highlights": [
+    "AWSが業務特化AI「Quick」に複数エージェント連携と新機能を追加",
+    "Metaが2030年ネットゼロ目標をAIデータセンターの排出増で再検討",
+    "Appleが単眼深度推定モデルDepth Pro 2をHugging Faceで公開"
+  ],
+  "items": [
+    {
+      "id": "6b1a37a3501d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AWS Quickが複数エージェント連携やフロー機能を強化",
+      "summary_ja": "AWSが業務特化AIワークスペース「Quick」をアップデートし、チャット内でのビジネスプロセスフロー構築・実行、更新されたWebアプリでのタスク管理、複数エージェントによる統合回答、Meta広告やAmplitudeなど新規データソース連携が可能になった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/"
+        }
+      ]
+    },
+    {
+      "id": "4bdb6d39f683",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Transformers v5.24.0にThinking Machines製マルチモーダルモデル追加",
+      "summary_ja": "Hugging FaceのTransformers v5.24.0がリリースされ、Thinking Machines Labのマルチモーダルモデル「Inkling 2 Mini」が追加された。",
+      "sources": [
+        {
+          "name": "GitHub huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0"
+        }
+      ]
+    },
+    {
+      "id": "85d0c5a4a983",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Metaが2030年ネットゼロ目標を再検討",
+      "summary_ja": "MetaがAIデータセンターによる排出量増加を受けて、2030年のネットゼロ目標を再評価していると報じられている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+        }
+      ]
+    },
+    {
+      "id": "1376e40b20c3",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "Apple、単眼深度推定モデルDepth Pro 2を公開",
+      "summary_ja": "AppleがHugging Faceで、写真・動画・ライブ映像からメートル単位の深度をピクセル単位で推定する「Depth Pro 2」を公開し、S・B・L・H+の4サイズが提供されている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/apple/DepthPro2"
+        }
+      ]
+    },
+    {
+      "id": "be21ba74d256",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "NVIDIAが軽量モデルNemotron-3.5-Bolt-E4Bを公開",
+      "summary_ja": "NVIDIAがHugging Faceでテキスト生成モデル「NVIDIA-Nemotron-3.5-Bolt-E4B-4GB」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB"
+        }
+      ]
+    },
+    {
+      "id": "bf485886c9d7",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "リーマン予想のLean形式検証が話題に",
+      "summary_ja": "リーマン予想の証明をLeanで形式検証した成果がHacker Newsで話題になっている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        }
+      ]
+    },
+    {
+      "id": "552aaf9e3350",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Inworld、音声分離モデルVoice Isolatorを公開",
+      "summary_ja": "Inworldが48kHz対応の音声分離モデル「Voice Isolator」をApache-2.0ライセンスでHugging Faceに公開し、録音用とリアルタイム用の2種類を提供している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/inworld/voice-isolator"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.2783,
+    "run_cost_usd": 0.048,
+    "average_run_usd": 0.1037,
+    "runs_recorded": 114
+  }
+}
