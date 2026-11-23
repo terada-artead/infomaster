@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T09:12:07+09:00",
+  "stats": {
+    "collected": 56,
+    "fresh": 40,
+    "selected": 9,
+    "published": 8
+  },
+  "highlights": [
+    "Anthropicの電力計画、2028年はガスと石炭が中心",
+    "AI推論基盤でデータ処理インシデントが報告",
+    "Qwen3.8-27BのGGUF量子化版が高ダウンロード数を記録"
+  ],
+  "items": [
+    {
+      "id": "8c9d1d1bd769",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropicの2028年電力計画、ガス87%・石炭11%",
+      "summary_ja": "Anthropicの2028年時点の電力調達計画で、87%がガス由来、11%が石炭由来になると報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
+        }
+      ]
+    },
+    {
+      "id": "06c62bbf6e86",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Meta広告AIコネクタがAWS Quickに追加",
+      "summary_ja": "AWS QuickにMeta広告のAIコネクタが追加され、自然言語でのキャンペーン作成・管理・分析が可能になった。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/"
+        }
+      ]
+    },
+    {
+      "id": "cac24968e5aa",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "DeepSeek-V4.1-Flashモデルが公開",
+      "summary_ja": "Hugging FaceにDeepSeek-V4.1-Flash-1017が公開され、画像・テキスト入力に対応するマルチモーダルモデルとして注目を集めている。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        }
+      ]
+    },
+    {
+      "id": "b9d1c9e9c4cc",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "推論プロバイダーでデータ処理インシデント発生",
+      "summary_ja": "AI推論を提供するプロバイダーにおいて、データ処理に関するインシデントが発生したと報じられている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+        }
+      ]
+    },
+    {
+      "id": "ff772f090165",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AIサプライチェーンの脆弱性、カナリアトークンで発覚",
+      "summary_ja": "カナリアトークンを用いた調査により、AIサプライチェーンにおけるセキュリティ上の問題点が明らかになった。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+        }
+      ]
+    },
+    {
+      "id": "5a9bda72c1d1",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Flux-3-Image-Klein-Comfyモデルが公開",
+      "summary_ja": "Black Forest LabsがComfyUI向け画像生成・編集モデルFlux-3-Image-Klein-ComfyをHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+        }
+      ]
+    },
+    {
+      "id": "bb6e58f54894",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Qwen3.8-27BのGGUF量子化版が公開",
+      "summary_ja": "unslothによるQwen3.8-27Bのapache-2.0ライセンスGGUF量子化版がHugging Faceで公開され、高いダウンロード数を記録している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+        }
+      ]
+    },
+    {
+      "id": "1a10f1676d46",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "パープレキシティ指標によるAIモデルの性能評価",
+      "summary_ja": "OpenAIが、言語モデルの進歩を測る指標であるパープレキシティについて解説し、開発者が新興能力を評価する際の共通基準として活用できる可能性を示した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/perplexity-and-intelligence"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.3217,
+    "run_cost_usd": 0.0434,
+    "average_run_usd": 0.1002,
+    "runs_recorded": 115
+  }
+}

@@ -1,86 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-15",
-      "id": "41586052132a",
-      "title_ja": "Bedrock AgentCore、セッション起動高速化の設計パターン解説",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "3c59ab578501",
-      "title_ja": "Meta、3D人体メッシュ推定モデルSAM-3D-Body-DinoV3を公開",
-      "urls": [
-        "https://huggingface.co/facebook/sam-3d-body-dinov3"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "7e81db885b5d",
-      "title_ja": "OpenAI Python SDK v3.51.0がリリース",
-      "urls": [
-        "https://github.com/openai/openai-python/releases/tag/v3.51.0"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "60e5719ddad5",
-      "title_ja": "Claude Code Projects、並列AIワーカー実行に対応",
-      "urls": [
-        "https://claude.com/resources/articles/projects-redesigned"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "25b629867bd0",
-      "title_ja": "Zyphra、軽量TTSモデルZONOS3-Miniをオープンソース公開",
-      "urls": [
-        "https://huggingface.co/Zyphra/ZONOS3-Mini"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "a3da8b1260a4",
-      "title_ja": "Meituan、マルチモーダルMoEモデルLongCat-2.5を公開",
-      "urls": [
-        "https://huggingface.co/meituan-longcat/LongCat-2.5"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "a17ef475e2c8",
-      "title_ja": "GLM-5.3、vLLMでDGX2台構成の推論性能をベンチマーク",
-      "urls": [
-        "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "8b981141b769",
-      "title_ja": "Unsloth、Qwen3.8-27Bの量子化を更新",
-      "urls": [
-        "https://unsloth.ai/docs/models/qwen3.8"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "af7f8d8cd385",
-      "title_ja": "AIエージェント向けブラウザ「Agweb」が公開",
-      "urls": [
-        "https://github.com/paul-nameless/agweb"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "id": "2fdb5e2d367b",
-      "title_ja": "SenseNova-Loop-9B-Preview、9Bで27B級性能と話題に",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/"
-      ]
-    },
-    {
       "date": "2026-11-16",
       "id": "4eabd814d88a",
       "title_ja": "主要AIベンチマークの63%が既に飽和状態に",
@@ -1023,6 +943,71 @@
       "title_ja": "Inworld、音声分離モデルVoice Isolatorを公開",
       "urls": [
         "https://huggingface.co/inworld/voice-isolator"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "8c9d1d1bd769",
+      "title_ja": "Anthropicの2028年電力計画、ガス87%・石炭11%",
+      "urls": [
+        "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "06c62bbf6e86",
+      "title_ja": "Meta広告AIコネクタがAWS Quickに追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "cac24968e5aa",
+      "title_ja": "DeepSeek-V4.1-Flashモデルが公開",
+      "urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "b9d1c9e9c4cc",
+      "title_ja": "推論プロバイダーでデータ処理インシデント発生",
+      "urls": [
+        "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "ff772f090165",
+      "title_ja": "AIサプライチェーンの脆弱性、カナリアトークンで発覚",
+      "urls": [
+        "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "5a9bda72c1d1",
+      "title_ja": "Flux-3-Image-Klein-Comfyモデルが公開",
+      "urls": [
+        "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "bb6e58f54894",
+      "title_ja": "Qwen3.8-27BのGGUF量子化版が公開",
+      "urls": [
+        "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": "1a10f1676d46",
+      "title_ja": "パープレキシティ指標によるAIモデルの性能評価",
+      "urls": [
+        "https://openai.com/index/perplexity-and-intelligence",
+        "https://openai.com/index/perplexity-and-intelligence/"
       ]
     }
   ]
