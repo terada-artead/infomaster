@@ -1,87 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-16",
-      "id": "4eabd814d88a",
-      "title_ja": "主要AIベンチマークの63%が既に飽和状態に",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3n2cotuxdvk22"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "d79f9fce1979",
-      "title_ja": "ClaudeがStarship捕獲動画を3Dレンダリング再現",
-      "urls": [
-        "https://bsky.app/profile/emollick.bsky.social/post/3n2eo3wirl22g"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "5419a8b213cd",
-      "title_ja": "全二重音声対話基盤モデルHaru-4Bが公開",
-      "urls": [
-        "https://huggingface.co/higurashi-ai/Haru-4B",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xww5o2/higurashiaiharu4b_hugging_face/"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "3c6f8fad3dbe",
-      "title_ja": "EU、約1兆パラメータのオープンAIモデルEUROPA計画",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "a5b5b4e52d94",
-      "title_ja": "音声エージェントモデルSophon-Realtime-v1が公開",
-      "urls": [
-        "https://huggingface.co/adventists-ai/Sophon-Realtime-v1"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "d5d8547e961a",
-      "title_ja": "Nvidiaの循環融資によるGPU価格維持疑惑が浮上",
-      "urls": [
-        "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "5dde58615fc9",
-      "title_ja": "推論フレームワークBasalt 0.4.0、DeepSeek V4.1対応",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xx1cu9/basalt_040_more_models_still_as_fast_qwen_27b_up/"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "0679810bb8b1",
-      "title_ja": "マルチモーダルモデルInkling-2-Smallが公開",
-      "urls": [
-        "https://huggingface.co/thinkingmachines/Inkling-2-Small"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "6c2c64409dfb",
-      "title_ja": "議会、Nvidiaスパイ疑惑受けAIチップ輸出規制強化へ",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "id": "a70e6e6d0125",
-      "title_ja": "視覚言語モデルMirageが公開",
-      "urls": [
-        "https://huggingface.co/Cactus-Compute/mirage"
-      ]
-    },
-    {
       "date": "2026-11-17",
       "id": "df9d92008ad6",
       "title_ja": "DucoがBedrock AgentCoreで金融データ自動化を刷新",
@@ -1008,6 +927,144 @@
       "urls": [
         "https://openai.com/index/perplexity-and-intelligence",
         "https://openai.com/index/perplexity-and-intelligence/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "9e07b8c2cf04",
+      "title_ja": "AmazonがDecartのAI最適化技術を約7500億円で買収",
+      "urls": [
+        "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "10ed8c9647ec",
+      "title_ja": "Sierra、シリーズFで17.5億ドル調達し評価額300億ドルに倍増",
+      "urls": [
+        "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "6545db87281a",
+      "title_ja": "Anthropic、PRのレビューから承認まで自動化する「Claude Ship」を発表",
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+        "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "eea6d4f773cb",
+      "title_ja": "Supertake、AI agentで株式ポートフォリオ構築支援に2000万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "8e4d37ab07b7",
+      "title_ja": "Walmartはエージェント活用、Amazonはブロックと対応分かれる",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n2yixn4gps2g"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "9f183e9f9f75",
+      "title_ja": "NariQ、Qwen3.8-27Bの3bit量子化で10GBファイル化",
+      "urls": [
+        "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "1259b534687d",
+      "title_ja": "Richpanel、GPT-6系モデルでサポート業務の50%を自動化",
+      "urls": [
+        "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "f1db7ce98881",
+      "title_ja": "Z.ai、ループ型Transformer採用の「GLM-5.4」を公開",
+      "urls": [
+        "https://z.ai/blog/glm-5.4",
+        "https://simonwillison.net/2026/Nov/23/glm-54/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "ba6df33853b0",
+      "title_ja": "RadixArk、マルチモーダルモデル「DaisyRose-27B」を公開",
+      "urls": [
+        "https://huggingface.co/RadixArk/DaisyRose-27B"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "3ffa5c39e01e",
+      "title_ja": "DeepMind、エージェントと形式検証で量子アルゴリズムを改良",
+      "urls": [
+        "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "eb2701ff66fe",
+      "title_ja": "Hugging Face、ロボット操作向け点追跡「RoboTrack」を公開",
+      "urls": [
+        "https://huggingface.co/blog/allenai/robotrack"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "d76321c82e0f",
+      "title_ja": "Asus、ローカルAIエージェント搭載のProArt P16を発表",
+      "urls": [
+        "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "254490329344",
+      "title_ja": "SenseNova、ループ型Transformer「SenseNova-Loop-9B」公開",
+      "urls": [
+        "https://huggingface.co/sensenova/SenseNova-Loop-9B"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "6e178932fb57",
+      "title_ja": "Meta、オープンウェイトAIモデルの医療研究活用事例を紹介",
+      "urls": [
+        "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "3c59ab578501",
+      "title_ja": "Meta、3D人体姿勢推定モデル「SAM-3D-body」を公開",
+      "urls": [
+        "https://huggingface.co/facebook/sam-3d-body-dinov3"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "4bdc51d30c7c",
+      "title_ja": "OpenAI Python SDK v3.58.0でエージェントセッションの支出上限設定が可能に",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.58.0"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": "10878202550b",
+      "title_ja": "OpenAI、企業内法務部門向けAI活用のウェビナーを公開",
+      "urls": [
+        "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
       ]
     }
   ]

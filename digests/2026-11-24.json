@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T13:17:13+09:00",
+  "stats": {
+    "collected": 85,
+    "fresh": 68,
+    "selected": 19,
+    "published": 17
+  },
+  "highlights": [
+    "AmazonがDecartのAI最適化技術を7500億円規模で買収",
+    "SierraがシリーズFで1750億円調達、評価額は3兆円に倍増",
+    "AnthropicがPRのレビュー・修正・承認を自動化するClaude Shipを発表"
+  ],
+  "items": [
+    {
+      "id": "9e07b8c2cf04",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "AmazonがDecartのAI最適化技術を約7500億円で買収",
+      "summary_ja": "AmazonがDecartのAI最適化技術と研究チームを約75億ドル（報道ベース）で買収した。Trainiumチップの販売を控える中での動きとされ、自社シリコンの性能最適化強化が狙いとみられる。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+        }
+      ]
+    },
+    {
+      "id": "10ed8c9647ec",
+      "importance": "high",
+      "category": "business",
+      "title_ja": "Sierra、シリーズFで17.5億ドル調達し評価額300億ドルに倍増",
+      "summary_ja": "元Salesforce共同CEOのBret Taylor氏が共同創業した企業向けカスタマーエクスペリエンス企業Sierraが、シリーズFで17.5億ドルを調達したと発表した。評価額は半年で300億ドルに倍増しており、AIを活用したCX領域への需要の高まりを示している。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+        }
+      ]
+    },
+    {
+      "id": "6545db87281a",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Anthropic、PRのレビューから承認まで自動化する「Claude Ship」を発表",
+      "summary_ja": "AnthropicはClaude Shipを発表し、Claudeがプルリクエストのレビュー、修正、承認までを自律的に行えるようになった。既存のコードレビュー機能を拡張したもので、AI生成コードの増加に伴う承認作業のボトルネック解消を狙っている。",
+      "sources": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+        }
+      ]
+    },
+    {
+      "id": "eea6d4f773cb",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Supertake、AI agentで株式ポートフォリオ構築支援に2000万ドル調達",
+      "summary_ja": "スタートアップSupertakeが、ユーザーの市場予測をAIエージェントが銘柄選定に変換するサービスに向けて2000万ドルを調達した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+        }
+      ]
+    },
+    {
+      "id": "8e4d37ab07b7",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Walmartはエージェント活用、Amazonはブロックと対応分かれる",
+      "summary_ja": "Amazonがエージェントによるアクセスをブロックする一方、Walmartはエージェント型コマースを積極的に受け入れており、Stripeのデータではエージェント経由の購買が定着しつつあるとされている。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2yixn4gps2g"
+        }
+      ]
+    },
+    {
+      "id": "9f183e9f9f75",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "NariQ、Qwen3.8-27Bの3bit量子化で10GBファイル化",
+      "summary_ja": "NariQはQwen3.8-27Bモデルを3bit以下に量子化し、エージェントタスクや数学、多言語推論などでBF16に近い性能を維持しながら10GBのファイルサイズを実現したと発表した。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
+        }
+      ]
+    },
+    {
+      "id": "1259b534687d",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Richpanel、GPT-6系モデルでサポート業務の50%を自動化",
+      "summary_ja": "RichpanelはGPT-6 AstraとGPT-6.1 Sol、GPT-6 Lunaを組み合わせ、30日間でカスタマーサポート業務の50%を自動化したと報告している。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+        }
+      ]
+    },
+    {
+      "id": "f1db7ce98881",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "Z.ai、ループ型Transformer採用の「GLM-5.4」を公開",
+      "summary_ja": "中国のAI研究機関Z.aiが、初めてループ型Transformerアーキテクチャを採用したコーディング向けモデル「GLM-5.4」を公開した。標準のTransformerが各層を1回ずつ実行するのに対し、重み共有された層群を複数回反復させる設計になっている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://z.ai/blog/glm-5.4"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/23/glm-54/"
+        }
+      ]
+    },
+    {
+      "id": "ba6df33853b0",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "RadixArk、マルチモーダルモデル「DaisyRose-27B」を公開",
+      "summary_ja": "RadixArkがQwen3.8-27Bをベースに強化学習のみで構築したマルチモーダル推論モデル「DaisyRose-27B」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/RadixArk/DaisyRose-27B"
+        }
+      ]
+    },
+    {
+      "id": "3ffa5c39e01e",
+      "importance": "medium",
+      "category": "new_model",
+      "title_ja": "DeepMind、エージェントと形式検証で量子アルゴリズムを改良",
+      "summary_ja": "Google DeepMindがエージェントチームと形式検証を組み合わせ、核融合や化学分野向けの量子アルゴリズムを高速化する手法を発表した。",
+      "sources": [
+        {
+          "name": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+        }
+      ]
+    },
+    {
+      "id": "eb2701ff66fe",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "Hugging Face、ロボット操作向け点追跡「RoboTrack」を公開",
+      "summary_ja": "Hugging Faceが実世界でのロボット操作のための点追跡手法「RoboTrack」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/allenai/robotrack"
+        }
+      ]
+    },
+    {
+      "id": "d76321c82e0f",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Asus、ローカルAIエージェント搭載のProArt P16を発表",
+      "summary_ja": "AsusのProArt P16ノートPCは最大7000ドルの価格帯で、複数のローカルAIエージェントを動作させられる構成になっている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/"
+        }
+      ]
+    },
+    {
+      "id": "254490329344",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "SenseNova、ループ型Transformer「SenseNova-Loop-9B」公開",
+      "summary_ja": "SenseNovaが層の重み共有によるループ構造とマニフォールド制約付きハイパーコネクションを組み合わせたモデル「SenseNova-Loop-9B」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
+        }
+      ]
+    },
+    {
+      "id": "6e178932fb57",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Meta、オープンウェイトAIモデルの医療研究活用事例を紹介",
+      "summary_ja": "MetaはOpen Source AI For Science Summitを開催し、研究者らがMetaのオープンウェイトAIモデルを科学研究の加速にどう活用しているかを共有した。",
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "url": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/"
+        }
+      ]
+    },
+    {
+      "id": "3c59ab578501",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Meta、3D人体姿勢推定モデル「SAM-3D-body」を公開",
+      "summary_ja": "MetaがDINOv3ベースの3D人体メッシュ復元・姿勢推定モデル「SAM-3D-body」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/facebook/sam-3d-body-dinov3"
+        }
+      ]
+    },
+    {
+      "id": "4bdc51d30c7c",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI Python SDK v3.58.0でエージェントセッションの支出上限設定が可能に",
+      "summary_ja": "OpenAIのPython SDKがv3.58.0にアップデートされ、エージェントセッションごとの支出上限の設定・取得APIが追加された。",
+      "sources": [
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.58.0"
+        }
+      ]
+    },
+    {
+      "id": "10878202550b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、企業内法務部門向けAI活用のウェビナーを公開",
+      "summary_ja": "OpenAIが社内法務チーム向けに、ビジネス文脈の接続や再利用可能なワークフロー構築にAIを活用する方法を議論するセッションを公開した。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.4091,
+    "run_cost_usd": 0.0874,
+    "average_run_usd": 0.0988,
+    "runs_recorded": 116
+  }
+}
