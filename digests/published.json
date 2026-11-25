@@ -1,167 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-17",
-      "id": "df9d92008ad6",
-      "title_ja": "DucoがBedrock AgentCoreで金融データ自動化を刷新",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "b696bf684c37",
-      "title_ja": "NVIDIA Vera RubinがMLPerfで首位性能を記録",
-      "urls": [
-        "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "756563a41449",
-      "title_ja": "Qwen4-Maxモデルがリリース",
-      "urls": [
-        "https://qwen.ai/blog?id=qwen4-max"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "ca26bca182f6",
-      "title_ja": "Qwen3.8-27Bモデルがハギングフェイスに登場",
-      "urls": [
-        "https://huggingface.co/Qwen/Qwen3.8-27B"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "4d97827545be",
-      "title_ja": "米国がAI半導体の対中遠隔アクセス規制を強化",
-      "urls": [
-        "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-        "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "b18ea8ba2455",
-      "title_ja": "Bedrock Managed Knowledge Baseが長期記憶機能を強化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "a3459596641f",
-      "title_ja": "マルチエージェント設計のパターンと落とし穴を体系化",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "eaa1baf8a18e",
-      "title_ja": "MoEngageがAgentCoreでマーケティングAIエージェントを構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "3641439a5ff1",
-      "title_ja": "Novo NordiskがAgentCoreで製造文書を刷新",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "fc3a56c14a55",
-      "title_ja": "LambdaがNVIDIA光学スイッチでAIファクトリーを強化",
-      "urls": [
-        "https://blogs.nvidia.com/blog/lambda-photonics/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "dac4b4571980",
-      "title_ja": "Hy4 flashモデルが登場、低価格・疎構成が特徴",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "ac2c23e19056",
-      "title_ja": "Anthropicが常時稼働エージェントの設計ガイドを公開",
-      "urls": [
-        "https://www.reddit.com/r/ClaudeAI/comments/1xxdzcf/anthropic_published_a_guide_on_building_alwayson/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "f2bc736c0ee7",
-      "title_ja": "Meta SAM3モデルがハギングフェイスに公開",
-      "urls": [
-        "https://huggingface.co/facebook/sam3"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "24baf68da2c1",
-      "title_ja": "サイバーセキュリティAIのCormaが評価額10億ドルに",
-      "urls": [
-        "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "c87649611876",
-      "title_ja": "vLLM v0.34.0がリリース、新モデル10種に対応",
-      "urls": [
-        "https://github.com/vllm-project/vllm/releases/tag/v0.34.0"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "21e886491b30",
-      "title_ja": "OpenAIが医療向けChatGPTにコンピュータ操作エージェント追加",
-      "urls": [
-        "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "4f7ffd1cc71f",
-      "title_ja": "メインフレームのAssemblerをBedrockでJavaに移行",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "405b15531065",
-      "title_ja": "Bedrock Managed Knowledge Baseが表形式データ検索に対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "970d377277e3",
-      "title_ja": "NVIDIA CUDA-Xライブラリが科学研究向けAIエージェントを支援",
-      "urls": [
-        "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/"
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "id": "473e368302be",
-      "title_ja": "企業利用の30%がオープンウェイトモデルに",
-      "urls": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/"
-      ]
-    },
-    {
       "date": "2026-11-18",
       "id": "8f6af8c44a4a",
       "title_ja": "OpenAI、GPT-6.2 AstraとSolを発表",
@@ -1065,6 +904,159 @@
       "title_ja": "OpenAI、企業内法務部門向けAI活用のウェビナーを公開",
       "urls": [
         "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "ac2f786b30f6",
+      "title_ja": "GPT-6、推論とコードでタンパク質設計が可能と判明",
+      "urls": [
+        "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "46d49d204ad7",
+      "title_ja": "大企業で少人数AI活用チームが組織的摩擦を生む",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n333h3yyoc2g"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "e97dd56116f4",
+      "title_ja": "AmazonのCairn AIフレームワーク、攻撃側にも有用と判明",
+      "urls": [
+        "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "08068d50e6dd",
+      "title_ja": "Anthropic論文、AI価値は組織変革から生まれると指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n2zw35rhxs2g"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "a73ca17bb386",
+      "title_ja": "Bedrockに信頼アクセスAPI、Claude向け安全・データ管理機能追加",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "89335320727d",
+      "title_ja": "AIエージェントの通信量、人間業務の4.5倍と推計",
+      "urls": [
+        "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "c4766e997cf5",
+      "title_ja": "8.1MパラメータのOCRモデルOCRia-nano-1公開",
+      "urls": [
+        "https://huggingface.co/llamaindex/OCRia-nano-1"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "0679810bb8b1",
+      "title_ja": "Thinking Machines、マルチモーダルMoEモデルInkling-2-Small公開",
+      "urls": [
+        "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "352ca41f41cf",
+      "title_ja": "Amazon、Decartを約75億ドルで買収しチップ効率化へ",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "923c0e4c62be",
+      "title_ja": "LLMエージェントは親会社のために働くとの指摘",
+      "urls": [
+        "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "5419a8b213cd",
+      "title_ja": "低遅延フルデュプレックス音声対話モデルHaru-4B公開",
+      "urls": [
+        "https://huggingface.co/higurashi-ai/Haru-4B"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "a18f6caa7fc1",
+      "title_ja": "Walmart、MetaのAIエージェントMuseでブラックフライデー対応",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "1881b895e965",
+      "title_ja": "トランプ氏らの圧力でNvidia取締役会がHuang氏続投容認",
+      "urls": [
+        "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "9121917f87f4",
+      "title_ja": "遊休計算資源を使うローカルモデル訓練エンジン公開",
+      "urls": [
+        "https://github.com/sous-labs/songe"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "ddf5f5e1e3a0",
+      "title_ja": "AIエージェント、日常タスクで依然苦戦と新ベンチマークが指摘",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "9fd8a5bde39c",
+      "title_ja": "Maple、自社も閲覧不能な暗号化AI基盤で530万ドル調達",
+      "urls": [
+        "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "0b260d07579d",
+      "title_ja": "この1年のLLM進化、3つの転換点を整理した講演公開",
+      "urls": [
+        "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "db72536323fc",
+      "title_ja": "AI向けUI記述言語「Declare」が公開",
+      "urls": [
+        "https://davidtemkin.github.io/declarelang/"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": "137088c2e6ef",
+      "title_ja": "openai-python v3.59.0リリース、ヘルスケア向けモデルID追加",
+      "urls": [
+        "https://github.com/openai/openai-python/releases/tag/v3.59.0"
       ]
     }
   ]

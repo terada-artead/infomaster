@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T12:01:00+09:00",
+  "stats": {
+    "collected": 89,
+    "fresh": 76,
+    "selected": 23,
+    "published": 19
+  },
+  "highlights": [
+    "GPT-6がタンパク質設計能力を持つと判明、5標的で結合確認",
+    "AmazonがAIエージェントによるゼロデイ攻撃悪用の事例を報告",
+    "AmazonがDecartを約75億ドルで買収、Trainiumチップ効率化へ"
+  ],
+  "items": [
+    {
+      "id": "ac2f786b30f6",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "GPT-6、推論とコードでタンパク質設計が可能と判明",
+      "summary_ja": "GPT-6モデルが推論とコード生成を用いてタンパク質構造・配列を設計できることが判明した。実験室での検証では5つの標的タンパク質に対する結合の証拠が確認されている。創薬・バイオ分野でのLLM活用の新たな可能性を示す事例であり、今後のモデル評価や応用研究の方向性に影響しうる。",
+      "sources": [
+        {
+          "name": "OpenAI News",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+        }
+      ]
+    },
+    {
+      "id": "46d49d204ad7",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "大企業で少人数AI活用チームが組織的摩擦を生む",
+      "summary_ja": "製造業から金融まで大手企業で、2〜3人の少人数チームがAIを使い多人数分の業務を短時間でこなす一方、組織運営や政治的な軋轢を生んでいると報告されている。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n333h3yyoc2g"
+        }
+      ]
+    },
+    {
+      "id": "e97dd56116f4",
+      "importance": "high",
+      "category": "tool",
+      "title_ja": "AmazonのCairn AIフレームワーク、攻撃側にも有用と判明",
+      "summary_ja": "AmazonはAIエージェントがほぼ人手を介さずゼロデイ脆弱性を発見・悪用した事例を公表した。同社のCairn AIフレームワークは防御側だけでなく攻撃側にも有効であることが示され、セキュリティ運用担当者はAIを用いた脆弱性診断・対策の両面での備えが必要になる。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+        }
+      ]
+    },
+    {
+      "id": "08068d50e6dd",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Anthropic論文、AI価値は組織変革から生まれると指摘",
+      "summary_ja": "Anthropicの新論文は、AI導入の価値の多くは組織や役割の変更から生まれる一方、労働者の抵抗が根強いと指摘している。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n2zw35rhxs2g"
+        }
+      ]
+    },
+    {
+      "id": "a73ca17bb386",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Bedrockに信頼アクセスAPI、Claude向け安全・データ管理機能追加",
+      "summary_ja": "Amazon BedrockがTrusted Access APIを導入し、Claudeモデル向けのEnterprise Frontier SafeguardsとEnterprise Data Controlsをプレビュー提供した。",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/"
+        }
+      ]
+    },
+    {
+      "id": "89335320727d",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "AIエージェントの通信量、人間業務の4.5倍と推計",
+      "summary_ja": "企業のAI導入が進む中、エージェントによるタスク実行は同じ作業を行う人間の約4.5倍のネットワークトラフィックを生むと推計されている。",
+      "sources": [
+        {
+          "name": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/"
+        }
+      ]
+    },
+    {
+      "id": "c4766e997cf5",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "8.1MパラメータのOCRモデルOCRia-nano-1公開",
+      "summary_ja": "LlamaIndexがCPU向け文書解析用の小型モデルOCRia-nano-1を公開し、表・レイアウト認識を含む高精度・高速処理を実現したと報告している。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/llamaindex/OCRia-nano-1"
+        }
+      ]
+    },
+    {
+      "id": "0679810bb8b1",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Thinking Machines、マルチモーダルMoEモデルInkling-2-Small公開",
+      "summary_ja": "Thinking MachinesがMoE構成の画像・テキスト対応モデルInkling-2-Smallをapache-2.0ライセンスで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+        }
+      ]
+    },
+    {
+      "id": "352ca41f41cf",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Amazon、Decartを約75億ドルで買収しチップ効率化へ",
+      "summary_ja": "AmazonはDecartを報道によれば約75億ドルで買収し、自社Trainiumチップの効率向上をソフトウェア面から図る戦略の一環としている。Nvidiaとの性能差縮小を狙う動きであり、クラウド事業者の自社チップ戦略の進展として注目される。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+        }
+      ]
+    },
+    {
+      "id": "923c0e4c62be",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "LLMエージェントは親会社のために働くとの指摘",
+      "summary_ja": "LLMエージェントはユーザーではなく、それを提供する親会社の利益のために動くとの指摘がHacker Newsで議論されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+        }
+      ]
+    },
+    {
+      "id": "5419a8b213cd",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "低遅延フルデュプレックス音声対話モデルHaru-4B公開",
+      "summary_ja": "higurashi-aiが研究用に公開したHaru-4Bは、同時に聞いて話せるフルデュプレックス型の多言語音声対話基盤モデルである。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/higurashi-ai/Haru-4B"
+        }
+      ]
+    },
+    {
+      "id": "a18f6caa7fc1",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Walmart、MetaのAIエージェントMuseでブラックフライデー対応",
+      "summary_ja": "WalmartはMetaのAIエージェントMuseを通じてブラックフライデーのセール商品を購入できるようにした。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+        }
+      ]
+    },
+    {
+      "id": "1881b895e965",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "トランプ氏らの圧力でNvidia取締役会がHuang氏続投容認",
+      "summary_ja": "Jensen Huang氏の支持者がトランプ氏とバンス氏に働きかけ、Nvidia取締役会に同氏の続投を認めさせたと報じられている。",
+      "sources": [
+        {
+          "name": "Ars Technica AI",
+          "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+        }
+      ]
+    },
+    {
+      "id": "9121917f87f4",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "遊休計算資源を使うローカルモデル訓練エンジン公開",
+      "summary_ja": "個人の遊休コンピューティング資源を活用してローカルモデルを訓練するツールがHacker Newsで紹介されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/sous-labs/songe"
+        }
+      ]
+    },
+    {
+      "id": "ddf5f5e1e3a0",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AIエージェント、日常タスクで依然苦戦と新ベンチマークが指摘",
+      "summary_ja": "個人向けAIアシスタント普及が進む中、新ベンチマークにより最先端モデルでも日常タスクを安全かつ確実にこなすのが難しいことが示された。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+        }
+      ]
+    },
+    {
+      "id": "9fd8a5bde39c",
+      "importance": "medium",
+      "category": "funding",
+      "title_ja": "Maple、自社も閲覧不能な暗号化AI基盤で530万ドル調達",
+      "summary_ja": "スタートアップMapleは、運営企業自身もユーザーの個人データにアクセスできない暗号化AIアーキテクチャの開発に向け530万ドルを調達した。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/"
+        }
+      ]
+    },
+    {
+      "id": "0b260d07579d",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "この1年のLLM進化、3つの転換点を整理した講演公開",
+      "summary_ja": "Simon Willisonが、過去12ヶ月のLLMおよびコーディングエージェントの能力向上における3つの転換点を整理した講演内容を公開した。",
+      "sources": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+        }
+      ]
+    },
+    {
+      "id": "db72536323fc",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "AI向けUI記述言語「Declare」が公開",
+      "summary_ja": "開発者とAIの双方が扱えることを意図したUI記述言語「Declare」がHacker Newsで紹介されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://davidtemkin.github.io/declarelang/"
+        }
+      ]
+    },
+    {
+      "id": "137088c2e6ef",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "openai-python v3.59.0リリース、ヘルスケア向けモデルID追加",
+      "summary_ja": "openai-pythonのv3.59.0がリリースされ、Responses向けヘルスケアモデルIDの追加や資格情報ヘッダーの秘匿化などの修正が行われた。",
+      "sources": [
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.59.0"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.5028,
+    "run_cost_usd": 0.0936,
+    "average_run_usd": 0.0975,
+    "runs_recorded": 117
+  }
+}
