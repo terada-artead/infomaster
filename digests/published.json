@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-18",
-      "id": "8f6af8c44a4a",
-      "title_ja": "OpenAI、GPT-6.2 AstraとSolを発表",
-      "urls": [
-        "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-        "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "c4b7e80cb786",
-      "title_ja": "Isomorphic Labsが50億ドルのシリーズCを調達",
-      "urls": [
-        "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "49e988fe9449",
-      "title_ja": "NVIDIA、SC26でAIエージェント向け新ツールを発表",
-      "urls": [
-        "https://blogs.nvidia.com/blog/ian-buck-sc26/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "9c3c49db7f13",
-      "title_ja": "Bedrock AgentCoreのJSON処理でトークン削減",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "c55f92969fc4",
-      "title_ja": "AmazonとGoogle、Anthropic株を合計約30%保有へ",
-      "urls": [
-        "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "2e3049c8fb9c",
-      "title_ja": "Microsoftとセールスフォース、Copilotforceを発表",
-      "urls": [
-        "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "91acaa948be0",
-      "title_ja": "SageMakerがKVキャッシュ認識ルーティングに対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "4b9641119bce",
-      "title_ja": "LoanProがBedrockで融資サービスAIアシスタント構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "372bb734ba1d",
-      "title_ja": "Model MLが投資銀行業務自動化で2.5億ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "f01bbd0ac296",
-      "title_ja": "SageMaker HyperPodがNVIDIA Dynamoに対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "87bf4382e457",
-      "title_ja": "SageMakerにAIデータ準備機能が追加",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "c6508b38273a",
-      "title_ja": "ArisGlobalがBedrockで推論コストを大幅削減",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "9818d892a2fa",
-      "title_ja": "NVIDIA、Jensen Huang退任後に中国向け販売停止",
-      "urls": [
-        "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "26a444a0aabf",
-      "title_ja": "MicrosoftのOfficeがCopilot内で動作開始",
-      "urls": [
-        "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "e9039490fe49",
-      "title_ja": "Science Corporationが4億ドル調達、評価額35億ドルに",
-      "urls": [
-        "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "b43ef08ac3ed",
-      "title_ja": "OpenAI、法律特化モデル「Astra for Law」を発表",
-      "urls": [
-        "https://openai.com/index/astra-law-6-2"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "d061b4901aae",
-      "title_ja": "生成AIのコスト最適化、判断にのみモデルを使う設計指針",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "06249f67b6e8",
-      "title_ja": "Bedrock AgentCoreでWhatsApp AIエージェント構築",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "837c136c3245",
-      "title_ja": "Pedestal AIがサプライチェーン向けに470万ドル調達",
-      "urls": [
-        "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/"
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "id": "6ca6a1ab86c2",
-      "title_ja": "百度と小米のCEO、AI期待と実利の乖離に警鐘",
-      "urls": [
-        "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns"
-      ]
-    },
-    {
       "date": "2026-11-19",
       "id": "95da0fde7d56",
       "title_ja": "Google DeepMind、Gemini 4 Neonを発表",
@@ -1057,6 +895,126 @@
       "title_ja": "openai-python v3.59.0リリース、ヘルスケア向けモデルID追加",
       "urls": [
         "https://github.com/openai/openai-python/releases/tag/v3.59.0"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "ca26bca182f6",
+      "title_ja": "Qwen3.8-27B公開、画像テキスト対応の新モデル",
+      "urls": [
+        "https://huggingface.co/Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "ef02d096cf97",
+      "title_ja": "AIデータセンター建設が難航、ニークラウドに打撃",
+      "urls": [
+        "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "a279a61d80e0",
+      "title_ja": "サンドボックス化されたモデル同士が通信可能という報告",
+      "urls": [
+        "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "d7b28b808e94",
+      "title_ja": "S&PがNvidiaの信用格付け引き下げを検討",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "22f7a46f7fe9",
+      "title_ja": "行列乗算の指数が9/4であることが証明されたと話題に",
+      "urls": [
+        "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "17929128d139",
+      "title_ja": "FCC、SpaceXの宇宙データセンター衛星計画を承認",
+      "urls": [
+        "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "90af62372606",
+      "title_ja": "P問題での素因数分解突破の噂が拡散",
+      "urls": [
+        "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "fb19c642f1b7",
+      "title_ja": "OpenAI、ChatGPTのChatとWorkを統合し利用上限を一元化",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "5f071a5fc3a6",
+      "title_ja": "AIが理論物理学の研究手法を変えつつある",
+      "urls": [
+        "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "fb828fc93bb9",
+      "title_ja": "超軽量三値モデルTernary-Bonsai-2.5-27B公開",
+      "urls": [
+        "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "6f6ed263c61a",
+      "title_ja": "Baidu、ERNIE-5.5-Flash-Previewを公開",
+      "urls": [
+        "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "b4fddd7d3c17",
+      "title_ja": "Anthropic CEO、AI制御放棄批判に反論",
+      "urls": [
+        "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "d752762e734d",
+      "title_ja": "手書き・スケッチ生成のPenGPTが公開",
+      "urls": [
+        "https://greydanus.github.io/2026/11/12/pengpt/"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "927dd6b10beb",
+      "title_ja": "Nothing、AI搭載イヤホンの詳細を公開",
+      "urls": [
+        "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": "dc9f384d0124",
+      "title_ja": "Google、整数分解・離散対数に関するCogentic論文を公開",
+      "urls": [
+        "https://github.com/google-research/google-research/tree/master/cogentic_research_papers"
       ]
     }
   ]
