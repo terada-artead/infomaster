@@ -1,218 +1,157 @@
 {
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T11:09:34+09:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T11:08:55+09:00",
   "stats": {
-    "collected": 72,
-    "fresh": 59,
-    "selected": 18,
-    "published": 15
+    "collected": 58,
+    "fresh": 44,
+    "selected": 12,
+    "published": 10
   },
   "highlights": [
-    "AlibabaがQwen3.8-27Bを公開、マルチモーダル対応で既に高評価",
-    "NvidiaがAIデータセンター着工前の支援を保留、ニークラウドに影響",
-    "S&Pがガバナンス懸念からNvidiaの信用格付け引き下げを検討"
+    "OpenAIがGPT-6.2の利用上限を引き下げ、コスト管理強化か",
+    "NvidiaがASEAN向けAIチップ出荷を一時停止",
+    "llama.cpp v1.1.0が新モデル群とTTS対応を追加"
   ],
   "items": [
     {
-      "id": "ca26bca182f6",
-      "importance": "high",
-      "category": "new_model",
-      "title_ja": "Qwen3.8-27B公開、画像テキスト対応の新モデル",
-      "summary_ja": "AlibabaがHugging Face上でQwen3.8-27Bを公開した。画像テキスト対応のマルチモーダルモデルで、Transformers・vLLM・SGLang等に対応し、Qwen3.5/3.6シリーズの後継として最も高性能なモデルと位置づけられている。既存のAPIを使っている開発者は、ライセンスがApache-2.0である点と1Mコンテキスト長が予定されている点を踏まえて移行を検討できる。",
+      "id": "1572d1e1c176",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、GPT-6.2の利用上限を引き下げコスト管理強化か",
+      "summary_ja": "Hacker Newsで、OpenAIがGPT-6.2の利用制限を強化し、AstraやSolなどのモデルが従来より早く上限に達するようになったと報告されている。",
       "sources": [
         {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+          "name": "Hacker News",
+          "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
         }
       ]
     },
     {
-      "id": "ef02d096cf97",
-      "importance": "high",
+      "id": "979e22972f74",
+      "importance": "medium",
       "category": "business",
-      "title_ja": "AIデータセンター建設が難航、ニークラウドに打撃",
-      "summary_ja": "Nvidiaがデータセンターの建設がほぼ完了するまで支援を行わない方針を明確にしており、土地・電力・建物の完成度が事業計画書よりも重視される状況になっていると報じられている。ニークラウド各社は建設遅延と負債コストの上昇に直面しており、インフラ調達を担う実務者は資金調達戦略の見直しが必要になる可能性がある。",
+      "title_ja": "Nvidia、東南アジア向けAIチップ出荷を一時停止",
+      "summary_ja": "NvidiaはマレーシアやシンガポールなどへのAIサーバー出荷を製造パートナーに一時停止するよう指示し、米国による対中AIチップ規制強化の動きに対応したとみられる。",
       "sources": [
         {
           "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/"
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
         }
       ]
     },
     {
-      "id": "a279a61d80e0",
+      "id": "d2f98570ba04",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "InclusionAI、マルチモーダルモデルLing-3.2-airを公開",
+      "summary_ja": "Hugging Faceで、文書推論やワークフロー自動化性能を強化したマルチモーダルモデル「Ling-3.2-air」が公開された。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
+        }
+      ]
+    },
+    {
+      "id": "b5d19e672736",
       "importance": "medium",
       "category": "tool",
-      "title_ja": "サンドボックス化されたモデル同士が通信可能という報告",
-      "summary_ja": "サンドボックス化された推論サーバー間でモデル同士が通信できるとの報告がHacker Newsで話題になっている。",
+      "title_ja": "llama.cpp v1.1.0、新モデル群とTTS対応を追加",
+      "summary_ja": "llama.cppのv1.1.0がInkling 2やZaya1など複数の新モデルサポートと多数の音声合成モデル対応を追加し、llama_batch APIを非推奨化した。",
       "sources": [
         {
-          "name": "Hacker News",
-          "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+          "name": "GitHub ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
         }
       ]
     },
     {
-      "id": "d7b28b808e94",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "S&PがNvidiaの信用格付け引き下げを検討",
-      "summary_ja": "格付け会社S&Pが、ガバナンスや「キーマンリスク」を理由にNvidiaの信用格付けを4番目に高いAA-へ引き下げる可能性を検討している。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
-        }
-      ]
-    },
-    {
-      "id": "22f7a46f7fe9",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "行列乗算の指数が9/4であることが証明されたと話題に",
-      "summary_ja": "行列乗算の計算量を示す指数が9/4であることを示す論文がHacker Newsで大きな反響を呼んでいる。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
-        }
-      ]
-    },
-    {
-      "id": "17929128d139",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "FCC、SpaceXの宇宙データセンター衛星計画を承認",
-      "summary_ja": "FCCがSpaceXの「Starmind」構想に基づき、AIチップ搭載衛星を最大100万基打ち上げる計画を承認したと発表した。",
-      "sources": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
-        }
-      ]
-    },
-    {
-      "id": "90af62372606",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "P問題での素因数分解突破の噂が拡散",
-      "summary_ja": "一部のAI研究機関がP問題の枠内で素因数分解を解決したとの未確認の噂がHacker Newsで広がっている。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/"
-        }
-      ]
-    },
-    {
-      "id": "fb19c642f1b7",
+      "id": "3d2697b636d7",
       "importance": "medium",
       "category": "product",
-      "title_ja": "OpenAI、ChatGPTのChatとWorkを統合し利用上限を一元化",
-      "summary_ja": "OpenAIがChatGPTのChatとWork機能を統合し、単一の利用量メーターを導入することで、ヘビーユーザーがより早く上限に達する可能性があると発表した。",
+      "title_ja": "Nvidia、Nemotron系の新モデルと微調整リソースを公開",
+      "summary_ja": "NvidiaはNemotron 3.5 Parseのオープンデータや微調整手法に加え、視覚生成向けモデル「Nemotron-Labs-Image-30B-A3B」を公開した。",
       "sources": [
         {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
         }
       ]
     },
     {
-      "id": "5f071a5fc3a6",
+      "id": "9e0d0eeab0a5",
       "importance": "medium",
-      "category": "business",
-      "title_ja": "AIが理論物理学の研究手法を変えつつある",
-      "summary_ja": "最先端AIが、かつてトップ物理学者が丸一日かけていた問題をすでに解けるようになっていると報じられている。",
+      "category": "product",
+      "title_ja": "OpenAI Python SDK v3.60.0がリリース",
+      "summary_ja": "OpenAIのPython SDK v3.60.0で支出アラートやレスポンス圧縮、セッションボルト更新機能が追加された。",
       "sources": [
         {
-          "name": "Ars Technica AI",
-          "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.60.0"
         }
       ]
     },
     {
-      "id": "fb828fc93bb9",
+      "id": "e2ac2e209969",
       "importance": "medium",
       "category": "tool",
-      "title_ja": "超軽量三値モデルTernary-Bonsai-2.5-27B公開",
-      "summary_ja": "Prism MLがllama.cpp向けの3ビット三値量子化モデル「Ternary-Bonsai-2.5-27B」をGGUF形式で公開した。FP16比で約9倍小さい5.93GBながら、エージェント型ツール呼び出し性能はFP16版に近い水準とされている。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
-        }
-      ]
-    },
-    {
-      "id": "6f6ed263c61a",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Baidu、ERNIE-5.5-Flash-Previewを公開",
-      "summary_ja": "BaiduがMoEアーキテクチャのエージェント向けモデル「ERNIE-5.5-Flash-Preview」をHugging Face上で公開した。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview"
-        }
-      ]
-    },
-    {
-      "id": "b4fddd7d3c17",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Anthropic CEO、AI制御放棄批判に反論",
-      "summary_ja": "Anthropicのダリオ・アモデイCEOが、AIに人間の制御を委ねることを支持しているとの他社からの批判を「馬鹿げている」と反論した。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
-        }
-      ]
-    },
-    {
-      "id": "d752762e734d",
-      "importance": "medium",
-      "category": "new_model",
-      "title_ja": "手書き・スケッチ生成のPenGPTが公開",
-      "summary_ja": "手書き文字やスケッチを生成するトランスフォーマーモデル「PenGPT」がHacker Newsで紹介されている。",
+      "title_ja": "OpenRouter代替ツール「Moat」が登場",
+      "summary_ja": "Hacker Newsで、OpenRouterの代替となるツール「Moat」が紹介された。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://greydanus.github.io/2026/11/12/pengpt/"
+          "url": "https://commandcode.ai/moat"
         }
       ]
     },
     {
-      "id": "927dd6b10beb",
+      "id": "93b803ec9361",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Nothing、AI搭載イヤホンの詳細を公開",
-      "summary_ja": "Nothingが12月8日発売予定のAIイヤホン「Ear Note」の詳細を公開し、通話録音やケースでの会話の文字起こし・要約機能を備えると発表した。",
+      "title_ja": "画像・テキストから動画生成するモデル「pi-H3」公開",
+      "summary_ja": "Hugging Faceで、拡散モデルと蒸留技術を用いた画像・テキスト対動画生成モデル「pi-H3」が公開された。",
       "sources": [
         {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal"
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lakonik/pi-H3"
         }
       ]
     },
     {
-      "id": "dc9f384d0124",
+      "id": "aebfbe56731b",
       "importance": "medium",
-      "category": "new_model",
-      "title_ja": "Google、整数分解・離散対数に関するCogentic論文を公開",
-      "summary_ja": "Googleが整数の素因数分解や離散対数問題などに関する「Cogentic」論文群を公開した。",
+      "category": "product",
+      "title_ja": "AIがセルフホスティングを再び楽しくしていると話題に",
+      "summary_ja": "Hacker Newsで、AIツールの進化によりセルフホスティング環境の構築が以前より楽しくなったとの投稿が注目を集めた。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+          "url": "https://janlukas.blog/posts/ai-self-hosting"
+        }
+      ]
+    },
+    {
+      "id": "326020b4a210",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Sand AI、動画生成モデル「MAGI-2-preview」を公開",
+      "summary_ja": "Hugging Faceで、画像・テキストから動画や音声を生成できるモデル「MAGI-2-preview」が公開された。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/sand-ai/MAGI-2-preview"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 11.5825,
-    "run_cost_usd": 0.0798,
-    "average_run_usd": 0.0961,
-    "runs_recorded": 118
+    "spent_usd": 11.6403,
+    "run_cost_usd": 0.0577,
+    "average_run_usd": 0.0933,
+    "runs_recorded": 119
   }
 }

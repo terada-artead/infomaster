@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T11:08:55+09:00",
+  "stats": {
+    "collected": 58,
+    "fresh": 44,
+    "selected": 12,
+    "published": 10
+  },
+  "highlights": [
+    "OpenAIがGPT-6.2の利用上限を引き下げ、コスト管理強化か",
+    "NvidiaがASEAN向けAIチップ出荷を一時停止",
+    "llama.cpp v1.1.0が新モデル群とTTS対応を追加"
+  ],
+  "items": [
+    {
+      "id": "1572d1e1c176",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI、GPT-6.2の利用上限を引き下げコスト管理強化か",
+      "summary_ja": "Hacker Newsで、OpenAIがGPT-6.2の利用制限を強化し、AstraやSolなどのモデルが従来より早く上限に達するようになったと報告されている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
+        }
+      ]
+    },
+    {
+      "id": "979e22972f74",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "Nvidia、東南アジア向けAIチップ出荷を一時停止",
+      "summary_ja": "NvidiaはマレーシアやシンガポールなどへのAIサーバー出荷を製造パートナーに一時停止するよう指示し、米国による対中AIチップ規制強化の動きに対応したとみられる。",
+      "sources": [
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+        }
+      ]
+    },
+    {
+      "id": "d2f98570ba04",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "InclusionAI、マルチモーダルモデルLing-3.2-airを公開",
+      "summary_ja": "Hugging Faceで、文書推論やワークフロー自動化性能を強化したマルチモーダルモデル「Ling-3.2-air」が公開された。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
+        }
+      ]
+    },
+    {
+      "id": "b5d19e672736",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "llama.cpp v1.1.0、新モデル群とTTS対応を追加",
+      "summary_ja": "llama.cppのv1.1.0がInkling 2やZaya1など複数の新モデルサポートと多数の音声合成モデル対応を追加し、llama_batch APIを非推奨化した。",
+      "sources": [
+        {
+          "name": "GitHub ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
+        }
+      ]
+    },
+    {
+      "id": "3d2697b636d7",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Nvidia、Nemotron系の新モデルと微調整リソースを公開",
+      "summary_ja": "NvidiaはNemotron 3.5 Parseのオープンデータや微調整手法に加え、視覚生成向けモデル「Nemotron-Labs-Image-30B-A3B」を公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+        }
+      ]
+    },
+    {
+      "id": "9e0d0eeab0a5",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "OpenAI Python SDK v3.60.0がリリース",
+      "summary_ja": "OpenAIのPython SDK v3.60.0で支出アラートやレスポンス圧縮、セッションボルト更新機能が追加された。",
+      "sources": [
+        {
+          "name": "GitHub openai/openai-python",
+          "url": "https://github.com/openai/openai-python/releases/tag/v3.60.0"
+        }
+      ]
+    },
+    {
+      "id": "e2ac2e209969",
+      "importance": "medium",
+      "category": "tool",
+      "title_ja": "OpenRouter代替ツール「Moat」が登場",
+      "summary_ja": "Hacker Newsで、OpenRouterの代替となるツール「Moat」が紹介された。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://commandcode.ai/moat"
+        }
+      ]
+    },
+    {
+      "id": "93b803ec9361",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "画像・テキストから動画生成するモデル「pi-H3」公開",
+      "summary_ja": "Hugging Faceで、拡散モデルと蒸留技術を用いた画像・テキスト対動画生成モデル「pi-H3」が公開された。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/Lakonik/pi-H3"
+        }
+      ]
+    },
+    {
+      "id": "aebfbe56731b",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "AIがセルフホスティングを再び楽しくしていると話題に",
+      "summary_ja": "Hacker Newsで、AIツールの進化によりセルフホスティング環境の構築が以前より楽しくなったとの投稿が注目を集めた。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://janlukas.blog/posts/ai-self-hosting"
+        }
+      ]
+    },
+    {
+      "id": "326020b4a210",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Sand AI、動画生成モデル「MAGI-2-preview」を公開",
+      "summary_ja": "Hugging Faceで、画像・テキストから動画や音声を生成できるモデル「MAGI-2-preview」が公開された。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/sand-ai/MAGI-2-preview"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.6403,
+    "run_cost_usd": 0.0577,
+    "average_run_usd": 0.0933,
+    "runs_recorded": 119
+  }
+}
