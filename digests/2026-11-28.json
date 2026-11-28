@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T10:53:30+09:00",
+  "stats": {
+    "collected": 50,
+    "fresh": 33,
+    "selected": 6,
+    "published": 6
+  },
+  "highlights": [
+    "Meta、画像・動画セグメンテーションモデルSAM3を公開",
+    "Google、DeepCrossAttentionで推論速度最大3倍を実現",
+    "Kimi for Scienceが科学的アイデア創出を支援"
+  ],
+  "items": [
+    {
+      "id": "f2bc736c0ee7",
+      "importance": "high",
+      "category": "product",
+      "title_ja": "Meta、セグメンテーションモデル「SAM3」をHugging Faceで公開",
+      "summary_ja": "Metaが画像・動画のマスク生成（セグメンテーション）に対応した新モデル「facebook/sam3」をHugging Faceに公開した。公開後すぐにいいね8374件、ダウンロード172万件超と大きな反響を集めている。transformers/safetensors形式で提供されており、既存のHugging Faceパイプラインにそのまま組み込んでセグメンテーションタスクに利用できる点が実務上のメリットとなる。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/facebook/sam3"
+        }
+      ]
+    },
+    {
+      "id": "990f58ceeb05",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Google、DeepCrossAttentionで推論を最大3倍高速化",
+      "summary_ja": "Googleが新しいアテンション手法DeepCrossAttentionを発表し、同等のモデル品質を保ちながら最大3倍の高速化を達成したと報告している。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://research.google/blog/supercharging-transformer-residual-connections/"
+        }
+      ]
+    },
+    {
+      "id": "c2bd79531046",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Trainium3でLTX-2.5動画生成を実施",
+      "summary_ja": "Hugging FaceのブログでAWSのTrainium3チップを用いたLTX-2.5による動画生成の事例が紹介された。",
+      "sources": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/video-trainium3"
+        }
+      ]
+    },
+    {
+      "id": "aa1371a3feb2",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "「Kimi for Science」、科学的アイデア創出を支援と発表",
+      "summary_ja": "Kimiが科学研究向けの新機能「Kimi for Science」を発表し、より多くの科学的アイデアの創出を可能にするとしている。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.kimi.ai/news/kimi-for-science-program"
+        }
+      ]
+    },
+    {
+      "id": "ce72d87d424c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "携帯電話で誰にでも個別支援を安価に提供可能との指摘",
+      "summary_ja": "研究者が、どの言語でも携帯電話を持つ誰にでも優れた個別人間支援に相当するものを安価に提供できる段階に来ていると指摘し、教育・医療・開発分野の難問解決への野心が不足していると述べた。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n3b62phpek2b"
+        }
+      ]
+    },
+    {
+      "id": "dbede62d4d71",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Qwen3.8-27Bのπ適応版モデルが公開",
+      "summary_ja": "harness-hubがLoRAとGRPOを用いたエージェント向けモデル「Qwen3.8-27B-pi-adapted」をHugging Faceで公開した。",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "spent_usd": 11.6795,
+    "run_cost_usd": 0.0392,
+    "average_run_usd": 0.0918,
+    "runs_recorded": 120
+  }
+}

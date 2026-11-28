@@ -1,168 +1,6 @@
 {
   "items": [
     {
-      "date": "2026-11-20",
-      "id": "294f494c3d9f",
-      "title_ja": "Anthropicがナスダック上場、時価総額1.5兆ドル規模に",
-      "urls": [
-        "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-        "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "92c1824269f4",
-      "title_ja": "Lightricksが画像から動画生成するLTX-2.5を公開",
-      "urls": [
-        "https://huggingface.co/Lightricks/LTX-2.5"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "4eab3c1f90fe",
-      "title_ja": "Bedrock AgentCore、AWSマーケットプレイス決済に対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "42d26b1d4ca7",
-      "title_ja": "BMWグループ、数百のAIエージェントを統治する実践例を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "fe28edf5c5c5",
-      "title_ja": "SageMaker AI、リージョン間推論ルーティングに対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "36bc207225e9",
-      "title_ja": "NVIDIAとMicrosoft、AzureからWindows PCまで連携拡大",
-      "urls": [
-        "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "7fdd41f0ffe8",
-      "title_ja": "SageMaker推論、2026年の新機能まとめ第2弾",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "7c0429e1122f",
-      "title_ja": "SageMaker、推論エンドポイントのレイテンシ劣化を自動検知",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "6b554c20d6c6",
-      "title_ja": "Accenture、Bedrock上のAIコスト最適化手法を公開",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "0e00fe4c4281",
-      "title_ja": "SkyflowとBedrock AgentCore、ツール呼び出しのデータ保護を連携",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "543c99d1a39c",
-      "title_ja": "SageMakerサーバーレス、フルファインチューニングに対応",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "3a850c903b02",
-      "title_ja": "Gemini、Mac上でのコンピュータ操作機能に対応",
-      "urls": [
-        "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-        "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "0f2a3986db5a",
-      "title_ja": "Apple、高速テキスト動画生成モデルFastFramesを公開",
-      "urls": [
-        "https://huggingface.co/apple/FastFrames-L"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "50a561c320a6",
-      "title_ja": "画像から3Dモデル生成するidolが人気に",
-      "urls": [
-        "https://huggingface.co/speridlabs/idol"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "1b3aafed7dd5",
-      "title_ja": "Gemini APIに「Tool Retrieval」機能が追加",
-      "urls": [
-        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "fe1eb0476877",
-      "title_ja": "Bedrock AgentCore harness、Strandsベースに刷新",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "5fe21d2b4eca",
-      "title_ja": "Claude、ブラックホール物理学の未解決問題を解決と報告",
-      "urls": [
-        "https://www.anthropic.com/research/claude-black-hole-physics"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "ec44c275a2ce",
-      "title_ja": "Amazon Polly、音声クローン機能が正式提供開始",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "0d2941971ec8",
-      "title_ja": "Cisco、AWS AI Leagueで1200人のエージェントAI教育を実施",
-      "urls": [
-        "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "id": "ee20d352f0da",
-      "title_ja": "MetaのAIエージェントMuse、会話混線と情報漏えいが報告",
-      "urls": [
-        "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
-      ]
-    },
-    {
       "date": "2026-11-21",
       "id": "f841d7a6d6b4",
       "title_ja": "MiniMax、画像生成・編集統合モデル「H3-Image」を公開",
@@ -935,6 +773,54 @@
       "title_ja": "Sand AI、動画生成モデル「MAGI-2-preview」を公開",
       "urls": [
         "https://huggingface.co/sand-ai/MAGI-2-preview"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "id": "f2bc736c0ee7",
+      "title_ja": "Meta、セグメンテーションモデル「SAM3」をHugging Faceで公開",
+      "urls": [
+        "https://huggingface.co/facebook/sam3"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "id": "990f58ceeb05",
+      "title_ja": "Google、DeepCrossAttentionで推論を最大3倍高速化",
+      "urls": [
+        "https://research.google/blog/supercharging-transformer-residual-connections/"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "id": "c2bd79531046",
+      "title_ja": "Trainium3でLTX-2.5動画生成を実施",
+      "urls": [
+        "https://huggingface.co/blog/video-trainium3"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "id": "aa1371a3feb2",
+      "title_ja": "「Kimi for Science」、科学的アイデア創出を支援と発表",
+      "urls": [
+        "https://www.kimi.ai/news/kimi-for-science-program"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "id": "ce72d87d424c",
+      "title_ja": "携帯電話で誰にでも個別支援を安価に提供可能との指摘",
+      "urls": [
+        "https://bsky.app/profile/emollick.bsky.social/post/3n3b62phpek2b"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "id": "dbede62d4d71",
+      "title_ja": "Qwen3.8-27Bのπ適応版モデルが公開",
+      "urls": [
+        "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
       ]
     }
   ]

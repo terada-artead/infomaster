@@ -1,157 +1,101 @@
 {
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T11:08:55+09:00",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T10:53:30+09:00",
   "stats": {
-    "collected": 58,
-    "fresh": 44,
-    "selected": 12,
-    "published": 10
+    "collected": 50,
+    "fresh": 33,
+    "selected": 6,
+    "published": 6
   },
   "highlights": [
-    "OpenAIがGPT-6.2の利用上限を引き下げ、コスト管理強化か",
-    "NvidiaがASEAN向けAIチップ出荷を一時停止",
-    "llama.cpp v1.1.0が新モデル群とTTS対応を追加"
+    "Meta、画像・動画セグメンテーションモデルSAM3を公開",
+    "Google、DeepCrossAttentionで推論速度最大3倍を実現",
+    "Kimi for Scienceが科学的アイデア創出を支援"
   ],
   "items": [
     {
-      "id": "1572d1e1c176",
-      "importance": "medium",
+      "id": "f2bc736c0ee7",
+      "importance": "high",
       "category": "product",
-      "title_ja": "OpenAI、GPT-6.2の利用上限を引き下げコスト管理強化か",
-      "summary_ja": "Hacker Newsで、OpenAIがGPT-6.2の利用制限を強化し、AstraやSolなどのモデルが従来より早く上限に達するようになったと報告されている。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
-        }
-      ]
-    },
-    {
-      "id": "979e22972f74",
-      "importance": "medium",
-      "category": "business",
-      "title_ja": "Nvidia、東南アジア向けAIチップ出荷を一時停止",
-      "summary_ja": "NvidiaはマレーシアやシンガポールなどへのAIサーバー出荷を製造パートナーに一時停止するよう指示し、米国による対中AIチップ規制強化の動きに対応したとみられる。",
-      "sources": [
-        {
-          "name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
-        }
-      ]
-    },
-    {
-      "id": "d2f98570ba04",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "InclusionAI、マルチモーダルモデルLing-3.2-airを公開",
-      "summary_ja": "Hugging Faceで、文書推論やワークフロー自動化性能を強化したマルチモーダルモデル「Ling-3.2-air」が公開された。",
+      "title_ja": "Meta、セグメンテーションモデル「SAM3」をHugging Faceで公開",
+      "summary_ja": "Metaが画像・動画のマスク生成（セグメンテーション）に対応した新モデル「facebook/sam3」をHugging Faceに公開した。公開後すぐにいいね8374件、ダウンロード172万件超と大きな反響を集めている。transformers/safetensors形式で提供されており、既存のHugging Faceパイプラインにそのまま組み込んでセグメンテーションタスクに利用できる点が実務上のメリットとなる。",
       "sources": [
         {
           "name": "Hugging Face",
-          "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
+          "url": "https://huggingface.co/facebook/sam3"
         }
       ]
     },
     {
-      "id": "b5d19e672736",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "llama.cpp v1.1.0、新モデル群とTTS対応を追加",
-      "summary_ja": "llama.cppのv1.1.0がInkling 2やZaya1など複数の新モデルサポートと多数の音声合成モデル対応を追加し、llama_batch APIを非推奨化した。",
-      "sources": [
-        {
-          "name": "GitHub ggml-org/llama.cpp",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
-        }
-      ]
-    },
-    {
-      "id": "3d2697b636d7",
+      "id": "990f58ceeb05",
       "importance": "medium",
       "category": "product",
-      "title_ja": "Nvidia、Nemotron系の新モデルと微調整リソースを公開",
-      "summary_ja": "NvidiaはNemotron 3.5 Parseのオープンデータや微調整手法に加え、視覚生成向けモデル「Nemotron-Labs-Image-30B-A3B」を公開した。",
+      "title_ja": "Google、DeepCrossAttentionで推論を最大3倍高速化",
+      "summary_ja": "Googleが新しいアテンション手法DeepCrossAttentionを発表し、同等のモデル品質を保ちながら最大3倍の高速化を達成したと報告している。",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://research.google/blog/supercharging-transformer-residual-connections/"
+        }
+      ]
+    },
+    {
+      "id": "c2bd79531046",
+      "importance": "medium",
+      "category": "product",
+      "title_ja": "Trainium3でLTX-2.5動画生成を実施",
+      "summary_ja": "Hugging FaceのブログでAWSのTrainium3チップを用いたLTX-2.5による動画生成の事例が紹介された。",
       "sources": [
         {
           "name": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
-        },
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+          "url": "https://huggingface.co/blog/video-trainium3"
         }
       ]
     },
     {
-      "id": "9e0d0eeab0a5",
+      "id": "aa1371a3feb2",
       "importance": "medium",
       "category": "product",
-      "title_ja": "OpenAI Python SDK v3.60.0がリリース",
-      "summary_ja": "OpenAIのPython SDK v3.60.0で支出アラートやレスポンス圧縮、セッションボルト更新機能が追加された。",
-      "sources": [
-        {
-          "name": "GitHub openai/openai-python",
-          "url": "https://github.com/openai/openai-python/releases/tag/v3.60.0"
-        }
-      ]
-    },
-    {
-      "id": "e2ac2e209969",
-      "importance": "medium",
-      "category": "tool",
-      "title_ja": "OpenRouter代替ツール「Moat」が登場",
-      "summary_ja": "Hacker Newsで、OpenRouterの代替となるツール「Moat」が紹介された。",
+      "title_ja": "「Kimi for Science」、科学的アイデア創出を支援と発表",
+      "summary_ja": "Kimiが科学研究向けの新機能「Kimi for Science」を発表し、より多くの科学的アイデアの創出を可能にするとしている。",
       "sources": [
         {
           "name": "Hacker News",
-          "url": "https://commandcode.ai/moat"
+          "url": "https://www.kimi.ai/news/kimi-for-science-program"
         }
       ]
     },
     {
-      "id": "93b803ec9361",
+      "id": "ce72d87d424c",
+      "importance": "medium",
+      "category": "business",
+      "title_ja": "携帯電話で誰にでも個別支援を安価に提供可能との指摘",
+      "summary_ja": "研究者が、どの言語でも携帯電話を持つ誰にでも優れた個別人間支援に相当するものを安価に提供できる段階に来ていると指摘し、教育・医療・開発分野の難問解決への野心が不足していると述べた。",
+      "sources": [
+        {
+          "name": "Bluesky @emollick.bsky.social",
+          "url": "https://bsky.app/profile/emollick.bsky.social/post/3n3b62phpek2b"
+        }
+      ]
+    },
+    {
+      "id": "dbede62d4d71",
       "importance": "medium",
       "category": "product",
-      "title_ja": "画像・テキストから動画生成するモデル「pi-H3」公開",
-      "summary_ja": "Hugging Faceで、拡散モデルと蒸留技術を用いた画像・テキスト対動画生成モデル「pi-H3」が公開された。",
+      "title_ja": "Qwen3.8-27Bのπ適応版モデルが公開",
+      "summary_ja": "harness-hubがLoRAとGRPOを用いたエージェント向けモデル「Qwen3.8-27B-pi-adapted」をHugging Faceで公開した。",
       "sources": [
         {
           "name": "Hugging Face",
-          "url": "https://huggingface.co/Lakonik/pi-H3"
-        }
-      ]
-    },
-    {
-      "id": "aebfbe56731b",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "AIがセルフホスティングを再び楽しくしていると話題に",
-      "summary_ja": "Hacker Newsで、AIツールの進化によりセルフホスティング環境の構築が以前より楽しくなったとの投稿が注目を集めた。",
-      "sources": [
-        {
-          "name": "Hacker News",
-          "url": "https://janlukas.blog/posts/ai-self-hosting"
-        }
-      ]
-    },
-    {
-      "id": "326020b4a210",
-      "importance": "medium",
-      "category": "product",
-      "title_ja": "Sand AI、動画生成モデル「MAGI-2-preview」を公開",
-      "summary_ja": "Hugging Faceで、画像・テキストから動画や音声を生成できるモデル「MAGI-2-preview」が公開された。",
-      "sources": [
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/sand-ai/MAGI-2-preview"
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted"
         }
       ]
     }
   ],
   "budget": {
-    "spent_usd": 11.6403,
-    "run_cost_usd": 0.0577,
-    "average_run_usd": 0.0933,
-    "runs_recorded": 119
+    "spent_usd": 11.6795,
+    "run_cost_usd": 0.0392,
+    "average_run_usd": 0.0918,
+    "runs_recorded": 120
   }
 }
